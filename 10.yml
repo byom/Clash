@@ -5,68 +5,113 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: YouTube梦歌|Netflix_1, server: 120.233.25.136, port: 25033, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_2, server: 103.186.4.30, port: 45195, type: ss, cipher: aes-128-gcm, password: bc66c633-ca99-43f8-8ae3-e94d4125af75}
-  - {name: YouTube梦歌|Netflix_3, server: dongg.jiantian.xyz, port: 45003, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_4, server: 103.186.4.30, port: 45195, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_5, server: 36.138.4.197, port: 47257, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_6, server: 120.233.25.136, port: 25033, type: ss, cipher: aes-128-gcm, password: bc66c633-ca99-43f8-8ae3-e94d4125af75}
-  - {name: YouTube梦歌|Netflix_7, server: 36.138.4.197, port: 47257, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_8, server: 36.138.4.197, port: 45187, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_9, server: 36.139.9.191, port: 46302, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_10, server: 103.186.4.30, port: 45195, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_11, server: swiozhwsz.mispeed.org, port: 45095, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_12, server: 36.138.4.197, port: 45514, type: ss, cipher: aes-128-gcm, password: bc66c633-ca99-43f8-8ae3-e94d4125af75}
-  - {name: YouTube梦歌|Netflix_13, server: 36.139.9.191, port: 46302, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_14, server: 120.233.25.136, port: 25033, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_15, server: hgc.gmpora.me, port: 20801, type: vmess, uuid: 5653a712-7666-4b11-9de5-7f0fdf3af2a0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hgc.gmpora.me}}}
-  - {name: YouTube梦歌|Netflix_16, server: 120.233.25.136, port: 25033, type: ss, cipher: aes-128-gcm, password: bc66c633-ca99-43f8-8ae3-e94d4125af75}
-  - {name: YouTube梦歌|Netflix_17, server: 36.138.4.197, port: 45187, type: ss, cipher: aes-128-gcm, password: bc66c633-ca99-43f8-8ae3-e94d4125af75}
-  - {name: YouTube梦歌|Netflix_18, server: 120.233.25.136, port: 25033, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_19, server: 36.138.4.197, port: 45514, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_20, server: 36.138.4.197, port: 58687, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_21, server: dongg.jiantian.xyz, port: 45004, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_22, server: 36.139.9.191, port: 46302, type: ss, cipher: aes-128-gcm, password: bc66c633-ca99-43f8-8ae3-e94d4125af75}
-  - {name: YouTube梦歌|Netflix_23, server: 36.138.4.197, port: 45187, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_24, server: swiozhwsz.mispeed.org, port: 39019, type: ss, cipher: aes-128-gcm, password: bc66c633-ca99-43f8-8ae3-e94d4125af75}
-  - {name: YouTube梦歌|Netflix_25, server: 120.233.25.136, port: 25033, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_26, server: 52.68.205.96, port: 80, type: vmess, uuid: 5653a712-7666-4b11-9de5-7f0fdf3af2a0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: YouTube梦歌|Netflix_27, server: swiozhwsz.mispeed.org, port: 45095, type: ss, cipher: aes-128-gcm, password: bc66c633-ca99-43f8-8ae3-e94d4125af75}
-  - {name: YouTube梦歌|Netflix_28, server: 120.233.25.136, port: 25033, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_29, server: swiozhwsz.mispeed.org, port: 39019, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_30, server: swiozhwsz.mispeed.org, port: 39019, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_31, server: dongg.jiantian.xyz, port: 45001, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_32, server: 120.233.25.136, port: 25033, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_33, server: swiozhwsz.mispeed.org, port: 56967, type: ss, cipher: aes-128-gcm, password: bc66c633-ca99-43f8-8ae3-e94d4125af75}
-  - {name: YouTube梦歌|Netflix_34, server: 36.138.4.197, port: 58687, type: ss, cipher: aes-128-gcm, password: bc66c633-ca99-43f8-8ae3-e94d4125af75}
-  - {name: YouTube梦歌|Netflix_35, server: swiozhwsz.mispeed.org, port: 45095, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_36, server: 36.138.4.197, port: 45514, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_37, server: 36.138.4.197, port: 47257, type: ss, cipher: aes-128-gcm, password: bc66c633-ca99-43f8-8ae3-e94d4125af75}
-  - {name: YouTube梦歌|Netflix_38, server: 36.138.4.197, port: 45482, type: ss, cipher: aes-128-gcm, password: bc66c633-ca99-43f8-8ae3-e94d4125af75}
-  - {name: YouTube梦歌|Netflix_39, server: 120.233.25.136, port: 25033, type: ss, cipher: aes-128-gcm, password: bc66c633-ca99-43f8-8ae3-e94d4125af75}
-  - {name: YouTube梦歌|Netflix_40, server: swiozhwsz.mispeed.org, port: 56967, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_41, server: 36.138.4.197, port: 45482, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_42, server: dongg.jiantian.xyz, port: 29589, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_43, server: dongg.jiantian.xyz, port: 29123, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_44, server: dongg.jiantian.xyz, port: 19876, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_45, server: 20.243.78.85, port: 80, type: vmess, uuid: 5653a712-7666-4b11-9de5-7f0fdf3af2a0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: YouTube梦歌|Netflix_46, server: 36.138.4.197, port: 45482, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_47, server: dongg.jiantian.xyz, port: 31958, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_48, server: dongg.jiantian.xyz, port: 45005, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_49, server: dongg.jiantian.xyz, port: 45011, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_50, server: swiozhwsz.mispeed.org, port: 56967, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_51, server: dongg.jiantian.xyz, port: 49971, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_52, server: dongg.jiantian.xyz, port: 45010, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_53, server: dongg.jiantian.xyz, port: 19876, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_54, server: 20.214.169.141, port: 80, type: vmess, uuid: 5653a712-7666-4b11-9de5-7f0fdf3af2a0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: YouTube梦歌|Netflix_55, server: dongg.jiantian.xyz, port: 23166, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_56, server: dongg.jiantian.xyz, port: 45008, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_57, server: dongg.jiantian.xyz, port: 42375, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_58, server: dongg.jiantian.xyz, port: 45000, type: ss, cipher: aes-256-gcm, password: 5fb0b6e2-c082-4fc7-a33e-45fe3e5790cb}
-  - {name: YouTube梦歌|Netflix_59, server: 36.138.4.197, port: 58687, type: ss, cipher: aes-128-gcm, password: 3689f8da-d437-40e2-a9de-4736e4d11d54}
-  - {name: YouTube梦歌|Netflix_60, server: 64.112.42.10, port: 80, type: vmess, uuid: 5653a712-7666-4b11-9de5-7f0fdf3af2a0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: YouTube梦歌|Netflix_61, server: 198.211.4.61, port: 80, type: vmess, uuid: 5653a712-7666-4b11-9de5-7f0fdf3af2a0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: YouTube梦歌|Netflix_62, server: 198.211.4.60, port: 80, type: vmess, uuid: 5653a712-7666-4b11-9de5-7f0fdf3af2a0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: YouTube梦歌|Netflix_1, server: linsg.mochen1314.ga, port: 21032, type: vmess, uuid: b16c35e9-ffa9-417d-931c-c5b66d78f034, alterId: 0, cipher: auto, tls: true}
+  - {name: YouTube梦歌|Netflix_2, server: tc3.rw233.cyou, port: 37237, type: vmess, uuid: 68553051-a2d0-4be3-ba75-a6516b7c6f68, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /gongyong, headers: {Host: tc3.rw233.cyou}}}
+  - {name: YouTube梦歌|Netflix_3, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}}
+  - {name: YouTube梦歌|Netflix_4, server: 85.208.108.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: YouTube梦歌|Netflix_5, server: x.v4.2.kiki789.com, port: 23138, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: xixi-hgc04.kiki789.com}}}
+  - {name: YouTube梦歌|Netflix_6, server: 85.208.108.58, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_7, server: x.v3.2.kiki789.com, port: 23142, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: x.v3.2.kiki789.com}}}
+  - {name: YouTube梦歌|Netflix_8, server: x.v3.1.kiki789.com, port: 23157, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: t.me/mengge88888888}}}
+  - {name: YouTube梦歌|Netflix_9, server: 85.208.108.91, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: YouTube梦歌|Netflix_10, server: 85.208.108.18, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: YouTube梦歌|Netflix_11, server: 85.208.108.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: YouTube梦歌|Netflix_12, server: 85.208.108.59, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: YouTube梦歌|Netflix_13, server: x.v3.1.kiki789.com, port: 23043, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: t.me/mengge88888888}}}
+  - {name: YouTube梦歌|Netflix_14, server: x.v3.1.kiki789.com, port: 23021, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: t.me/mengge88888888}}}
+  - {name: YouTube梦歌|Netflix_15, server: 85.208.108.91, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_16, server: x.v4.1.kiki789.com, port: 23156, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: t.me/mengge88888888}}}
+  - {name: YouTube梦歌|Netflix_17, server: 85.208.108.59, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: YouTube梦歌|Netflix_18, server: 85.208.108.59, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: YouTube梦歌|Netflix_19, server: 85.208.108.18, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_20, server: 85.208.108.59, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: YouTube梦歌|Netflix_21, server: 85.208.108.59, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_22, server: 85.208.108.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: YouTube梦歌|Netflix_23, server: 85.208.108.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: YouTube梦歌|Netflix_24, server: 85.208.108.59, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: YouTube梦歌|Netflix_25, server: 85.208.108.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_26, server: x.v3.2.kiki789.com, port: 29015, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: t.me/mengge88888888}}}
+  - {name: YouTube梦歌|Netflix_27, server: 85.208.108.59, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_28, server: 85.208.108.59, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: YouTube梦歌|Netflix_29, server: 85.208.108.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: YouTube梦歌|Netflix_30, server: 85.208.108.59, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_31, server: 85.208.108.59, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: YouTube梦歌|Netflix_32, server: 85.208.108.59, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: YouTube梦歌|Netflix_33, server: 85.208.108.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: YouTube梦歌|Netflix_34, server: 85.208.108.59, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: YouTube梦歌|Netflix_35, server: 85.208.108.59, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: YouTube梦歌|Netflix_36, server: linsg.mochen1314.ga, port: 21032, type: vmess, uuid: b16c35e9-ffa9-417d-931c-c5b66d78f034, alterId: 0, cipher: auto, tls: true}
+  - {name: YouTube梦歌|Netflix_37, server: 730jp.ok365.cyou, port: 443, type: trojan, password: 5912ef78-e8f9-4511-823b-bd0f416b5f02}
+  - {name: YouTube梦歌|Netflix_38, server: 85.208.108.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: YouTube梦歌|Netflix_39, server: 85.208.108.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_40, server: 85.208.108.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_41, server: 85.208.108.91, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: YouTube梦歌|Netflix_42, server: 85.208.108.59, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_43, server: 85.208.108.59, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_44, server: 85.208.108.59, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: YouTube梦歌|Netflix_45, server: x.v3.2.kiki789.com, port: 23022, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: t.me/mengge88888888}}}
+  - {name: YouTube梦歌|Netflix_46, server: 85.208.108.59, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: YouTube梦歌|Netflix_47, server: 85.208.108.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: YouTube梦歌|Netflix_48, server: 85.208.108.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_49, server: 85.208.108.59, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: YouTube梦歌|Netflix_50, server: 85.208.108.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: YouTube梦歌|Netflix_51, server: 85.208.108.91, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: YouTube梦歌|Netflix_52, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /tw1, headers: {Host: t.me/mengge88888888}}}
+  - {name: YouTube梦歌|Netflix_53, server: 85.208.108.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_54, server: 85.208.108.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: YouTube梦歌|Netflix_55, server: 85.208.108.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: YouTube梦歌|Netflix_56, server: 103.177.80.76, port: 15000, type: trojan, password: silicloudus_nya_vg, sni: silicloudus.nya.vg}
+  - {name: YouTube梦歌|Netflix_57, server: 167.88.63.59, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_58, server: 85.208.108.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: YouTube梦歌|Netflix_59, server: 85.208.108.59, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_60, server: 85.208.108.58, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: YouTube梦歌|Netflix_61, server: 85.208.108.60, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: YouTube梦歌|Netflix_62, server: 85.208.108.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: YouTube梦歌|Netflix_63, server: 85.208.108.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: YouTube梦歌|Netflix_64, server: 85.208.108.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: YouTube梦歌|Netflix_65, server: 85.208.108.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: YouTube梦歌|Netflix_66, server: 85.208.108.59, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: YouTube梦歌|Netflix_67, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: biznet-s.nextvpn.cc}}}
+  - {name: YouTube梦歌|Netflix_68, server: 85.208.108.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: YouTube梦歌|Netflix_69, server: 85.208.108.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: YouTube梦歌|Netflix_70, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxusa.fovi.tk}}}
+  - {name: YouTube梦歌|Netflix_71, server: 85.208.108.59, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: YouTube梦歌|Netflix_72, server: 85.208.108.59, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: YouTube梦歌|Netflix_73, server: 85.208.108.91, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_74, server: usgui.hootfun.top, port: 22122, type: trojan, password: c7d59001-f6c5-4792-a796-8db50a3f10aa}
+  - {name: YouTube梦歌|Netflix_75, server: 85.208.108.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: YouTube梦歌|Netflix_76, server: 85.208.108.59, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: YouTube梦歌|Netflix_77, server: 85.208.108.59, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: YouTube梦歌|Netflix_78, server: 85.208.108.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_79, server: 85.208.108.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: YouTube梦歌|Netflix_80, server: 85.208.108.59, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: YouTube梦歌|Netflix_81, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3df66137-a428-429c-a858-8b150721b354, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: us23.567568.ml}}}
+  - {name: YouTube梦歌|Netflix_82, server: 85.208.108.59, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: YouTube梦歌|Netflix_83, server: 85.208.108.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: YouTube梦歌|Netflix_84, server: 85.208.108.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: YouTube梦歌|Netflix_85, server: 134.195.196.85, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_86, server: x.v4.2.kiki789.com, port: 23150, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: t.me/mengge88888888}}}
+  - {name: YouTube梦歌|Netflix_87, server: 85.208.108.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_88, server: 85.208.108.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: YouTube梦歌|Netflix_89, server: 85.208.108.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: YouTube梦歌|Netflix_90, server: x.v3.1.kiki789.com, port: 23144, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: t.me/mengge88888888}}}
+  - {name: YouTube梦歌|Netflix_91, server: 85.208.108.59, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube梦歌|Netflix_92, server: 167.88.63.59, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: YouTube梦歌|Netflix_93, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: 205291df-0a69-48a5-904b-f3ead183e2ed, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /H8VswtUJ/, headers: {Host: v2ray.wefuckgfw.ga}}}
+  - {name: YouTube梦歌|Netflix_94, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: 32ca92bd-a081-4c2a-8c9f-df7706536213, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /H8VswtUJ/, headers: {Host: v2ray.wefuckgfw.ga}}}
+  - {name: YouTube梦歌|Netflix_95, server: 134.195.198.95, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: YouTube梦歌|Netflix_96, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: YouTube梦歌|Netflix_97, server: 85.208.108.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: YouTube梦歌|Netflix_98, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: aa553186-57fc-424f-a605-9b7b9224085a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /H8VswtUJ/, headers: {Host: v2ray.wefuckgfw.ga}}}
+  - {name: YouTube梦歌|Netflix_99, server: usa.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zcjd, headers: {Host: usa.jcnf.app}}}
+  - {name: YouTube梦歌|Netflix_100, server: dubai.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zcjd, headers: {Host: dubai.jcnf.app}}}
+  - {name: YouTube梦歌|Netflix_101, server: 85.208.108.91, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: YouTube梦歌|Netflix_102, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/mengge88888888}}}
+  - {name: YouTube梦歌|Netflix_103, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /kr, headers: {Host: t.me/mengge88888888}}}
+  - {name: YouTube梦歌|Netflix_104, server: x.v3.1.kiki789.com, port: 23144, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: x.v3.1.kiki789.com}}}
+  - {name: YouTube梦歌|Netflix_105, server: 66.42.55.118, port: 443, type: vmess, uuid: ca1a9dcd-35c3-4b08-80d3-db0e9de16331, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /RdIyx6hMMR, headers: {Host: v02.guanpinhao.top}}}
+  - {name: YouTube梦歌|Netflix_106, server: x.v3.2.kiki789.com, port: 23154, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: t.me/mengge88888888}}}
+  - {name: YouTube梦歌|Netflix_107, server: 146.56.155.70, port: 18050, type: vmess, uuid: f9771c19-c91c-41b5-9064-8768b51cec6d, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🌐 Moon节点选择
     type: select
@@ -135,6 +180,51 @@ proxy-groups:
       - YouTube梦歌|Netflix_60
       - YouTube梦歌|Netflix_61
       - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_63
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_70
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_73
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_75
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_81
+      - YouTube梦歌|Netflix_82
+      - YouTube梦歌|Netflix_83
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_87
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_93
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_95
+      - YouTube梦歌|Netflix_96
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_98
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_100
+      - YouTube梦歌|Netflix_101
+      - YouTube梦歌|Netflix_102
+      - YouTube梦歌|Netflix_103
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_107
   - name: ☁️ Domestic
     type: select
     proxies:
@@ -213,6 +303,51 @@ proxy-groups:
       - YouTube梦歌|Netflix_60
       - YouTube梦歌|Netflix_61
       - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_63
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_70
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_73
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_75
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_81
+      - YouTube梦歌|Netflix_82
+      - YouTube梦歌|Netflix_83
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_87
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_93
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_95
+      - YouTube梦歌|Netflix_96
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_98
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_100
+      - YouTube梦歌|Netflix_101
+      - YouTube梦歌|Netflix_102
+      - YouTube梦歌|Netflix_103
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_107
   - name: 🎈 Failover
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -281,6 +416,51 @@ proxy-groups:
       - YouTube梦歌|Netflix_60
       - YouTube梦歌|Netflix_61
       - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_63
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_70
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_73
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_75
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_81
+      - YouTube梦歌|Netflix_82
+      - YouTube梦歌|Netflix_83
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_87
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_93
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_95
+      - YouTube梦歌|Netflix_96
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_98
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_100
+      - YouTube梦歌|Netflix_101
+      - YouTube梦歌|Netflix_102
+      - YouTube梦歌|Netflix_103
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_107
 rules:
  - DOMAIN-SUFFIX,digicert.com,🌐 Moon节点选择
  - DOMAIN,ocsp.comodoca.com,🌐 Moon节点选择
