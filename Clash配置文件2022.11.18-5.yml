@@ -5,1060 +5,534 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_1, server: 20.239.156.252, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-sg.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_2, server: ying-unicom.gatknqh.cn, port: 40219, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_3, server: 20.205.37.128, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-hk.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_4, server: 20.205.37.128, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-sg.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_5, server: ying-unicom.gatknqh.cn, port: 40221, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_6, server: dl-jp1.efpan.one, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-jp.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_7, server: 20.46.182.185, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-jp.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_8, server: dl-hk1.efpan.one, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-hk.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_9, server: ying-unicom.gatknqh.cn, port: 40218, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_10, server: 20.89.40.63, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-jp.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_11, server: 20.205.37.136, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-hk.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_12, server: 45.64.22.55, port: 443, type: trojan, password: NqYpxKxB8A5jnDaISe834lAOaTwEOYzCeSD7CSZyFa0C3ypcR2F9XD3ug36lZR, sni: pbvre.freetrade.link, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_13, server: dl-hk1.efpan.one, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-tw.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_14, server: dl-jp2.efpan.one, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-tw.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_15, server: dl-jp2.efpan.one, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-jp.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_16, server: 45.64.22.55, port: 443, type: trojan, password: Ty33ylFA4u6A5e0NE3wRFp3DIa8lZOzC87CeKnxYgpSOSa2ZaXBjDDSY9qCcxR, sni: flowery.meijireform.com, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_17, server: 45.64.22.55, port: 443, type: trojan, password: ZEIR0qFZau9jOp7x6e8e4y3AaXwS2SzD3llxTyRYKCF8DCD3c5Y3pgNnaSOBAC, sni: tensely.freetrade.link, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_18, server: dl-sg2.efpan.one, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-sg.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_19, server: 45.64.22.55, port: 443, type: trojan, password: TaSXwOxORaZ7pD8DlzCE3yNFS5C38eeCuDng03FcA4BSpjK96YaZRIAlx2yqY3, sni: mhkla.freetrade.link, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_20, server: dl-sg1.efpan.one, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-sg.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_21, server: 20.222.103.147, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-jp.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_22, server: 20.222.103.147, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-us.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_23, server: ying-unicom.gatknqh.cn, port: 40220, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_24, server: 19233tj.matrixxx888.com, port: 19233, type: trojan, password: 7c9244a7-1f52-352c-8f02-f5f0f5e694b6, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_25, server: dl-hk2.efpan.one, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-hk.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_26, server: ying-moble.gatknqh.cn, port: 40222, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_27, server: dl-jp1.efpan.one, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-us.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_28, server: ying-moble.gatknqh.cn, port: 40207, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_29, server: 19234tj.matrixxx888.com, port: 19234, type: trojan, password: 7c9244a7-1f52-352c-8f02-f5f0f5e694b6, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_30, server: ying-unicom.gatknqh.cn, port: 40225, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_31, server: ying-unicom.gatknqh.cn, port: 40224, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_32, server: ying-moble.gatknqh.cn, port: 40227, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_33, server: hk3.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.yiyuan.cyou, port: 443, type: trojan, password: 4e8eb587-2223-4ef3-b245-a811dd001e9c, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_34, server: ying-moble.gatknqh.cn, port: 40223, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_35, server: 20.239.156.252, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-hk.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_36, server: ying-unicom.gatknqh.cn, port: 40202, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_37, server: ying-unicom.gatknqh.cn, port: 40201, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_38, server: dl-hk1.efpan.one, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-tr.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_39, server: iepl.123445566.xyz, port: 25713, type: ss, cipher: chacha20-ietf-poly1305, password: 36fd1599-875b-4ffd-88e2-fa6334defad6}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_40, server: ying-moble.gatknqh.cn, port: 40205, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_41, server: dl-hk2.efpan.one, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-tr.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_42, server: 172.64.148.111, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_43, server: 4.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 4.72img.xyz}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_44, server: ying-unicom.gatknqh.cn, port: 40204, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_45, server: ying-moble.gatknqh.cn, port: 40228, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_46, server: ying-moble.gatknqh.cn, port: 40208, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_47, server: ying-unicom.gatknqh.cn, port: 40203, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_48, server: 172.64.153.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_49, server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_50, server: 20.205.8.29, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-hk.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_51, server: 172.64.153.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_52, server: ip.skk.moe, port: 2086, type: vmess, uuid: b29d602a-646a-4093-8869-142584d3bf84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: awseu.cloudflare.quest}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_53, server: 66.212.20.3, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_54, server: ying-moble.gatknqh.cn, port: 40206, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_55, server: ip.skk.moe, port: 2086, type: vmess, uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: buyvm.cloudflare.quest}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_56, server: ip125.com, port: 2086, type: vmess, uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: kz.cloudflare.quest}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_57, server: dl-jp2.efpan.one, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-us.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_58, server: 20.89.40.133, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-us.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_59, server: 172.64.154.201, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_60, server: 128.14.140.254, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_61, server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_62, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxdeovz1.fovi.tk}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_63, server: Shopify.com, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_64, server: 20.89.40.133, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-jp.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_65, server: dl-hk1.efpan.one, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-ru.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_66, server: zf.662278.xyz, port: 32082, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_67, server: 128.14.140.254, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_68, server: zf.662278.xyz, port: 33892, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_69, server: zf.662278.xyz, port: 58105, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_70, server: hk1.662278.xyz, port: 8880, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_71, server: zf.662278.xyz, port: 40164, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_72, server: zf.662278.xyz, port: 31751, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_73, server: zf.662278.xyz, port: 56615, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_74, server: zf.662278.xyz, port: 26494, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_75, server: dl-hk2.efpan.one, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-tw.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_76, server: zf.662278.xyz, port: 58780, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_77, server: zf.662278.xyz, port: 11598, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_78, server: zf.662278.xyz, port: 58780, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_79, server: zf.662278.xyz, port: 26494, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_80, server: hk2.662278.xyz, port: 8880, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_81, server: zf.662278.xyz, port: 11433, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_82, server: zf.662278.xyz, port: 20814, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_83, server: zf.662278.xyz, port: 33454, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_84, server: hk1.662278.xyz, port: 8880, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_85, server: hk2.662278.xyz, port: 8880, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_86, server: zf.662278.xyz, port: 44195, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_87, server: zf.662278.xyz, port: 20814, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_88, server: zf.662278.xyz, port: 15031, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_89, server: zf.662278.xyz, port: 28874, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_90, server: zf.662278.xyz, port: 15031, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_91, server: 66.212.20.3, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_92, server: zf.662278.xyz, port: 31751, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_93, server: dl-hk2.efpan.one, port: 443, type: trojan, password: c6345fa4-9ad7-49ba-acc4-96aca09a089a, sni: data-ru.efpan.one, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_94, server: zf.662278.xyz, port: 33454, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_95, server: zf.662278.xyz, port: 40164, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_96, server: zf.662278.xyz, port: 40164, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_97, server: Shopify.com, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_98, server: zf.662278.xyz, port: 11598, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_99, server: zf.662278.xyz, port: 56615, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_100, server: zf.662278.xyz, port: 34729, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_101, server: zf.662278.xyz, port: 57313, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_102, server: zf.662278.xyz, port: 57313, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_103, server: zf.662278.xyz, port: 44195, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_104, server: hk2.662278.xyz, port: 8880, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_105, server: zf.662278.xyz, port: 33892, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_106, server: 44.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 44.72img.xyz}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_107, server: zf.662278.xyz, port: 58105, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_108, server: zf.662278.xyz, port: 40164, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_109, server: zf.662278.xyz, port: 16129, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_110, server: zf.662278.xyz, port: 34729, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_111, server: zf.662278.xyz, port: 16129, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_112, server: zf.662278.xyz, port: 28874, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_113, server: hk1.662278.xyz, port: 8880, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_114, server: zf.662278.xyz, port: 11433, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_115, server: zf.662278.xyz, port: 32082, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_116, server: zf.662278.xyz, port: 40164, type: vmess, uuid: 3d5b3bb5-106c-4204-b7f5-ff9a484d2194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_117, server: 128.14.140.254, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /123, headers: {Host: zz1.wblogw1.tk}}}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_118, server: ying-moble.gatknqh.cn, port: 40210, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_119, server: ying-moble.gatknqh.cn, port: 40211, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_120, server: ying-moble.gatknqh.cn, port: 40215, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_121, server: ying-moble.gatknqh.cn, port: 40217, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_122, server: ying-moble.gatknqh.cn, port: 40212, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_123, server: ying-moble.gatknqh.cn, port: 40216, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_124, server: ying-moble.gatknqh.cn, port: 40213, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_125, server: ying-moble.gatknqh.cn, port: 40209, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_126, server: ying-moble.gatknqh.cn, port: 40214, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_127, server: ying-moble.gatknqh.cn, port: 40226, type: vmess, uuid: 9ebd2b0e-bb40-33c3-9be6-1f12315d9e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: YouTube梦歌|NETFLIX_1, server: shct.kczz2038.online, port: 51033, type: ss, cipher: chacha20-ietf-poly1305, password: 75c2a4f3-d9ea-4c0f-a642-df54d319f6df}
+  - {name: YouTube梦歌|NETFLIX_2, server: cu.kapoknode.com, port: 25897, type: vmess, uuid: e1a70dd5-2576-4bd9-a2fb-861bc0688c1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}}
+  - {name: YouTube梦歌|NETFLIX_3, server: cu.kapoknode.com, port: 25897, type: vmess, uuid: e1a70dd5-2576-4bd9-a2fb-861bc0688c1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}}
+  - {name: YouTube梦歌|NETFLIX_4, server: 202.110.80.135, port: 48336, type: ss, cipher: chacha20-ietf-poly1305, password: 7fd81c62-f58e-4dd7-ab62-80452b4b5c70}
+  - {name: YouTube梦歌|NETFLIX_5, server: 4.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 4.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_6, server: techplanet.today, port: 2083, type: vmess, uuid: 8a21b84d-183e-450d-ec82-8d45855d8180, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xui.mycf.ml}}}
+  - {name: YouTube梦歌|NETFLIX_7, server: kr1.czs1000.com, port: 8887, type: vmess, uuid: c478f928-1151-4deb-88cb-13a1acb3ed07, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: YouTube梦歌|NETFLIX_8, server: 8.219.230.131, port: 80, type: vmess, uuid: 61811ce4-1b9b-47bb-9473-c6666a0a8fa4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /p9Dq67Nx/, headers: {Host: fr1.cachexy.ga}}}
+  - {name: YouTube梦歌|NETFLIX_9, server: 114.80.32.51, port: 233, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-jp.optage.moe, skip-cert-verify: false}
+  - {name: YouTube梦歌|NETFLIX_10, server: 202.110.80.135, port: 48336, type: ss, cipher: chacha20-ietf-poly1305, password: c961c48e-4f59-4be1-a658-821e493fc62e}
+  - {name: YouTube梦歌|NETFLIX_11, server: ip.skk.moe, port: 2082, type: vmess, uuid: ab19dee3-3e70-4f70-aa54-6f0af8dd1a6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: vu1.cloudflare.quest}}}
+  - {name: YouTube梦歌|NETFLIX_12, server: 104.29.64.22, port: 80, type: vmess, uuid: d418c9e9-1893-4838-b405-f21f7dbf9e26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qp4ZdPY0/, headers: {Host: us1.cachexy.ga}}}
+  - {name: YouTube梦歌|NETFLIX_13, server: hk3.trumpmvp.com, port: 18521, type: ss, cipher: chacha20-ietf-poly1305, password: c961c48e-4f59-4be1-a658-821e493fc62e}
+  - {name: YouTube梦歌|NETFLIX_14, server: ip125.com, port: 2086, type: vmess, uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: kz.cloudflare.quest}}}
+  - {name: YouTube梦歌|NETFLIX_15, server: 8.219.195.151, port: 80, type: vmess, uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: w.800876.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_16, server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_17, server: 45.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 45.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_18, server: sg3.czs1000.com, port: 8883, type: vmess, uuid: c478f928-1151-4deb-88cb-13a1acb3ed07, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: YouTube梦歌|NETFLIX_19, server: ip.skk.moe, port: 2082, type: vmess, uuid: ab19dee3-3e70-4f70-aa54-6f0af8dd1a6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: vu1.cloudflare.quest}}}
+  - {name: YouTube梦歌|NETFLIX_20, server: 188.34.159.186, port: 35855, type: vmess, uuid: 97e8fba7-327a-4752-8aca-043858a7e518, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 188.34.159.186}}}
+  - {name: YouTube梦歌|NETFLIX_21, server: jp1.mayaa.cf, port: 443, type: vmess, uuid: 595b4629-116d-4fe1-dcab-d2a6b112b81a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hfhqqweqwxxx, headers: {Host: jp1.mayaa.cf}}}
+  - {name: YouTube梦歌|NETFLIX_22, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxdeovz2.fovi.tk}}}
+  - {name: YouTube梦歌|NETFLIX_23, server: 6.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 6.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_24, server: 172.64.153.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_25, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxuk.fovi.tk}}}
+  - {name: YouTube梦歌|NETFLIX_26, server: 104.29.64.24, port: 80, type: vmess, uuid: 61811ce4-1b9b-47bb-9473-c6666a0a8fa4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /p9Dq67Nx/, headers: {Host: fr1.cachexy.ga}}}
+  - {name: YouTube梦歌|NETFLIX_27, server: 172.64.148.111, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_28, server: 21.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 21.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_29, server: 22.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 22.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_30, server: 17.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 17.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_31, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxdeovz1.fovi.tk}}}
+  - {name: YouTube梦歌|NETFLIX_32, server: 45.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 45.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_33, server: 44.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 44.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_34, server: icook.hk, port: 2083, type: vmess, uuid: 8a21b84d-183e-450d-ec82-8d45855d8180, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xui.mycf.ml}}}
+  - {name: YouTube梦歌|NETFLIX_35, server: 172.64.171.195, port: 80, type: vmess, uuid: 461aed20-0743-4f13-ee68-43394e875e42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: h1.800876.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_36, server: 20.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_37, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxfra.fovi.tk}}}
+  - {name: YouTube梦歌|NETFLIX_38, server: 53.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 53.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_39, server: 6.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 6.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_40, server: 46.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 46.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_41, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxuk.fovi.tk}}}
+  - {name: YouTube梦歌|NETFLIX_42, server: hk1.czs1000.com, port: 8885, type: vmess, uuid: c478f928-1151-4deb-88cb-13a1acb3ed07, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: YouTube梦歌|NETFLIX_43, server: 172.64.171.154, port: 80, type: vmess, uuid: 461aed20-0743-4f13-ee68-43394e875e42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: h1.800876.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_44, server: 14.215.164.183, port: 29516, type: ss, cipher: chacha20-ietf-poly1305, password: c961c48e-4f59-4be1-a658-821e493fc62e}
+  - {name: YouTube梦歌|NETFLIX_45, server: 172.64.171.134, port: 80, type: vmess, uuid: 461aed20-0743-4f13-ee68-43394e875e42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: h1.800876.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_46, server: 30.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 30.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_47, server: 14.215.164.183, port: 29516, type: ss, cipher: chacha20-ietf-poly1305, password: 7fd81c62-f58e-4dd7-ab62-80452b4b5c70}
+  - {name: YouTube梦歌|NETFLIX_48, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxusovz2.fovi.tk}}}
+  - {name: YouTube梦歌|NETFLIX_49, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxusovz3.fovi.tk}}}
+  - {name: YouTube梦歌|NETFLIX_50, server: 128.14.162.48, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_51, server: 43.206.71.160, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-jp.optage.moe, skip-cert-verify: false}
+  - {name: YouTube梦歌|NETFLIX_52, server: 172.64.171.213, port: 80, type: vmess, uuid: 461aed20-0743-4f13-ee68-43394e875e42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: h1.800876.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_53, server: 172.64.153.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_54, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxusovz1.fovi.tk}}}
+  - {name: YouTube梦歌|NETFLIX_56, server: 45.64.22.6, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: p3.chigua.tk}}}
+  - {name: YouTube梦歌|NETFLIX_58, server: 219.76.13.180, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_59, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}}
+  - {name: YouTube梦歌|NETFLIX_60, server: 172.64.171.128, port: 80, type: vmess, uuid: 461aed20-0743-4f13-ee68-43394e875e42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: h1.800876.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_61, server: 1.1808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: v2.chigua.tk}}}
+  - {name: YouTube梦歌|NETFLIX_62, server: 43.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 43.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_63, server: jp3.czs1000.com, port: 8886, type: vmess, uuid: c478f928-1151-4deb-88cb-13a1acb3ed07, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: YouTube梦歌|NETFLIX_64, server: awskr3.azzhuangaping.tw, port: 80, type: vmess, uuid: 4c4e065f-363b-3c9b-8a4d-312f6b9840d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /adobe, headers: {Host: awskr3.azzhuangaping.tw}}}
+  - {name: YouTube梦歌|NETFLIX_65, server: jp05-vm0.entry.srthdw.art, port: 449, type: vmess, uuid: 122392b6-2a5a-342c-bbfa-e3301cb5e7e0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp05-vm0.entry.srthdw.art}}}
+  - {name: YouTube梦歌|NETFLIX_66, server: 28.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 28.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_67, server: 36.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 36.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_68, server: 35.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 35.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_69, server: 14.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 14.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_70, server: 25.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 25.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_71, server: 24.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 24.72img.xyz}}}
+  - {name: YouTube梦歌|NETFLIX_72, server: 29.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 29.72img.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_1
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_2
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_3
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_4
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_5
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_6
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_7
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_8
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_9
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_10
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_11
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_12
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_13
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_14
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_15
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_16
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_17
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_18
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_19
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_20
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_21
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_22
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_23
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_24
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_25
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_26
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_27
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_28
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_29
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_30
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_31
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_32
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_33
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_34
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_35
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_36
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_37
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_38
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_39
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_40
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_41
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_42
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_43
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_44
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_45
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_46
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_47
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_48
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_49
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_50
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_51
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_52
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_53
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_54
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_55
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_56
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_57
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_58
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_59
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_60
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_61
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_62
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_63
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_64
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_65
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_66
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_67
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_68
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_69
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_70
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_71
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_72
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_73
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_74
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_75
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_76
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_77
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_78
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_79
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_80
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_81
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_82
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_83
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_84
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_85
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_86
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_87
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_88
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_89
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_90
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_91
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_92
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_93
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_94
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_95
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_96
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_97
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_98
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_99
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_100
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_101
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_102
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_103
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_104
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_105
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_106
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_107
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_108
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_109
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_110
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_111
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_112
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_113
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_114
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_115
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_116
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_117
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_118
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_119
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_120
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_121
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_122
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_123
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_124
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_125
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_126
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_127
+      - YouTube梦歌|NETFLIX_1
+      - YouTube梦歌|NETFLIX_2
+      - YouTube梦歌|NETFLIX_3
+      - YouTube梦歌|NETFLIX_4
+      - YouTube梦歌|NETFLIX_5
+      - YouTube梦歌|NETFLIX_6
+      - YouTube梦歌|NETFLIX_7
+      - YouTube梦歌|NETFLIX_8
+      - YouTube梦歌|NETFLIX_9
+      - YouTube梦歌|NETFLIX_10
+      - YouTube梦歌|NETFLIX_11
+      - YouTube梦歌|NETFLIX_12
+      - YouTube梦歌|NETFLIX_13
+      - YouTube梦歌|NETFLIX_14
+      - YouTube梦歌|NETFLIX_15
+      - YouTube梦歌|NETFLIX_16
+      - YouTube梦歌|NETFLIX_17
+      - YouTube梦歌|NETFLIX_18
+      - YouTube梦歌|NETFLIX_19
+      - YouTube梦歌|NETFLIX_20
+      - YouTube梦歌|NETFLIX_21
+      - YouTube梦歌|NETFLIX_22
+      - YouTube梦歌|NETFLIX_23
+      - YouTube梦歌|NETFLIX_24
+      - YouTube梦歌|NETFLIX_25
+      - YouTube梦歌|NETFLIX_26
+      - YouTube梦歌|NETFLIX_27
+      - YouTube梦歌|NETFLIX_28
+      - YouTube梦歌|NETFLIX_29
+      - YouTube梦歌|NETFLIX_30
+      - YouTube梦歌|NETFLIX_31
+      - YouTube梦歌|NETFLIX_32
+      - YouTube梦歌|NETFLIX_33
+      - YouTube梦歌|NETFLIX_34
+      - YouTube梦歌|NETFLIX_35
+      - YouTube梦歌|NETFLIX_36
+      - YouTube梦歌|NETFLIX_37
+      - YouTube梦歌|NETFLIX_38
+      - YouTube梦歌|NETFLIX_39
+      - YouTube梦歌|NETFLIX_40
+      - YouTube梦歌|NETFLIX_41
+      - YouTube梦歌|NETFLIX_42
+      - YouTube梦歌|NETFLIX_43
+      - YouTube梦歌|NETFLIX_44
+      - YouTube梦歌|NETFLIX_45
+      - YouTube梦歌|NETFLIX_46
+      - YouTube梦歌|NETFLIX_47
+      - YouTube梦歌|NETFLIX_48
+      - YouTube梦歌|NETFLIX_49
+      - YouTube梦歌|NETFLIX_50
+      - YouTube梦歌|NETFLIX_51
+      - YouTube梦歌|NETFLIX_52
+      - YouTube梦歌|NETFLIX_53
+      - YouTube梦歌|NETFLIX_54
+      - YouTube梦歌|NETFLIX_56
+      - YouTube梦歌|NETFLIX_58
+      - YouTube梦歌|NETFLIX_59
+      - YouTube梦歌|NETFLIX_60
+      - YouTube梦歌|NETFLIX_61
+      - YouTube梦歌|NETFLIX_62
+      - YouTube梦歌|NETFLIX_63
+      - YouTube梦歌|NETFLIX_64
+      - YouTube梦歌|NETFLIX_65
+      - YouTube梦歌|NETFLIX_66
+      - YouTube梦歌|NETFLIX_67
+      - YouTube梦歌|NETFLIX_68
+      - YouTube梦歌|NETFLIX_69
+      - YouTube梦歌|NETFLIX_70
+      - YouTube梦歌|NETFLIX_71
+      - YouTube梦歌|NETFLIX_72
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_1
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_2
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_3
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_4
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_5
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_6
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_7
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_8
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_9
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_10
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_11
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_12
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_13
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_14
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_15
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_16
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_17
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_18
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_19
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_20
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_21
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_22
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_23
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_24
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_25
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_26
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_27
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_28
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_29
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_30
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_31
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_32
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_33
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_34
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_35
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_36
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_37
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_38
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_39
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_40
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_41
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_42
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_43
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_44
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_45
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_46
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_47
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_48
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_49
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_50
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_51
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_52
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_53
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_54
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_55
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_56
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_57
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_58
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_59
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_60
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_61
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_62
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_63
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_64
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_65
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_66
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_67
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_68
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_69
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_70
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_71
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_72
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_73
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_74
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_75
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_76
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_77
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_78
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_79
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_80
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_81
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_82
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_83
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_84
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_85
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_86
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_87
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_88
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_89
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_90
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_91
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_92
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_93
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_94
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_95
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_96
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_97
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_98
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_99
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_100
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_101
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_102
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_103
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_104
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_105
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_106
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_107
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_108
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_109
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_110
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_111
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_112
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_113
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_114
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_115
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_116
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_117
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_118
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_119
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_120
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_121
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_122
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_123
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_124
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_125
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_126
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_127
+      - YouTube梦歌|NETFLIX_1
+      - YouTube梦歌|NETFLIX_2
+      - YouTube梦歌|NETFLIX_3
+      - YouTube梦歌|NETFLIX_4
+      - YouTube梦歌|NETFLIX_5
+      - YouTube梦歌|NETFLIX_6
+      - YouTube梦歌|NETFLIX_7
+      - YouTube梦歌|NETFLIX_8
+      - YouTube梦歌|NETFLIX_9
+      - YouTube梦歌|NETFLIX_10
+      - YouTube梦歌|NETFLIX_11
+      - YouTube梦歌|NETFLIX_12
+      - YouTube梦歌|NETFLIX_13
+      - YouTube梦歌|NETFLIX_14
+      - YouTube梦歌|NETFLIX_15
+      - YouTube梦歌|NETFLIX_16
+      - YouTube梦歌|NETFLIX_17
+      - YouTube梦歌|NETFLIX_18
+      - YouTube梦歌|NETFLIX_19
+      - YouTube梦歌|NETFLIX_20
+      - YouTube梦歌|NETFLIX_21
+      - YouTube梦歌|NETFLIX_22
+      - YouTube梦歌|NETFLIX_23
+      - YouTube梦歌|NETFLIX_24
+      - YouTube梦歌|NETFLIX_25
+      - YouTube梦歌|NETFLIX_26
+      - YouTube梦歌|NETFLIX_27
+      - YouTube梦歌|NETFLIX_28
+      - YouTube梦歌|NETFLIX_29
+      - YouTube梦歌|NETFLIX_30
+      - YouTube梦歌|NETFLIX_31
+      - YouTube梦歌|NETFLIX_32
+      - YouTube梦歌|NETFLIX_33
+      - YouTube梦歌|NETFLIX_34
+      - YouTube梦歌|NETFLIX_35
+      - YouTube梦歌|NETFLIX_36
+      - YouTube梦歌|NETFLIX_37
+      - YouTube梦歌|NETFLIX_38
+      - YouTube梦歌|NETFLIX_39
+      - YouTube梦歌|NETFLIX_40
+      - YouTube梦歌|NETFLIX_41
+      - YouTube梦歌|NETFLIX_42
+      - YouTube梦歌|NETFLIX_43
+      - YouTube梦歌|NETFLIX_44
+      - YouTube梦歌|NETFLIX_45
+      - YouTube梦歌|NETFLIX_46
+      - YouTube梦歌|NETFLIX_47
+      - YouTube梦歌|NETFLIX_48
+      - YouTube梦歌|NETFLIX_49
+      - YouTube梦歌|NETFLIX_50
+      - YouTube梦歌|NETFLIX_51
+      - YouTube梦歌|NETFLIX_52
+      - YouTube梦歌|NETFLIX_53
+      - YouTube梦歌|NETFLIX_54
+      - YouTube梦歌|NETFLIX_56
+      - YouTube梦歌|NETFLIX_58
+      - YouTube梦歌|NETFLIX_59
+      - YouTube梦歌|NETFLIX_60
+      - YouTube梦歌|NETFLIX_61
+      - YouTube梦歌|NETFLIX_62
+      - YouTube梦歌|NETFLIX_63
+      - YouTube梦歌|NETFLIX_64
+      - YouTube梦歌|NETFLIX_65
+      - YouTube梦歌|NETFLIX_66
+      - YouTube梦歌|NETFLIX_67
+      - YouTube梦歌|NETFLIX_68
+      - YouTube梦歌|NETFLIX_69
+      - YouTube梦歌|NETFLIX_70
+      - YouTube梦歌|NETFLIX_71
+      - YouTube梦歌|NETFLIX_72
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_1
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_2
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_3
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_4
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_5
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_6
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_7
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_8
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_9
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_10
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_11
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_12
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_13
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_14
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_15
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_16
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_17
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_18
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_19
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_20
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_21
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_22
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_23
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_24
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_25
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_26
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_27
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_28
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_29
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_30
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_31
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_32
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_33
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_34
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_35
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_36
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_37
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_38
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_39
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_40
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_41
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_42
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_43
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_44
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_45
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_46
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_47
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_48
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_49
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_50
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_51
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_52
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_53
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_54
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_55
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_56
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_57
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_58
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_59
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_60
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_61
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_62
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_63
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_64
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_65
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_66
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_67
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_68
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_69
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_70
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_71
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_72
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_73
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_74
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_75
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_76
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_77
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_78
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_79
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_80
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_81
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_82
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_83
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_84
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_85
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_86
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_87
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_88
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_89
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_90
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_91
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_92
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_93
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_94
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_95
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_96
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_97
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_98
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_99
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_100
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_101
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_102
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_103
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_104
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_105
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_106
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_107
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_108
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_109
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_110
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_111
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_112
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_113
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_114
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_115
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_116
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_117
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_118
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_119
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_120
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_121
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_122
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_123
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_124
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_125
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_126
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_127
+      - YouTube梦歌|NETFLIX_1
+      - YouTube梦歌|NETFLIX_2
+      - YouTube梦歌|NETFLIX_3
+      - YouTube梦歌|NETFLIX_4
+      - YouTube梦歌|NETFLIX_5
+      - YouTube梦歌|NETFLIX_6
+      - YouTube梦歌|NETFLIX_7
+      - YouTube梦歌|NETFLIX_8
+      - YouTube梦歌|NETFLIX_9
+      - YouTube梦歌|NETFLIX_10
+      - YouTube梦歌|NETFLIX_11
+      - YouTube梦歌|NETFLIX_12
+      - YouTube梦歌|NETFLIX_13
+      - YouTube梦歌|NETFLIX_14
+      - YouTube梦歌|NETFLIX_15
+      - YouTube梦歌|NETFLIX_16
+      - YouTube梦歌|NETFLIX_17
+      - YouTube梦歌|NETFLIX_18
+      - YouTube梦歌|NETFLIX_19
+      - YouTube梦歌|NETFLIX_20
+      - YouTube梦歌|NETFLIX_21
+      - YouTube梦歌|NETFLIX_22
+      - YouTube梦歌|NETFLIX_23
+      - YouTube梦歌|NETFLIX_24
+      - YouTube梦歌|NETFLIX_25
+      - YouTube梦歌|NETFLIX_26
+      - YouTube梦歌|NETFLIX_27
+      - YouTube梦歌|NETFLIX_28
+      - YouTube梦歌|NETFLIX_29
+      - YouTube梦歌|NETFLIX_30
+      - YouTube梦歌|NETFLIX_31
+      - YouTube梦歌|NETFLIX_32
+      - YouTube梦歌|NETFLIX_33
+      - YouTube梦歌|NETFLIX_34
+      - YouTube梦歌|NETFLIX_35
+      - YouTube梦歌|NETFLIX_36
+      - YouTube梦歌|NETFLIX_37
+      - YouTube梦歌|NETFLIX_38
+      - YouTube梦歌|NETFLIX_39
+      - YouTube梦歌|NETFLIX_40
+      - YouTube梦歌|NETFLIX_41
+      - YouTube梦歌|NETFLIX_42
+      - YouTube梦歌|NETFLIX_43
+      - YouTube梦歌|NETFLIX_44
+      - YouTube梦歌|NETFLIX_45
+      - YouTube梦歌|NETFLIX_46
+      - YouTube梦歌|NETFLIX_47
+      - YouTube梦歌|NETFLIX_48
+      - YouTube梦歌|NETFLIX_49
+      - YouTube梦歌|NETFLIX_50
+      - YouTube梦歌|NETFLIX_51
+      - YouTube梦歌|NETFLIX_52
+      - YouTube梦歌|NETFLIX_53
+      - YouTube梦歌|NETFLIX_54
+      - YouTube梦歌|NETFLIX_56
+      - YouTube梦歌|NETFLIX_58
+      - YouTube梦歌|NETFLIX_59
+      - YouTube梦歌|NETFLIX_60
+      - YouTube梦歌|NETFLIX_61
+      - YouTube梦歌|NETFLIX_62
+      - YouTube梦歌|NETFLIX_63
+      - YouTube梦歌|NETFLIX_64
+      - YouTube梦歌|NETFLIX_65
+      - YouTube梦歌|NETFLIX_66
+      - YouTube梦歌|NETFLIX_67
+      - YouTube梦歌|NETFLIX_68
+      - YouTube梦歌|NETFLIX_69
+      - YouTube梦歌|NETFLIX_70
+      - YouTube梦歌|NETFLIX_71
+      - YouTube梦歌|NETFLIX_72
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_1
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_2
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_3
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_4
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_5
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_6
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_7
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_8
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_9
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_10
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_11
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_12
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_13
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_14
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_15
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_16
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_17
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_18
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_19
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_20
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_21
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_22
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_23
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_24
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_25
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_26
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_27
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_28
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_29
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_30
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_31
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_32
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_33
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_34
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_35
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_36
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_37
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_38
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_39
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_40
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_41
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_42
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_43
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_44
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_45
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_46
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_47
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_48
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_49
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_50
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_51
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_52
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_53
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_54
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_55
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_56
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_57
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_58
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_59
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_60
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_61
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_62
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_63
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_64
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_65
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_66
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_67
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_68
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_69
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_70
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_71
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_72
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_73
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_74
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_75
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_76
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_77
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_78
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_79
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_80
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_81
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_82
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_83
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_84
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_85
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_86
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_87
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_88
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_89
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_90
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_91
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_92
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_93
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_94
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_95
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_96
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_97
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_98
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_99
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_100
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_101
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_102
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_103
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_104
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_105
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_106
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_107
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_108
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_109
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_110
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_111
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_112
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_113
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_114
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_115
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_116
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_117
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_118
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_119
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_120
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_121
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_122
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_123
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_124
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_125
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_126
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_127
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_1
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_2
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_3
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_4
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_5
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_6
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_7
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_8
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_9
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_10
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_11
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_12
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_13
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_14
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_15
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_16
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_17
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_18
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_19
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_20
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_21
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_22
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_23
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_24
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_25
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_26
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_27
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_28
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_29
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_30
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_31
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_32
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_33
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_34
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_35
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_36
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_37
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_38
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_39
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_40
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_41
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_42
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_43
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_44
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_45
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_46
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_47
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_48
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_49
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_50
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_51
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_52
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_53
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_54
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_55
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_56
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_57
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_58
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_59
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_60
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_61
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_62
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_63
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_64
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_65
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_66
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_67
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_68
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_69
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_70
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_71
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_72
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_73
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_74
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_75
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_76
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_77
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_78
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_79
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_80
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_81
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_82
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_83
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_84
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_85
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_86
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_87
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_88
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_89
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_90
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_91
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_92
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_93
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_94
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_95
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_96
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_97
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_98
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_99
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_100
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_101
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_102
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_103
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_104
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_105
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_106
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_107
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_108
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_109
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_110
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_111
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_112
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_113
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_114
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_115
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_116
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_117
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_118
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_119
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_120
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_121
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_122
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_123
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_124
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_125
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_126
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_127
+      - YouTube梦歌|NETFLIX_1
+      - YouTube梦歌|NETFLIX_2
+      - YouTube梦歌|NETFLIX_3
+      - YouTube梦歌|NETFLIX_4
+      - YouTube梦歌|NETFLIX_5
+      - YouTube梦歌|NETFLIX_6
+      - YouTube梦歌|NETFLIX_7
+      - YouTube梦歌|NETFLIX_8
+      - YouTube梦歌|NETFLIX_9
+      - YouTube梦歌|NETFLIX_10
+      - YouTube梦歌|NETFLIX_11
+      - YouTube梦歌|NETFLIX_12
+      - YouTube梦歌|NETFLIX_13
+      - YouTube梦歌|NETFLIX_14
+      - YouTube梦歌|NETFLIX_15
+      - YouTube梦歌|NETFLIX_16
+      - YouTube梦歌|NETFLIX_17
+      - YouTube梦歌|NETFLIX_18
+      - YouTube梦歌|NETFLIX_19
+      - YouTube梦歌|NETFLIX_20
+      - YouTube梦歌|NETFLIX_21
+      - YouTube梦歌|NETFLIX_22
+      - YouTube梦歌|NETFLIX_23
+      - YouTube梦歌|NETFLIX_24
+      - YouTube梦歌|NETFLIX_25
+      - YouTube梦歌|NETFLIX_26
+      - YouTube梦歌|NETFLIX_27
+      - YouTube梦歌|NETFLIX_28
+      - YouTube梦歌|NETFLIX_29
+      - YouTube梦歌|NETFLIX_30
+      - YouTube梦歌|NETFLIX_31
+      - YouTube梦歌|NETFLIX_32
+      - YouTube梦歌|NETFLIX_33
+      - YouTube梦歌|NETFLIX_34
+      - YouTube梦歌|NETFLIX_35
+      - YouTube梦歌|NETFLIX_36
+      - YouTube梦歌|NETFLIX_37
+      - YouTube梦歌|NETFLIX_38
+      - YouTube梦歌|NETFLIX_39
+      - YouTube梦歌|NETFLIX_40
+      - YouTube梦歌|NETFLIX_41
+      - YouTube梦歌|NETFLIX_42
+      - YouTube梦歌|NETFLIX_43
+      - YouTube梦歌|NETFLIX_44
+      - YouTube梦歌|NETFLIX_45
+      - YouTube梦歌|NETFLIX_46
+      - YouTube梦歌|NETFLIX_47
+      - YouTube梦歌|NETFLIX_48
+      - YouTube梦歌|NETFLIX_49
+      - YouTube梦歌|NETFLIX_50
+      - YouTube梦歌|NETFLIX_51
+      - YouTube梦歌|NETFLIX_52
+      - YouTube梦歌|NETFLIX_53
+      - YouTube梦歌|NETFLIX_54
+      - YouTube梦歌|NETFLIX_56
+      - YouTube梦歌|NETFLIX_58
+      - YouTube梦歌|NETFLIX_59
+      - YouTube梦歌|NETFLIX_60
+      - YouTube梦歌|NETFLIX_61
+      - YouTube梦歌|NETFLIX_62
+      - YouTube梦歌|NETFLIX_63
+      - YouTube梦歌|NETFLIX_64
+      - YouTube梦歌|NETFLIX_65
+      - YouTube梦歌|NETFLIX_66
+      - YouTube梦歌|NETFLIX_67
+      - YouTube梦歌|NETFLIX_68
+      - YouTube梦歌|NETFLIX_69
+      - YouTube梦歌|NETFLIX_70
+      - YouTube梦歌|NETFLIX_71
+      - YouTube梦歌|NETFLIX_72
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_1
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_2
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_3
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_4
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_5
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_6
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_7
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_8
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_9
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_10
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_11
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_12
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_13
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_14
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_15
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_16
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_17
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_18
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_19
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_20
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_21
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_22
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_23
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_24
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_25
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_26
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_27
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_28
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_29
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_30
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_31
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_32
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_33
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_34
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_35
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_36
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_37
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_38
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_39
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_40
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_41
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_42
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_43
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_44
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_45
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_46
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_47
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_48
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_49
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_50
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_51
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_52
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_53
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_54
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_55
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_56
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_57
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_58
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_59
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_60
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_61
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_62
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_63
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_64
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_65
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_66
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_67
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_68
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_69
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_70
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_71
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_72
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_73
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_74
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_75
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_76
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_77
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_78
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_79
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_80
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_81
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_82
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_83
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_84
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_85
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_86
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_87
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_88
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_89
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_90
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_91
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_92
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_93
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_94
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_95
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_96
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_97
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_98
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_99
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_100
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_101
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_102
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_103
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_104
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_105
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_106
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_107
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_108
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_109
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_110
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_111
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_112
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_113
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_114
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_115
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_116
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_117
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_118
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_119
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_120
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_121
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_122
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_123
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_124
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_125
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_126
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_127
+      - YouTube梦歌|NETFLIX_1
+      - YouTube梦歌|NETFLIX_2
+      - YouTube梦歌|NETFLIX_3
+      - YouTube梦歌|NETFLIX_4
+      - YouTube梦歌|NETFLIX_5
+      - YouTube梦歌|NETFLIX_6
+      - YouTube梦歌|NETFLIX_7
+      - YouTube梦歌|NETFLIX_8
+      - YouTube梦歌|NETFLIX_9
+      - YouTube梦歌|NETFLIX_10
+      - YouTube梦歌|NETFLIX_11
+      - YouTube梦歌|NETFLIX_12
+      - YouTube梦歌|NETFLIX_13
+      - YouTube梦歌|NETFLIX_14
+      - YouTube梦歌|NETFLIX_15
+      - YouTube梦歌|NETFLIX_16
+      - YouTube梦歌|NETFLIX_17
+      - YouTube梦歌|NETFLIX_18
+      - YouTube梦歌|NETFLIX_19
+      - YouTube梦歌|NETFLIX_20
+      - YouTube梦歌|NETFLIX_21
+      - YouTube梦歌|NETFLIX_22
+      - YouTube梦歌|NETFLIX_23
+      - YouTube梦歌|NETFLIX_24
+      - YouTube梦歌|NETFLIX_25
+      - YouTube梦歌|NETFLIX_26
+      - YouTube梦歌|NETFLIX_27
+      - YouTube梦歌|NETFLIX_28
+      - YouTube梦歌|NETFLIX_29
+      - YouTube梦歌|NETFLIX_30
+      - YouTube梦歌|NETFLIX_31
+      - YouTube梦歌|NETFLIX_32
+      - YouTube梦歌|NETFLIX_33
+      - YouTube梦歌|NETFLIX_34
+      - YouTube梦歌|NETFLIX_35
+      - YouTube梦歌|NETFLIX_36
+      - YouTube梦歌|NETFLIX_37
+      - YouTube梦歌|NETFLIX_38
+      - YouTube梦歌|NETFLIX_39
+      - YouTube梦歌|NETFLIX_40
+      - YouTube梦歌|NETFLIX_41
+      - YouTube梦歌|NETFLIX_42
+      - YouTube梦歌|NETFLIX_43
+      - YouTube梦歌|NETFLIX_44
+      - YouTube梦歌|NETFLIX_45
+      - YouTube梦歌|NETFLIX_46
+      - YouTube梦歌|NETFLIX_47
+      - YouTube梦歌|NETFLIX_48
+      - YouTube梦歌|NETFLIX_49
+      - YouTube梦歌|NETFLIX_50
+      - YouTube梦歌|NETFLIX_51
+      - YouTube梦歌|NETFLIX_52
+      - YouTube梦歌|NETFLIX_53
+      - YouTube梦歌|NETFLIX_54
+      - YouTube梦歌|NETFLIX_56
+      - YouTube梦歌|NETFLIX_58
+      - YouTube梦歌|NETFLIX_59
+      - YouTube梦歌|NETFLIX_60
+      - YouTube梦歌|NETFLIX_61
+      - YouTube梦歌|NETFLIX_62
+      - YouTube梦歌|NETFLIX_63
+      - YouTube梦歌|NETFLIX_64
+      - YouTube梦歌|NETFLIX_65
+      - YouTube梦歌|NETFLIX_66
+      - YouTube梦歌|NETFLIX_67
+      - YouTube梦歌|NETFLIX_68
+      - YouTube梦歌|NETFLIX_69
+      - YouTube梦歌|NETFLIX_70
+      - YouTube梦歌|NETFLIX_71
+      - YouTube梦歌|NETFLIX_72
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_1
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_2
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_3
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_4
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_5
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_6
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_7
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_8
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_9
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_10
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_11
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_12
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_13
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_14
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_15
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_16
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_17
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_18
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_19
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_20
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_21
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_22
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_23
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_24
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_25
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_26
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_27
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_28
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_29
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_30
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_31
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_32
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_33
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_34
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_35
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_36
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_37
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_38
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_39
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_40
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_41
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_42
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_43
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_44
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_45
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_46
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_47
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_48
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_49
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_50
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_51
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_52
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_53
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_54
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_55
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_56
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_57
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_58
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_59
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_60
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_61
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_62
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_63
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_64
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_65
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_66
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_67
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_68
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_69
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_70
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_71
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_72
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_73
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_74
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_75
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_76
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_77
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_78
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_79
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_80
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_81
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_82
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_83
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_84
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_85
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_86
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_87
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_88
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_89
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_90
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_91
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_92
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_93
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_94
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_95
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_96
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_97
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_98
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_99
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_100
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_101
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_102
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_103
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_104
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_105
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_106
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_107
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_108
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_109
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_110
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_111
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_112
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_113
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_114
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_115
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_116
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_117
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_118
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_119
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_120
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_121
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_122
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_123
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_124
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_125
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_126
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_127
+      - YouTube梦歌|NETFLIX_1
+      - YouTube梦歌|NETFLIX_2
+      - YouTube梦歌|NETFLIX_3
+      - YouTube梦歌|NETFLIX_4
+      - YouTube梦歌|NETFLIX_5
+      - YouTube梦歌|NETFLIX_6
+      - YouTube梦歌|NETFLIX_7
+      - YouTube梦歌|NETFLIX_8
+      - YouTube梦歌|NETFLIX_9
+      - YouTube梦歌|NETFLIX_10
+      - YouTube梦歌|NETFLIX_11
+      - YouTube梦歌|NETFLIX_12
+      - YouTube梦歌|NETFLIX_13
+      - YouTube梦歌|NETFLIX_14
+      - YouTube梦歌|NETFLIX_15
+      - YouTube梦歌|NETFLIX_16
+      - YouTube梦歌|NETFLIX_17
+      - YouTube梦歌|NETFLIX_18
+      - YouTube梦歌|NETFLIX_19
+      - YouTube梦歌|NETFLIX_20
+      - YouTube梦歌|NETFLIX_21
+      - YouTube梦歌|NETFLIX_22
+      - YouTube梦歌|NETFLIX_23
+      - YouTube梦歌|NETFLIX_24
+      - YouTube梦歌|NETFLIX_25
+      - YouTube梦歌|NETFLIX_26
+      - YouTube梦歌|NETFLIX_27
+      - YouTube梦歌|NETFLIX_28
+      - YouTube梦歌|NETFLIX_29
+      - YouTube梦歌|NETFLIX_30
+      - YouTube梦歌|NETFLIX_31
+      - YouTube梦歌|NETFLIX_32
+      - YouTube梦歌|NETFLIX_33
+      - YouTube梦歌|NETFLIX_34
+      - YouTube梦歌|NETFLIX_35
+      - YouTube梦歌|NETFLIX_36
+      - YouTube梦歌|NETFLIX_37
+      - YouTube梦歌|NETFLIX_38
+      - YouTube梦歌|NETFLIX_39
+      - YouTube梦歌|NETFLIX_40
+      - YouTube梦歌|NETFLIX_41
+      - YouTube梦歌|NETFLIX_42
+      - YouTube梦歌|NETFLIX_43
+      - YouTube梦歌|NETFLIX_44
+      - YouTube梦歌|NETFLIX_45
+      - YouTube梦歌|NETFLIX_46
+      - YouTube梦歌|NETFLIX_47
+      - YouTube梦歌|NETFLIX_48
+      - YouTube梦歌|NETFLIX_49
+      - YouTube梦歌|NETFLIX_50
+      - YouTube梦歌|NETFLIX_51
+      - YouTube梦歌|NETFLIX_52
+      - YouTube梦歌|NETFLIX_53
+      - YouTube梦歌|NETFLIX_54
+      - YouTube梦歌|NETFLIX_56
+      - YouTube梦歌|NETFLIX_58
+      - YouTube梦歌|NETFLIX_59
+      - YouTube梦歌|NETFLIX_60
+      - YouTube梦歌|NETFLIX_61
+      - YouTube梦歌|NETFLIX_62
+      - YouTube梦歌|NETFLIX_63
+      - YouTube梦歌|NETFLIX_64
+      - YouTube梦歌|NETFLIX_65
+      - YouTube梦歌|NETFLIX_66
+      - YouTube梦歌|NETFLIX_67
+      - YouTube梦歌|NETFLIX_68
+      - YouTube梦歌|NETFLIX_69
+      - YouTube梦歌|NETFLIX_70
+      - YouTube梦歌|NETFLIX_71
+      - YouTube梦歌|NETFLIX_72
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1074,133 +548,76 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_1
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_2
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_3
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_4
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_5
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_6
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_7
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_8
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_9
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_10
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_11
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_12
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_13
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_14
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_15
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_16
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_17
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_18
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_19
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_20
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_21
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_22
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_23
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_24
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_25
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_26
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_27
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_28
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_29
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_30
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_31
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_32
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_33
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_34
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_35
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_36
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_37
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_38
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_39
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_40
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_41
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_42
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_43
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_44
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_45
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_46
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_47
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_48
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_49
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_50
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_51
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_52
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_53
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_54
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_55
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_56
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_57
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_58
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_59
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_60
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_61
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_62
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_63
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_64
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_65
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_66
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_67
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_68
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_69
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_70
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_71
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_72
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_73
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_74
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_75
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_76
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_77
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_78
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_79
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_80
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_81
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_82
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_83
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_84
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_85
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_86
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_87
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_88
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_89
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_90
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_91
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_92
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_93
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_94
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_95
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_96
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_97
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_98
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_99
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_100
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_101
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_102
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_103
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_104
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_105
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_106
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_107
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_108
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_109
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_110
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_111
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_112
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_113
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_114
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_115
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_116
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_117
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_118
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_119
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_120
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_121
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_122
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_123
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_124
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_125
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_126
-      - 🇭🇰 YouTube梦歌|香港HTK|NETFLIX_127
+      - YouTube梦歌|NETFLIX_1
+      - YouTube梦歌|NETFLIX_2
+      - YouTube梦歌|NETFLIX_3
+      - YouTube梦歌|NETFLIX_4
+      - YouTube梦歌|NETFLIX_5
+      - YouTube梦歌|NETFLIX_6
+      - YouTube梦歌|NETFLIX_7
+      - YouTube梦歌|NETFLIX_8
+      - YouTube梦歌|NETFLIX_9
+      - YouTube梦歌|NETFLIX_10
+      - YouTube梦歌|NETFLIX_11
+      - YouTube梦歌|NETFLIX_12
+      - YouTube梦歌|NETFLIX_13
+      - YouTube梦歌|NETFLIX_14
+      - YouTube梦歌|NETFLIX_15
+      - YouTube梦歌|NETFLIX_16
+      - YouTube梦歌|NETFLIX_17
+      - YouTube梦歌|NETFLIX_18
+      - YouTube梦歌|NETFLIX_19
+      - YouTube梦歌|NETFLIX_20
+      - YouTube梦歌|NETFLIX_21
+      - YouTube梦歌|NETFLIX_22
+      - YouTube梦歌|NETFLIX_23
+      - YouTube梦歌|NETFLIX_24
+      - YouTube梦歌|NETFLIX_25
+      - YouTube梦歌|NETFLIX_26
+      - YouTube梦歌|NETFLIX_27
+      - YouTube梦歌|NETFLIX_28
+      - YouTube梦歌|NETFLIX_29
+      - YouTube梦歌|NETFLIX_30
+      - YouTube梦歌|NETFLIX_31
+      - YouTube梦歌|NETFLIX_32
+      - YouTube梦歌|NETFLIX_33
+      - YouTube梦歌|NETFLIX_34
+      - YouTube梦歌|NETFLIX_35
+      - YouTube梦歌|NETFLIX_36
+      - YouTube梦歌|NETFLIX_37
+      - YouTube梦歌|NETFLIX_38
+      - YouTube梦歌|NETFLIX_39
+      - YouTube梦歌|NETFLIX_40
+      - YouTube梦歌|NETFLIX_41
+      - YouTube梦歌|NETFLIX_42
+      - YouTube梦歌|NETFLIX_43
+      - YouTube梦歌|NETFLIX_44
+      - YouTube梦歌|NETFLIX_45
+      - YouTube梦歌|NETFLIX_46
+      - YouTube梦歌|NETFLIX_47
+      - YouTube梦歌|NETFLIX_48
+      - YouTube梦歌|NETFLIX_49
+      - YouTube梦歌|NETFLIX_50
+      - YouTube梦歌|NETFLIX_51
+      - YouTube梦歌|NETFLIX_52
+      - YouTube梦歌|NETFLIX_53
+      - YouTube梦歌|NETFLIX_54
+      - YouTube梦歌|NETFLIX_56
+      - YouTube梦歌|NETFLIX_58
+      - YouTube梦歌|NETFLIX_59
+      - YouTube梦歌|NETFLIX_60
+      - YouTube梦歌|NETFLIX_61
+      - YouTube梦歌|NETFLIX_62
+      - YouTube梦歌|NETFLIX_63
+      - YouTube梦歌|NETFLIX_64
+      - YouTube梦歌|NETFLIX_65
+      - YouTube梦歌|NETFLIX_66
+      - YouTube梦歌|NETFLIX_67
+      - YouTube梦歌|NETFLIX_68
+      - YouTube梦歌|NETFLIX_69
+      - YouTube梦歌|NETFLIX_70
+      - YouTube梦歌|NETFLIX_71
+      - YouTube梦歌|NETFLIX_72
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
