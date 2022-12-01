@@ -5,917 +5,925 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: YouTube梦歌|NETFLIX_1, server: gd.zhuanfa.tk, port: 15415, type: vmess, uuid: 0e7dde68-b031-46b3-9ef2-40e204966b00, alterId: 0, cipher: auto, tls: false}
-  - {name: YouTube梦歌|NETFLIX_2, server: rngnb9.cdn.node.a.ddns-ounk.com, port: 40267, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8, headers: {Host: rngnb9.cdn.node.a.ddns-ounk.com}}}
-  - {name: YouTube梦歌|NETFLIX_3, server: 110.80.3.4, port: 25027, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qingzhuanduoyun, headers: {Host: "%7B%22Host%22:%22a.189.cn%22%7D"}}}
-  - {name: YouTube梦歌|NETFLIX_4, server: 110.80.3.4, port: 25026, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qingzhuanduoyun, headers: {Host: a.189.cn}}}
-  - {name: YouTube梦歌|NETFLIX_5, server: 45.64.22.55, port: 443, type: trojan, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS, sni: reooec.freetrade.link}
-  - {name: YouTube梦歌|NETFLIX_6, server: moblev3-sg.mipglxi.cn, port: 6612, type: ss, cipher: aes-128-gcm, password: 4663645d-e401-4e86-bb96-f2ab1992465d}
-  - {name: YouTube梦歌|NETFLIX_7, server: blg768.cdn.node.a.ddns-ounk.com, port: 40249, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8, headers: {Host: blg768.cdn.node.a.ddns-ounk.com}}}
-  - {name: YouTube梦歌|NETFLIX_8, server: 29.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 29.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_9, server: 141.101.114.120, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_10, server: 25.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 25.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_11, server: king2.mmadserr.ml, port: 2095, type: vmess, uuid: dabdbbec-f774-41ff-a296-18026f469a97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fhf5hfth565fhtf, headers: {Host: king2.mmadserr.ml}}}
-  - {name: YouTube梦歌|NETFLIX_12, server: gd.zhuanfa.tk, port: 15415, type: vmess, uuid: 0e7dde68-b031-46b3-9ef2-40e204966b00, alterId: 0, cipher: auto, tls: false}
-  - {name: YouTube梦歌|NETFLIX_13, server: 26.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 26.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_14, server: 128.14.162.48, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_15, server: jp02-vm0.entry.srthdw.art, port: 446, type: vmess, uuid: a79fcdb1-48bc-3034-aa22-1fd792b61bf6, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp02-vm0.entry.srthdw.art}}}
-  - {name: YouTube梦歌|NETFLIX_16, server: moblev3-sg.mipglxi.cn, port: 6614, type: ss, cipher: aes-128-gcm, password: 4663645d-e401-4e86-bb96-f2ab1992465d}
-  - {name: YouTube梦歌|NETFLIX_17, server: 107.189.31.41, port: 12378, type: vmess, uuid: 9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@Backdor_Filter, headers: {Host: 107.189.31.41}}}
-  - {name: YouTube梦歌|NETFLIX_18, server: 198.41.203.3, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_19, server: 141.101.114.120, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_20, server: 146.56.162.25, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_21, server: 33.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 33.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_22, server: 36.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 36.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_23, server: 172.64.154.222, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_24, server: 4.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 4.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_25, server: 141.101.115.111, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_26, server: 36.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 36.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_27, server: 46.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 46.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_28, server: 141.101.115.120, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_29, server: 141.101.115.2, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_30, server: v2ray.wefuckgfw.ga, port: 2053, type: vmess, uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /DQsafRJn/, headers: {Host: v2ray.wefuckgfw.ga}}}
-  - {name: YouTube梦歌|NETFLIX_31, server: 172.64.148.111, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_32, server: 141.101.115.136, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_33, server: 198.41.203.5, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_34, server: 198.41.203.4, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_35, server: 38.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 38.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_36, server: 198.41.203.1, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_37, server: 198.41.203.6, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_39, server: 9.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 9.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_40, server: gtnjzy.cdn.node.a.ddns-ounk.com, port: 40294, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8, headers: {Host: gtnjzy.cdn.node.a.ddns-ounk.com}}}
-  - {name: YouTube梦歌|NETFLIX_41, server: moblev3.mipglxi.cn, port: 6624, type: ss, cipher: aes-128-gcm, password: 4663645d-e401-4e86-bb96-f2ab1992465d}
-  - {name: YouTube梦歌|NETFLIX_42, server: 38.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 38.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_43, server: 53.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 53.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_44, server: 29.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 29.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_45, server: 46.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 46.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_46, server: ip125.com, port: 2086, type: vmess, uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: kz.cloudflare.quest}}}
-  - {name: YouTube梦歌|NETFLIX_47, server: 172.66.40.10, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 38.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_48, server: 6.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 6.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_49, server: 17.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 17.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_50, server: 45.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 45.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_51, server: 141.101.115.100, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_52, server: pg57.cdn.node.a.ddns-ounk.com, port: 40295, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8, headers: {Host: pg57.cdn.node.a.ddns-ounk.com}}}
-  - {name: YouTube梦歌|NETFLIX_53, server: 198.41.212.122, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_54, server: 25.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 25.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_55, server: 28.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 28.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_56, server: 141.101.114.20, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}}
-  - {name: YouTube梦歌|NETFLIX_57, server: 34.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 34.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_58, server: tgunivstar-119-237-43-96.sslip.io, port: 80, type: vmess, uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vn3.thanhhaivpn.name.vn}}}
-  - {name: YouTube梦歌|NETFLIX_59, server: 20.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 20.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_60, server: blg768.cdn.node.a.ddns-ounk.com, port: 40251, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8, headers: {Host: blg768.cdn.node.a.ddns-ounk.com}}}
-  - {name: YouTube梦歌|NETFLIX_61, server: 198.41.203.2, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}}
-  - {name: YouTube梦歌|NETFLIX_62, server: 172.67.125.28, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 38.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_63, server: 172.67.225.31, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 38.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_64, server: 26.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 26.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_65, server: 30.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 30.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_66, server: 172.64.154.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_67, server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus3.0bad.com}}}
-  - {name: YouTube梦歌|NETFLIX_68, server: 141.101.114.100, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_69, server: 104.29.64.2, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_70, server: 172.67.183.35, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 38.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_71, server: 198.41.212.100, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_72, server: 172.64.153.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_73, server: 45.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 45.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_74, server: 141.101.115.100, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_75, server: 104.29.64.25, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_76, server: 22.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 22.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_77, server: 162.55.214.110, port: 51549, type: vmess, uuid: 6399ab58-b7ce-4d24-be9e-92c581c93b44, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 162.55.214.110}}}
-  - {name: YouTube梦歌|NETFLIX_78, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol2.fovi.tk}}}
-  - {name: YouTube梦歌|NETFLIX_79, server: rngnb9.cdn.node.a.ddns-ounk.com, port: 40250, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8, headers: {Host: rngnb9.cdn.node.a.ddns-ounk.com}}}
-  - {name: YouTube梦歌|NETFLIX_80, server: 141.101.115.121, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_81, server: 128.14.140.254, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_82, server: 141.101.114.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_83, server: 34.145.145.76, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_84, server: 141.101.115.20, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}}
-  - {name: YouTube梦歌|NETFLIX_85, server: 15.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 15.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_86, server: 172.64.154.102, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_87, server: 128.14.140.254, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_88, server: jm.jshsxxxy.top, port: 443, type: vmess, uuid: ac29ef42-7100-4fdd-a5ee-5bb07b146e61, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /MokonaModokiMkv2Rentry, headers: {Host: jm.jshsxxxy.top}}}
-  - {name: YouTube梦歌|NETFLIX_89, server: 172.66.43.1, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 38.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_90, server: jkxc1.cdn.node.a.ddns-ounk.com, port: 40259, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8, headers: {Host: jkxc1.cdn.node.a.ddns-ounk.com}}}
-  - {name: YouTube梦歌|NETFLIX_91, server: 110.80.3.4, port: 25026, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qingzhuanduoyun, headers: {Host: "%7B%22Host%22:%22a.189.cn%22%7D"}}}
-  - {name: YouTube梦歌|NETFLIX_92, server: 141.101.114.200, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_93, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxfra.fovi.tk}}}
-  - {name: YouTube梦歌|NETFLIX_94, server: 110.80.3.4, port: 25028, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qingzhuanduoyun, headers: {Host: a.189.cn}}}
-  - {name: YouTube梦歌|NETFLIX_95, server: 198.41.212.122, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_96, server: cu.kapoknode.com, port: 25897, type: vmess, uuid: 8b1b6169-d4af-474c-826d-5e7b3308ab26, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}}
-  - {name: YouTube梦歌|NETFLIX_97, server: cu.kapoknode.com, port: 25897, type: vmess, uuid: 761195f3-df19-4d48-9d98-8fdf2a687103, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}}
-  - {name: YouTube梦歌|NETFLIX_98, server: cu.kapoknode.com, port: 25897, type: vmess, uuid: 556b9320-c778-4166-b009-1ec14374a9c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}}
-  - {name: YouTube梦歌|NETFLIX_99, server: 141.101.114.133, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_100, server: 172.64.152.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_101, server: pg57.cdn.node.a.ddns-ounk.com, port: 40310, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /9e66ba-7635-451c-ae7e-457b17.j.live.m3u8, headers: {Host: pg57.cdn.node.a.ddns-ounk.com}}}
-  - {name: YouTube梦歌|NETFLIX_102, server: v2ray.wefuckgfw.ga, port: 2053, type: vmess, uuid: 2c23eb31-1133-4807-818e-484d9a473b9b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /DQsafRJn/, headers: {Host: v2ray.wefuckgfw.ga}}}
-  - {name: YouTube梦歌|NETFLIX_103, server: 35.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 35.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_104, server: gtnjzy.cdn.node.a.ddns-ounk.com, port: 40290, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8, headers: {Host: gtnjzy.cdn.node.a.ddns-ounk.com}}}
-  - {name: YouTube梦歌|NETFLIX_105, server: v2ray.wefuckgfw.ga, port: 2053, type: vmess, uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /DQsafRJn/, headers: {Host: v2ray.wefuckgfw.ga}}}
-  - {name: YouTube梦歌|NETFLIX_106, server: v2ray.wefuckgfw.ga, port: 2053, type: vmess, uuid: 2c23eb31-1133-4807-818e-484d9a473b9b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /DQsafRJn/, headers: {Host: v2ray.wefuckgfw.ga}}}
-  - {name: YouTube梦歌|NETFLIX_107, server: v2ray.wefuckgfw.ga, port: 2053, type: vmess, uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /DQsafRJn/, headers: {Host: v2ray.wefuckgfw.ga}}}
-  - {name: YouTube梦歌|NETFLIX_108, server: 14.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 14.72img.xyz}}}
-  - {name: YouTube梦歌|NETFLIX_109, server: gtnjzy.cdn.node.a.ddns-ounk.com, port: 40286, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8, headers: {Host: gtnjzy.cdn.node.a.ddns-ounk.com}}}
-  - {name: YouTube梦歌|NETFLIX_110, server: 44.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 44.72img.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_1, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 27708, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_2, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 28715, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_3, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 28713, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_4, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 27708, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_5, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 28714, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_6, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 27706, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_7, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 28714, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_8, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 27702, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_9, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 27701, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_10, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 27705, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_11, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 27706, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_12, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 27705, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_13, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 28710, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_14, server: 23.227.38.38, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_15, server: iepl.suke.wiki, port: 27702, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_16, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 27704, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_17, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 28711, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_18, server: 203.30.190.190, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_19, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 28715, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_20, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 28710, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_21, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 27704, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_22, server: iepl.suke.wiki, port: 22303, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_23, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 28711, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_24, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_25, server: iepl.suke.wiki, port: 27707, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_26, server: iepl.suke.wiki, port: 27709, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_27, server: 141.101.114.134, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_28, server: 203.30.188.120, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_29, server: 141.101.114.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_30, server: 203.30.188.188, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_31, server: 188.114.99.10, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_32, server: 185.162.228.229, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_33, server: 190.93.244.200, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_34, server: 190.93.246.195, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_35, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 28713, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_36, server: 190.93.246.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_37, server: 141.101.115.111, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_38, server: 141.101.115.111, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_39, server: 104.16.207.183, port: 443, type: vmess, uuid: 27410ab6-c09d-4705-9f1a-00c31bbaa4bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hlz.loyou.me}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_40, server: 190.93.245.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_41, server: 190.93.246.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_42, server: 185.162.228.228, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_43, server: 162.159.160.224, port: 2086, type: vmess, uuid: f107fdf8-f715-4187-982c-7998bf04d9bf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 482ad776-f08f-4d19-a68e-ed45ecd7b998.6577617.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_44, server: 141.101.115.100, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_45, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_46, server: 203.30.188.120, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_47, server: 141.101.115.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_48, server: gzct.xqxayjr.us, port: 11258, type: ss, cipher: aes-128-gcm, password: 87OIxQkaz9}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_49, server: 141.101.114.134, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_50, server: 190.93.245.170, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_51, server: iepl.suke.wiki, port: 27703, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_52, server: download.microsoft.com.eejsq.xyz, port: 28178, type: ss, cipher: chacha20-ietf-poly1305, password: 6f62e5f4-d381-4d5a-b145-0bba0377930d}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_53, server: iepl.suke.wiki, port: 22301, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_54, server: 190.93.245.170, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_55, server: fbi.gov, port: 2086, type: vmess, uuid: 929029a5-9d88-4e2f-ee35-918fea716b77, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@heinuhome, headers: {Host: heinuhome-gcore-singapore.heinu.cf}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_56, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_57, server: fbi.gov, port: 2086, type: vmess, uuid: 929029a5-9d88-4e2f-ee35-918fea716b77, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@heinuhome, headers: {Host: heinuhome-gcore-singapore.heinu.cf}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_58, server: esw.fastal.one, port: 80, type: vmess, uuid: 8cfb6b1f-9e56-4b7f-e593-5040405c4b5f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: esw.fastal.one}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_59, server: iepl.suke.wiki, port: 22303, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_60, server: 141.101.114.111, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_61, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_62, server: iepl.suke.wiki, port: 27702, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_63, server: 172.67.157.60, port: 443, type: vmess, uuid: 8cfb6b1f-9e56-4b7f-e593-5040405c4b5f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: esw.fastal.one}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_64, server: 141.101.114.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_65, server: 198.41.203.6, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_66, server: 141.101.115.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_67, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_68, server: iepl.suke.wiki, port: 22308, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_69, server: uicdn.cf, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/1736960111/63859bc177a33/, headers: {Host: sg3-v2ray.sshkit.org}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_70, server: 190.93.245.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_71, server: iepl.suke.wiki, port: 27705, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_72, server: uicdn.cf, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/1736960111/63859b95e5be4/, headers: {Host: sg2-v2ray.sshkit.org}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_73, server: 203.30.188.188, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_74, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_75, server: iepl.suke.wiki, port: 22301, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_76, server: www.dynadot.com, port: 2086, type: vmess, uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: kz.cloudflare.quest}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_77, server: gzct.xqxayjr.us, port: 11258, type: ss, cipher: aes-128-gcm, password: 87OIxQkaz9}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_78, server: 203.30.190.190, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_79, server: 188.114.99.9, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_81, server: 203.30.191.192, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_82, server: 203.30.189.189, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_83, server: 203.30.191.192, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_84, server: 141.101.114.111, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_85, server: www.dynadot.com, port: 2086, type: vmess, uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: kz.cloudflare.quest}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_86, server: iepl.suke.wiki, port: 27707, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_87, server: 203.30.189.189, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_88, server: iepl.suke.wiki, port: 22302, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_89, server: uicdn.cf, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/1736960111/63859be1a762c/, headers: {Host: sg4-v2ray.sshkit.org}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_90, server: download.microsoft.com.eejsq.xyz, port: 12531, type: ss, cipher: chacha20-ietf-poly1305, password: 6f62e5f4-d381-4d5a-b145-0bba0377930d}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_91, server: iepl.suke.wiki, port: 27709, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_92, server: 119.36.161.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/323127100515, headers: {Host: www.42768395.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_93, server: iepl.suke.wiki, port: 27705, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_94, server: 185.162.228.228, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_95, server: 190.93.244.200, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_96, server: bp.i809.ml, port: 32087, type: trojan, password: b9c4f30f-0e95-4c23-80f8-b134414f43ec, sni: qt61.shenseven.xyz}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_97, server: 188.114.99.10, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_98, server: iepl.suke.wiki, port: 27703, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_99, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_100, server: 188.114.99.9, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_101, server: 198.41.212.123, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_102, server: iepl.suke.wiki, port: 22302, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_103, server: download.microsoft.com.eejsq.xyz, port: 23735, type: ss, cipher: chacha20-ietf-poly1305, password: 6f62e5f4-d381-4d5a-b145-0bba0377930d}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_104, server: iepl.suke.wiki, port: 22308, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_105, server: download.microsoft.com.eejsq.xyz, port: 58031, type: ss, cipher: chacha20-ietf-poly1305, password: 6f62e5f4-d381-4d5a-b145-0bba0377930d}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_106, server: download.microsoft.com.eejsq.xyz, port: 31039, type: ss, cipher: chacha20-ietf-poly1305, password: 6f62e5f4-d381-4d5a-b145-0bba0377930d}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_107, server: download.microsoft.com.eejsq.xyz, port: 28000, type: ss, cipher: chacha20-ietf-poly1305, password: 6f62e5f4-d381-4d5a-b145-0bba0377930d}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_108, server: download.microsoft.com.eejsq.xyz, port: 37382, type: ss, cipher: chacha20-ietf-poly1305, password: 6f62e5f4-d381-4d5a-b145-0bba0377930d}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_109, server: bp.i809.ml, port: 22022, type: trojan, password: b9c4f30f-0e95-4c23-80f8-b134414f43ec, sni: qt38.shenseven.xyz}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_110, server: download.microsoft.com.eejsq.xyz, port: 23201, type: ss, cipher: chacha20-ietf-poly1305, password: 6f62e5f4-d381-4d5a-b145-0bba0377930d}
+  - {name: 🇭🇰 江港BGP|NETFLIX|梦歌_111, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - YouTube梦歌|NETFLIX_1
-      - YouTube梦歌|NETFLIX_2
-      - YouTube梦歌|NETFLIX_3
-      - YouTube梦歌|NETFLIX_4
-      - YouTube梦歌|NETFLIX_5
-      - YouTube梦歌|NETFLIX_6
-      - YouTube梦歌|NETFLIX_7
-      - YouTube梦歌|NETFLIX_8
-      - YouTube梦歌|NETFLIX_9
-      - YouTube梦歌|NETFLIX_10
-      - YouTube梦歌|NETFLIX_11
-      - YouTube梦歌|NETFLIX_12
-      - YouTube梦歌|NETFLIX_13
-      - YouTube梦歌|NETFLIX_14
-      - YouTube梦歌|NETFLIX_15
-      - YouTube梦歌|NETFLIX_16
-      - YouTube梦歌|NETFLIX_17
-      - YouTube梦歌|NETFLIX_18
-      - YouTube梦歌|NETFLIX_19
-      - YouTube梦歌|NETFLIX_20
-      - YouTube梦歌|NETFLIX_21
-      - YouTube梦歌|NETFLIX_22
-      - YouTube梦歌|NETFLIX_23
-      - YouTube梦歌|NETFLIX_24
-      - YouTube梦歌|NETFLIX_25
-      - YouTube梦歌|NETFLIX_26
-      - YouTube梦歌|NETFLIX_27
-      - YouTube梦歌|NETFLIX_28
-      - YouTube梦歌|NETFLIX_29
-      - YouTube梦歌|NETFLIX_30
-      - YouTube梦歌|NETFLIX_31
-      - YouTube梦歌|NETFLIX_32
-      - YouTube梦歌|NETFLIX_33
-      - YouTube梦歌|NETFLIX_34
-      - YouTube梦歌|NETFLIX_35
-      - YouTube梦歌|NETFLIX_36
-      - YouTube梦歌|NETFLIX_37
-      - YouTube梦歌|NETFLIX_39
-      - YouTube梦歌|NETFLIX_40
-      - YouTube梦歌|NETFLIX_41
-      - YouTube梦歌|NETFLIX_42
-      - YouTube梦歌|NETFLIX_43
-      - YouTube梦歌|NETFLIX_44
-      - YouTube梦歌|NETFLIX_45
-      - YouTube梦歌|NETFLIX_46
-      - YouTube梦歌|NETFLIX_47
-      - YouTube梦歌|NETFLIX_48
-      - YouTube梦歌|NETFLIX_49
-      - YouTube梦歌|NETFLIX_50
-      - YouTube梦歌|NETFLIX_51
-      - YouTube梦歌|NETFLIX_52
-      - YouTube梦歌|NETFLIX_53
-      - YouTube梦歌|NETFLIX_54
-      - YouTube梦歌|NETFLIX_55
-      - YouTube梦歌|NETFLIX_56
-      - YouTube梦歌|NETFLIX_57
-      - YouTube梦歌|NETFLIX_58
-      - YouTube梦歌|NETFLIX_59
-      - YouTube梦歌|NETFLIX_60
-      - YouTube梦歌|NETFLIX_61
-      - YouTube梦歌|NETFLIX_62
-      - YouTube梦歌|NETFLIX_63
-      - YouTube梦歌|NETFLIX_64
-      - YouTube梦歌|NETFLIX_65
-      - YouTube梦歌|NETFLIX_66
-      - YouTube梦歌|NETFLIX_67
-      - YouTube梦歌|NETFLIX_68
-      - YouTube梦歌|NETFLIX_69
-      - YouTube梦歌|NETFLIX_70
-      - YouTube梦歌|NETFLIX_71
-      - YouTube梦歌|NETFLIX_72
-      - YouTube梦歌|NETFLIX_73
-      - YouTube梦歌|NETFLIX_74
-      - YouTube梦歌|NETFLIX_75
-      - YouTube梦歌|NETFLIX_76
-      - YouTube梦歌|NETFLIX_77
-      - YouTube梦歌|NETFLIX_78
-      - YouTube梦歌|NETFLIX_79
-      - YouTube梦歌|NETFLIX_80
-      - YouTube梦歌|NETFLIX_81
-      - YouTube梦歌|NETFLIX_82
-      - YouTube梦歌|NETFLIX_83
-      - YouTube梦歌|NETFLIX_84
-      - YouTube梦歌|NETFLIX_85
-      - YouTube梦歌|NETFLIX_86
-      - YouTube梦歌|NETFLIX_87
-      - YouTube梦歌|NETFLIX_88
-      - YouTube梦歌|NETFLIX_89
-      - YouTube梦歌|NETFLIX_90
-      - YouTube梦歌|NETFLIX_91
-      - YouTube梦歌|NETFLIX_92
-      - YouTube梦歌|NETFLIX_93
-      - YouTube梦歌|NETFLIX_94
-      - YouTube梦歌|NETFLIX_95
-      - YouTube梦歌|NETFLIX_96
-      - YouTube梦歌|NETFLIX_97
-      - YouTube梦歌|NETFLIX_98
-      - YouTube梦歌|NETFLIX_99
-      - YouTube梦歌|NETFLIX_100
-      - YouTube梦歌|NETFLIX_101
-      - YouTube梦歌|NETFLIX_102
-      - YouTube梦歌|NETFLIX_103
-      - YouTube梦歌|NETFLIX_104
-      - YouTube梦歌|NETFLIX_105
-      - YouTube梦歌|NETFLIX_106
-      - YouTube梦歌|NETFLIX_107
-      - YouTube梦歌|NETFLIX_108
-      - YouTube梦歌|NETFLIX_109
-      - YouTube梦歌|NETFLIX_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_1
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_2
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_3
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_4
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_5
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_6
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_7
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_8
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_9
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_10
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_11
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_12
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_13
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_14
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_15
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_16
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_17
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_18
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_19
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_20
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_21
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_22
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_23
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_24
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_25
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_26
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_27
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_28
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_29
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_30
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_31
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_32
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_33
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_34
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_35
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_36
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_37
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_38
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_39
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_40
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_41
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_42
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_43
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_44
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_45
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_46
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_47
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_48
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_49
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_50
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_51
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_52
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_53
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_54
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_55
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_56
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_57
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_58
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_59
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_60
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_61
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_62
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_63
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_64
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_65
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_66
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_67
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_68
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_69
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_70
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_71
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_72
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_73
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_74
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_75
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_76
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_77
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_78
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_79
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_81
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_82
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_83
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_84
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_85
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_86
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_87
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_88
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_89
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_90
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_91
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_92
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_93
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_94
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_95
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_96
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_97
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_98
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_99
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_100
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_101
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_102
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_103
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_104
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_105
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_106
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_107
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_108
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_109
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_111
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - YouTube梦歌|NETFLIX_1
-      - YouTube梦歌|NETFLIX_2
-      - YouTube梦歌|NETFLIX_3
-      - YouTube梦歌|NETFLIX_4
-      - YouTube梦歌|NETFLIX_5
-      - YouTube梦歌|NETFLIX_6
-      - YouTube梦歌|NETFLIX_7
-      - YouTube梦歌|NETFLIX_8
-      - YouTube梦歌|NETFLIX_9
-      - YouTube梦歌|NETFLIX_10
-      - YouTube梦歌|NETFLIX_11
-      - YouTube梦歌|NETFLIX_12
-      - YouTube梦歌|NETFLIX_13
-      - YouTube梦歌|NETFLIX_14
-      - YouTube梦歌|NETFLIX_15
-      - YouTube梦歌|NETFLIX_16
-      - YouTube梦歌|NETFLIX_17
-      - YouTube梦歌|NETFLIX_18
-      - YouTube梦歌|NETFLIX_19
-      - YouTube梦歌|NETFLIX_20
-      - YouTube梦歌|NETFLIX_21
-      - YouTube梦歌|NETFLIX_22
-      - YouTube梦歌|NETFLIX_23
-      - YouTube梦歌|NETFLIX_24
-      - YouTube梦歌|NETFLIX_25
-      - YouTube梦歌|NETFLIX_26
-      - YouTube梦歌|NETFLIX_27
-      - YouTube梦歌|NETFLIX_28
-      - YouTube梦歌|NETFLIX_29
-      - YouTube梦歌|NETFLIX_30
-      - YouTube梦歌|NETFLIX_31
-      - YouTube梦歌|NETFLIX_32
-      - YouTube梦歌|NETFLIX_33
-      - YouTube梦歌|NETFLIX_34
-      - YouTube梦歌|NETFLIX_35
-      - YouTube梦歌|NETFLIX_36
-      - YouTube梦歌|NETFLIX_37
-      - YouTube梦歌|NETFLIX_39
-      - YouTube梦歌|NETFLIX_40
-      - YouTube梦歌|NETFLIX_41
-      - YouTube梦歌|NETFLIX_42
-      - YouTube梦歌|NETFLIX_43
-      - YouTube梦歌|NETFLIX_44
-      - YouTube梦歌|NETFLIX_45
-      - YouTube梦歌|NETFLIX_46
-      - YouTube梦歌|NETFLIX_47
-      - YouTube梦歌|NETFLIX_48
-      - YouTube梦歌|NETFLIX_49
-      - YouTube梦歌|NETFLIX_50
-      - YouTube梦歌|NETFLIX_51
-      - YouTube梦歌|NETFLIX_52
-      - YouTube梦歌|NETFLIX_53
-      - YouTube梦歌|NETFLIX_54
-      - YouTube梦歌|NETFLIX_55
-      - YouTube梦歌|NETFLIX_56
-      - YouTube梦歌|NETFLIX_57
-      - YouTube梦歌|NETFLIX_58
-      - YouTube梦歌|NETFLIX_59
-      - YouTube梦歌|NETFLIX_60
-      - YouTube梦歌|NETFLIX_61
-      - YouTube梦歌|NETFLIX_62
-      - YouTube梦歌|NETFLIX_63
-      - YouTube梦歌|NETFLIX_64
-      - YouTube梦歌|NETFLIX_65
-      - YouTube梦歌|NETFLIX_66
-      - YouTube梦歌|NETFLIX_67
-      - YouTube梦歌|NETFLIX_68
-      - YouTube梦歌|NETFLIX_69
-      - YouTube梦歌|NETFLIX_70
-      - YouTube梦歌|NETFLIX_71
-      - YouTube梦歌|NETFLIX_72
-      - YouTube梦歌|NETFLIX_73
-      - YouTube梦歌|NETFLIX_74
-      - YouTube梦歌|NETFLIX_75
-      - YouTube梦歌|NETFLIX_76
-      - YouTube梦歌|NETFLIX_77
-      - YouTube梦歌|NETFLIX_78
-      - YouTube梦歌|NETFLIX_79
-      - YouTube梦歌|NETFLIX_80
-      - YouTube梦歌|NETFLIX_81
-      - YouTube梦歌|NETFLIX_82
-      - YouTube梦歌|NETFLIX_83
-      - YouTube梦歌|NETFLIX_84
-      - YouTube梦歌|NETFLIX_85
-      - YouTube梦歌|NETFLIX_86
-      - YouTube梦歌|NETFLIX_87
-      - YouTube梦歌|NETFLIX_88
-      - YouTube梦歌|NETFLIX_89
-      - YouTube梦歌|NETFLIX_90
-      - YouTube梦歌|NETFLIX_91
-      - YouTube梦歌|NETFLIX_92
-      - YouTube梦歌|NETFLIX_93
-      - YouTube梦歌|NETFLIX_94
-      - YouTube梦歌|NETFLIX_95
-      - YouTube梦歌|NETFLIX_96
-      - YouTube梦歌|NETFLIX_97
-      - YouTube梦歌|NETFLIX_98
-      - YouTube梦歌|NETFLIX_99
-      - YouTube梦歌|NETFLIX_100
-      - YouTube梦歌|NETFLIX_101
-      - YouTube梦歌|NETFLIX_102
-      - YouTube梦歌|NETFLIX_103
-      - YouTube梦歌|NETFLIX_104
-      - YouTube梦歌|NETFLIX_105
-      - YouTube梦歌|NETFLIX_106
-      - YouTube梦歌|NETFLIX_107
-      - YouTube梦歌|NETFLIX_108
-      - YouTube梦歌|NETFLIX_109
-      - YouTube梦歌|NETFLIX_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_1
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_2
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_3
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_4
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_5
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_6
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_7
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_8
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_9
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_10
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_11
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_12
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_13
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_14
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_15
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_16
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_17
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_18
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_19
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_20
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_21
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_22
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_23
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_24
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_25
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_26
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_27
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_28
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_29
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_30
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_31
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_32
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_33
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_34
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_35
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_36
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_37
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_38
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_39
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_40
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_41
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_42
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_43
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_44
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_45
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_46
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_47
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_48
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_49
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_50
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_51
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_52
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_53
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_54
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_55
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_56
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_57
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_58
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_59
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_60
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_61
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_62
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_63
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_64
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_65
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_66
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_67
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_68
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_69
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_70
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_71
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_72
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_73
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_74
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_75
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_76
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_77
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_78
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_79
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_81
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_82
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_83
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_84
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_85
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_86
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_87
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_88
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_89
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_90
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_91
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_92
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_93
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_94
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_95
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_96
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_97
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_98
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_99
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_100
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_101
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_102
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_103
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_104
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_105
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_106
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_107
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_108
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_109
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_111
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube梦歌|NETFLIX_1
-      - YouTube梦歌|NETFLIX_2
-      - YouTube梦歌|NETFLIX_3
-      - YouTube梦歌|NETFLIX_4
-      - YouTube梦歌|NETFLIX_5
-      - YouTube梦歌|NETFLIX_6
-      - YouTube梦歌|NETFLIX_7
-      - YouTube梦歌|NETFLIX_8
-      - YouTube梦歌|NETFLIX_9
-      - YouTube梦歌|NETFLIX_10
-      - YouTube梦歌|NETFLIX_11
-      - YouTube梦歌|NETFLIX_12
-      - YouTube梦歌|NETFLIX_13
-      - YouTube梦歌|NETFLIX_14
-      - YouTube梦歌|NETFLIX_15
-      - YouTube梦歌|NETFLIX_16
-      - YouTube梦歌|NETFLIX_17
-      - YouTube梦歌|NETFLIX_18
-      - YouTube梦歌|NETFLIX_19
-      - YouTube梦歌|NETFLIX_20
-      - YouTube梦歌|NETFLIX_21
-      - YouTube梦歌|NETFLIX_22
-      - YouTube梦歌|NETFLIX_23
-      - YouTube梦歌|NETFLIX_24
-      - YouTube梦歌|NETFLIX_25
-      - YouTube梦歌|NETFLIX_26
-      - YouTube梦歌|NETFLIX_27
-      - YouTube梦歌|NETFLIX_28
-      - YouTube梦歌|NETFLIX_29
-      - YouTube梦歌|NETFLIX_30
-      - YouTube梦歌|NETFLIX_31
-      - YouTube梦歌|NETFLIX_32
-      - YouTube梦歌|NETFLIX_33
-      - YouTube梦歌|NETFLIX_34
-      - YouTube梦歌|NETFLIX_35
-      - YouTube梦歌|NETFLIX_36
-      - YouTube梦歌|NETFLIX_37
-      - YouTube梦歌|NETFLIX_39
-      - YouTube梦歌|NETFLIX_40
-      - YouTube梦歌|NETFLIX_41
-      - YouTube梦歌|NETFLIX_42
-      - YouTube梦歌|NETFLIX_43
-      - YouTube梦歌|NETFLIX_44
-      - YouTube梦歌|NETFLIX_45
-      - YouTube梦歌|NETFLIX_46
-      - YouTube梦歌|NETFLIX_47
-      - YouTube梦歌|NETFLIX_48
-      - YouTube梦歌|NETFLIX_49
-      - YouTube梦歌|NETFLIX_50
-      - YouTube梦歌|NETFLIX_51
-      - YouTube梦歌|NETFLIX_52
-      - YouTube梦歌|NETFLIX_53
-      - YouTube梦歌|NETFLIX_54
-      - YouTube梦歌|NETFLIX_55
-      - YouTube梦歌|NETFLIX_56
-      - YouTube梦歌|NETFLIX_57
-      - YouTube梦歌|NETFLIX_58
-      - YouTube梦歌|NETFLIX_59
-      - YouTube梦歌|NETFLIX_60
-      - YouTube梦歌|NETFLIX_61
-      - YouTube梦歌|NETFLIX_62
-      - YouTube梦歌|NETFLIX_63
-      - YouTube梦歌|NETFLIX_64
-      - YouTube梦歌|NETFLIX_65
-      - YouTube梦歌|NETFLIX_66
-      - YouTube梦歌|NETFLIX_67
-      - YouTube梦歌|NETFLIX_68
-      - YouTube梦歌|NETFLIX_69
-      - YouTube梦歌|NETFLIX_70
-      - YouTube梦歌|NETFLIX_71
-      - YouTube梦歌|NETFLIX_72
-      - YouTube梦歌|NETFLIX_73
-      - YouTube梦歌|NETFLIX_74
-      - YouTube梦歌|NETFLIX_75
-      - YouTube梦歌|NETFLIX_76
-      - YouTube梦歌|NETFLIX_77
-      - YouTube梦歌|NETFLIX_78
-      - YouTube梦歌|NETFLIX_79
-      - YouTube梦歌|NETFLIX_80
-      - YouTube梦歌|NETFLIX_81
-      - YouTube梦歌|NETFLIX_82
-      - YouTube梦歌|NETFLIX_83
-      - YouTube梦歌|NETFLIX_84
-      - YouTube梦歌|NETFLIX_85
-      - YouTube梦歌|NETFLIX_86
-      - YouTube梦歌|NETFLIX_87
-      - YouTube梦歌|NETFLIX_88
-      - YouTube梦歌|NETFLIX_89
-      - YouTube梦歌|NETFLIX_90
-      - YouTube梦歌|NETFLIX_91
-      - YouTube梦歌|NETFLIX_92
-      - YouTube梦歌|NETFLIX_93
-      - YouTube梦歌|NETFLIX_94
-      - YouTube梦歌|NETFLIX_95
-      - YouTube梦歌|NETFLIX_96
-      - YouTube梦歌|NETFLIX_97
-      - YouTube梦歌|NETFLIX_98
-      - YouTube梦歌|NETFLIX_99
-      - YouTube梦歌|NETFLIX_100
-      - YouTube梦歌|NETFLIX_101
-      - YouTube梦歌|NETFLIX_102
-      - YouTube梦歌|NETFLIX_103
-      - YouTube梦歌|NETFLIX_104
-      - YouTube梦歌|NETFLIX_105
-      - YouTube梦歌|NETFLIX_106
-      - YouTube梦歌|NETFLIX_107
-      - YouTube梦歌|NETFLIX_108
-      - YouTube梦歌|NETFLIX_109
-      - YouTube梦歌|NETFLIX_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_1
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_2
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_3
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_4
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_5
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_6
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_7
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_8
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_9
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_10
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_11
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_12
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_13
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_14
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_15
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_16
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_17
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_18
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_19
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_20
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_21
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_22
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_23
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_24
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_25
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_26
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_27
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_28
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_29
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_30
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_31
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_32
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_33
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_34
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_35
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_36
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_37
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_38
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_39
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_40
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_41
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_42
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_43
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_44
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_45
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_46
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_47
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_48
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_49
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_50
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_51
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_52
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_53
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_54
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_55
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_56
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_57
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_58
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_59
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_60
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_61
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_62
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_63
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_64
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_65
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_66
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_67
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_68
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_69
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_70
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_71
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_72
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_73
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_74
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_75
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_76
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_77
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_78
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_79
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_81
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_82
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_83
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_84
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_85
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_86
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_87
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_88
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_89
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_90
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_91
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_92
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_93
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_94
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_95
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_96
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_97
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_98
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_99
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_100
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_101
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_102
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_103
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_104
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_105
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_106
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_107
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_108
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_109
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_111
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube梦歌|NETFLIX_1
-      - YouTube梦歌|NETFLIX_2
-      - YouTube梦歌|NETFLIX_3
-      - YouTube梦歌|NETFLIX_4
-      - YouTube梦歌|NETFLIX_5
-      - YouTube梦歌|NETFLIX_6
-      - YouTube梦歌|NETFLIX_7
-      - YouTube梦歌|NETFLIX_8
-      - YouTube梦歌|NETFLIX_9
-      - YouTube梦歌|NETFLIX_10
-      - YouTube梦歌|NETFLIX_11
-      - YouTube梦歌|NETFLIX_12
-      - YouTube梦歌|NETFLIX_13
-      - YouTube梦歌|NETFLIX_14
-      - YouTube梦歌|NETFLIX_15
-      - YouTube梦歌|NETFLIX_16
-      - YouTube梦歌|NETFLIX_17
-      - YouTube梦歌|NETFLIX_18
-      - YouTube梦歌|NETFLIX_19
-      - YouTube梦歌|NETFLIX_20
-      - YouTube梦歌|NETFLIX_21
-      - YouTube梦歌|NETFLIX_22
-      - YouTube梦歌|NETFLIX_23
-      - YouTube梦歌|NETFLIX_24
-      - YouTube梦歌|NETFLIX_25
-      - YouTube梦歌|NETFLIX_26
-      - YouTube梦歌|NETFLIX_27
-      - YouTube梦歌|NETFLIX_28
-      - YouTube梦歌|NETFLIX_29
-      - YouTube梦歌|NETFLIX_30
-      - YouTube梦歌|NETFLIX_31
-      - YouTube梦歌|NETFLIX_32
-      - YouTube梦歌|NETFLIX_33
-      - YouTube梦歌|NETFLIX_34
-      - YouTube梦歌|NETFLIX_35
-      - YouTube梦歌|NETFLIX_36
-      - YouTube梦歌|NETFLIX_37
-      - YouTube梦歌|NETFLIX_39
-      - YouTube梦歌|NETFLIX_40
-      - YouTube梦歌|NETFLIX_41
-      - YouTube梦歌|NETFLIX_42
-      - YouTube梦歌|NETFLIX_43
-      - YouTube梦歌|NETFLIX_44
-      - YouTube梦歌|NETFLIX_45
-      - YouTube梦歌|NETFLIX_46
-      - YouTube梦歌|NETFLIX_47
-      - YouTube梦歌|NETFLIX_48
-      - YouTube梦歌|NETFLIX_49
-      - YouTube梦歌|NETFLIX_50
-      - YouTube梦歌|NETFLIX_51
-      - YouTube梦歌|NETFLIX_52
-      - YouTube梦歌|NETFLIX_53
-      - YouTube梦歌|NETFLIX_54
-      - YouTube梦歌|NETFLIX_55
-      - YouTube梦歌|NETFLIX_56
-      - YouTube梦歌|NETFLIX_57
-      - YouTube梦歌|NETFLIX_58
-      - YouTube梦歌|NETFLIX_59
-      - YouTube梦歌|NETFLIX_60
-      - YouTube梦歌|NETFLIX_61
-      - YouTube梦歌|NETFLIX_62
-      - YouTube梦歌|NETFLIX_63
-      - YouTube梦歌|NETFLIX_64
-      - YouTube梦歌|NETFLIX_65
-      - YouTube梦歌|NETFLIX_66
-      - YouTube梦歌|NETFLIX_67
-      - YouTube梦歌|NETFLIX_68
-      - YouTube梦歌|NETFLIX_69
-      - YouTube梦歌|NETFLIX_70
-      - YouTube梦歌|NETFLIX_71
-      - YouTube梦歌|NETFLIX_72
-      - YouTube梦歌|NETFLIX_73
-      - YouTube梦歌|NETFLIX_74
-      - YouTube梦歌|NETFLIX_75
-      - YouTube梦歌|NETFLIX_76
-      - YouTube梦歌|NETFLIX_77
-      - YouTube梦歌|NETFLIX_78
-      - YouTube梦歌|NETFLIX_79
-      - YouTube梦歌|NETFLIX_80
-      - YouTube梦歌|NETFLIX_81
-      - YouTube梦歌|NETFLIX_82
-      - YouTube梦歌|NETFLIX_83
-      - YouTube梦歌|NETFLIX_84
-      - YouTube梦歌|NETFLIX_85
-      - YouTube梦歌|NETFLIX_86
-      - YouTube梦歌|NETFLIX_87
-      - YouTube梦歌|NETFLIX_88
-      - YouTube梦歌|NETFLIX_89
-      - YouTube梦歌|NETFLIX_90
-      - YouTube梦歌|NETFLIX_91
-      - YouTube梦歌|NETFLIX_92
-      - YouTube梦歌|NETFLIX_93
-      - YouTube梦歌|NETFLIX_94
-      - YouTube梦歌|NETFLIX_95
-      - YouTube梦歌|NETFLIX_96
-      - YouTube梦歌|NETFLIX_97
-      - YouTube梦歌|NETFLIX_98
-      - YouTube梦歌|NETFLIX_99
-      - YouTube梦歌|NETFLIX_100
-      - YouTube梦歌|NETFLIX_101
-      - YouTube梦歌|NETFLIX_102
-      - YouTube梦歌|NETFLIX_103
-      - YouTube梦歌|NETFLIX_104
-      - YouTube梦歌|NETFLIX_105
-      - YouTube梦歌|NETFLIX_106
-      - YouTube梦歌|NETFLIX_107
-      - YouTube梦歌|NETFLIX_108
-      - YouTube梦歌|NETFLIX_109
-      - YouTube梦歌|NETFLIX_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_1
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_2
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_3
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_4
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_5
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_6
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_7
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_8
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_9
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_10
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_11
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_12
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_13
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_14
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_15
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_16
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_17
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_18
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_19
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_20
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_21
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_22
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_23
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_24
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_25
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_26
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_27
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_28
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_29
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_30
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_31
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_32
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_33
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_34
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_35
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_36
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_37
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_38
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_39
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_40
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_41
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_42
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_43
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_44
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_45
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_46
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_47
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_48
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_49
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_50
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_51
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_52
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_53
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_54
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_55
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_56
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_57
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_58
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_59
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_60
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_61
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_62
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_63
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_64
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_65
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_66
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_67
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_68
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_69
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_70
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_71
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_72
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_73
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_74
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_75
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_76
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_77
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_78
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_79
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_81
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_82
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_83
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_84
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_85
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_86
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_87
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_88
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_89
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_90
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_91
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_92
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_93
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_94
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_95
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_96
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_97
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_98
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_99
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_100
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_101
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_102
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_103
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_104
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_105
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_106
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_107
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_108
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_109
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_111
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - YouTube梦歌|NETFLIX_1
-      - YouTube梦歌|NETFLIX_2
-      - YouTube梦歌|NETFLIX_3
-      - YouTube梦歌|NETFLIX_4
-      - YouTube梦歌|NETFLIX_5
-      - YouTube梦歌|NETFLIX_6
-      - YouTube梦歌|NETFLIX_7
-      - YouTube梦歌|NETFLIX_8
-      - YouTube梦歌|NETFLIX_9
-      - YouTube梦歌|NETFLIX_10
-      - YouTube梦歌|NETFLIX_11
-      - YouTube梦歌|NETFLIX_12
-      - YouTube梦歌|NETFLIX_13
-      - YouTube梦歌|NETFLIX_14
-      - YouTube梦歌|NETFLIX_15
-      - YouTube梦歌|NETFLIX_16
-      - YouTube梦歌|NETFLIX_17
-      - YouTube梦歌|NETFLIX_18
-      - YouTube梦歌|NETFLIX_19
-      - YouTube梦歌|NETFLIX_20
-      - YouTube梦歌|NETFLIX_21
-      - YouTube梦歌|NETFLIX_22
-      - YouTube梦歌|NETFLIX_23
-      - YouTube梦歌|NETFLIX_24
-      - YouTube梦歌|NETFLIX_25
-      - YouTube梦歌|NETFLIX_26
-      - YouTube梦歌|NETFLIX_27
-      - YouTube梦歌|NETFLIX_28
-      - YouTube梦歌|NETFLIX_29
-      - YouTube梦歌|NETFLIX_30
-      - YouTube梦歌|NETFLIX_31
-      - YouTube梦歌|NETFLIX_32
-      - YouTube梦歌|NETFLIX_33
-      - YouTube梦歌|NETFLIX_34
-      - YouTube梦歌|NETFLIX_35
-      - YouTube梦歌|NETFLIX_36
-      - YouTube梦歌|NETFLIX_37
-      - YouTube梦歌|NETFLIX_39
-      - YouTube梦歌|NETFLIX_40
-      - YouTube梦歌|NETFLIX_41
-      - YouTube梦歌|NETFLIX_42
-      - YouTube梦歌|NETFLIX_43
-      - YouTube梦歌|NETFLIX_44
-      - YouTube梦歌|NETFLIX_45
-      - YouTube梦歌|NETFLIX_46
-      - YouTube梦歌|NETFLIX_47
-      - YouTube梦歌|NETFLIX_48
-      - YouTube梦歌|NETFLIX_49
-      - YouTube梦歌|NETFLIX_50
-      - YouTube梦歌|NETFLIX_51
-      - YouTube梦歌|NETFLIX_52
-      - YouTube梦歌|NETFLIX_53
-      - YouTube梦歌|NETFLIX_54
-      - YouTube梦歌|NETFLIX_55
-      - YouTube梦歌|NETFLIX_56
-      - YouTube梦歌|NETFLIX_57
-      - YouTube梦歌|NETFLIX_58
-      - YouTube梦歌|NETFLIX_59
-      - YouTube梦歌|NETFLIX_60
-      - YouTube梦歌|NETFLIX_61
-      - YouTube梦歌|NETFLIX_62
-      - YouTube梦歌|NETFLIX_63
-      - YouTube梦歌|NETFLIX_64
-      - YouTube梦歌|NETFLIX_65
-      - YouTube梦歌|NETFLIX_66
-      - YouTube梦歌|NETFLIX_67
-      - YouTube梦歌|NETFLIX_68
-      - YouTube梦歌|NETFLIX_69
-      - YouTube梦歌|NETFLIX_70
-      - YouTube梦歌|NETFLIX_71
-      - YouTube梦歌|NETFLIX_72
-      - YouTube梦歌|NETFLIX_73
-      - YouTube梦歌|NETFLIX_74
-      - YouTube梦歌|NETFLIX_75
-      - YouTube梦歌|NETFLIX_76
-      - YouTube梦歌|NETFLIX_77
-      - YouTube梦歌|NETFLIX_78
-      - YouTube梦歌|NETFLIX_79
-      - YouTube梦歌|NETFLIX_80
-      - YouTube梦歌|NETFLIX_81
-      - YouTube梦歌|NETFLIX_82
-      - YouTube梦歌|NETFLIX_83
-      - YouTube梦歌|NETFLIX_84
-      - YouTube梦歌|NETFLIX_85
-      - YouTube梦歌|NETFLIX_86
-      - YouTube梦歌|NETFLIX_87
-      - YouTube梦歌|NETFLIX_88
-      - YouTube梦歌|NETFLIX_89
-      - YouTube梦歌|NETFLIX_90
-      - YouTube梦歌|NETFLIX_91
-      - YouTube梦歌|NETFLIX_92
-      - YouTube梦歌|NETFLIX_93
-      - YouTube梦歌|NETFLIX_94
-      - YouTube梦歌|NETFLIX_95
-      - YouTube梦歌|NETFLIX_96
-      - YouTube梦歌|NETFLIX_97
-      - YouTube梦歌|NETFLIX_98
-      - YouTube梦歌|NETFLIX_99
-      - YouTube梦歌|NETFLIX_100
-      - YouTube梦歌|NETFLIX_101
-      - YouTube梦歌|NETFLIX_102
-      - YouTube梦歌|NETFLIX_103
-      - YouTube梦歌|NETFLIX_104
-      - YouTube梦歌|NETFLIX_105
-      - YouTube梦歌|NETFLIX_106
-      - YouTube梦歌|NETFLIX_107
-      - YouTube梦歌|NETFLIX_108
-      - YouTube梦歌|NETFLIX_109
-      - YouTube梦歌|NETFLIX_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_1
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_2
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_3
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_4
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_5
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_6
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_7
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_8
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_9
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_10
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_11
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_12
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_13
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_14
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_15
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_16
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_17
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_18
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_19
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_20
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_21
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_22
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_23
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_24
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_25
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_26
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_27
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_28
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_29
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_30
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_31
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_32
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_33
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_34
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_35
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_36
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_37
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_38
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_39
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_40
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_41
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_42
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_43
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_44
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_45
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_46
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_47
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_48
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_49
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_50
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_51
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_52
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_53
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_54
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_55
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_56
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_57
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_58
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_59
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_60
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_61
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_62
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_63
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_64
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_65
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_66
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_67
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_68
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_69
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_70
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_71
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_72
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_73
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_74
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_75
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_76
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_77
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_78
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_79
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_81
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_82
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_83
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_84
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_85
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_86
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_87
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_88
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_89
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_90
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_91
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_92
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_93
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_94
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_95
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_96
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_97
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_98
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_99
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_100
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_101
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_102
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_103
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_104
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_105
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_106
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_107
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_108
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_109
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_111
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube梦歌|NETFLIX_1
-      - YouTube梦歌|NETFLIX_2
-      - YouTube梦歌|NETFLIX_3
-      - YouTube梦歌|NETFLIX_4
-      - YouTube梦歌|NETFLIX_5
-      - YouTube梦歌|NETFLIX_6
-      - YouTube梦歌|NETFLIX_7
-      - YouTube梦歌|NETFLIX_8
-      - YouTube梦歌|NETFLIX_9
-      - YouTube梦歌|NETFLIX_10
-      - YouTube梦歌|NETFLIX_11
-      - YouTube梦歌|NETFLIX_12
-      - YouTube梦歌|NETFLIX_13
-      - YouTube梦歌|NETFLIX_14
-      - YouTube梦歌|NETFLIX_15
-      - YouTube梦歌|NETFLIX_16
-      - YouTube梦歌|NETFLIX_17
-      - YouTube梦歌|NETFLIX_18
-      - YouTube梦歌|NETFLIX_19
-      - YouTube梦歌|NETFLIX_20
-      - YouTube梦歌|NETFLIX_21
-      - YouTube梦歌|NETFLIX_22
-      - YouTube梦歌|NETFLIX_23
-      - YouTube梦歌|NETFLIX_24
-      - YouTube梦歌|NETFLIX_25
-      - YouTube梦歌|NETFLIX_26
-      - YouTube梦歌|NETFLIX_27
-      - YouTube梦歌|NETFLIX_28
-      - YouTube梦歌|NETFLIX_29
-      - YouTube梦歌|NETFLIX_30
-      - YouTube梦歌|NETFLIX_31
-      - YouTube梦歌|NETFLIX_32
-      - YouTube梦歌|NETFLIX_33
-      - YouTube梦歌|NETFLIX_34
-      - YouTube梦歌|NETFLIX_35
-      - YouTube梦歌|NETFLIX_36
-      - YouTube梦歌|NETFLIX_37
-      - YouTube梦歌|NETFLIX_39
-      - YouTube梦歌|NETFLIX_40
-      - YouTube梦歌|NETFLIX_41
-      - YouTube梦歌|NETFLIX_42
-      - YouTube梦歌|NETFLIX_43
-      - YouTube梦歌|NETFLIX_44
-      - YouTube梦歌|NETFLIX_45
-      - YouTube梦歌|NETFLIX_46
-      - YouTube梦歌|NETFLIX_47
-      - YouTube梦歌|NETFLIX_48
-      - YouTube梦歌|NETFLIX_49
-      - YouTube梦歌|NETFLIX_50
-      - YouTube梦歌|NETFLIX_51
-      - YouTube梦歌|NETFLIX_52
-      - YouTube梦歌|NETFLIX_53
-      - YouTube梦歌|NETFLIX_54
-      - YouTube梦歌|NETFLIX_55
-      - YouTube梦歌|NETFLIX_56
-      - YouTube梦歌|NETFLIX_57
-      - YouTube梦歌|NETFLIX_58
-      - YouTube梦歌|NETFLIX_59
-      - YouTube梦歌|NETFLIX_60
-      - YouTube梦歌|NETFLIX_61
-      - YouTube梦歌|NETFLIX_62
-      - YouTube梦歌|NETFLIX_63
-      - YouTube梦歌|NETFLIX_64
-      - YouTube梦歌|NETFLIX_65
-      - YouTube梦歌|NETFLIX_66
-      - YouTube梦歌|NETFLIX_67
-      - YouTube梦歌|NETFLIX_68
-      - YouTube梦歌|NETFLIX_69
-      - YouTube梦歌|NETFLIX_70
-      - YouTube梦歌|NETFLIX_71
-      - YouTube梦歌|NETFLIX_72
-      - YouTube梦歌|NETFLIX_73
-      - YouTube梦歌|NETFLIX_74
-      - YouTube梦歌|NETFLIX_75
-      - YouTube梦歌|NETFLIX_76
-      - YouTube梦歌|NETFLIX_77
-      - YouTube梦歌|NETFLIX_78
-      - YouTube梦歌|NETFLIX_79
-      - YouTube梦歌|NETFLIX_80
-      - YouTube梦歌|NETFLIX_81
-      - YouTube梦歌|NETFLIX_82
-      - YouTube梦歌|NETFLIX_83
-      - YouTube梦歌|NETFLIX_84
-      - YouTube梦歌|NETFLIX_85
-      - YouTube梦歌|NETFLIX_86
-      - YouTube梦歌|NETFLIX_87
-      - YouTube梦歌|NETFLIX_88
-      - YouTube梦歌|NETFLIX_89
-      - YouTube梦歌|NETFLIX_90
-      - YouTube梦歌|NETFLIX_91
-      - YouTube梦歌|NETFLIX_92
-      - YouTube梦歌|NETFLIX_93
-      - YouTube梦歌|NETFLIX_94
-      - YouTube梦歌|NETFLIX_95
-      - YouTube梦歌|NETFLIX_96
-      - YouTube梦歌|NETFLIX_97
-      - YouTube梦歌|NETFLIX_98
-      - YouTube梦歌|NETFLIX_99
-      - YouTube梦歌|NETFLIX_100
-      - YouTube梦歌|NETFLIX_101
-      - YouTube梦歌|NETFLIX_102
-      - YouTube梦歌|NETFLIX_103
-      - YouTube梦歌|NETFLIX_104
-      - YouTube梦歌|NETFLIX_105
-      - YouTube梦歌|NETFLIX_106
-      - YouTube梦歌|NETFLIX_107
-      - YouTube梦歌|NETFLIX_108
-      - YouTube梦歌|NETFLIX_109
-      - YouTube梦歌|NETFLIX_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_1
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_2
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_3
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_4
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_5
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_6
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_7
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_8
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_9
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_10
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_11
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_12
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_13
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_14
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_15
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_16
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_17
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_18
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_19
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_20
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_21
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_22
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_23
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_24
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_25
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_26
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_27
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_28
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_29
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_30
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_31
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_32
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_33
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_34
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_35
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_36
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_37
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_38
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_39
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_40
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_41
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_42
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_43
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_44
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_45
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_46
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_47
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_48
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_49
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_50
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_51
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_52
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_53
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_54
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_55
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_56
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_57
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_58
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_59
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_60
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_61
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_62
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_63
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_64
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_65
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_66
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_67
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_68
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_69
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_70
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_71
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_72
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_73
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_74
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_75
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_76
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_77
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_78
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_79
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_81
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_82
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_83
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_84
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_85
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_86
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_87
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_88
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_89
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_90
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_91
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_92
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_93
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_94
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_95
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_96
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_97
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_98
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_99
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_100
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_101
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_102
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_103
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_104
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_105
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_106
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_107
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_108
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_109
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_111
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube梦歌|NETFLIX_1
-      - YouTube梦歌|NETFLIX_2
-      - YouTube梦歌|NETFLIX_3
-      - YouTube梦歌|NETFLIX_4
-      - YouTube梦歌|NETFLIX_5
-      - YouTube梦歌|NETFLIX_6
-      - YouTube梦歌|NETFLIX_7
-      - YouTube梦歌|NETFLIX_8
-      - YouTube梦歌|NETFLIX_9
-      - YouTube梦歌|NETFLIX_10
-      - YouTube梦歌|NETFLIX_11
-      - YouTube梦歌|NETFLIX_12
-      - YouTube梦歌|NETFLIX_13
-      - YouTube梦歌|NETFLIX_14
-      - YouTube梦歌|NETFLIX_15
-      - YouTube梦歌|NETFLIX_16
-      - YouTube梦歌|NETFLIX_17
-      - YouTube梦歌|NETFLIX_18
-      - YouTube梦歌|NETFLIX_19
-      - YouTube梦歌|NETFLIX_20
-      - YouTube梦歌|NETFLIX_21
-      - YouTube梦歌|NETFLIX_22
-      - YouTube梦歌|NETFLIX_23
-      - YouTube梦歌|NETFLIX_24
-      - YouTube梦歌|NETFLIX_25
-      - YouTube梦歌|NETFLIX_26
-      - YouTube梦歌|NETFLIX_27
-      - YouTube梦歌|NETFLIX_28
-      - YouTube梦歌|NETFLIX_29
-      - YouTube梦歌|NETFLIX_30
-      - YouTube梦歌|NETFLIX_31
-      - YouTube梦歌|NETFLIX_32
-      - YouTube梦歌|NETFLIX_33
-      - YouTube梦歌|NETFLIX_34
-      - YouTube梦歌|NETFLIX_35
-      - YouTube梦歌|NETFLIX_36
-      - YouTube梦歌|NETFLIX_37
-      - YouTube梦歌|NETFLIX_39
-      - YouTube梦歌|NETFLIX_40
-      - YouTube梦歌|NETFLIX_41
-      - YouTube梦歌|NETFLIX_42
-      - YouTube梦歌|NETFLIX_43
-      - YouTube梦歌|NETFLIX_44
-      - YouTube梦歌|NETFLIX_45
-      - YouTube梦歌|NETFLIX_46
-      - YouTube梦歌|NETFLIX_47
-      - YouTube梦歌|NETFLIX_48
-      - YouTube梦歌|NETFLIX_49
-      - YouTube梦歌|NETFLIX_50
-      - YouTube梦歌|NETFLIX_51
-      - YouTube梦歌|NETFLIX_52
-      - YouTube梦歌|NETFLIX_53
-      - YouTube梦歌|NETFLIX_54
-      - YouTube梦歌|NETFLIX_55
-      - YouTube梦歌|NETFLIX_56
-      - YouTube梦歌|NETFLIX_57
-      - YouTube梦歌|NETFLIX_58
-      - YouTube梦歌|NETFLIX_59
-      - YouTube梦歌|NETFLIX_60
-      - YouTube梦歌|NETFLIX_61
-      - YouTube梦歌|NETFLIX_62
-      - YouTube梦歌|NETFLIX_63
-      - YouTube梦歌|NETFLIX_64
-      - YouTube梦歌|NETFLIX_65
-      - YouTube梦歌|NETFLIX_66
-      - YouTube梦歌|NETFLIX_67
-      - YouTube梦歌|NETFLIX_68
-      - YouTube梦歌|NETFLIX_69
-      - YouTube梦歌|NETFLIX_70
-      - YouTube梦歌|NETFLIX_71
-      - YouTube梦歌|NETFLIX_72
-      - YouTube梦歌|NETFLIX_73
-      - YouTube梦歌|NETFLIX_74
-      - YouTube梦歌|NETFLIX_75
-      - YouTube梦歌|NETFLIX_76
-      - YouTube梦歌|NETFLIX_77
-      - YouTube梦歌|NETFLIX_78
-      - YouTube梦歌|NETFLIX_79
-      - YouTube梦歌|NETFLIX_80
-      - YouTube梦歌|NETFLIX_81
-      - YouTube梦歌|NETFLIX_82
-      - YouTube梦歌|NETFLIX_83
-      - YouTube梦歌|NETFLIX_84
-      - YouTube梦歌|NETFLIX_85
-      - YouTube梦歌|NETFLIX_86
-      - YouTube梦歌|NETFLIX_87
-      - YouTube梦歌|NETFLIX_88
-      - YouTube梦歌|NETFLIX_89
-      - YouTube梦歌|NETFLIX_90
-      - YouTube梦歌|NETFLIX_91
-      - YouTube梦歌|NETFLIX_92
-      - YouTube梦歌|NETFLIX_93
-      - YouTube梦歌|NETFLIX_94
-      - YouTube梦歌|NETFLIX_95
-      - YouTube梦歌|NETFLIX_96
-      - YouTube梦歌|NETFLIX_97
-      - YouTube梦歌|NETFLIX_98
-      - YouTube梦歌|NETFLIX_99
-      - YouTube梦歌|NETFLIX_100
-      - YouTube梦歌|NETFLIX_101
-      - YouTube梦歌|NETFLIX_102
-      - YouTube梦歌|NETFLIX_103
-      - YouTube梦歌|NETFLIX_104
-      - YouTube梦歌|NETFLIX_105
-      - YouTube梦歌|NETFLIX_106
-      - YouTube梦歌|NETFLIX_107
-      - YouTube梦歌|NETFLIX_108
-      - YouTube梦歌|NETFLIX_109
-      - YouTube梦歌|NETFLIX_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_1
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_2
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_3
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_4
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_5
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_6
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_7
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_8
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_9
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_10
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_11
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_12
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_13
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_14
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_15
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_16
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_17
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_18
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_19
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_20
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_21
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_22
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_23
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_24
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_25
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_26
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_27
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_28
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_29
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_30
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_31
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_32
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_33
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_34
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_35
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_36
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_37
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_38
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_39
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_40
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_41
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_42
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_43
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_44
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_45
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_46
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_47
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_48
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_49
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_50
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_51
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_52
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_53
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_54
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_55
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_56
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_57
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_58
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_59
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_60
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_61
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_62
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_63
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_64
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_65
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_66
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_67
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_68
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_69
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_70
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_71
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_72
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_73
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_74
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_75
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_76
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_77
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_78
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_79
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_81
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_82
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_83
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_84
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_85
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_86
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_87
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_88
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_89
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_90
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_91
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_92
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_93
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_94
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_95
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_96
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_97
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_98
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_99
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_100
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_101
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_102
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_103
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_104
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_105
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_106
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_107
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_108
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_109
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_111
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -938,115 +946,116 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube梦歌|NETFLIX_1
-      - YouTube梦歌|NETFLIX_2
-      - YouTube梦歌|NETFLIX_3
-      - YouTube梦歌|NETFLIX_4
-      - YouTube梦歌|NETFLIX_5
-      - YouTube梦歌|NETFLIX_6
-      - YouTube梦歌|NETFLIX_7
-      - YouTube梦歌|NETFLIX_8
-      - YouTube梦歌|NETFLIX_9
-      - YouTube梦歌|NETFLIX_10
-      - YouTube梦歌|NETFLIX_11
-      - YouTube梦歌|NETFLIX_12
-      - YouTube梦歌|NETFLIX_13
-      - YouTube梦歌|NETFLIX_14
-      - YouTube梦歌|NETFLIX_15
-      - YouTube梦歌|NETFLIX_16
-      - YouTube梦歌|NETFLIX_17
-      - YouTube梦歌|NETFLIX_18
-      - YouTube梦歌|NETFLIX_19
-      - YouTube梦歌|NETFLIX_20
-      - YouTube梦歌|NETFLIX_21
-      - YouTube梦歌|NETFLIX_22
-      - YouTube梦歌|NETFLIX_23
-      - YouTube梦歌|NETFLIX_24
-      - YouTube梦歌|NETFLIX_25
-      - YouTube梦歌|NETFLIX_26
-      - YouTube梦歌|NETFLIX_27
-      - YouTube梦歌|NETFLIX_28
-      - YouTube梦歌|NETFLIX_29
-      - YouTube梦歌|NETFLIX_30
-      - YouTube梦歌|NETFLIX_31
-      - YouTube梦歌|NETFLIX_32
-      - YouTube梦歌|NETFLIX_33
-      - YouTube梦歌|NETFLIX_34
-      - YouTube梦歌|NETFLIX_35
-      - YouTube梦歌|NETFLIX_36
-      - YouTube梦歌|NETFLIX_37
-      - YouTube梦歌|NETFLIX_39
-      - YouTube梦歌|NETFLIX_40
-      - YouTube梦歌|NETFLIX_41
-      - YouTube梦歌|NETFLIX_42
-      - YouTube梦歌|NETFLIX_43
-      - YouTube梦歌|NETFLIX_44
-      - YouTube梦歌|NETFLIX_45
-      - YouTube梦歌|NETFLIX_46
-      - YouTube梦歌|NETFLIX_47
-      - YouTube梦歌|NETFLIX_48
-      - YouTube梦歌|NETFLIX_49
-      - YouTube梦歌|NETFLIX_50
-      - YouTube梦歌|NETFLIX_51
-      - YouTube梦歌|NETFLIX_52
-      - YouTube梦歌|NETFLIX_53
-      - YouTube梦歌|NETFLIX_54
-      - YouTube梦歌|NETFLIX_55
-      - YouTube梦歌|NETFLIX_56
-      - YouTube梦歌|NETFLIX_57
-      - YouTube梦歌|NETFLIX_58
-      - YouTube梦歌|NETFLIX_59
-      - YouTube梦歌|NETFLIX_60
-      - YouTube梦歌|NETFLIX_61
-      - YouTube梦歌|NETFLIX_62
-      - YouTube梦歌|NETFLIX_63
-      - YouTube梦歌|NETFLIX_64
-      - YouTube梦歌|NETFLIX_65
-      - YouTube梦歌|NETFLIX_66
-      - YouTube梦歌|NETFLIX_67
-      - YouTube梦歌|NETFLIX_68
-      - YouTube梦歌|NETFLIX_69
-      - YouTube梦歌|NETFLIX_70
-      - YouTube梦歌|NETFLIX_71
-      - YouTube梦歌|NETFLIX_72
-      - YouTube梦歌|NETFLIX_73
-      - YouTube梦歌|NETFLIX_74
-      - YouTube梦歌|NETFLIX_75
-      - YouTube梦歌|NETFLIX_76
-      - YouTube梦歌|NETFLIX_77
-      - YouTube梦歌|NETFLIX_78
-      - YouTube梦歌|NETFLIX_79
-      - YouTube梦歌|NETFLIX_80
-      - YouTube梦歌|NETFLIX_81
-      - YouTube梦歌|NETFLIX_82
-      - YouTube梦歌|NETFLIX_83
-      - YouTube梦歌|NETFLIX_84
-      - YouTube梦歌|NETFLIX_85
-      - YouTube梦歌|NETFLIX_86
-      - YouTube梦歌|NETFLIX_87
-      - YouTube梦歌|NETFLIX_88
-      - YouTube梦歌|NETFLIX_89
-      - YouTube梦歌|NETFLIX_90
-      - YouTube梦歌|NETFLIX_91
-      - YouTube梦歌|NETFLIX_92
-      - YouTube梦歌|NETFLIX_93
-      - YouTube梦歌|NETFLIX_94
-      - YouTube梦歌|NETFLIX_95
-      - YouTube梦歌|NETFLIX_96
-      - YouTube梦歌|NETFLIX_97
-      - YouTube梦歌|NETFLIX_98
-      - YouTube梦歌|NETFLIX_99
-      - YouTube梦歌|NETFLIX_100
-      - YouTube梦歌|NETFLIX_101
-      - YouTube梦歌|NETFLIX_102
-      - YouTube梦歌|NETFLIX_103
-      - YouTube梦歌|NETFLIX_104
-      - YouTube梦歌|NETFLIX_105
-      - YouTube梦歌|NETFLIX_106
-      - YouTube梦歌|NETFLIX_107
-      - YouTube梦歌|NETFLIX_108
-      - YouTube梦歌|NETFLIX_109
-      - YouTube梦歌|NETFLIX_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_1
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_2
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_3
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_4
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_5
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_6
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_7
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_8
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_9
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_10
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_11
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_12
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_13
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_14
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_15
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_16
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_17
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_18
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_19
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_20
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_21
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_22
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_23
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_24
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_25
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_26
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_27
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_28
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_29
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_30
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_31
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_32
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_33
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_34
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_35
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_36
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_37
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_38
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_39
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_40
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_41
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_42
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_43
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_44
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_45
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_46
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_47
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_48
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_49
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_50
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_51
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_52
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_53
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_54
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_55
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_56
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_57
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_58
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_59
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_60
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_61
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_62
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_63
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_64
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_65
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_66
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_67
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_68
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_69
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_70
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_71
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_72
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_73
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_74
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_75
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_76
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_77
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_78
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_79
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_81
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_82
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_83
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_84
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_85
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_86
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_87
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_88
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_89
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_90
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_91
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_92
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_93
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_94
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_95
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_96
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_97
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_98
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_99
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_100
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_101
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_102
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_103
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_104
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_105
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_106
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_107
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_108
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_109
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_110
+      - 🇭🇰 江港BGP|NETFLIX|梦歌_111
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2927,10 +2936,13 @@ rules:
  - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,go.com,🌍 国外媒体
  - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
+ - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
+ - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
  - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
  - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
+ - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
  - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
  - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
  - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -3791,6 +3803,7 @@ rules:
  - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyutv.com,🎯 全球直连
  - DOMAIN-SUFFIX,epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,epicgames.dev,🎯 全球直连
  - DOMAIN-SUFFIX,helpshift.com,🎯 全球直连
  - DOMAIN-SUFFIX,paragon.com,🎯 全球直连
  - DOMAIN-SUFFIX,unrealengine.com,🎯 全球直连
