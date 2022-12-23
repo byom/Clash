@@ -5,145 +5,156 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_1, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13090, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_2, server: sql.accessconnect.cc, port: 1157, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_3, server: yd-02.paofunlink.com, port: 1082, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:HadyDnji, obfs-param: 706ed220134.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_4, server: yd-05.paofunlink.com, port: 1081, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:HadyDnji, obfs-param: 706ed220134.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_5, server: sql.accessconnect.cc, port: 2403, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_6, server: mysql.accessconnect.cc, port: 6502, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_7, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13299, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_8, server: sql.accessconnect.cc, port: 1155, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_9, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13614, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_10, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13089, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_11, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13613, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_12, server: 13.yun.tips, port: 48613, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_13, server: yd-02.paofunlink.com, port: 1084, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:HadyDnji, obfs-param: 706ed220134.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_14, server: sql.accessconnect.cc, port: 1150, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_15, server: mysql.accessconnect.cc, port: 6009, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_16, server: sql.accessconnect.cc, port: 1113, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_17, server: 17.yun.tips, port: 48617, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_18, server: mysql.accessconnect.cc, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_19, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13298, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_20, server: mysql.accessconnect.cc, port: 6102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_21, server: sql.accessconnect.cc, port: 1116, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_22, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13304, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_23, server: sql.accessconnect.cc, port: 1153, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_24, server: sql.accessconnect.cc, port: 2702, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_25, server: mysql.accessconnect.cc, port: 3211, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_26, server: sql.accessconnect.cc, port: 1114, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_27, server: mysql.accessconnect.cc, port: 6019, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_28, server: sql.accessconnect.cc, port: 2201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_29, server: yd-05.paofunlink.com, port: 1072, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 220134:HadyDnji, obfs-param: 706ed220134.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_30, server: mysql.accessconnect.cc, port: 6101, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_31, server: sql.accessconnect.cc, port: 1097, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_32, server: mysql.accessconnect.cc, port: 6303, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_33, server: mysql.accessconnect.cc, port: 6018, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_34, server: mysql.accessconnect.cc, port: 6503, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_35, server: sql.accessconnect.cc, port: 2302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_36, server: sql.accessconnect.cc, port: 2303, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_37, server: mysql.accessconnect.cc, port: 699, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_38, server: mysql.accessconnect.cc, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_39, server: sql.accessconnect.cc, port: 2601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_40, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13300, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_41, server: mysql.accessconnect.cc, port: 6501, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_42, server: sql.accessconnect.cc, port: 2603, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_43, server: mysql.accessconnect.cc, port: 3209, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_44, server: sql.accessconnect.cc, port: 2003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_45, server: ssyj.cdn.node.a.tddns-ounk.com, port: 13448, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_46, server: sql.accessconnect.cc, port: 2105, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_47, server: mysql.accessconnect.cc, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_48, server: mysql.accessconnect.cc, port: 6010, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_49, server: mysql.accessconnect.cc, port: 3210, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_50, server: ssyj.cdn.node.a.tddns-ounk.com, port: 13449, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_51, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13302, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_52, server: sql.accessconnect.cc, port: 1158, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_53, server: sql.accessconnect.cc, port: 2111, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_54, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13305, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_55, server: ssyj.cdn.node.a.tddns-ounk.com, port: 13488, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_56, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13301, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_57, server: sql.accessconnect.cc, port: 1603, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_58, server: sql.accessconnect.cc, port: 1115, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_59, server: sql.accessconnect.cc, port: 1105, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_60, server: cd69.cdn.node.a.tddns-ounk.com, port: 13643, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_61, server: sql.accessconnect.cc, port: 2605, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_62, server: sql.accessconnect.cc, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_63, server: sql.accessconnect.cc, port: 2104, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_64, server: sql.accessconnect.cc, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_65, server: sql.accessconnect.cc, port: 2112, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_66, server: sql.accessconnect.cc, port: 2101, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_67, server: sql.accessconnect.cc, port: 2602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_68, server: mysql.accessconnect.cc, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_69, server: mysql.accessconnect.cc, port: 6012, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_70, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13303, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_71, server: oracle.accessconnect.cc, port: 11130, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_72, server: sql.accessconnect.cc, port: 2110, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_73, server: cd69.cdn.node.a.tddns-ounk.com, port: 13640, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_74, server: mysql.accessconnect.cc, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_75, server: cd69.cdn.node.a.tddns-ounk.com, port: 13541, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_76, server: ssyj.cdn.node.a.tddns-ounk.com, port: 13642, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_77, server: cd69.cdn.node.a.tddns-ounk.com, port: 13489, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_78, server: mysql.accessconnect.cc, port: 6302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_79, server: mysql.accessconnect.cc, port: 6301, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_80, server: sql.accessconnect.cc, port: 2106, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_81, server: sql.accessconnect.cc, port: 2506, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_82, server: oobies9f.nodedata.net, port: 555, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_83, server: cd69.cdn.node.a.tddns-ounk.com, port: 13641, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_84, server: sql.accessconnect.cc, port: 2109, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_85, server: mysql.accessconnect.cc, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_86, server: sql.accessconnect.cc, port: 2102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_87, server: mysql.accessconnect.cc, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_88, server: mysql.accessconnect.cc, port: 3212, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_89, server: sql.accessconnect.cc, port: 2203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_90, server: oracle.accessconnect.cc, port: 520, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_91, server: 16.yun.tips, port: 48616, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_92, server: sql.accessconnect.cc, port: 874, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_93, server: sql.accessconnect.cc, port: 1604, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_94, server: sql.accessconnect.cc, port: 2202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_95, server: 07.yun.tips, port: 48607, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_96, server: mysql.accessconnect.cc, port: 1801, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_97, server: sql.accessconnect.cc, port: 1154, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_98, server: cd69.cdn.node.a.tddns-ounk.com, port: 13639, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_99, server: eqwr51.cdn.node.a.tddns-ounk.com, port: 12916, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_100, server: 14.yun.tips, port: 48614, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_101, server: sql.accessconnect.cc, port: 1103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_102, server: 08.yun.tips, port: 48608, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_103, server: sql.accessconnect.cc, port: 1151, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_104, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13615, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_105, server: sql.accessconnect.cc, port: 999, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_106, server: 06.yun.tips, port: 48606, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_107, server: mysql.accessconnect.cc, port: 700, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_108, server: sql.accessconnect.cc, port: 1112, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_109, server: sql.accessconnect.cc, port: 1601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_110, server: sql.accessconnect.cc, port: 1104, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_111, server: eqwr51.cdn.node.a.tddns-ounk.com, port: 13357, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_112, server: eqwr51.cdn.node.a.tddns-ounk.com, port: 13355, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_113, server: sql.accessconnect.cc, port: 1605, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_114, server: eqwr51.cdn.node.a.tddns-ounk.com, port: 13556, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_115, server: eqwr51.cdn.node.a.tddns-ounk.com, port: 13354, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_116, server: eqwr51.cdn.node.a.tddns-ounk.com, port: 13560, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_117, server: sql.accessconnect.cc, port: 2002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_118, server: sql.accessconnect.cc, port: 2108, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_119, server: sql.accessconnect.cc, port: 1700, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_120, server: sql.accessconnect.cc, port: 1606, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_121, server: eqwr51.cdn.node.a.tddns-ounk.com, port: 13358, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_122, server: eqwr51.cdn.node.a.tddns-ounk.com, port: 13558, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_123, server: sql.accessconnect.cc, port: 2402, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_124, server: eqwr51.cdn.node.a.tddns-ounk.com, port: 13352, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_125, server: eqwr51.cdn.node.a.tddns-ounk.com, port: 13350, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_126, server: 03.yun.tips, port: 48603, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_127, server: sql.accessconnect.cc, port: 1107, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_128, server: r97q.cdn.node.a.tddns-ounk.com, port: 13351, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_129, server: mysql.accessconnect.cc, port: 3204, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_130, server: sql.accessconnect.cc, port: 2701, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_131, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13087, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 143673:15Gp3f, obfs-param: 05e6f143673.microsoft.com, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_132, server: mysql.accessconnect.cc, port: 6022, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_133, server: mysql.accessconnect.cc, port: 6304, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_134, server: sql.accessconnect.cc, port: 1152, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_135, server: sql.accessconnect.cc, port: 2401, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_136, server: mysql.accessconnect.cc, port: 6020, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_137, server: sql.accessconnect.cc, port: 1159, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_138, server: sql.accessconnect.cc, port: 1602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
-  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_139, server: sql.accessconnect.cc, port: 2301, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 80492:Andy709394, obfs-param: 0bc5180492.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_1, server: oracle.accessconnect.cc, port: 1132, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_2, server: sql.accessconnect.cc, port: 1157, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_3, server: sql.accessconnect.cc, port: 1155, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_4, server: sql.accessconnect.cc, port: 1159, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_5, server: mysql.accessconnect.cc, port: 3202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_6, server: oracle.accessconnect.cc, port: 1120, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_7, server: sql.accessconnect.cc, port: 1151, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_8, server: sql.accessconnect.cc, port: 1115, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_9, server: sql.accessconnect.cc, port: 1153, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_10, server: 03.yun.tips, port: 48603, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_11, server: sql.accessconnect.cc, port: 2201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_12, server: oracle.accessconnect.cc, port: 1131, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_13, server: sql.accessconnect.cc, port: 1156, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_14, server: mysql.accessconnect.cc, port: 6019, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_15, server: sql.accessconnect.cc, port: 1150, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_16, server: sql.accessconnect.cc, port: 1114, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_17, server: sql.accessconnect.cc, port: 2701, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_18, server: mysql.accessconnect.cc, port: 6303, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_19, server: sql.accessconnect.cc, port: 1152, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_20, server: mysql.accessconnect.cc, port: 1800, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_21, server: mysql.accessconnect.cc, port: 1801, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_22, server: sql.accessconnect.cc, port: 1158, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_23, server: mysql.accessconnect.cc, port: 6302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_24, server: sql.accessconnect.cc, port: 2702, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_25, server: sql.accessconnect.cc, port: 2301, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_26, server: oracle.accessconnect.cc, port: 1128, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_27, server: mysql.accessconnect.cc, port: 6501, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_28, server: mysql.accessconnect.cc, port: 6502, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_29, server: mysql.accessconnect.cc, port: 6102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_30, server: mysql.accessconnect.cc, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_31, server: sql.accessconnect.cc, port: 1116, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_32, server: oracle.accessconnect.cc, port: 7008, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_33, server: sql.accessconnect.cc, port: 2302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_34, server: 06.yun.tips, port: 48606, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_35, server: mysql.accessconnect.cc, port: 6101, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_36, server: oracle.accessconnect.cc, port: 7003, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_37, server: oracle.accessconnect.cc, port: 7005, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_38, server: sql.accessconnect.cc, port: 2108, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_39, server: mysql.accessconnect.cc, port: 1003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_40, server: mysql.accessconnect.cc, port: 6304, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_41, server: sql.accessconnect.cc, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_42, server: sql.accessconnect.cc, port: 2303, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_43, server: sql.accessconnect.cc, port: 999, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_44, server: mysql.accessconnect.cc, port: 6013, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_45, server: sql.accessconnect.cc, port: 1105, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_46, server: mysql.accessconnect.cc, port: 1098, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_47, server: mysql.accessconnect.cc, port: 700, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_48, server: sql.accessconnect.cc, port: 2602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_49, server: mysql.accessconnect.cc, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_50, server: oracle.accessconnect.cc, port: 1125, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_51, server: oracle.accessconnect.cc, port: 7004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_52, server: oracle.accessconnect.cc, port: 7001, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_53, server: sql.accessconnect.cc, port: 2202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_54, server: mysql.accessconnect.cc, port: 6301, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_55, server: oracle.accessconnect.cc, port: 7007, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_56, server: sql.accessconnect.cc, port: 2103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_57, server: sql.accessconnect.cc, port: 2203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_58, server: oracle.accessconnect.cc, port: 7006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_59, server: mysql.accessconnect.cc, port: 3210, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_60, server: sql.accessconnect.cc, port: 2506, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_61, server: oracle.accessconnect.cc, port: 1126, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_62, server: sql.accessconnect.cc, port: 2605, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_63, server: sql.accessconnect.cc, port: 1097, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_64, server: sql.accessconnect.cc, port: 2106, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_65, server: mysql.accessconnect.cc, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_66, server: mysql.accessconnect.cc, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_67, server: mysql.accessconnect.cc, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_68, server: oracle.accessconnect.cc, port: 520, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_69, server: mysql.accessconnect.cc, port: 6305, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_70, server: mysql.accessconnect.cc, port: 6022, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_71, server: mysql.accessconnect.cc, port: 3211, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_72, server: mysql.accessconnect.cc, port: 3209, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_73, server: oracle.accessconnect.cc, port: 1130, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_74, server: sql.accessconnect.cc, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_75, server: mysql.accessconnect.cc, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_76, server: sql.accessconnect.cc, port: 2112, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_77, server: mysql.accessconnect.cc, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_78, server: mysql.accessconnect.cc, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_79, server: mysql.accessconnect.cc, port: 3201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_80, server: mysql.accessconnect.cc, port: 3725, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_81, server: sql.accessconnect.cc, port: 2101, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_82, server: sql.accessconnect.cc, port: 2109, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_83, server: mysql.accessconnect.cc, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_84, server: oracle.accessconnect.cc, port: 7002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_85, server: mysql.accessconnect.cc, port: 3212, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_86, server: sql.accessconnect.cc, port: 2105, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_87, server: mysql.accessconnect.cc, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_88, server: mysql.accessconnect.cc, port: 699, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_89, server: mysql.accessconnect.cc, port: 6007, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_90, server: mysql.accessconnect.cc, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_91, server: mysql.accessconnect.cc, port: 6010, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_92, server: sql.accessconnect.cc, port: 2111, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_93, server: mysql.accessconnect.cc, port: 6012, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_94, server: mysql.accessconnect.cc, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_95, server: sql.accessconnect.cc, port: 1112, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_96, server: sql.accessconnect.cc, port: 1154, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_97, server: oobies9f.nodedata.net, port: 555, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_98, server: mysql.accessconnect.cc, port: 6020, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_99, server: sql.accessconnect.cc, port: 2102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_100, server: mysql.accessconnect.cc, port: 6011, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_101, server: mysql.accessconnect.cc, port: 6009, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_102, server: mysql.accessconnect.cc, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_103, server: mysql.accessconnect.cc, port: 6017, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_104, server: 19.yun.tips, port: 48619, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_105, server: sql.accessconnect.cc, port: 2107, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_106, server: sql.accessconnect.cc, port: 2110, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_107, server: mysql.accessconnect.cc, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_108, server: sql.accessconnect.cc, port: 2003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_109, server: mysql.accessconnect.cc, port: 6018, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_110, server: mysql.accessconnect.cc, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_111, server: sql.accessconnect.cc, port: 2104, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_112, server: sql.accessconnect.cc, port: 2002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_113, server: sql.accessconnect.cc, port: 874, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_114, server: sql.accessconnect.cc, port: 1113, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_115, server: sql.accessconnect.cc, port: 1603, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_116, server: 16.yun.tips, port: 48616, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_117, server: mysql.accessconnect.cc, port: 6005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_118, server: 20.yun.tips, port: 48620, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_119, server: oracle.accessconnect.cc, port: 1121, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_120, server: sql.accessconnect.cc, port: 2601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_121, server: oracle.accessconnect.cc, port: 1123, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_122, server: oracle.accessconnect.cc, port: 1129, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_123, server: mysql.accessconnect.cc, port: 6202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_124, server: 15.yun.tips, port: 48615, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_125, server: mysql.accessconnect.cc, port: 6203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_126, server: sql.accessconnect.cc, port: 1104, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_127, server: oracle.accessconnect.cc, port: 1122, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_128, server: sql.accessconnect.cc, port: 1107, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_129, server: sql.accessconnect.cc, port: 1602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_130, server: sql.accessconnect.cc, port: 1605, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_131, server: sql.accessconnect.cc, port: 1606, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_132, server: oracle.accessconnect.cc, port: 1124, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_133, server: sql.accessconnect.cc, port: 1103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_134, server: oracle.accessconnect.cc, port: 1127, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_135, server: oracle.accessconnect.cc, port: 1133, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 152131:mLGfe6, obfs-param: ea8a1152131.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_136, server: sql.accessconnect.cc, port: 1700, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_137, server: sql.accessconnect.cc, port: 2401, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_138, server: sql.accessconnect.cc, port: 1601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_139, server: sql.accessconnect.cc, port: 2402, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_140, server: sql.accessconnect.cc, port: 1604, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_141, server: sql.accessconnect.cc, port: 2403, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_142, server: oracle.accessconnect.cc, port: 11130, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_143, server: mysql.accessconnect.cc, port: 6503, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_144, server: sql.accessconnect.cc, port: 2603, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_145, server: 08.yun.tips, port: 48608, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_146, server: 18.yun.tips, port: 48618, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_147, server: mysql.accessconnect.cc, port: 3204, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_148, server: 13.yun.tips, port: 48613, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_149, server: 17.yun.tips, port: 48617, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_150, server: sql.accessconnect.cc, port: 999, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 225915:BMoFeL, obfs-param: a0c2e225915.www.gov.hk, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -289,6 +300,17 @@ proxy-groups:
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_137
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_138
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_139
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_140
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_141
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_142
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_143
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_144
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_145
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_146
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_147
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_148
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_149
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_150
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -433,6 +455,17 @@ proxy-groups:
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_137
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_138
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_139
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_140
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_141
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_142
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_143
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_144
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_145
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_146
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_147
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_148
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_149
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_150
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -578,6 +611,17 @@ proxy-groups:
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_137
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_138
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_139
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_140
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_141
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_142
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_143
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_144
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_145
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_146
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_147
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_148
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_149
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_150
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -735,6 +779,17 @@ proxy-groups:
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_137
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_138
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_139
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_140
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_141
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_142
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_143
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_144
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_145
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_146
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_147
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_148
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_149
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_150
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -878,6 +933,17 @@ proxy-groups:
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_137
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_138
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_139
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_140
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_141
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_142
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_143
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_144
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_145
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_146
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_147
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_148
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_149
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_150
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -1023,6 +1089,17 @@ proxy-groups:
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_137
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_138
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_139
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_140
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_141
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_142
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_143
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_144
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_145
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_146
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_147
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_148
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_149
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_150
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1167,6 +1244,17 @@ proxy-groups:
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_137
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_138
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_139
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_140
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_141
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_142
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_143
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_144
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_145
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_146
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_147
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_148
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_149
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_150
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1312,6 +1400,17 @@ proxy-groups:
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_137
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_138
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_139
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_140
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_141
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_142
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_143
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_144
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_145
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_146
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_147
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_148
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_149
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_150
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1466,6 +1565,17 @@ proxy-groups:
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_137
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_138
       - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_139
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_140
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_141
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_142
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_143
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_144
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_145
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_146
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_147
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_148
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_149
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_150
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
