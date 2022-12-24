@@ -5,475 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_1, server: v-aws-tk-4.heima-bot.tech, port: 7774, type: vmess, uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /m3, headers: {Host: v-aws-tk-4.heima-bot.tech}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_2, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /RayjajbC8W96bW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_3, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yini-video2N93n, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_4, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hkw-3d5K9XYW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_5, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_6, server: 172.67.34.78, port: 8880, type: vmess, uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hkaa0, headers: {Host: sg1021.hkaa0.tk}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_7, server: hkas.myddns.cyou, port: 11341, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_8, server: v-aws-sel-4.heima-bot.tech, port: 7774, type: vmess, uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /m3, headers: {Host: v-aws-sel-4.heima-bot.tech}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_9, server: sl.alhttdw.cn, port: 10064, type: trojan, password: 6c6cf1ec-a267-4c6f-8f1a-15d9f3694623, sni: sg-1.gjjsz.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_10, server: v-aws-sel-2.heima-bot.tech, port: 7772, type: vmess, uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /m2, headers: {Host: v-aws-sel-2.heima-bot.tech}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_11, server: sl.alhttdw.cn, port: 10064, type: trojan, password: cd019ec0-3718-49d8-9091-a987003ef34a, sni: sg-1.gjjsz.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_12, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jp2-RayjW96bW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_13, server: hkbs.myddns.cyou, port: 11845, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_14, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hkg-K9XYW0dkj, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_15, server: rub.myddns.cyou, port: 11812, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_16, server: sga.myddns.cyou, port: 11841, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_17, server: hkas.myddns.cyou, port: 11340, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_18, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sg2-HoI6Wt95h, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_19, server: v-aws-sel-3.heima-bot.tech, port: 7773, type: vmess, uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /m3, headers: {Host: v-aws-sel-3.heima-bot.tech}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_20, server: do-sg-2.heima-bot.tech, port: 2082, type: vmess, uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /m3, headers: {Host: do-sg-2.heima-bot.tech}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_21, server: 104.16.88.88, port: 8080, type: vmess, uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /m3, headers: {Host: do-sg-1.heima-bot.tech}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_22, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sg1-h9vBzdF, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_23, server: sl.alhttdw.cn, port: 10064, type: trojan, password: cd019ec0-3718-49d8-9091-a987003ef34a, sni: sg-1.gjjsz.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_24, server: hkas.myddns.cyou, port: 11845, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_25, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jp1-h9vBzdF, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_26, server: v47a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v47-unlimitndxd, headers: {Host: v47a.toddns.tk}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_27, server: jpa.myddns.cyou, port: 11844, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_28, server: rua.myddns.cyou, port: 11812, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_29, server: hkbs.myddns.cyou, port: 11815, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_30, server: kr1a.myddns.cyou, port: 11347, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_31, server: sga.myddns.cyou, port: 11842, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_32, server: jpa.myddns.cyou, port: 11342, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_33, server: v-aws-sel-1.heima-bot.tech, port: 7771, type: vmess, uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /m1, headers: {Host: v-aws-sel-1.heima-bot.tech}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_34, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hkc1-K9XYW0dkj, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_35, server: v-aws-tk-2.heima-bot.tech, port: 7772, type: vmess, uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /m2, headers: {Host: v-aws-tk-2.heima-bot.tech}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_36, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hkt1-3d5K9XYW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_37, server: jpb.myddns.cyou, port: 11844, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_38, server: hkas.myddns.cyou, port: 11818, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_39, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_40, server: hkbs.myddns.cyou, port: 11820, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_41, server: v10.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ZPKLSPJjLBEy, headers: {Host: v10.toddns.tk}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_42, server: eua.myddns.cyou, port: 11814, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_43, server: jpa.myddns.cyou, port: 11811, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_44, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /in1-video2N93n, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_45, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /kr8dKT9BkwBcw, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_46, server: 203.24.108.10, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_47, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v46-nfvideo2Nn, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_48, server: hkas.myddns.cyou, port: 11346, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_49, server: hkas.myddns.cyou, port: 11345, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_50, server: do-3.heima-bot.tech, port: 2086, type: vmess, uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /m3, headers: {Host: do-3.heima-bot.tech}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_51, server: jp2a.myddns.cyou, port: 11343, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_52, server: sga3.myddns.cyou, port: 11843, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_53, server: hkbs.myddns.cyou, port: 11846, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_54, server: 104.17.150.148, port: 2086, type: vmess, uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: gcorehk.cloudflare.quest}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_55, server: twa.myddns.cyou, port: 11348, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_56, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ma-dKT9BkwBcw, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_57, server: sl.alhttdw.cn, port: 10064, type: trojan, password: 6c6cf1ec-a267-4c6f-8f1a-15d9f3694623, sni: sg-1.gjjsz.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_58, server: v143.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /de143-dxddxxj, headers: {Host: v143.toddns.tk}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_59, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /us1-Ldl5OMRvt, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_60, server: jpa.myddns.cyou, port: 11840, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_61, server: eua.myddns.cyou, port: 11816, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_62, server: sl.alhttdw.cn, port: 55056, type: trojan, password: cd019ec0-3718-49d8-9091-a987003ef34a, sni: in-1.gjjsz.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_63, server: hkas.myddns.cyou, port: 11344, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_64, server: 190.93.246.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_65, server: v12a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /nl-unlimitxxx, headers: {Host: v12a.toddns.tk}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_66, server: hkas.myddns.cyou, port: 11349, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_67, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /us3-Rayj8W9bW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_68, server: sl.alhttdw.cn, port: 10064, type: trojan, password: cd019ec0-3718-49d8-9091-a987003ef34a, sni: sg-1.gjjsz.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_69, server: eub.myddns.cyou, port: 11816, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_70, server: 85.208.108.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_71, server: 104.16.88.88, port: 8080, type: vmess, uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /m1, headers: {Host: do-1.heima-bot.tech}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_72, server: 203.30.189.189, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_73, server: eub.myddns.cyou, port: 11812, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_74, server: us1a.myddns.cyou, port: 11849, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_75, server: 162.159.128.7, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_76, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /agt-fEtCE3uAcU, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_77, server: hkas.myddns.cyou, port: 11820, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_78, server: cf.fastal.one, port: 8443, type: vmess, uuid: 3bba7cb9-20db-4604-dfdc-71dde392c50c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /https://t.me/yunjisuan888/, headers: {Host: yjs.fastal.one}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_79, server: eua.myddns.cyou, port: 11812, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_80, server: hkas.myddns.cyou, port: 11846, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_81, server: do-2.heima-bot.tech, port: 2082, type: vmess, uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /m2, headers: {Host: do-2.heima-bot.tech}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_82, server: jpb.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /9r89pXpijhN, headers: {Host: jpb.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_83, server: rua.myddns.cyou, port: 11819, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_84, server: v10a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fr-unlimitxxx, headers: {Host: v10a.toddns.tk}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_85, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /us4-Ld888MRvt, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_86, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hi2-C8W96bW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_87, server: ae1.myddns.cyou, port: 11813, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_88, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aedubai888, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_89, server: jpa.myddns.cyou, port: 11847, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_90, server: v10a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ZPKLSPJjLBEy, headers: {Host: v10a.toddns.tk}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_91, server: 190.93.246.195, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_92, server: hkas.myddns.cyou, port: 11815, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_93, server: v10.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fr-unlimitxxx, headers: {Host: v10.toddns.tk}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_94, server: 85.208.108.60, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_95, server: eub.myddns.cyou, port: 11814, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_96, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_97, server: jpb.myddns.cyou, port: 11811, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_98, server: eua.myddns.cyou, port: 11810, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_99, server: v-aws-tk-1.heima-bot.tech, port: 7771, type: vmess, uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /m1, headers: {Host: v-aws-tk-1.heima-bot.tech}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_100, server: v143a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /de143-dxddxxj, headers: {Host: v143a.toddns.tk}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_101, server: cf.fastal.one, port: 2096, type: vmess, uuid: 39afa088-ad91-4beb-865f-a22468f3fba1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray/, headers: {Host: eww.fastal.one}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_102, server: eub.myddns.cyou, port: 11817, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_103, server: sl.alhttdw.cn, port: 62060, type: trojan, password: 6c6cf1ec-a267-4c6f-8f1a-15d9f3694623, sni: hk-1.gjjsz.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_104, server: testha1.yunyunyund.win, port: 7100, type: vmess, uuid: 59889793-93f0-3f24-870b-2d77a4602d54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_105, server: buyvm.imkcp.eu.org, port: 443, type: vmess, uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /imkcpyyds, headers: {Host: buyvm.imkcp.eu.org}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_106, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_107, server: eub.myddns.cyou, port: 11810, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_108, server: 165.227.175.88, port: 28164, type: vmess, uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_109, server: sl.alhttdw.cn, port: 62060, type: trojan, password: cd019ec0-3718-49d8-9091-a987003ef34a, sni: hk-1.gjjsz.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_110, server: eua.myddns.cyou, port: 11848, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_111, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hkt3-3d5K9XYW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_112, server: hkbm.myddns.cyou, port: 11809, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hkt2-3d5K9XYW, headers: {Host: hkbm.myddns.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|广港BGP_113, server: eub.myddns.cyou, port: 11848, type: ss, cipher: aes-256-gcm, password: AkkK8a, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_1, server: iplc4.npo.red, port: 7000, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_2, server: iplc3.npo.red, port: 7000, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_3, server: iplc6.npo.red, port: 7000, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_4, server: iplc8.npo.red, port: 7000, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_5, server: iplc.npo.red, port: 7000, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_6, server: iplc2.npo.red, port: 7000, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_7, server: iplc5.npo.red, port: 7000, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_8, server: iepl1.nnooddee.pro, port: 7051, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_9, server: iepl2.nnooddee.pro, port: 7051, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_10, server: yd-yz.7766.org, port: 7051, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_11, server: in02.nnooddee.pro, port: 7051, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_12, server: in03.nnooddee.pro, port: 7051, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_13, server: iepl1.nnooddee.pro, port: 7041, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_14, server: iepl2.nnooddee.pro, port: 7041, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_15, server: iepl3.nnooddee.pro, port: 7041, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_16, server: yd-yz.7766.org, port: 7041, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_17, server: in03.nnooddee.pro, port: 7041, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_18, server: in01.nnooddee.pro, port: 7041, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_19, server: iepl1.nnooddee.pro, port: 7021, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_20, server: iepl2.nnooddee.pro, port: 7021, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_21, server: iepl3.nnooddee.pro, port: 7021, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_22, server: yd-yz.7766.org, port: 7021, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_23, server: in03.nnooddee.pro, port: 7021, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_24, server: in02.nnooddee.pro, port: 7021, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_25, server: iepl1.nnooddee.pro, port: 7031, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_26, server: iepl2.nnooddee.pro, port: 7031, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_27, server: iepl3.nnooddee.pro, port: 7031, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_28, server: iepl1.nnooddee.pro, port: 7061, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_29, server: iepl2.nnooddee.pro, port: 7061, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_30, server: iepl3.nnooddee.pro, port: 7061, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_31, server: iepl1.nnooddee.pro, port: 7011, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_32, server: iepl2.nnooddee.pro, port: 7011, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_33, server: iepl3.nnooddee.pro, port: 7012, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_34, server: yd-yz.7766.org, port: 7011, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_35, server: in02.nnooddee.pro, port: 7011, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
+  - {name: 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_36, server: in03.nnooddee.pro, port: 7011, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 39587:tiijv5, obfs-param: 9178839587.microsoft.com, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 YouTube简迷离|广港BGP_1
-      - 🇭🇰 YouTube简迷离|广港BGP_2
-      - 🇭🇰 YouTube简迷离|广港BGP_3
-      - 🇭🇰 YouTube简迷离|广港BGP_4
-      - 🇭🇰 YouTube简迷离|广港BGP_5
-      - 🇭🇰 YouTube简迷离|广港BGP_6
-      - 🇭🇰 YouTube简迷离|广港BGP_7
-      - 🇭🇰 YouTube简迷离|广港BGP_8
-      - 🇭🇰 YouTube简迷离|广港BGP_9
-      - 🇭🇰 YouTube简迷离|广港BGP_10
-      - 🇭🇰 YouTube简迷离|广港BGP_11
-      - 🇭🇰 YouTube简迷离|广港BGP_12
-      - 🇭🇰 YouTube简迷离|广港BGP_13
-      - 🇭🇰 YouTube简迷离|广港BGP_14
-      - 🇭🇰 YouTube简迷离|广港BGP_15
-      - 🇭🇰 YouTube简迷离|广港BGP_16
-      - 🇭🇰 YouTube简迷离|广港BGP_17
-      - 🇭🇰 YouTube简迷离|广港BGP_18
-      - 🇭🇰 YouTube简迷离|广港BGP_19
-      - 🇭🇰 YouTube简迷离|广港BGP_20
-      - 🇭🇰 YouTube简迷离|广港BGP_21
-      - 🇭🇰 YouTube简迷离|广港BGP_22
-      - 🇭🇰 YouTube简迷离|广港BGP_23
-      - 🇭🇰 YouTube简迷离|广港BGP_24
-      - 🇭🇰 YouTube简迷离|广港BGP_25
-      - 🇭🇰 YouTube简迷离|广港BGP_26
-      - 🇭🇰 YouTube简迷离|广港BGP_27
-      - 🇭🇰 YouTube简迷离|广港BGP_28
-      - 🇭🇰 YouTube简迷离|广港BGP_29
-      - 🇭🇰 YouTube简迷离|广港BGP_30
-      - 🇭🇰 YouTube简迷离|广港BGP_31
-      - 🇭🇰 YouTube简迷离|广港BGP_32
-      - 🇭🇰 YouTube简迷离|广港BGP_33
-      - 🇭🇰 YouTube简迷离|广港BGP_34
-      - 🇭🇰 YouTube简迷离|广港BGP_35
-      - 🇭🇰 YouTube简迷离|广港BGP_36
-      - 🇭🇰 YouTube简迷离|广港BGP_37
-      - 🇭🇰 YouTube简迷离|广港BGP_38
-      - 🇭🇰 YouTube简迷离|广港BGP_39
-      - 🇭🇰 YouTube简迷离|广港BGP_40
-      - 🇭🇰 YouTube简迷离|广港BGP_41
-      - 🇭🇰 YouTube简迷离|广港BGP_42
-      - 🇭🇰 YouTube简迷离|广港BGP_43
-      - 🇭🇰 YouTube简迷离|广港BGP_44
-      - 🇭🇰 YouTube简迷离|广港BGP_45
-      - 🇭🇰 YouTube简迷离|广港BGP_46
-      - 🇭🇰 YouTube简迷离|广港BGP_47
-      - 🇭🇰 YouTube简迷离|广港BGP_48
-      - 🇭🇰 YouTube简迷离|广港BGP_49
-      - 🇭🇰 YouTube简迷离|广港BGP_50
-      - 🇭🇰 YouTube简迷离|广港BGP_51
-      - 🇭🇰 YouTube简迷离|广港BGP_52
-      - 🇭🇰 YouTube简迷离|广港BGP_53
-      - 🇭🇰 YouTube简迷离|广港BGP_54
-      - 🇭🇰 YouTube简迷离|广港BGP_55
-      - 🇭🇰 YouTube简迷离|广港BGP_56
-      - 🇭🇰 YouTube简迷离|广港BGP_57
-      - 🇭🇰 YouTube简迷离|广港BGP_58
-      - 🇭🇰 YouTube简迷离|广港BGP_59
-      - 🇭🇰 YouTube简迷离|广港BGP_60
-      - 🇭🇰 YouTube简迷离|广港BGP_61
-      - 🇭🇰 YouTube简迷离|广港BGP_62
-      - 🇭🇰 YouTube简迷离|广港BGP_63
-      - 🇭🇰 YouTube简迷离|广港BGP_64
-      - 🇭🇰 YouTube简迷离|广港BGP_65
-      - 🇭🇰 YouTube简迷离|广港BGP_66
-      - 🇭🇰 YouTube简迷离|广港BGP_67
-      - 🇭🇰 YouTube简迷离|广港BGP_68
-      - 🇭🇰 YouTube简迷离|广港BGP_69
-      - 🇭🇰 YouTube简迷离|广港BGP_70
-      - 🇭🇰 YouTube简迷离|广港BGP_71
-      - 🇭🇰 YouTube简迷离|广港BGP_72
-      - 🇭🇰 YouTube简迷离|广港BGP_73
-      - 🇭🇰 YouTube简迷离|广港BGP_74
-      - 🇭🇰 YouTube简迷离|广港BGP_75
-      - 🇭🇰 YouTube简迷离|广港BGP_76
-      - 🇭🇰 YouTube简迷离|广港BGP_77
-      - 🇭🇰 YouTube简迷离|广港BGP_78
-      - 🇭🇰 YouTube简迷离|广港BGP_79
-      - 🇭🇰 YouTube简迷离|广港BGP_80
-      - 🇭🇰 YouTube简迷离|广港BGP_81
-      - 🇭🇰 YouTube简迷离|广港BGP_82
-      - 🇭🇰 YouTube简迷离|广港BGP_83
-      - 🇭🇰 YouTube简迷离|广港BGP_84
-      - 🇭🇰 YouTube简迷离|广港BGP_85
-      - 🇭🇰 YouTube简迷离|广港BGP_86
-      - 🇭🇰 YouTube简迷离|广港BGP_87
-      - 🇭🇰 YouTube简迷离|广港BGP_88
-      - 🇭🇰 YouTube简迷离|广港BGP_89
-      - 🇭🇰 YouTube简迷离|广港BGP_90
-      - 🇭🇰 YouTube简迷离|广港BGP_91
-      - 🇭🇰 YouTube简迷离|广港BGP_92
-      - 🇭🇰 YouTube简迷离|广港BGP_93
-      - 🇭🇰 YouTube简迷离|广港BGP_94
-      - 🇭🇰 YouTube简迷离|广港BGP_95
-      - 🇭🇰 YouTube简迷离|广港BGP_96
-      - 🇭🇰 YouTube简迷离|广港BGP_97
-      - 🇭🇰 YouTube简迷离|广港BGP_98
-      - 🇭🇰 YouTube简迷离|广港BGP_99
-      - 🇭🇰 YouTube简迷离|广港BGP_100
-      - 🇭🇰 YouTube简迷离|广港BGP_101
-      - 🇭🇰 YouTube简迷离|广港BGP_102
-      - 🇭🇰 YouTube简迷离|广港BGP_103
-      - 🇭🇰 YouTube简迷离|广港BGP_104
-      - 🇭🇰 YouTube简迷离|广港BGP_105
-      - 🇭🇰 YouTube简迷离|广港BGP_106
-      - 🇭🇰 YouTube简迷离|广港BGP_107
-      - 🇭🇰 YouTube简迷离|广港BGP_108
-      - 🇭🇰 YouTube简迷离|广港BGP_109
-      - 🇭🇰 YouTube简迷离|广港BGP_110
-      - 🇭🇰 YouTube简迷离|广港BGP_111
-      - 🇭🇰 YouTube简迷离|广港BGP_112
-      - 🇭🇰 YouTube简迷离|广港BGP_113
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_1
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_2
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_3
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_4
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_5
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_6
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_7
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_8
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_9
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_10
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_11
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_12
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_13
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_14
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_15
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_16
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_17
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_18
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_19
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_20
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_21
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_22
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_23
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_24
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_25
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_26
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_27
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_28
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_29
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_30
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_31
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_32
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_33
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_34
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_35
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_36
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 YouTube简迷离|广港BGP_1
-      - 🇭🇰 YouTube简迷离|广港BGP_2
-      - 🇭🇰 YouTube简迷离|广港BGP_3
-      - 🇭🇰 YouTube简迷离|广港BGP_4
-      - 🇭🇰 YouTube简迷离|广港BGP_5
-      - 🇭🇰 YouTube简迷离|广港BGP_6
-      - 🇭🇰 YouTube简迷离|广港BGP_7
-      - 🇭🇰 YouTube简迷离|广港BGP_8
-      - 🇭🇰 YouTube简迷离|广港BGP_9
-      - 🇭🇰 YouTube简迷离|广港BGP_10
-      - 🇭🇰 YouTube简迷离|广港BGP_11
-      - 🇭🇰 YouTube简迷离|广港BGP_12
-      - 🇭🇰 YouTube简迷离|广港BGP_13
-      - 🇭🇰 YouTube简迷离|广港BGP_14
-      - 🇭🇰 YouTube简迷离|广港BGP_15
-      - 🇭🇰 YouTube简迷离|广港BGP_16
-      - 🇭🇰 YouTube简迷离|广港BGP_17
-      - 🇭🇰 YouTube简迷离|广港BGP_18
-      - 🇭🇰 YouTube简迷离|广港BGP_19
-      - 🇭🇰 YouTube简迷离|广港BGP_20
-      - 🇭🇰 YouTube简迷离|广港BGP_21
-      - 🇭🇰 YouTube简迷离|广港BGP_22
-      - 🇭🇰 YouTube简迷离|广港BGP_23
-      - 🇭🇰 YouTube简迷离|广港BGP_24
-      - 🇭🇰 YouTube简迷离|广港BGP_25
-      - 🇭🇰 YouTube简迷离|广港BGP_26
-      - 🇭🇰 YouTube简迷离|广港BGP_27
-      - 🇭🇰 YouTube简迷离|广港BGP_28
-      - 🇭🇰 YouTube简迷离|广港BGP_29
-      - 🇭🇰 YouTube简迷离|广港BGP_30
-      - 🇭🇰 YouTube简迷离|广港BGP_31
-      - 🇭🇰 YouTube简迷离|广港BGP_32
-      - 🇭🇰 YouTube简迷离|广港BGP_33
-      - 🇭🇰 YouTube简迷离|广港BGP_34
-      - 🇭🇰 YouTube简迷离|广港BGP_35
-      - 🇭🇰 YouTube简迷离|广港BGP_36
-      - 🇭🇰 YouTube简迷离|广港BGP_37
-      - 🇭🇰 YouTube简迷离|广港BGP_38
-      - 🇭🇰 YouTube简迷离|广港BGP_39
-      - 🇭🇰 YouTube简迷离|广港BGP_40
-      - 🇭🇰 YouTube简迷离|广港BGP_41
-      - 🇭🇰 YouTube简迷离|广港BGP_42
-      - 🇭🇰 YouTube简迷离|广港BGP_43
-      - 🇭🇰 YouTube简迷离|广港BGP_44
-      - 🇭🇰 YouTube简迷离|广港BGP_45
-      - 🇭🇰 YouTube简迷离|广港BGP_46
-      - 🇭🇰 YouTube简迷离|广港BGP_47
-      - 🇭🇰 YouTube简迷离|广港BGP_48
-      - 🇭🇰 YouTube简迷离|广港BGP_49
-      - 🇭🇰 YouTube简迷离|广港BGP_50
-      - 🇭🇰 YouTube简迷离|广港BGP_51
-      - 🇭🇰 YouTube简迷离|广港BGP_52
-      - 🇭🇰 YouTube简迷离|广港BGP_53
-      - 🇭🇰 YouTube简迷离|广港BGP_54
-      - 🇭🇰 YouTube简迷离|广港BGP_55
-      - 🇭🇰 YouTube简迷离|广港BGP_56
-      - 🇭🇰 YouTube简迷离|广港BGP_57
-      - 🇭🇰 YouTube简迷离|广港BGP_58
-      - 🇭🇰 YouTube简迷离|广港BGP_59
-      - 🇭🇰 YouTube简迷离|广港BGP_60
-      - 🇭🇰 YouTube简迷离|广港BGP_61
-      - 🇭🇰 YouTube简迷离|广港BGP_62
-      - 🇭🇰 YouTube简迷离|广港BGP_63
-      - 🇭🇰 YouTube简迷离|广港BGP_64
-      - 🇭🇰 YouTube简迷离|广港BGP_65
-      - 🇭🇰 YouTube简迷离|广港BGP_66
-      - 🇭🇰 YouTube简迷离|广港BGP_67
-      - 🇭🇰 YouTube简迷离|广港BGP_68
-      - 🇭🇰 YouTube简迷离|广港BGP_69
-      - 🇭🇰 YouTube简迷离|广港BGP_70
-      - 🇭🇰 YouTube简迷离|广港BGP_71
-      - 🇭🇰 YouTube简迷离|广港BGP_72
-      - 🇭🇰 YouTube简迷离|广港BGP_73
-      - 🇭🇰 YouTube简迷离|广港BGP_74
-      - 🇭🇰 YouTube简迷离|广港BGP_75
-      - 🇭🇰 YouTube简迷离|广港BGP_76
-      - 🇭🇰 YouTube简迷离|广港BGP_77
-      - 🇭🇰 YouTube简迷离|广港BGP_78
-      - 🇭🇰 YouTube简迷离|广港BGP_79
-      - 🇭🇰 YouTube简迷离|广港BGP_80
-      - 🇭🇰 YouTube简迷离|广港BGP_81
-      - 🇭🇰 YouTube简迷离|广港BGP_82
-      - 🇭🇰 YouTube简迷离|广港BGP_83
-      - 🇭🇰 YouTube简迷离|广港BGP_84
-      - 🇭🇰 YouTube简迷离|广港BGP_85
-      - 🇭🇰 YouTube简迷离|广港BGP_86
-      - 🇭🇰 YouTube简迷离|广港BGP_87
-      - 🇭🇰 YouTube简迷离|广港BGP_88
-      - 🇭🇰 YouTube简迷离|广港BGP_89
-      - 🇭🇰 YouTube简迷离|广港BGP_90
-      - 🇭🇰 YouTube简迷离|广港BGP_91
-      - 🇭🇰 YouTube简迷离|广港BGP_92
-      - 🇭🇰 YouTube简迷离|广港BGP_93
-      - 🇭🇰 YouTube简迷离|广港BGP_94
-      - 🇭🇰 YouTube简迷离|广港BGP_95
-      - 🇭🇰 YouTube简迷离|广港BGP_96
-      - 🇭🇰 YouTube简迷离|广港BGP_97
-      - 🇭🇰 YouTube简迷离|广港BGP_98
-      - 🇭🇰 YouTube简迷离|广港BGP_99
-      - 🇭🇰 YouTube简迷离|广港BGP_100
-      - 🇭🇰 YouTube简迷离|广港BGP_101
-      - 🇭🇰 YouTube简迷离|广港BGP_102
-      - 🇭🇰 YouTube简迷离|广港BGP_103
-      - 🇭🇰 YouTube简迷离|广港BGP_104
-      - 🇭🇰 YouTube简迷离|广港BGP_105
-      - 🇭🇰 YouTube简迷离|广港BGP_106
-      - 🇭🇰 YouTube简迷离|广港BGP_107
-      - 🇭🇰 YouTube简迷离|广港BGP_108
-      - 🇭🇰 YouTube简迷离|广港BGP_109
-      - 🇭🇰 YouTube简迷离|广港BGP_110
-      - 🇭🇰 YouTube简迷离|广港BGP_111
-      - 🇭🇰 YouTube简迷离|广港BGP_112
-      - 🇭🇰 YouTube简迷离|广港BGP_113
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_1
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_2
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_3
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_4
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_5
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_6
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_7
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_8
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_9
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_10
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_11
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_12
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_13
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_14
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_15
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_16
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_17
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_18
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_19
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_20
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_21
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_22
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_23
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_24
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_25
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_26
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_27
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_28
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_29
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_30
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_31
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_32
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_33
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_34
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_35
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_36
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 YouTube简迷离|广港BGP_1
-      - 🇭🇰 YouTube简迷离|广港BGP_2
-      - 🇭🇰 YouTube简迷离|广港BGP_3
-      - 🇭🇰 YouTube简迷离|广港BGP_4
-      - 🇭🇰 YouTube简迷离|广港BGP_5
-      - 🇭🇰 YouTube简迷离|广港BGP_6
-      - 🇭🇰 YouTube简迷离|广港BGP_7
-      - 🇭🇰 YouTube简迷离|广港BGP_8
-      - 🇭🇰 YouTube简迷离|广港BGP_9
-      - 🇭🇰 YouTube简迷离|广港BGP_10
-      - 🇭🇰 YouTube简迷离|广港BGP_11
-      - 🇭🇰 YouTube简迷离|广港BGP_12
-      - 🇭🇰 YouTube简迷离|广港BGP_13
-      - 🇭🇰 YouTube简迷离|广港BGP_14
-      - 🇭🇰 YouTube简迷离|广港BGP_15
-      - 🇭🇰 YouTube简迷离|广港BGP_16
-      - 🇭🇰 YouTube简迷离|广港BGP_17
-      - 🇭🇰 YouTube简迷离|广港BGP_18
-      - 🇭🇰 YouTube简迷离|广港BGP_19
-      - 🇭🇰 YouTube简迷离|广港BGP_20
-      - 🇭🇰 YouTube简迷离|广港BGP_21
-      - 🇭🇰 YouTube简迷离|广港BGP_22
-      - 🇭🇰 YouTube简迷离|广港BGP_23
-      - 🇭🇰 YouTube简迷离|广港BGP_24
-      - 🇭🇰 YouTube简迷离|广港BGP_25
-      - 🇭🇰 YouTube简迷离|广港BGP_26
-      - 🇭🇰 YouTube简迷离|广港BGP_27
-      - 🇭🇰 YouTube简迷离|广港BGP_28
-      - 🇭🇰 YouTube简迷离|广港BGP_29
-      - 🇭🇰 YouTube简迷离|广港BGP_30
-      - 🇭🇰 YouTube简迷离|广港BGP_31
-      - 🇭🇰 YouTube简迷离|广港BGP_32
-      - 🇭🇰 YouTube简迷离|广港BGP_33
-      - 🇭🇰 YouTube简迷离|广港BGP_34
-      - 🇭🇰 YouTube简迷离|广港BGP_35
-      - 🇭🇰 YouTube简迷离|广港BGP_36
-      - 🇭🇰 YouTube简迷离|广港BGP_37
-      - 🇭🇰 YouTube简迷离|广港BGP_38
-      - 🇭🇰 YouTube简迷离|广港BGP_39
-      - 🇭🇰 YouTube简迷离|广港BGP_40
-      - 🇭🇰 YouTube简迷离|广港BGP_41
-      - 🇭🇰 YouTube简迷离|广港BGP_42
-      - 🇭🇰 YouTube简迷离|广港BGP_43
-      - 🇭🇰 YouTube简迷离|广港BGP_44
-      - 🇭🇰 YouTube简迷离|广港BGP_45
-      - 🇭🇰 YouTube简迷离|广港BGP_46
-      - 🇭🇰 YouTube简迷离|广港BGP_47
-      - 🇭🇰 YouTube简迷离|广港BGP_48
-      - 🇭🇰 YouTube简迷离|广港BGP_49
-      - 🇭🇰 YouTube简迷离|广港BGP_50
-      - 🇭🇰 YouTube简迷离|广港BGP_51
-      - 🇭🇰 YouTube简迷离|广港BGP_52
-      - 🇭🇰 YouTube简迷离|广港BGP_53
-      - 🇭🇰 YouTube简迷离|广港BGP_54
-      - 🇭🇰 YouTube简迷离|广港BGP_55
-      - 🇭🇰 YouTube简迷离|广港BGP_56
-      - 🇭🇰 YouTube简迷离|广港BGP_57
-      - 🇭🇰 YouTube简迷离|广港BGP_58
-      - 🇭🇰 YouTube简迷离|广港BGP_59
-      - 🇭🇰 YouTube简迷离|广港BGP_60
-      - 🇭🇰 YouTube简迷离|广港BGP_61
-      - 🇭🇰 YouTube简迷离|广港BGP_62
-      - 🇭🇰 YouTube简迷离|广港BGP_63
-      - 🇭🇰 YouTube简迷离|广港BGP_64
-      - 🇭🇰 YouTube简迷离|广港BGP_65
-      - 🇭🇰 YouTube简迷离|广港BGP_66
-      - 🇭🇰 YouTube简迷离|广港BGP_67
-      - 🇭🇰 YouTube简迷离|广港BGP_68
-      - 🇭🇰 YouTube简迷离|广港BGP_69
-      - 🇭🇰 YouTube简迷离|广港BGP_70
-      - 🇭🇰 YouTube简迷离|广港BGP_71
-      - 🇭🇰 YouTube简迷离|广港BGP_72
-      - 🇭🇰 YouTube简迷离|广港BGP_73
-      - 🇭🇰 YouTube简迷离|广港BGP_74
-      - 🇭🇰 YouTube简迷离|广港BGP_75
-      - 🇭🇰 YouTube简迷离|广港BGP_76
-      - 🇭🇰 YouTube简迷离|广港BGP_77
-      - 🇭🇰 YouTube简迷离|广港BGP_78
-      - 🇭🇰 YouTube简迷离|广港BGP_79
-      - 🇭🇰 YouTube简迷离|广港BGP_80
-      - 🇭🇰 YouTube简迷离|广港BGP_81
-      - 🇭🇰 YouTube简迷离|广港BGP_82
-      - 🇭🇰 YouTube简迷离|广港BGP_83
-      - 🇭🇰 YouTube简迷离|广港BGP_84
-      - 🇭🇰 YouTube简迷离|广港BGP_85
-      - 🇭🇰 YouTube简迷离|广港BGP_86
-      - 🇭🇰 YouTube简迷离|广港BGP_87
-      - 🇭🇰 YouTube简迷离|广港BGP_88
-      - 🇭🇰 YouTube简迷离|广港BGP_89
-      - 🇭🇰 YouTube简迷离|广港BGP_90
-      - 🇭🇰 YouTube简迷离|广港BGP_91
-      - 🇭🇰 YouTube简迷离|广港BGP_92
-      - 🇭🇰 YouTube简迷离|广港BGP_93
-      - 🇭🇰 YouTube简迷离|广港BGP_94
-      - 🇭🇰 YouTube简迷离|广港BGP_95
-      - 🇭🇰 YouTube简迷离|广港BGP_96
-      - 🇭🇰 YouTube简迷离|广港BGP_97
-      - 🇭🇰 YouTube简迷离|广港BGP_98
-      - 🇭🇰 YouTube简迷离|广港BGP_99
-      - 🇭🇰 YouTube简迷离|广港BGP_100
-      - 🇭🇰 YouTube简迷离|广港BGP_101
-      - 🇭🇰 YouTube简迷离|广港BGP_102
-      - 🇭🇰 YouTube简迷离|广港BGP_103
-      - 🇭🇰 YouTube简迷离|广港BGP_104
-      - 🇭🇰 YouTube简迷离|广港BGP_105
-      - 🇭🇰 YouTube简迷离|广港BGP_106
-      - 🇭🇰 YouTube简迷离|广港BGP_107
-      - 🇭🇰 YouTube简迷离|广港BGP_108
-      - 🇭🇰 YouTube简迷离|广港BGP_109
-      - 🇭🇰 YouTube简迷离|广港BGP_110
-      - 🇭🇰 YouTube简迷离|广港BGP_111
-      - 🇭🇰 YouTube简迷离|广港BGP_112
-      - 🇭🇰 YouTube简迷离|广港BGP_113
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_1
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_2
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_3
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_4
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_5
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_6
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_7
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_8
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_9
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_10
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_11
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_12
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_13
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_14
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_15
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_16
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_17
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_18
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_19
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_20
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_21
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_22
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_23
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_24
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_25
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_26
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_27
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_28
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_29
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_30
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_31
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_32
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_33
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_34
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_35
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_36
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -492,592 +184,207 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 YouTube简迷离|广港BGP_1
-      - 🇭🇰 YouTube简迷离|广港BGP_2
-      - 🇭🇰 YouTube简迷离|广港BGP_3
-      - 🇭🇰 YouTube简迷离|广港BGP_4
-      - 🇭🇰 YouTube简迷离|广港BGP_5
-      - 🇭🇰 YouTube简迷离|广港BGP_6
-      - 🇭🇰 YouTube简迷离|广港BGP_7
-      - 🇭🇰 YouTube简迷离|广港BGP_8
-      - 🇭🇰 YouTube简迷离|广港BGP_9
-      - 🇭🇰 YouTube简迷离|广港BGP_10
-      - 🇭🇰 YouTube简迷离|广港BGP_11
-      - 🇭🇰 YouTube简迷离|广港BGP_12
-      - 🇭🇰 YouTube简迷离|广港BGP_13
-      - 🇭🇰 YouTube简迷离|广港BGP_14
-      - 🇭🇰 YouTube简迷离|广港BGP_15
-      - 🇭🇰 YouTube简迷离|广港BGP_16
-      - 🇭🇰 YouTube简迷离|广港BGP_17
-      - 🇭🇰 YouTube简迷离|广港BGP_18
-      - 🇭🇰 YouTube简迷离|广港BGP_19
-      - 🇭🇰 YouTube简迷离|广港BGP_20
-      - 🇭🇰 YouTube简迷离|广港BGP_21
-      - 🇭🇰 YouTube简迷离|广港BGP_22
-      - 🇭🇰 YouTube简迷离|广港BGP_23
-      - 🇭🇰 YouTube简迷离|广港BGP_24
-      - 🇭🇰 YouTube简迷离|广港BGP_25
-      - 🇭🇰 YouTube简迷离|广港BGP_26
-      - 🇭🇰 YouTube简迷离|广港BGP_27
-      - 🇭🇰 YouTube简迷离|广港BGP_28
-      - 🇭🇰 YouTube简迷离|广港BGP_29
-      - 🇭🇰 YouTube简迷离|广港BGP_30
-      - 🇭🇰 YouTube简迷离|广港BGP_31
-      - 🇭🇰 YouTube简迷离|广港BGP_32
-      - 🇭🇰 YouTube简迷离|广港BGP_33
-      - 🇭🇰 YouTube简迷离|广港BGP_34
-      - 🇭🇰 YouTube简迷离|广港BGP_35
-      - 🇭🇰 YouTube简迷离|广港BGP_36
-      - 🇭🇰 YouTube简迷离|广港BGP_37
-      - 🇭🇰 YouTube简迷离|广港BGP_38
-      - 🇭🇰 YouTube简迷离|广港BGP_39
-      - 🇭🇰 YouTube简迷离|广港BGP_40
-      - 🇭🇰 YouTube简迷离|广港BGP_41
-      - 🇭🇰 YouTube简迷离|广港BGP_42
-      - 🇭🇰 YouTube简迷离|广港BGP_43
-      - 🇭🇰 YouTube简迷离|广港BGP_44
-      - 🇭🇰 YouTube简迷离|广港BGP_45
-      - 🇭🇰 YouTube简迷离|广港BGP_46
-      - 🇭🇰 YouTube简迷离|广港BGP_47
-      - 🇭🇰 YouTube简迷离|广港BGP_48
-      - 🇭🇰 YouTube简迷离|广港BGP_49
-      - 🇭🇰 YouTube简迷离|广港BGP_50
-      - 🇭🇰 YouTube简迷离|广港BGP_51
-      - 🇭🇰 YouTube简迷离|广港BGP_52
-      - 🇭🇰 YouTube简迷离|广港BGP_53
-      - 🇭🇰 YouTube简迷离|广港BGP_54
-      - 🇭🇰 YouTube简迷离|广港BGP_55
-      - 🇭🇰 YouTube简迷离|广港BGP_56
-      - 🇭🇰 YouTube简迷离|广港BGP_57
-      - 🇭🇰 YouTube简迷离|广港BGP_58
-      - 🇭🇰 YouTube简迷离|广港BGP_59
-      - 🇭🇰 YouTube简迷离|广港BGP_60
-      - 🇭🇰 YouTube简迷离|广港BGP_61
-      - 🇭🇰 YouTube简迷离|广港BGP_62
-      - 🇭🇰 YouTube简迷离|广港BGP_63
-      - 🇭🇰 YouTube简迷离|广港BGP_64
-      - 🇭🇰 YouTube简迷离|广港BGP_65
-      - 🇭🇰 YouTube简迷离|广港BGP_66
-      - 🇭🇰 YouTube简迷离|广港BGP_67
-      - 🇭🇰 YouTube简迷离|广港BGP_68
-      - 🇭🇰 YouTube简迷离|广港BGP_69
-      - 🇭🇰 YouTube简迷离|广港BGP_70
-      - 🇭🇰 YouTube简迷离|广港BGP_71
-      - 🇭🇰 YouTube简迷离|广港BGP_72
-      - 🇭🇰 YouTube简迷离|广港BGP_73
-      - 🇭🇰 YouTube简迷离|广港BGP_74
-      - 🇭🇰 YouTube简迷离|广港BGP_75
-      - 🇭🇰 YouTube简迷离|广港BGP_76
-      - 🇭🇰 YouTube简迷离|广港BGP_77
-      - 🇭🇰 YouTube简迷离|广港BGP_78
-      - 🇭🇰 YouTube简迷离|广港BGP_79
-      - 🇭🇰 YouTube简迷离|广港BGP_80
-      - 🇭🇰 YouTube简迷离|广港BGP_81
-      - 🇭🇰 YouTube简迷离|广港BGP_82
-      - 🇭🇰 YouTube简迷离|广港BGP_83
-      - 🇭🇰 YouTube简迷离|广港BGP_84
-      - 🇭🇰 YouTube简迷离|广港BGP_85
-      - 🇭🇰 YouTube简迷离|广港BGP_86
-      - 🇭🇰 YouTube简迷离|广港BGP_87
-      - 🇭🇰 YouTube简迷离|广港BGP_88
-      - 🇭🇰 YouTube简迷离|广港BGP_89
-      - 🇭🇰 YouTube简迷离|广港BGP_90
-      - 🇭🇰 YouTube简迷离|广港BGP_91
-      - 🇭🇰 YouTube简迷离|广港BGP_92
-      - 🇭🇰 YouTube简迷离|广港BGP_93
-      - 🇭🇰 YouTube简迷离|广港BGP_94
-      - 🇭🇰 YouTube简迷离|广港BGP_95
-      - 🇭🇰 YouTube简迷离|广港BGP_96
-      - 🇭🇰 YouTube简迷离|广港BGP_97
-      - 🇭🇰 YouTube简迷离|广港BGP_98
-      - 🇭🇰 YouTube简迷离|广港BGP_99
-      - 🇭🇰 YouTube简迷离|广港BGP_100
-      - 🇭🇰 YouTube简迷离|广港BGP_101
-      - 🇭🇰 YouTube简迷离|广港BGP_102
-      - 🇭🇰 YouTube简迷离|广港BGP_103
-      - 🇭🇰 YouTube简迷离|广港BGP_104
-      - 🇭🇰 YouTube简迷离|广港BGP_105
-      - 🇭🇰 YouTube简迷离|广港BGP_106
-      - 🇭🇰 YouTube简迷离|广港BGP_107
-      - 🇭🇰 YouTube简迷离|广港BGP_108
-      - 🇭🇰 YouTube简迷离|广港BGP_109
-      - 🇭🇰 YouTube简迷离|广港BGP_110
-      - 🇭🇰 YouTube简迷离|广港BGP_111
-      - 🇭🇰 YouTube简迷离|广港BGP_112
-      - 🇭🇰 YouTube简迷离|广港BGP_113
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_1
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_2
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_3
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_4
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_5
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_6
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_7
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_8
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_9
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_10
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_11
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_12
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_13
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_14
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_15
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_16
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_17
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_18
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_19
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_20
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_21
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_22
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_23
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_24
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_25
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_26
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_27
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_28
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_29
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_30
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_31
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_32
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_33
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_34
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_35
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_36
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 YouTube简迷离|广港BGP_1
-      - 🇭🇰 YouTube简迷离|广港BGP_2
-      - 🇭🇰 YouTube简迷离|广港BGP_3
-      - 🇭🇰 YouTube简迷离|广港BGP_4
-      - 🇭🇰 YouTube简迷离|广港BGP_5
-      - 🇭🇰 YouTube简迷离|广港BGP_6
-      - 🇭🇰 YouTube简迷离|广港BGP_7
-      - 🇭🇰 YouTube简迷离|广港BGP_8
-      - 🇭🇰 YouTube简迷离|广港BGP_9
-      - 🇭🇰 YouTube简迷离|广港BGP_10
-      - 🇭🇰 YouTube简迷离|广港BGP_11
-      - 🇭🇰 YouTube简迷离|广港BGP_12
-      - 🇭🇰 YouTube简迷离|广港BGP_13
-      - 🇭🇰 YouTube简迷离|广港BGP_14
-      - 🇭🇰 YouTube简迷离|广港BGP_15
-      - 🇭🇰 YouTube简迷离|广港BGP_16
-      - 🇭🇰 YouTube简迷离|广港BGP_17
-      - 🇭🇰 YouTube简迷离|广港BGP_18
-      - 🇭🇰 YouTube简迷离|广港BGP_19
-      - 🇭🇰 YouTube简迷离|广港BGP_20
-      - 🇭🇰 YouTube简迷离|广港BGP_21
-      - 🇭🇰 YouTube简迷离|广港BGP_22
-      - 🇭🇰 YouTube简迷离|广港BGP_23
-      - 🇭🇰 YouTube简迷离|广港BGP_24
-      - 🇭🇰 YouTube简迷离|广港BGP_25
-      - 🇭🇰 YouTube简迷离|广港BGP_26
-      - 🇭🇰 YouTube简迷离|广港BGP_27
-      - 🇭🇰 YouTube简迷离|广港BGP_28
-      - 🇭🇰 YouTube简迷离|广港BGP_29
-      - 🇭🇰 YouTube简迷离|广港BGP_30
-      - 🇭🇰 YouTube简迷离|广港BGP_31
-      - 🇭🇰 YouTube简迷离|广港BGP_32
-      - 🇭🇰 YouTube简迷离|广港BGP_33
-      - 🇭🇰 YouTube简迷离|广港BGP_34
-      - 🇭🇰 YouTube简迷离|广港BGP_35
-      - 🇭🇰 YouTube简迷离|广港BGP_36
-      - 🇭🇰 YouTube简迷离|广港BGP_37
-      - 🇭🇰 YouTube简迷离|广港BGP_38
-      - 🇭🇰 YouTube简迷离|广港BGP_39
-      - 🇭🇰 YouTube简迷离|广港BGP_40
-      - 🇭🇰 YouTube简迷离|广港BGP_41
-      - 🇭🇰 YouTube简迷离|广港BGP_42
-      - 🇭🇰 YouTube简迷离|广港BGP_43
-      - 🇭🇰 YouTube简迷离|广港BGP_44
-      - 🇭🇰 YouTube简迷离|广港BGP_45
-      - 🇭🇰 YouTube简迷离|广港BGP_46
-      - 🇭🇰 YouTube简迷离|广港BGP_47
-      - 🇭🇰 YouTube简迷离|广港BGP_48
-      - 🇭🇰 YouTube简迷离|广港BGP_49
-      - 🇭🇰 YouTube简迷离|广港BGP_50
-      - 🇭🇰 YouTube简迷离|广港BGP_51
-      - 🇭🇰 YouTube简迷离|广港BGP_52
-      - 🇭🇰 YouTube简迷离|广港BGP_53
-      - 🇭🇰 YouTube简迷离|广港BGP_54
-      - 🇭🇰 YouTube简迷离|广港BGP_55
-      - 🇭🇰 YouTube简迷离|广港BGP_56
-      - 🇭🇰 YouTube简迷离|广港BGP_57
-      - 🇭🇰 YouTube简迷离|广港BGP_58
-      - 🇭🇰 YouTube简迷离|广港BGP_59
-      - 🇭🇰 YouTube简迷离|广港BGP_60
-      - 🇭🇰 YouTube简迷离|广港BGP_61
-      - 🇭🇰 YouTube简迷离|广港BGP_62
-      - 🇭🇰 YouTube简迷离|广港BGP_63
-      - 🇭🇰 YouTube简迷离|广港BGP_64
-      - 🇭🇰 YouTube简迷离|广港BGP_65
-      - 🇭🇰 YouTube简迷离|广港BGP_66
-      - 🇭🇰 YouTube简迷离|广港BGP_67
-      - 🇭🇰 YouTube简迷离|广港BGP_68
-      - 🇭🇰 YouTube简迷离|广港BGP_69
-      - 🇭🇰 YouTube简迷离|广港BGP_70
-      - 🇭🇰 YouTube简迷离|广港BGP_71
-      - 🇭🇰 YouTube简迷离|广港BGP_72
-      - 🇭🇰 YouTube简迷离|广港BGP_73
-      - 🇭🇰 YouTube简迷离|广港BGP_74
-      - 🇭🇰 YouTube简迷离|广港BGP_75
-      - 🇭🇰 YouTube简迷离|广港BGP_76
-      - 🇭🇰 YouTube简迷离|广港BGP_77
-      - 🇭🇰 YouTube简迷离|广港BGP_78
-      - 🇭🇰 YouTube简迷离|广港BGP_79
-      - 🇭🇰 YouTube简迷离|广港BGP_80
-      - 🇭🇰 YouTube简迷离|广港BGP_81
-      - 🇭🇰 YouTube简迷离|广港BGP_82
-      - 🇭🇰 YouTube简迷离|广港BGP_83
-      - 🇭🇰 YouTube简迷离|广港BGP_84
-      - 🇭🇰 YouTube简迷离|广港BGP_85
-      - 🇭🇰 YouTube简迷离|广港BGP_86
-      - 🇭🇰 YouTube简迷离|广港BGP_87
-      - 🇭🇰 YouTube简迷离|广港BGP_88
-      - 🇭🇰 YouTube简迷离|广港BGP_89
-      - 🇭🇰 YouTube简迷离|广港BGP_90
-      - 🇭🇰 YouTube简迷离|广港BGP_91
-      - 🇭🇰 YouTube简迷离|广港BGP_92
-      - 🇭🇰 YouTube简迷离|广港BGP_93
-      - 🇭🇰 YouTube简迷离|广港BGP_94
-      - 🇭🇰 YouTube简迷离|广港BGP_95
-      - 🇭🇰 YouTube简迷离|广港BGP_96
-      - 🇭🇰 YouTube简迷离|广港BGP_97
-      - 🇭🇰 YouTube简迷离|广港BGP_98
-      - 🇭🇰 YouTube简迷离|广港BGP_99
-      - 🇭🇰 YouTube简迷离|广港BGP_100
-      - 🇭🇰 YouTube简迷离|广港BGP_101
-      - 🇭🇰 YouTube简迷离|广港BGP_102
-      - 🇭🇰 YouTube简迷离|广港BGP_103
-      - 🇭🇰 YouTube简迷离|广港BGP_104
-      - 🇭🇰 YouTube简迷离|广港BGP_105
-      - 🇭🇰 YouTube简迷离|广港BGP_106
-      - 🇭🇰 YouTube简迷离|广港BGP_107
-      - 🇭🇰 YouTube简迷离|广港BGP_108
-      - 🇭🇰 YouTube简迷离|广港BGP_109
-      - 🇭🇰 YouTube简迷离|广港BGP_110
-      - 🇭🇰 YouTube简迷离|广港BGP_111
-      - 🇭🇰 YouTube简迷离|广港BGP_112
-      - 🇭🇰 YouTube简迷离|广港BGP_113
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_1
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_2
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_3
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_4
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_5
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_6
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_7
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_8
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_9
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_10
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_11
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_12
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_13
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_14
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_15
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_16
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_17
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_18
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_19
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_20
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_21
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_22
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_23
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_24
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_25
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_26
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_27
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_28
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_29
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_30
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_31
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_32
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_33
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_34
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_35
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_36
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 YouTube简迷离|广港BGP_1
-      - 🇭🇰 YouTube简迷离|广港BGP_2
-      - 🇭🇰 YouTube简迷离|广港BGP_3
-      - 🇭🇰 YouTube简迷离|广港BGP_4
-      - 🇭🇰 YouTube简迷离|广港BGP_5
-      - 🇭🇰 YouTube简迷离|广港BGP_6
-      - 🇭🇰 YouTube简迷离|广港BGP_7
-      - 🇭🇰 YouTube简迷离|广港BGP_8
-      - 🇭🇰 YouTube简迷离|广港BGP_9
-      - 🇭🇰 YouTube简迷离|广港BGP_10
-      - 🇭🇰 YouTube简迷离|广港BGP_11
-      - 🇭🇰 YouTube简迷离|广港BGP_12
-      - 🇭🇰 YouTube简迷离|广港BGP_13
-      - 🇭🇰 YouTube简迷离|广港BGP_14
-      - 🇭🇰 YouTube简迷离|广港BGP_15
-      - 🇭🇰 YouTube简迷离|广港BGP_16
-      - 🇭🇰 YouTube简迷离|广港BGP_17
-      - 🇭🇰 YouTube简迷离|广港BGP_18
-      - 🇭🇰 YouTube简迷离|广港BGP_19
-      - 🇭🇰 YouTube简迷离|广港BGP_20
-      - 🇭🇰 YouTube简迷离|广港BGP_21
-      - 🇭🇰 YouTube简迷离|广港BGP_22
-      - 🇭🇰 YouTube简迷离|广港BGP_23
-      - 🇭🇰 YouTube简迷离|广港BGP_24
-      - 🇭🇰 YouTube简迷离|广港BGP_25
-      - 🇭🇰 YouTube简迷离|广港BGP_26
-      - 🇭🇰 YouTube简迷离|广港BGP_27
-      - 🇭🇰 YouTube简迷离|广港BGP_28
-      - 🇭🇰 YouTube简迷离|广港BGP_29
-      - 🇭🇰 YouTube简迷离|广港BGP_30
-      - 🇭🇰 YouTube简迷离|广港BGP_31
-      - 🇭🇰 YouTube简迷离|广港BGP_32
-      - 🇭🇰 YouTube简迷离|广港BGP_33
-      - 🇭🇰 YouTube简迷离|广港BGP_34
-      - 🇭🇰 YouTube简迷离|广港BGP_35
-      - 🇭🇰 YouTube简迷离|广港BGP_36
-      - 🇭🇰 YouTube简迷离|广港BGP_37
-      - 🇭🇰 YouTube简迷离|广港BGP_38
-      - 🇭🇰 YouTube简迷离|广港BGP_39
-      - 🇭🇰 YouTube简迷离|广港BGP_40
-      - 🇭🇰 YouTube简迷离|广港BGP_41
-      - 🇭🇰 YouTube简迷离|广港BGP_42
-      - 🇭🇰 YouTube简迷离|广港BGP_43
-      - 🇭🇰 YouTube简迷离|广港BGP_44
-      - 🇭🇰 YouTube简迷离|广港BGP_45
-      - 🇭🇰 YouTube简迷离|广港BGP_46
-      - 🇭🇰 YouTube简迷离|广港BGP_47
-      - 🇭🇰 YouTube简迷离|广港BGP_48
-      - 🇭🇰 YouTube简迷离|广港BGP_49
-      - 🇭🇰 YouTube简迷离|广港BGP_50
-      - 🇭🇰 YouTube简迷离|广港BGP_51
-      - 🇭🇰 YouTube简迷离|广港BGP_52
-      - 🇭🇰 YouTube简迷离|广港BGP_53
-      - 🇭🇰 YouTube简迷离|广港BGP_54
-      - 🇭🇰 YouTube简迷离|广港BGP_55
-      - 🇭🇰 YouTube简迷离|广港BGP_56
-      - 🇭🇰 YouTube简迷离|广港BGP_57
-      - 🇭🇰 YouTube简迷离|广港BGP_58
-      - 🇭🇰 YouTube简迷离|广港BGP_59
-      - 🇭🇰 YouTube简迷离|广港BGP_60
-      - 🇭🇰 YouTube简迷离|广港BGP_61
-      - 🇭🇰 YouTube简迷离|广港BGP_62
-      - 🇭🇰 YouTube简迷离|广港BGP_63
-      - 🇭🇰 YouTube简迷离|广港BGP_64
-      - 🇭🇰 YouTube简迷离|广港BGP_65
-      - 🇭🇰 YouTube简迷离|广港BGP_66
-      - 🇭🇰 YouTube简迷离|广港BGP_67
-      - 🇭🇰 YouTube简迷离|广港BGP_68
-      - 🇭🇰 YouTube简迷离|广港BGP_69
-      - 🇭🇰 YouTube简迷离|广港BGP_70
-      - 🇭🇰 YouTube简迷离|广港BGP_71
-      - 🇭🇰 YouTube简迷离|广港BGP_72
-      - 🇭🇰 YouTube简迷离|广港BGP_73
-      - 🇭🇰 YouTube简迷离|广港BGP_74
-      - 🇭🇰 YouTube简迷离|广港BGP_75
-      - 🇭🇰 YouTube简迷离|广港BGP_76
-      - 🇭🇰 YouTube简迷离|广港BGP_77
-      - 🇭🇰 YouTube简迷离|广港BGP_78
-      - 🇭🇰 YouTube简迷离|广港BGP_79
-      - 🇭🇰 YouTube简迷离|广港BGP_80
-      - 🇭🇰 YouTube简迷离|广港BGP_81
-      - 🇭🇰 YouTube简迷离|广港BGP_82
-      - 🇭🇰 YouTube简迷离|广港BGP_83
-      - 🇭🇰 YouTube简迷离|广港BGP_84
-      - 🇭🇰 YouTube简迷离|广港BGP_85
-      - 🇭🇰 YouTube简迷离|广港BGP_86
-      - 🇭🇰 YouTube简迷离|广港BGP_87
-      - 🇭🇰 YouTube简迷离|广港BGP_88
-      - 🇭🇰 YouTube简迷离|广港BGP_89
-      - 🇭🇰 YouTube简迷离|广港BGP_90
-      - 🇭🇰 YouTube简迷离|广港BGP_91
-      - 🇭🇰 YouTube简迷离|广港BGP_92
-      - 🇭🇰 YouTube简迷离|广港BGP_93
-      - 🇭🇰 YouTube简迷离|广港BGP_94
-      - 🇭🇰 YouTube简迷离|广港BGP_95
-      - 🇭🇰 YouTube简迷离|广港BGP_96
-      - 🇭🇰 YouTube简迷离|广港BGP_97
-      - 🇭🇰 YouTube简迷离|广港BGP_98
-      - 🇭🇰 YouTube简迷离|广港BGP_99
-      - 🇭🇰 YouTube简迷离|广港BGP_100
-      - 🇭🇰 YouTube简迷离|广港BGP_101
-      - 🇭🇰 YouTube简迷离|广港BGP_102
-      - 🇭🇰 YouTube简迷离|广港BGP_103
-      - 🇭🇰 YouTube简迷离|广港BGP_104
-      - 🇭🇰 YouTube简迷离|广港BGP_105
-      - 🇭🇰 YouTube简迷离|广港BGP_106
-      - 🇭🇰 YouTube简迷离|广港BGP_107
-      - 🇭🇰 YouTube简迷离|广港BGP_108
-      - 🇭🇰 YouTube简迷离|广港BGP_109
-      - 🇭🇰 YouTube简迷离|广港BGP_110
-      - 🇭🇰 YouTube简迷离|广港BGP_111
-      - 🇭🇰 YouTube简迷离|广港BGP_112
-      - 🇭🇰 YouTube简迷离|广港BGP_113
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_1
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_2
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_3
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_4
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_5
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_6
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_7
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_8
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_9
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_10
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_11
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_12
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_13
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_14
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_15
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_16
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_17
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_18
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_19
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_20
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_21
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_22
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_23
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_24
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_25
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_26
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_27
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_28
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_29
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_30
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_31
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_32
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_33
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_34
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_35
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_36
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 YouTube简迷离|广港BGP_1
-      - 🇭🇰 YouTube简迷离|广港BGP_2
-      - 🇭🇰 YouTube简迷离|广港BGP_3
-      - 🇭🇰 YouTube简迷离|广港BGP_4
-      - 🇭🇰 YouTube简迷离|广港BGP_5
-      - 🇭🇰 YouTube简迷离|广港BGP_6
-      - 🇭🇰 YouTube简迷离|广港BGP_7
-      - 🇭🇰 YouTube简迷离|广港BGP_8
-      - 🇭🇰 YouTube简迷离|广港BGP_9
-      - 🇭🇰 YouTube简迷离|广港BGP_10
-      - 🇭🇰 YouTube简迷离|广港BGP_11
-      - 🇭🇰 YouTube简迷离|广港BGP_12
-      - 🇭🇰 YouTube简迷离|广港BGP_13
-      - 🇭🇰 YouTube简迷离|广港BGP_14
-      - 🇭🇰 YouTube简迷离|广港BGP_15
-      - 🇭🇰 YouTube简迷离|广港BGP_16
-      - 🇭🇰 YouTube简迷离|广港BGP_17
-      - 🇭🇰 YouTube简迷离|广港BGP_18
-      - 🇭🇰 YouTube简迷离|广港BGP_19
-      - 🇭🇰 YouTube简迷离|广港BGP_20
-      - 🇭🇰 YouTube简迷离|广港BGP_21
-      - 🇭🇰 YouTube简迷离|广港BGP_22
-      - 🇭🇰 YouTube简迷离|广港BGP_23
-      - 🇭🇰 YouTube简迷离|广港BGP_24
-      - 🇭🇰 YouTube简迷离|广港BGP_25
-      - 🇭🇰 YouTube简迷离|广港BGP_26
-      - 🇭🇰 YouTube简迷离|广港BGP_27
-      - 🇭🇰 YouTube简迷离|广港BGP_28
-      - 🇭🇰 YouTube简迷离|广港BGP_29
-      - 🇭🇰 YouTube简迷离|广港BGP_30
-      - 🇭🇰 YouTube简迷离|广港BGP_31
-      - 🇭🇰 YouTube简迷离|广港BGP_32
-      - 🇭🇰 YouTube简迷离|广港BGP_33
-      - 🇭🇰 YouTube简迷离|广港BGP_34
-      - 🇭🇰 YouTube简迷离|广港BGP_35
-      - 🇭🇰 YouTube简迷离|广港BGP_36
-      - 🇭🇰 YouTube简迷离|广港BGP_37
-      - 🇭🇰 YouTube简迷离|广港BGP_38
-      - 🇭🇰 YouTube简迷离|广港BGP_39
-      - 🇭🇰 YouTube简迷离|广港BGP_40
-      - 🇭🇰 YouTube简迷离|广港BGP_41
-      - 🇭🇰 YouTube简迷离|广港BGP_42
-      - 🇭🇰 YouTube简迷离|广港BGP_43
-      - 🇭🇰 YouTube简迷离|广港BGP_44
-      - 🇭🇰 YouTube简迷离|广港BGP_45
-      - 🇭🇰 YouTube简迷离|广港BGP_46
-      - 🇭🇰 YouTube简迷离|广港BGP_47
-      - 🇭🇰 YouTube简迷离|广港BGP_48
-      - 🇭🇰 YouTube简迷离|广港BGP_49
-      - 🇭🇰 YouTube简迷离|广港BGP_50
-      - 🇭🇰 YouTube简迷离|广港BGP_51
-      - 🇭🇰 YouTube简迷离|广港BGP_52
-      - 🇭🇰 YouTube简迷离|广港BGP_53
-      - 🇭🇰 YouTube简迷离|广港BGP_54
-      - 🇭🇰 YouTube简迷离|广港BGP_55
-      - 🇭🇰 YouTube简迷离|广港BGP_56
-      - 🇭🇰 YouTube简迷离|广港BGP_57
-      - 🇭🇰 YouTube简迷离|广港BGP_58
-      - 🇭🇰 YouTube简迷离|广港BGP_59
-      - 🇭🇰 YouTube简迷离|广港BGP_60
-      - 🇭🇰 YouTube简迷离|广港BGP_61
-      - 🇭🇰 YouTube简迷离|广港BGP_62
-      - 🇭🇰 YouTube简迷离|广港BGP_63
-      - 🇭🇰 YouTube简迷离|广港BGP_64
-      - 🇭🇰 YouTube简迷离|广港BGP_65
-      - 🇭🇰 YouTube简迷离|广港BGP_66
-      - 🇭🇰 YouTube简迷离|广港BGP_67
-      - 🇭🇰 YouTube简迷离|广港BGP_68
-      - 🇭🇰 YouTube简迷离|广港BGP_69
-      - 🇭🇰 YouTube简迷离|广港BGP_70
-      - 🇭🇰 YouTube简迷离|广港BGP_71
-      - 🇭🇰 YouTube简迷离|广港BGP_72
-      - 🇭🇰 YouTube简迷离|广港BGP_73
-      - 🇭🇰 YouTube简迷离|广港BGP_74
-      - 🇭🇰 YouTube简迷离|广港BGP_75
-      - 🇭🇰 YouTube简迷离|广港BGP_76
-      - 🇭🇰 YouTube简迷离|广港BGP_77
-      - 🇭🇰 YouTube简迷离|广港BGP_78
-      - 🇭🇰 YouTube简迷离|广港BGP_79
-      - 🇭🇰 YouTube简迷离|广港BGP_80
-      - 🇭🇰 YouTube简迷离|广港BGP_81
-      - 🇭🇰 YouTube简迷离|广港BGP_82
-      - 🇭🇰 YouTube简迷离|广港BGP_83
-      - 🇭🇰 YouTube简迷离|广港BGP_84
-      - 🇭🇰 YouTube简迷离|广港BGP_85
-      - 🇭🇰 YouTube简迷离|广港BGP_86
-      - 🇭🇰 YouTube简迷离|广港BGP_87
-      - 🇭🇰 YouTube简迷离|广港BGP_88
-      - 🇭🇰 YouTube简迷离|广港BGP_89
-      - 🇭🇰 YouTube简迷离|广港BGP_90
-      - 🇭🇰 YouTube简迷离|广港BGP_91
-      - 🇭🇰 YouTube简迷离|广港BGP_92
-      - 🇭🇰 YouTube简迷离|广港BGP_93
-      - 🇭🇰 YouTube简迷离|广港BGP_94
-      - 🇭🇰 YouTube简迷离|广港BGP_95
-      - 🇭🇰 YouTube简迷离|广港BGP_96
-      - 🇭🇰 YouTube简迷离|广港BGP_97
-      - 🇭🇰 YouTube简迷离|广港BGP_98
-      - 🇭🇰 YouTube简迷离|广港BGP_99
-      - 🇭🇰 YouTube简迷离|广港BGP_100
-      - 🇭🇰 YouTube简迷离|广港BGP_101
-      - 🇭🇰 YouTube简迷离|广港BGP_102
-      - 🇭🇰 YouTube简迷离|广港BGP_103
-      - 🇭🇰 YouTube简迷离|广港BGP_104
-      - 🇭🇰 YouTube简迷离|广港BGP_105
-      - 🇭🇰 YouTube简迷离|广港BGP_106
-      - 🇭🇰 YouTube简迷离|广港BGP_107
-      - 🇭🇰 YouTube简迷离|广港BGP_108
-      - 🇭🇰 YouTube简迷离|广港BGP_109
-      - 🇭🇰 YouTube简迷离|广港BGP_110
-      - 🇭🇰 YouTube简迷离|广港BGP_111
-      - 🇭🇰 YouTube简迷离|广港BGP_112
-      - 🇭🇰 YouTube简迷离|广港BGP_113
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_1
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_2
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_3
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_4
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_5
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_6
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_7
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_8
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_9
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_10
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_11
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_12
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_13
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_14
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_15
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_16
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_17
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_18
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_19
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_20
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_21
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_22
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_23
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_24
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_25
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_26
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_27
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_28
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_29
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_30
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_31
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_32
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_33
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_34
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_35
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_36
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 YouTube简迷离|广港BGP_1
-      - 🇭🇰 YouTube简迷离|广港BGP_2
-      - 🇭🇰 YouTube简迷离|广港BGP_3
-      - 🇭🇰 YouTube简迷离|广港BGP_4
-      - 🇭🇰 YouTube简迷离|广港BGP_5
-      - 🇭🇰 YouTube简迷离|广港BGP_6
-      - 🇭🇰 YouTube简迷离|广港BGP_7
-      - 🇭🇰 YouTube简迷离|广港BGP_8
-      - 🇭🇰 YouTube简迷离|广港BGP_9
-      - 🇭🇰 YouTube简迷离|广港BGP_10
-      - 🇭🇰 YouTube简迷离|广港BGP_11
-      - 🇭🇰 YouTube简迷离|广港BGP_12
-      - 🇭🇰 YouTube简迷离|广港BGP_13
-      - 🇭🇰 YouTube简迷离|广港BGP_14
-      - 🇭🇰 YouTube简迷离|广港BGP_15
-      - 🇭🇰 YouTube简迷离|广港BGP_16
-      - 🇭🇰 YouTube简迷离|广港BGP_17
-      - 🇭🇰 YouTube简迷离|广港BGP_18
-      - 🇭🇰 YouTube简迷离|广港BGP_19
-      - 🇭🇰 YouTube简迷离|广港BGP_20
-      - 🇭🇰 YouTube简迷离|广港BGP_21
-      - 🇭🇰 YouTube简迷离|广港BGP_22
-      - 🇭🇰 YouTube简迷离|广港BGP_23
-      - 🇭🇰 YouTube简迷离|广港BGP_24
-      - 🇭🇰 YouTube简迷离|广港BGP_25
-      - 🇭🇰 YouTube简迷离|广港BGP_26
-      - 🇭🇰 YouTube简迷离|广港BGP_27
-      - 🇭🇰 YouTube简迷离|广港BGP_28
-      - 🇭🇰 YouTube简迷离|广港BGP_29
-      - 🇭🇰 YouTube简迷离|广港BGP_30
-      - 🇭🇰 YouTube简迷离|广港BGP_31
-      - 🇭🇰 YouTube简迷离|广港BGP_32
-      - 🇭🇰 YouTube简迷离|广港BGP_33
-      - 🇭🇰 YouTube简迷离|广港BGP_34
-      - 🇭🇰 YouTube简迷离|广港BGP_35
-      - 🇭🇰 YouTube简迷离|广港BGP_36
-      - 🇭🇰 YouTube简迷离|广港BGP_37
-      - 🇭🇰 YouTube简迷离|广港BGP_38
-      - 🇭🇰 YouTube简迷离|广港BGP_39
-      - 🇭🇰 YouTube简迷离|广港BGP_40
-      - 🇭🇰 YouTube简迷离|广港BGP_41
-      - 🇭🇰 YouTube简迷离|广港BGP_42
-      - 🇭🇰 YouTube简迷离|广港BGP_43
-      - 🇭🇰 YouTube简迷离|广港BGP_44
-      - 🇭🇰 YouTube简迷离|广港BGP_45
-      - 🇭🇰 YouTube简迷离|广港BGP_46
-      - 🇭🇰 YouTube简迷离|广港BGP_47
-      - 🇭🇰 YouTube简迷离|广港BGP_48
-      - 🇭🇰 YouTube简迷离|广港BGP_49
-      - 🇭🇰 YouTube简迷离|广港BGP_50
-      - 🇭🇰 YouTube简迷离|广港BGP_51
-      - 🇭🇰 YouTube简迷离|广港BGP_52
-      - 🇭🇰 YouTube简迷离|广港BGP_53
-      - 🇭🇰 YouTube简迷离|广港BGP_54
-      - 🇭🇰 YouTube简迷离|广港BGP_55
-      - 🇭🇰 YouTube简迷离|广港BGP_56
-      - 🇭🇰 YouTube简迷离|广港BGP_57
-      - 🇭🇰 YouTube简迷离|广港BGP_58
-      - 🇭🇰 YouTube简迷离|广港BGP_59
-      - 🇭🇰 YouTube简迷离|广港BGP_60
-      - 🇭🇰 YouTube简迷离|广港BGP_61
-      - 🇭🇰 YouTube简迷离|广港BGP_62
-      - 🇭🇰 YouTube简迷离|广港BGP_63
-      - 🇭🇰 YouTube简迷离|广港BGP_64
-      - 🇭🇰 YouTube简迷离|广港BGP_65
-      - 🇭🇰 YouTube简迷离|广港BGP_66
-      - 🇭🇰 YouTube简迷离|广港BGP_67
-      - 🇭🇰 YouTube简迷离|广港BGP_68
-      - 🇭🇰 YouTube简迷离|广港BGP_69
-      - 🇭🇰 YouTube简迷离|广港BGP_70
-      - 🇭🇰 YouTube简迷离|广港BGP_71
-      - 🇭🇰 YouTube简迷离|广港BGP_72
-      - 🇭🇰 YouTube简迷离|广港BGP_73
-      - 🇭🇰 YouTube简迷离|广港BGP_74
-      - 🇭🇰 YouTube简迷离|广港BGP_75
-      - 🇭🇰 YouTube简迷离|广港BGP_76
-      - 🇭🇰 YouTube简迷离|广港BGP_77
-      - 🇭🇰 YouTube简迷离|广港BGP_78
-      - 🇭🇰 YouTube简迷离|广港BGP_79
-      - 🇭🇰 YouTube简迷离|广港BGP_80
-      - 🇭🇰 YouTube简迷离|广港BGP_81
-      - 🇭🇰 YouTube简迷离|广港BGP_82
-      - 🇭🇰 YouTube简迷离|广港BGP_83
-      - 🇭🇰 YouTube简迷离|广港BGP_84
-      - 🇭🇰 YouTube简迷离|广港BGP_85
-      - 🇭🇰 YouTube简迷离|广港BGP_86
-      - 🇭🇰 YouTube简迷离|广港BGP_87
-      - 🇭🇰 YouTube简迷离|广港BGP_88
-      - 🇭🇰 YouTube简迷离|广港BGP_89
-      - 🇭🇰 YouTube简迷离|广港BGP_90
-      - 🇭🇰 YouTube简迷离|广港BGP_91
-      - 🇭🇰 YouTube简迷离|广港BGP_92
-      - 🇭🇰 YouTube简迷离|广港BGP_93
-      - 🇭🇰 YouTube简迷离|广港BGP_94
-      - 🇭🇰 YouTube简迷离|广港BGP_95
-      - 🇭🇰 YouTube简迷离|广港BGP_96
-      - 🇭🇰 YouTube简迷离|广港BGP_97
-      - 🇭🇰 YouTube简迷离|广港BGP_98
-      - 🇭🇰 YouTube简迷离|广港BGP_99
-      - 🇭🇰 YouTube简迷离|广港BGP_100
-      - 🇭🇰 YouTube简迷离|广港BGP_101
-      - 🇭🇰 YouTube简迷离|广港BGP_102
-      - 🇭🇰 YouTube简迷离|广港BGP_103
-      - 🇭🇰 YouTube简迷离|广港BGP_104
-      - 🇭🇰 YouTube简迷离|广港BGP_105
-      - 🇭🇰 YouTube简迷离|广港BGP_106
-      - 🇭🇰 YouTube简迷离|广港BGP_107
-      - 🇭🇰 YouTube简迷离|广港BGP_108
-      - 🇭🇰 YouTube简迷离|广港BGP_109
-      - 🇭🇰 YouTube简迷离|广港BGP_110
-      - 🇭🇰 YouTube简迷离|广港BGP_111
-      - 🇭🇰 YouTube简迷离|广港BGP_112
-      - 🇭🇰 YouTube简迷离|广港BGP_113
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_1
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_2
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_3
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_4
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_5
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_6
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_7
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_8
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_9
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_10
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_11
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_12
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_13
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_14
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_15
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_16
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_17
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_18
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_19
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_20
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_21
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_22
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_23
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_24
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_25
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_26
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_27
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_28
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_29
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_30
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_31
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_32
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_33
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_34
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_35
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_36
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1093,119 +400,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 YouTube简迷离|广港BGP_1
-      - 🇭🇰 YouTube简迷离|广港BGP_2
-      - 🇭🇰 YouTube简迷离|广港BGP_3
-      - 🇭🇰 YouTube简迷离|广港BGP_4
-      - 🇭🇰 YouTube简迷离|广港BGP_5
-      - 🇭🇰 YouTube简迷离|广港BGP_6
-      - 🇭🇰 YouTube简迷离|广港BGP_7
-      - 🇭🇰 YouTube简迷离|广港BGP_8
-      - 🇭🇰 YouTube简迷离|广港BGP_9
-      - 🇭🇰 YouTube简迷离|广港BGP_10
-      - 🇭🇰 YouTube简迷离|广港BGP_11
-      - 🇭🇰 YouTube简迷离|广港BGP_12
-      - 🇭🇰 YouTube简迷离|广港BGP_13
-      - 🇭🇰 YouTube简迷离|广港BGP_14
-      - 🇭🇰 YouTube简迷离|广港BGP_15
-      - 🇭🇰 YouTube简迷离|广港BGP_16
-      - 🇭🇰 YouTube简迷离|广港BGP_17
-      - 🇭🇰 YouTube简迷离|广港BGP_18
-      - 🇭🇰 YouTube简迷离|广港BGP_19
-      - 🇭🇰 YouTube简迷离|广港BGP_20
-      - 🇭🇰 YouTube简迷离|广港BGP_21
-      - 🇭🇰 YouTube简迷离|广港BGP_22
-      - 🇭🇰 YouTube简迷离|广港BGP_23
-      - 🇭🇰 YouTube简迷离|广港BGP_24
-      - 🇭🇰 YouTube简迷离|广港BGP_25
-      - 🇭🇰 YouTube简迷离|广港BGP_26
-      - 🇭🇰 YouTube简迷离|广港BGP_27
-      - 🇭🇰 YouTube简迷离|广港BGP_28
-      - 🇭🇰 YouTube简迷离|广港BGP_29
-      - 🇭🇰 YouTube简迷离|广港BGP_30
-      - 🇭🇰 YouTube简迷离|广港BGP_31
-      - 🇭🇰 YouTube简迷离|广港BGP_32
-      - 🇭🇰 YouTube简迷离|广港BGP_33
-      - 🇭🇰 YouTube简迷离|广港BGP_34
-      - 🇭🇰 YouTube简迷离|广港BGP_35
-      - 🇭🇰 YouTube简迷离|广港BGP_36
-      - 🇭🇰 YouTube简迷离|广港BGP_37
-      - 🇭🇰 YouTube简迷离|广港BGP_38
-      - 🇭🇰 YouTube简迷离|广港BGP_39
-      - 🇭🇰 YouTube简迷离|广港BGP_40
-      - 🇭🇰 YouTube简迷离|广港BGP_41
-      - 🇭🇰 YouTube简迷离|广港BGP_42
-      - 🇭🇰 YouTube简迷离|广港BGP_43
-      - 🇭🇰 YouTube简迷离|广港BGP_44
-      - 🇭🇰 YouTube简迷离|广港BGP_45
-      - 🇭🇰 YouTube简迷离|广港BGP_46
-      - 🇭🇰 YouTube简迷离|广港BGP_47
-      - 🇭🇰 YouTube简迷离|广港BGP_48
-      - 🇭🇰 YouTube简迷离|广港BGP_49
-      - 🇭🇰 YouTube简迷离|广港BGP_50
-      - 🇭🇰 YouTube简迷离|广港BGP_51
-      - 🇭🇰 YouTube简迷离|广港BGP_52
-      - 🇭🇰 YouTube简迷离|广港BGP_53
-      - 🇭🇰 YouTube简迷离|广港BGP_54
-      - 🇭🇰 YouTube简迷离|广港BGP_55
-      - 🇭🇰 YouTube简迷离|广港BGP_56
-      - 🇭🇰 YouTube简迷离|广港BGP_57
-      - 🇭🇰 YouTube简迷离|广港BGP_58
-      - 🇭🇰 YouTube简迷离|广港BGP_59
-      - 🇭🇰 YouTube简迷离|广港BGP_60
-      - 🇭🇰 YouTube简迷离|广港BGP_61
-      - 🇭🇰 YouTube简迷离|广港BGP_62
-      - 🇭🇰 YouTube简迷离|广港BGP_63
-      - 🇭🇰 YouTube简迷离|广港BGP_64
-      - 🇭🇰 YouTube简迷离|广港BGP_65
-      - 🇭🇰 YouTube简迷离|广港BGP_66
-      - 🇭🇰 YouTube简迷离|广港BGP_67
-      - 🇭🇰 YouTube简迷离|广港BGP_68
-      - 🇭🇰 YouTube简迷离|广港BGP_69
-      - 🇭🇰 YouTube简迷离|广港BGP_70
-      - 🇭🇰 YouTube简迷离|广港BGP_71
-      - 🇭🇰 YouTube简迷离|广港BGP_72
-      - 🇭🇰 YouTube简迷离|广港BGP_73
-      - 🇭🇰 YouTube简迷离|广港BGP_74
-      - 🇭🇰 YouTube简迷离|广港BGP_75
-      - 🇭🇰 YouTube简迷离|广港BGP_76
-      - 🇭🇰 YouTube简迷离|广港BGP_77
-      - 🇭🇰 YouTube简迷离|广港BGP_78
-      - 🇭🇰 YouTube简迷离|广港BGP_79
-      - 🇭🇰 YouTube简迷离|广港BGP_80
-      - 🇭🇰 YouTube简迷离|广港BGP_81
-      - 🇭🇰 YouTube简迷离|广港BGP_82
-      - 🇭🇰 YouTube简迷离|广港BGP_83
-      - 🇭🇰 YouTube简迷离|广港BGP_84
-      - 🇭🇰 YouTube简迷离|广港BGP_85
-      - 🇭🇰 YouTube简迷离|广港BGP_86
-      - 🇭🇰 YouTube简迷离|广港BGP_87
-      - 🇭🇰 YouTube简迷离|广港BGP_88
-      - 🇭🇰 YouTube简迷离|广港BGP_89
-      - 🇭🇰 YouTube简迷离|广港BGP_90
-      - 🇭🇰 YouTube简迷离|广港BGP_91
-      - 🇭🇰 YouTube简迷离|广港BGP_92
-      - 🇭🇰 YouTube简迷离|广港BGP_93
-      - 🇭🇰 YouTube简迷离|广港BGP_94
-      - 🇭🇰 YouTube简迷离|广港BGP_95
-      - 🇭🇰 YouTube简迷离|广港BGP_96
-      - 🇭🇰 YouTube简迷离|广港BGP_97
-      - 🇭🇰 YouTube简迷离|广港BGP_98
-      - 🇭🇰 YouTube简迷离|广港BGP_99
-      - 🇭🇰 YouTube简迷离|广港BGP_100
-      - 🇭🇰 YouTube简迷离|广港BGP_101
-      - 🇭🇰 YouTube简迷离|广港BGP_102
-      - 🇭🇰 YouTube简迷离|广港BGP_103
-      - 🇭🇰 YouTube简迷离|广港BGP_104
-      - 🇭🇰 YouTube简迷离|广港BGP_105
-      - 🇭🇰 YouTube简迷离|广港BGP_106
-      - 🇭🇰 YouTube简迷离|广港BGP_107
-      - 🇭🇰 YouTube简迷离|广港BGP_108
-      - 🇭🇰 YouTube简迷离|广港BGP_109
-      - 🇭🇰 YouTube简迷离|广港BGP_110
-      - 🇭🇰 YouTube简迷离|广港BGP_111
-      - 🇭🇰 YouTube简迷离|广港BGP_112
-      - 🇭🇰 YouTube简迷离|广港BGP_113
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_1
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_2
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_3
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_4
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_5
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_6
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_7
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_8
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_9
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_10
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_11
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_12
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_13
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_14
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_15
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_16
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_17
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_18
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_19
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_20
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_21
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_22
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_23
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_24
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_25
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_26
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_27
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_28
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_29
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_30
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_31
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_32
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_33
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_34
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_35
+      - 🇭🇰 YouTube梦歌|香港HKT|NETFLIX_36
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
