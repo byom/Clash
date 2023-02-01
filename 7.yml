@@ -1,395 +1,203 @@
-port: 7890
+﻿port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_1, server: twdns.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcoresggnode, headers: {Host: gcoresgg.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_3, server: 88.150.137.177, port: 443, type: trojan, password: shefelnak, sni: content-provider4.cdn-delivery.akamaicd.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_5, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcoresgnode, headers: {Host: gcoresg.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_6, server: 51fly99.win, port: 443, type: vmess, uuid: fefe2ff7-153c-41a8-aa04-e8d2e641505c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /myblog, headers: {Host: 51fly99.win}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_9, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol3.fovi.tk}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_10, server: 203.30.189.189, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_11, server: 190.93.246.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_13, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcorehkknode, headers: {Host: gcorehkk.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_14, server: 198.41.212.123, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_15, server: 85.208.108.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_17, server: 203.30.189.190, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_18, server: 162.159.128.7, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dsadsa1dsadsa33434, headers: {Host: xjp4h.mayaa.ml}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_19, server: 203.30.189.191, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_20, server: cf-yd-hkg-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: jp-ntt.sharecentre.online}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_21, server: sl2.mayaa.eu.org, port: 443, type: vmess, uuid: d5d8c6c4-d39c-4a0d-909e-bde51e8145ab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dsadsa144113s, headers: {Host: sl2.mayaa.eu.org}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_22, server: investors.spotify.com, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcorehknode, headers: {Host: gcorehk.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_23, server: 203.30.191.193, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_24, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore.sharecentre.online}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_25, server: 85.208.108.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_26, server: 141.101.115.134, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_27, server: 172.67.199.34, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_28, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol.fovi.tk}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_29, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsshkknode, headers: {Host: gcsshkk.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_30, server: 162.159.128.7, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcoresggnode, headers: {Host: gcoresgg.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_31, server: 190.93.244.200, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_32, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsshkknode, headers: {Host: gcsshkk.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_33, server: 162.159.128.7, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore.sharecentre.online}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_34, server: 185.162.228.229, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_35, server: 162.159.128.7, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_36, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_37, server: 203.30.188.188, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_38, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore-2.sharecentre.online}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_39, server: 162.159.135.42, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dsadsa1dsadsa33434, headers: {Host: xjp4h.mayaa.ml}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_40, server: 162.159.135.42, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcoresggnode, headers: {Host: gcoresgg.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_41, server: 203.30.188.190, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_42, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsplnode, headers: {Host: gcspl.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_43, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcorehkknode, headers: {Host: gcorehkk.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_44, server: xjp4h.mayaa.ml, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dsadsa1dsadsa33434, headers: {Host: xjp4h.mayaa.ml}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_45, server: sun.prxpro.cc, port: 80, type: vmess, uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /g7970d1b58m1ixn3i16i, headers: {Host: sun.prxpro.cc}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_46, server: 203.30.190.192, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_47, server: 23.227.38.38, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_48, server: 185.143.220.25, port: 443, type: vmess, uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /6e9EtZ2dL, headers: {Host: dengxin.one}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_49, server: www.dynadot.com, port: 2086, type: vmess, uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: kz.cloudflare.quest}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_50, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsdenode, headers: {Host: gcsde.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_51, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxdeovz2.fovi.tk}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_52, server: 203.30.188.120, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_54, server: 188.114.99.10, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_55, server: 188.114.99.11, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_56, server: 190.93.246.195, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_57, server: 198.41.212.122, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_58, server: 172.67.199.34, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore.sharecentre.online}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_59, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /wo.php, headers: {Host: els200.jslist.tk}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_60, server: 172.67.199.34, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_61, server: 172.67.199.34, port: 443, type: vmess, uuid: 3d6bb1ca-0ec5-4c7c-a54b-50c72aadb8a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: juzi3.82a.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_62, server: 141.101.114.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_63, server: 162.159.128.7, port: 443, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sshkit/1350195536/63a625eb069d5/, headers: {Host: sg2-v2ray.sshkit.org}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_64, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsshkknode, headers: {Host: gcsshkk.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_65, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lvryzenkvm1gb.sharecentre.online}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_66, server: 172.67.199.34, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sshkit/fdfadsfa/63848bfe228fd/, headers: {Host: us-lb.sshkit.org}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_67, server: guolicheng.cfd, port: 2052, type: vmess, uuid: c22b6896-0009-42bf-c787-cc4695261bb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/video?ed=2048", headers: {Host: us.hoox.cf}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_68, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcoresggnode, headers: {Host: gcoresgg.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_69, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcorehknode, headers: {Host: gcorehk.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_70, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_71, server: 141.193.213.10, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_73, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42awsypcanode, headers: {Host: awsypca.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_74, server: 198.41.203.6, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_75, server: twdns.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcorehknode, headers: {Host: gcorehk.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_76, server: 190.93.244.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_77, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcorehknode, headers: {Host: gcorehk.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_78, server: 203.30.188.189, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_79, server: 23.227.38.39, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_80, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lu.sharecentre.online}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_81, server: 172.67.199.34, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_82, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsshknode, headers: {Host: gcsshk.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_83, server: 185.162.228.229, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_84, server: 185.162.228.228, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_85, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol2.fovi.tk}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_86, server: 141.101.114.134, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_87, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxfra.fovi.tk}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_88, server: 172.67.199.34, port: 443, type: vmess, uuid: 781be00e-1e09-4e27-a464-e14197418c8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: id5.v2rayserv.com}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_90, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_91, server: 172.67.199.34, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lvryzenkvm1gb.sharecentre.online}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_92, server: 190.93.245.170, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_93, server: 172.67.199.34, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_94, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: jp-ntt.sharecentre.online}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_95, server: 172.67.199.34, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_96, server: 203.30.191.192, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_97, server: 203.30.190.190, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_98, server: 190.93.246.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_99, server: 172.67.199.34, port: 443, type: vmess, uuid: 3f52e850-b697-4f61-c82c-6d1ca0e6d1b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /myblog, headers: {Host: 51vfly1.win}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_100, server: 162.159.135.42, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsshknode, headers: {Host: gcsshk.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 YouTube简迷离|江港BGP_101, server: 66.235.200.22, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "IPLC专线｜冀台 [2.0][原生][Disney+]", server: iplc-ji.mielink-dns2.com, port: 667, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜冀新 [2.0][UDP]", server: iplc-ji.mielink-dns2.com, port: 664, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜冀日 [2.0][原生]", server: iplc-ji.mielink-dns2.com, port: 669, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜冀港 [2.0][原生][Disney+]", server: iplc-ji.mielink-dns2.com, port: 668, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜冀美 [2.0][NF][原生]", server: iplc-ji.mielink-dns2.com, port: 666, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜台湾Netflix专线-1 [2.0][NF][Disney+]", server: iplc-nf-1.mielink-dns2.com, port: 665, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜新加坡Netflix专线-1 [2.0][NF]", server: iplc-nf-1.mielink-dns2.com, port: 663, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜日本Netflix专线-1 [2.0][NF]", server: iplc-nf-1.mielink-dns2.com, port: 662, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜沪台 [2.0]", server: iplc-hu.mielink-dns2.com, port: 667, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜沪新 [2.0][UDP]", server: iplc-hu.mielink-dns2.com, port: 664, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜沪日 [2.0]", server: iplc-hu.mielink-dns2.com, port: 669, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜沪港 [2.0]", server: iplc-hu.mielink-dns2.com, port: 668, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜沪美 [2.0][NF]", server: iplc-hu.mielink-dns2.com, port: 666, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜浙台 [2.0]", server: iplc-zhe.mielink-dns2.com, port: 667, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜浙新 [2.0][UDP]", server: iplc-zhe.mielink-dns2.com, port: 664, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜浙日 [2.0]", server: iplc-zhe.mielink-dns2.com, port: 669, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜浙港 [2.0]", server: iplc-zhe.mielink-dns2.com, port: 668, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜浙美 [2.0][NF]", server: iplc-zhe.mielink-dns2.com, port: 666, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜深台 [2.0]", server: iplc-shen.mielink-dns2.com, port: 667, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜深新 [2.0][UDP]", server: iplc-shen.mielink-dns2.com, port: 664, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜深日 [2.0][原生]", server: iplc-shen.mielink-dns2.com, port: 669, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜深港 [2.0][原生][Disney+]", server: iplc-shen.mielink-dns2.com, port: 668, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜深美 [2.0][NF]", server: iplc-shen.mielink-dns2.com, port: 666, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜湘台 [2.0]", server: iplc-xiang.mielink-dns2.com, port: 667, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜湘新 [2.0][UDP]", server: iplc-xiang.mielink-dns2.com, port: 664, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜湘日 [2.0]", server: iplc-xiang.mielink-dns2.com, port: 669, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜湘港 [2.0][原生][Disney+]", server: iplc-xiang.mielink-dns2.com, port: 668, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜湘美 [2.0][NF]", server: iplc-xiang.mielink-dns2.com, port: 666, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜珠台 [2.0]", server: iplc-zhu.mielink-dns2.com, port: 667, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜珠新 [2.0][UDP]", server: iplc-zhu.mielink-dns2.com, port: 664, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜珠日 [2.0][原生]", server: iplc-zhu.mielink-dns2.com, port: 669, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜珠港 [2.0][原生][Disney+]", server: iplc-zhu.mielink-dns2.com, port: 668, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜珠美 [2.0][原生][NF]", server: iplc-zhu.mielink-dns2.com, port: 666, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜苏台 [2.0][原生][Disney+]", server: iplc-su.mielink-dns2.com, port: 667, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜苏新 [2.0][UDP]", server: iplc-su.mielink-dns2.com, port: 664, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜苏日 [2.0][原生]", server: iplc-su.mielink-dns2.com, port: 669, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜苏港 [2.0][原生][Disney+]", server: iplc-su.mielink-dns2.com, port: 668, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜苏美 [2.0][NF][原生]", server: iplc-su.mielink-dns2.com, port: 666, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜闽台 [2.0]", server: iplc-min.mielink-dns2.com, port: 667, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜闽新 [2.0][UDP]", server: iplc-min.mielink-dns2.com, port: 664, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜闽日 [2.0]", server: iplc-min.mielink-dns2.com, port: 669, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜闽港 [2.0]", server: iplc-min.mielink-dns2.com, port: 668, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜闽美 [2.0]", server: iplc-min.mielink-dns2.com, port: 666, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: "IPLC专线｜香港Netflix专线-1 [2.0][NF]", server: iplc-nf-1.mielink-dns2.com, port: 660, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 84517:0d4926a0-9881-3609-b6ee-4716da84e59e, obfs-param: ajax.microsoft.com, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 YouTube简迷离|江港BGP_1
-      - 🇭🇰 YouTube简迷离|江港BGP_3
-      - 🇭🇰 YouTube简迷离|江港BGP_5
-      - 🇭🇰 YouTube简迷离|江港BGP_6
-      - 🇭🇰 YouTube简迷离|江港BGP_9
-      - 🇭🇰 YouTube简迷离|江港BGP_10
-      - 🇭🇰 YouTube简迷离|江港BGP_11
-      - 🇭🇰 YouTube简迷离|江港BGP_13
-      - 🇭🇰 YouTube简迷离|江港BGP_14
-      - 🇭🇰 YouTube简迷离|江港BGP_15
-      - 🇭🇰 YouTube简迷离|江港BGP_17
-      - 🇭🇰 YouTube简迷离|江港BGP_18
-      - 🇭🇰 YouTube简迷离|江港BGP_19
-      - 🇭🇰 YouTube简迷离|江港BGP_20
-      - 🇭🇰 YouTube简迷离|江港BGP_21
-      - 🇭🇰 YouTube简迷离|江港BGP_22
-      - 🇭🇰 YouTube简迷离|江港BGP_23
-      - 🇭🇰 YouTube简迷离|江港BGP_24
-      - 🇭🇰 YouTube简迷离|江港BGP_25
-      - 🇭🇰 YouTube简迷离|江港BGP_26
-      - 🇭🇰 YouTube简迷离|江港BGP_27
-      - 🇭🇰 YouTube简迷离|江港BGP_28
-      - 🇭🇰 YouTube简迷离|江港BGP_29
-      - 🇭🇰 YouTube简迷离|江港BGP_30
-      - 🇭🇰 YouTube简迷离|江港BGP_31
-      - 🇭🇰 YouTube简迷离|江港BGP_32
-      - 🇭🇰 YouTube简迷离|江港BGP_33
-      - 🇭🇰 YouTube简迷离|江港BGP_34
-      - 🇭🇰 YouTube简迷离|江港BGP_35
-      - 🇭🇰 YouTube简迷离|江港BGP_36
-      - 🇭🇰 YouTube简迷离|江港BGP_37
-      - 🇭🇰 YouTube简迷离|江港BGP_38
-      - 🇭🇰 YouTube简迷离|江港BGP_39
-      - 🇭🇰 YouTube简迷离|江港BGP_40
-      - 🇭🇰 YouTube简迷离|江港BGP_41
-      - 🇭🇰 YouTube简迷离|江港BGP_42
-      - 🇭🇰 YouTube简迷离|江港BGP_43
-      - 🇭🇰 YouTube简迷离|江港BGP_44
-      - 🇭🇰 YouTube简迷离|江港BGP_45
-      - 🇭🇰 YouTube简迷离|江港BGP_46
-      - 🇭🇰 YouTube简迷离|江港BGP_47
-      - 🇭🇰 YouTube简迷离|江港BGP_48
-      - 🇭🇰 YouTube简迷离|江港BGP_49
-      - 🇭🇰 YouTube简迷离|江港BGP_50
-      - 🇭🇰 YouTube简迷离|江港BGP_51
-      - 🇭🇰 YouTube简迷离|江港BGP_52
-      - 🇭🇰 YouTube简迷离|江港BGP_54
-      - 🇭🇰 YouTube简迷离|江港BGP_55
-      - 🇭🇰 YouTube简迷离|江港BGP_56
-      - 🇭🇰 YouTube简迷离|江港BGP_57
-      - 🇭🇰 YouTube简迷离|江港BGP_58
-      - 🇭🇰 YouTube简迷离|江港BGP_59
-      - 🇭🇰 YouTube简迷离|江港BGP_60
-      - 🇭🇰 YouTube简迷离|江港BGP_61
-      - 🇭🇰 YouTube简迷离|江港BGP_62
-      - 🇭🇰 YouTube简迷离|江港BGP_63
-      - 🇭🇰 YouTube简迷离|江港BGP_64
-      - 🇭🇰 YouTube简迷离|江港BGP_65
-      - 🇭🇰 YouTube简迷离|江港BGP_66
-      - 🇭🇰 YouTube简迷离|江港BGP_67
-      - 🇭🇰 YouTube简迷离|江港BGP_68
-      - 🇭🇰 YouTube简迷离|江港BGP_69
-      - 🇭🇰 YouTube简迷离|江港BGP_70
-      - 🇭🇰 YouTube简迷离|江港BGP_71
-      - 🇭🇰 YouTube简迷离|江港BGP_73
-      - 🇭🇰 YouTube简迷离|江港BGP_74
-      - 🇭🇰 YouTube简迷离|江港BGP_75
-      - 🇭🇰 YouTube简迷离|江港BGP_76
-      - 🇭🇰 YouTube简迷离|江港BGP_77
-      - 🇭🇰 YouTube简迷离|江港BGP_78
-      - 🇭🇰 YouTube简迷离|江港BGP_79
-      - 🇭🇰 YouTube简迷离|江港BGP_80
-      - 🇭🇰 YouTube简迷离|江港BGP_81
-      - 🇭🇰 YouTube简迷离|江港BGP_82
-      - 🇭🇰 YouTube简迷离|江港BGP_83
-      - 🇭🇰 YouTube简迷离|江港BGP_84
-      - 🇭🇰 YouTube简迷离|江港BGP_85
-      - 🇭🇰 YouTube简迷离|江港BGP_86
-      - 🇭🇰 YouTube简迷离|江港BGP_87
-      - 🇭🇰 YouTube简迷离|江港BGP_88
-      - 🇭🇰 YouTube简迷离|江港BGP_90
-      - 🇭🇰 YouTube简迷离|江港BGP_91
-      - 🇭🇰 YouTube简迷离|江港BGP_92
-      - 🇭🇰 YouTube简迷离|江港BGP_93
-      - 🇭🇰 YouTube简迷离|江港BGP_94
-      - 🇭🇰 YouTube简迷离|江港BGP_95
-      - 🇭🇰 YouTube简迷离|江港BGP_96
-      - 🇭🇰 YouTube简迷离|江港BGP_97
-      - 🇭🇰 YouTube简迷离|江港BGP_98
-      - 🇭🇰 YouTube简迷离|江港BGP_99
-      - 🇭🇰 YouTube简迷离|江港BGP_100
-      - 🇭🇰 YouTube简迷离|江港BGP_101
+      - IPLC专线｜冀台 [2.0][原生][Disney+]
+      - IPLC专线｜冀新 [2.0][UDP]
+      - IPLC专线｜冀日 [2.0][原生]
+      - IPLC专线｜冀港 [2.0][原生][Disney+]
+      - IPLC专线｜冀美 [2.0][NF][原生]
+      - IPLC专线｜台湾Netflix专线-1 [2.0][NF][Disney+]
+      - IPLC专线｜新加坡Netflix专线-1 [2.0][NF]
+      - IPLC专线｜日本Netflix专线-1 [2.0][NF]
+      - IPLC专线｜沪台 [2.0]
+      - IPLC专线｜沪新 [2.0][UDP]
+      - IPLC专线｜沪日 [2.0]
+      - IPLC专线｜沪港 [2.0]
+      - IPLC专线｜沪美 [2.0][NF]
+      - IPLC专线｜浙台 [2.0]
+      - IPLC专线｜浙新 [2.0][UDP]
+      - IPLC专线｜浙日 [2.0]
+      - IPLC专线｜浙港 [2.0]
+      - IPLC专线｜浙美 [2.0][NF]
+      - IPLC专线｜深台 [2.0]
+      - IPLC专线｜深新 [2.0][UDP]
+      - IPLC专线｜深日 [2.0][原生]
+      - IPLC专线｜深港 [2.0][原生][Disney+]
+      - IPLC专线｜深美 [2.0][NF]
+      - IPLC专线｜湘台 [2.0]
+      - IPLC专线｜湘新 [2.0][UDP]
+      - IPLC专线｜湘日 [2.0]
+      - IPLC专线｜湘港 [2.0][原生][Disney+]
+      - IPLC专线｜湘美 [2.0][NF]
+      - IPLC专线｜珠台 [2.0]
+      - IPLC专线｜珠新 [2.0][UDP]
+      - IPLC专线｜珠日 [2.0][原生]
+      - IPLC专线｜珠港 [2.0][原生][Disney+]
+      - IPLC专线｜珠美 [2.0][原生][NF]
+      - IPLC专线｜苏台 [2.0][原生][Disney+]
+      - IPLC专线｜苏新 [2.0][UDP]
+      - IPLC专线｜苏日 [2.0][原生]
+      - IPLC专线｜苏港 [2.0][原生][Disney+]
+      - IPLC专线｜苏美 [2.0][NF][原生]
+      - IPLC专线｜闽台 [2.0]
+      - IPLC专线｜闽新 [2.0][UDP]
+      - IPLC专线｜闽日 [2.0]
+      - IPLC专线｜闽港 [2.0]
+      - IPLC专线｜闽美 [2.0]
+      - IPLC专线｜香港Netflix专线-1 [2.0][NF]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 YouTube简迷离|江港BGP_1
-      - 🇭🇰 YouTube简迷离|江港BGP_3
-      - 🇭🇰 YouTube简迷离|江港BGP_5
-      - 🇭🇰 YouTube简迷离|江港BGP_6
-      - 🇭🇰 YouTube简迷离|江港BGP_9
-      - 🇭🇰 YouTube简迷离|江港BGP_10
-      - 🇭🇰 YouTube简迷离|江港BGP_11
-      - 🇭🇰 YouTube简迷离|江港BGP_13
-      - 🇭🇰 YouTube简迷离|江港BGP_14
-      - 🇭🇰 YouTube简迷离|江港BGP_15
-      - 🇭🇰 YouTube简迷离|江港BGP_17
-      - 🇭🇰 YouTube简迷离|江港BGP_18
-      - 🇭🇰 YouTube简迷离|江港BGP_19
-      - 🇭🇰 YouTube简迷离|江港BGP_20
-      - 🇭🇰 YouTube简迷离|江港BGP_21
-      - 🇭🇰 YouTube简迷离|江港BGP_22
-      - 🇭🇰 YouTube简迷离|江港BGP_23
-      - 🇭🇰 YouTube简迷离|江港BGP_24
-      - 🇭🇰 YouTube简迷离|江港BGP_25
-      - 🇭🇰 YouTube简迷离|江港BGP_26
-      - 🇭🇰 YouTube简迷离|江港BGP_27
-      - 🇭🇰 YouTube简迷离|江港BGP_28
-      - 🇭🇰 YouTube简迷离|江港BGP_29
-      - 🇭🇰 YouTube简迷离|江港BGP_30
-      - 🇭🇰 YouTube简迷离|江港BGP_31
-      - 🇭🇰 YouTube简迷离|江港BGP_32
-      - 🇭🇰 YouTube简迷离|江港BGP_33
-      - 🇭🇰 YouTube简迷离|江港BGP_34
-      - 🇭🇰 YouTube简迷离|江港BGP_35
-      - 🇭🇰 YouTube简迷离|江港BGP_36
-      - 🇭🇰 YouTube简迷离|江港BGP_37
-      - 🇭🇰 YouTube简迷离|江港BGP_38
-      - 🇭🇰 YouTube简迷离|江港BGP_39
-      - 🇭🇰 YouTube简迷离|江港BGP_40
-      - 🇭🇰 YouTube简迷离|江港BGP_41
-      - 🇭🇰 YouTube简迷离|江港BGP_42
-      - 🇭🇰 YouTube简迷离|江港BGP_43
-      - 🇭🇰 YouTube简迷离|江港BGP_44
-      - 🇭🇰 YouTube简迷离|江港BGP_45
-      - 🇭🇰 YouTube简迷离|江港BGP_46
-      - 🇭🇰 YouTube简迷离|江港BGP_47
-      - 🇭🇰 YouTube简迷离|江港BGP_48
-      - 🇭🇰 YouTube简迷离|江港BGP_49
-      - 🇭🇰 YouTube简迷离|江港BGP_50
-      - 🇭🇰 YouTube简迷离|江港BGP_51
-      - 🇭🇰 YouTube简迷离|江港BGP_52
-      - 🇭🇰 YouTube简迷离|江港BGP_54
-      - 🇭🇰 YouTube简迷离|江港BGP_55
-      - 🇭🇰 YouTube简迷离|江港BGP_56
-      - 🇭🇰 YouTube简迷离|江港BGP_57
-      - 🇭🇰 YouTube简迷离|江港BGP_58
-      - 🇭🇰 YouTube简迷离|江港BGP_59
-      - 🇭🇰 YouTube简迷离|江港BGP_60
-      - 🇭🇰 YouTube简迷离|江港BGP_61
-      - 🇭🇰 YouTube简迷离|江港BGP_62
-      - 🇭🇰 YouTube简迷离|江港BGP_63
-      - 🇭🇰 YouTube简迷离|江港BGP_64
-      - 🇭🇰 YouTube简迷离|江港BGP_65
-      - 🇭🇰 YouTube简迷离|江港BGP_66
-      - 🇭🇰 YouTube简迷离|江港BGP_67
-      - 🇭🇰 YouTube简迷离|江港BGP_68
-      - 🇭🇰 YouTube简迷离|江港BGP_69
-      - 🇭🇰 YouTube简迷离|江港BGP_70
-      - 🇭🇰 YouTube简迷离|江港BGP_71
-      - 🇭🇰 YouTube简迷离|江港BGP_73
-      - 🇭🇰 YouTube简迷离|江港BGP_74
-      - 🇭🇰 YouTube简迷离|江港BGP_75
-      - 🇭🇰 YouTube简迷离|江港BGP_76
-      - 🇭🇰 YouTube简迷离|江港BGP_77
-      - 🇭🇰 YouTube简迷离|江港BGP_78
-      - 🇭🇰 YouTube简迷离|江港BGP_79
-      - 🇭🇰 YouTube简迷离|江港BGP_80
-      - 🇭🇰 YouTube简迷离|江港BGP_81
-      - 🇭🇰 YouTube简迷离|江港BGP_82
-      - 🇭🇰 YouTube简迷离|江港BGP_83
-      - 🇭🇰 YouTube简迷离|江港BGP_84
-      - 🇭🇰 YouTube简迷离|江港BGP_85
-      - 🇭🇰 YouTube简迷离|江港BGP_86
-      - 🇭🇰 YouTube简迷离|江港BGP_87
-      - 🇭🇰 YouTube简迷离|江港BGP_88
-      - 🇭🇰 YouTube简迷离|江港BGP_90
-      - 🇭🇰 YouTube简迷离|江港BGP_91
-      - 🇭🇰 YouTube简迷离|江港BGP_92
-      - 🇭🇰 YouTube简迷离|江港BGP_93
-      - 🇭🇰 YouTube简迷离|江港BGP_94
-      - 🇭🇰 YouTube简迷离|江港BGP_95
-      - 🇭🇰 YouTube简迷离|江港BGP_96
-      - 🇭🇰 YouTube简迷离|江港BGP_97
-      - 🇭🇰 YouTube简迷离|江港BGP_98
-      - 🇭🇰 YouTube简迷离|江港BGP_99
-      - 🇭🇰 YouTube简迷离|江港BGP_100
-      - 🇭🇰 YouTube简迷离|江港BGP_101
+      - IPLC专线｜冀台 [2.0][原生][Disney+]
+      - IPLC专线｜冀新 [2.0][UDP]
+      - IPLC专线｜冀日 [2.0][原生]
+      - IPLC专线｜冀港 [2.0][原生][Disney+]
+      - IPLC专线｜冀美 [2.0][NF][原生]
+      - IPLC专线｜台湾Netflix专线-1 [2.0][NF][Disney+]
+      - IPLC专线｜新加坡Netflix专线-1 [2.0][NF]
+      - IPLC专线｜日本Netflix专线-1 [2.0][NF]
+      - IPLC专线｜沪台 [2.0]
+      - IPLC专线｜沪新 [2.0][UDP]
+      - IPLC专线｜沪日 [2.0]
+      - IPLC专线｜沪港 [2.0]
+      - IPLC专线｜沪美 [2.0][NF]
+      - IPLC专线｜浙台 [2.0]
+      - IPLC专线｜浙新 [2.0][UDP]
+      - IPLC专线｜浙日 [2.0]
+      - IPLC专线｜浙港 [2.0]
+      - IPLC专线｜浙美 [2.0][NF]
+      - IPLC专线｜深台 [2.0]
+      - IPLC专线｜深新 [2.0][UDP]
+      - IPLC专线｜深日 [2.0][原生]
+      - IPLC专线｜深港 [2.0][原生][Disney+]
+      - IPLC专线｜深美 [2.0][NF]
+      - IPLC专线｜湘台 [2.0]
+      - IPLC专线｜湘新 [2.0][UDP]
+      - IPLC专线｜湘日 [2.0]
+      - IPLC专线｜湘港 [2.0][原生][Disney+]
+      - IPLC专线｜湘美 [2.0][NF]
+      - IPLC专线｜珠台 [2.0]
+      - IPLC专线｜珠新 [2.0][UDP]
+      - IPLC专线｜珠日 [2.0][原生]
+      - IPLC专线｜珠港 [2.0][原生][Disney+]
+      - IPLC专线｜珠美 [2.0][原生][NF]
+      - IPLC专线｜苏台 [2.0][原生][Disney+]
+      - IPLC专线｜苏新 [2.0][UDP]
+      - IPLC专线｜苏日 [2.0][原生]
+      - IPLC专线｜苏港 [2.0][原生][Disney+]
+      - IPLC专线｜苏美 [2.0][NF][原生]
+      - IPLC专线｜闽台 [2.0]
+      - IPLC专线｜闽新 [2.0][UDP]
+      - IPLC专线｜闽日 [2.0]
+      - IPLC专线｜闽港 [2.0]
+      - IPLC专线｜闽美 [2.0]
+      - IPLC专线｜香港Netflix专线-1 [2.0][NF]
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 YouTube简迷离|江港BGP_1
-      - 🇭🇰 YouTube简迷离|江港BGP_3
-      - 🇭🇰 YouTube简迷离|江港BGP_5
-      - 🇭🇰 YouTube简迷离|江港BGP_6
-      - 🇭🇰 YouTube简迷离|江港BGP_9
-      - 🇭🇰 YouTube简迷离|江港BGP_10
-      - 🇭🇰 YouTube简迷离|江港BGP_11
-      - 🇭🇰 YouTube简迷离|江港BGP_13
-      - 🇭🇰 YouTube简迷离|江港BGP_14
-      - 🇭🇰 YouTube简迷离|江港BGP_15
-      - 🇭🇰 YouTube简迷离|江港BGP_17
-      - 🇭🇰 YouTube简迷离|江港BGP_18
-      - 🇭🇰 YouTube简迷离|江港BGP_19
-      - 🇭🇰 YouTube简迷离|江港BGP_20
-      - 🇭🇰 YouTube简迷离|江港BGP_21
-      - 🇭🇰 YouTube简迷离|江港BGP_22
-      - 🇭🇰 YouTube简迷离|江港BGP_23
-      - 🇭🇰 YouTube简迷离|江港BGP_24
-      - 🇭🇰 YouTube简迷离|江港BGP_25
-      - 🇭🇰 YouTube简迷离|江港BGP_26
-      - 🇭🇰 YouTube简迷离|江港BGP_27
-      - 🇭🇰 YouTube简迷离|江港BGP_28
-      - 🇭🇰 YouTube简迷离|江港BGP_29
-      - 🇭🇰 YouTube简迷离|江港BGP_30
-      - 🇭🇰 YouTube简迷离|江港BGP_31
-      - 🇭🇰 YouTube简迷离|江港BGP_32
-      - 🇭🇰 YouTube简迷离|江港BGP_33
-      - 🇭🇰 YouTube简迷离|江港BGP_34
-      - 🇭🇰 YouTube简迷离|江港BGP_35
-      - 🇭🇰 YouTube简迷离|江港BGP_36
-      - 🇭🇰 YouTube简迷离|江港BGP_37
-      - 🇭🇰 YouTube简迷离|江港BGP_38
-      - 🇭🇰 YouTube简迷离|江港BGP_39
-      - 🇭🇰 YouTube简迷离|江港BGP_40
-      - 🇭🇰 YouTube简迷离|江港BGP_41
-      - 🇭🇰 YouTube简迷离|江港BGP_42
-      - 🇭🇰 YouTube简迷离|江港BGP_43
-      - 🇭🇰 YouTube简迷离|江港BGP_44
-      - 🇭🇰 YouTube简迷离|江港BGP_45
-      - 🇭🇰 YouTube简迷离|江港BGP_46
-      - 🇭🇰 YouTube简迷离|江港BGP_47
-      - 🇭🇰 YouTube简迷离|江港BGP_48
-      - 🇭🇰 YouTube简迷离|江港BGP_49
-      - 🇭🇰 YouTube简迷离|江港BGP_50
-      - 🇭🇰 YouTube简迷离|江港BGP_51
-      - 🇭🇰 YouTube简迷离|江港BGP_52
-      - 🇭🇰 YouTube简迷离|江港BGP_54
-      - 🇭🇰 YouTube简迷离|江港BGP_55
-      - 🇭🇰 YouTube简迷离|江港BGP_56
-      - 🇭🇰 YouTube简迷离|江港BGP_57
-      - 🇭🇰 YouTube简迷离|江港BGP_58
-      - 🇭🇰 YouTube简迷离|江港BGP_59
-      - 🇭🇰 YouTube简迷离|江港BGP_60
-      - 🇭🇰 YouTube简迷离|江港BGP_61
-      - 🇭🇰 YouTube简迷离|江港BGP_62
-      - 🇭🇰 YouTube简迷离|江港BGP_63
-      - 🇭🇰 YouTube简迷离|江港BGP_64
-      - 🇭🇰 YouTube简迷离|江港BGP_65
-      - 🇭🇰 YouTube简迷离|江港BGP_66
-      - 🇭🇰 YouTube简迷离|江港BGP_67
-      - 🇭🇰 YouTube简迷离|江港BGP_68
-      - 🇭🇰 YouTube简迷离|江港BGP_69
-      - 🇭🇰 YouTube简迷离|江港BGP_70
-      - 🇭🇰 YouTube简迷离|江港BGP_71
-      - 🇭🇰 YouTube简迷离|江港BGP_73
-      - 🇭🇰 YouTube简迷离|江港BGP_74
-      - 🇭🇰 YouTube简迷离|江港BGP_75
-      - 🇭🇰 YouTube简迷离|江港BGP_76
-      - 🇭🇰 YouTube简迷离|江港BGP_77
-      - 🇭🇰 YouTube简迷离|江港BGP_78
-      - 🇭🇰 YouTube简迷离|江港BGP_79
-      - 🇭🇰 YouTube简迷离|江港BGP_80
-      - 🇭🇰 YouTube简迷离|江港BGP_81
-      - 🇭🇰 YouTube简迷离|江港BGP_82
-      - 🇭🇰 YouTube简迷离|江港BGP_83
-      - 🇭🇰 YouTube简迷离|江港BGP_84
-      - 🇭🇰 YouTube简迷离|江港BGP_85
-      - 🇭🇰 YouTube简迷离|江港BGP_86
-      - 🇭🇰 YouTube简迷离|江港BGP_87
-      - 🇭🇰 YouTube简迷离|江港BGP_88
-      - 🇭🇰 YouTube简迷离|江港BGP_90
-      - 🇭🇰 YouTube简迷离|江港BGP_91
-      - 🇭🇰 YouTube简迷离|江港BGP_92
-      - 🇭🇰 YouTube简迷离|江港BGP_93
-      - 🇭🇰 YouTube简迷离|江港BGP_94
-      - 🇭🇰 YouTube简迷离|江港BGP_95
-      - 🇭🇰 YouTube简迷离|江港BGP_96
-      - 🇭🇰 YouTube简迷离|江港BGP_97
-      - 🇭🇰 YouTube简迷离|江港BGP_98
-      - 🇭🇰 YouTube简迷离|江港BGP_99
-      - 🇭🇰 YouTube简迷离|江港BGP_100
-      - 🇭🇰 YouTube简迷离|江港BGP_101
+      - IPLC专线｜冀台 [2.0][原生][Disney+]
+      - IPLC专线｜冀新 [2.0][UDP]
+      - IPLC专线｜冀日 [2.0][原生]
+      - IPLC专线｜冀港 [2.0][原生][Disney+]
+      - IPLC专线｜冀美 [2.0][NF][原生]
+      - IPLC专线｜台湾Netflix专线-1 [2.0][NF][Disney+]
+      - IPLC专线｜新加坡Netflix专线-1 [2.0][NF]
+      - IPLC专线｜日本Netflix专线-1 [2.0][NF]
+      - IPLC专线｜沪台 [2.0]
+      - IPLC专线｜沪新 [2.0][UDP]
+      - IPLC专线｜沪日 [2.0]
+      - IPLC专线｜沪港 [2.0]
+      - IPLC专线｜沪美 [2.0][NF]
+      - IPLC专线｜浙台 [2.0]
+      - IPLC专线｜浙新 [2.0][UDP]
+      - IPLC专线｜浙日 [2.0]
+      - IPLC专线｜浙港 [2.0]
+      - IPLC专线｜浙美 [2.0][NF]
+      - IPLC专线｜深台 [2.0]
+      - IPLC专线｜深新 [2.0][UDP]
+      - IPLC专线｜深日 [2.0][原生]
+      - IPLC专线｜深港 [2.0][原生][Disney+]
+      - IPLC专线｜深美 [2.0][NF]
+      - IPLC专线｜湘台 [2.0]
+      - IPLC专线｜湘新 [2.0][UDP]
+      - IPLC专线｜湘日 [2.0]
+      - IPLC专线｜湘港 [2.0][原生][Disney+]
+      - IPLC专线｜湘美 [2.0][NF]
+      - IPLC专线｜珠台 [2.0]
+      - IPLC专线｜珠新 [2.0][UDP]
+      - IPLC专线｜珠日 [2.0][原生]
+      - IPLC专线｜珠港 [2.0][原生][Disney+]
+      - IPLC专线｜珠美 [2.0][原生][NF]
+      - IPLC专线｜苏台 [2.0][原生][Disney+]
+      - IPLC专线｜苏新 [2.0][UDP]
+      - IPLC专线｜苏日 [2.0][原生]
+      - IPLC专线｜苏港 [2.0][原生][Disney+]
+      - IPLC专线｜苏美 [2.0][NF][原生]
+      - IPLC专线｜闽台 [2.0]
+      - IPLC专线｜闽新 [2.0][UDP]
+      - IPLC专线｜闽日 [2.0]
+      - IPLC专线｜闽港 [2.0]
+      - IPLC专线｜闽美 [2.0]
+      - IPLC专线｜香港Netflix专线-1 [2.0][NF]
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -408,487 +216,221 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 YouTube简迷离|江港BGP_1
-      - 🇭🇰 YouTube简迷离|江港BGP_3
-      - 🇭🇰 YouTube简迷离|江港BGP_5
-      - 🇭🇰 YouTube简迷离|江港BGP_6
-      - 🇭🇰 YouTube简迷离|江港BGP_9
-      - 🇭🇰 YouTube简迷离|江港BGP_10
-      - 🇭🇰 YouTube简迷离|江港BGP_11
-      - 🇭🇰 YouTube简迷离|江港BGP_13
-      - 🇭🇰 YouTube简迷离|江港BGP_14
-      - 🇭🇰 YouTube简迷离|江港BGP_15
-      - 🇭🇰 YouTube简迷离|江港BGP_17
-      - 🇭🇰 YouTube简迷离|江港BGP_18
-      - 🇭🇰 YouTube简迷离|江港BGP_19
-      - 🇭🇰 YouTube简迷离|江港BGP_20
-      - 🇭🇰 YouTube简迷离|江港BGP_21
-      - 🇭🇰 YouTube简迷离|江港BGP_22
-      - 🇭🇰 YouTube简迷离|江港BGP_23
-      - 🇭🇰 YouTube简迷离|江港BGP_24
-      - 🇭🇰 YouTube简迷离|江港BGP_25
-      - 🇭🇰 YouTube简迷离|江港BGP_26
-      - 🇭🇰 YouTube简迷离|江港BGP_27
-      - 🇭🇰 YouTube简迷离|江港BGP_28
-      - 🇭🇰 YouTube简迷离|江港BGP_29
-      - 🇭🇰 YouTube简迷离|江港BGP_30
-      - 🇭🇰 YouTube简迷离|江港BGP_31
-      - 🇭🇰 YouTube简迷离|江港BGP_32
-      - 🇭🇰 YouTube简迷离|江港BGP_33
-      - 🇭🇰 YouTube简迷离|江港BGP_34
-      - 🇭🇰 YouTube简迷离|江港BGP_35
-      - 🇭🇰 YouTube简迷离|江港BGP_36
-      - 🇭🇰 YouTube简迷离|江港BGP_37
-      - 🇭🇰 YouTube简迷离|江港BGP_38
-      - 🇭🇰 YouTube简迷离|江港BGP_39
-      - 🇭🇰 YouTube简迷离|江港BGP_40
-      - 🇭🇰 YouTube简迷离|江港BGP_41
-      - 🇭🇰 YouTube简迷离|江港BGP_42
-      - 🇭🇰 YouTube简迷离|江港BGP_43
-      - 🇭🇰 YouTube简迷离|江港BGP_44
-      - 🇭🇰 YouTube简迷离|江港BGP_45
-      - 🇭🇰 YouTube简迷离|江港BGP_46
-      - 🇭🇰 YouTube简迷离|江港BGP_47
-      - 🇭🇰 YouTube简迷离|江港BGP_48
-      - 🇭🇰 YouTube简迷离|江港BGP_49
-      - 🇭🇰 YouTube简迷离|江港BGP_50
-      - 🇭🇰 YouTube简迷离|江港BGP_51
-      - 🇭🇰 YouTube简迷离|江港BGP_52
-      - 🇭🇰 YouTube简迷离|江港BGP_54
-      - 🇭🇰 YouTube简迷离|江港BGP_55
-      - 🇭🇰 YouTube简迷离|江港BGP_56
-      - 🇭🇰 YouTube简迷离|江港BGP_57
-      - 🇭🇰 YouTube简迷离|江港BGP_58
-      - 🇭🇰 YouTube简迷离|江港BGP_59
-      - 🇭🇰 YouTube简迷离|江港BGP_60
-      - 🇭🇰 YouTube简迷离|江港BGP_61
-      - 🇭🇰 YouTube简迷离|江港BGP_62
-      - 🇭🇰 YouTube简迷离|江港BGP_63
-      - 🇭🇰 YouTube简迷离|江港BGP_64
-      - 🇭🇰 YouTube简迷离|江港BGP_65
-      - 🇭🇰 YouTube简迷离|江港BGP_66
-      - 🇭🇰 YouTube简迷离|江港BGP_67
-      - 🇭🇰 YouTube简迷离|江港BGP_68
-      - 🇭🇰 YouTube简迷离|江港BGP_69
-      - 🇭🇰 YouTube简迷离|江港BGP_70
-      - 🇭🇰 YouTube简迷离|江港BGP_71
-      - 🇭🇰 YouTube简迷离|江港BGP_73
-      - 🇭🇰 YouTube简迷离|江港BGP_74
-      - 🇭🇰 YouTube简迷离|江港BGP_75
-      - 🇭🇰 YouTube简迷离|江港BGP_76
-      - 🇭🇰 YouTube简迷离|江港BGP_77
-      - 🇭🇰 YouTube简迷离|江港BGP_78
-      - 🇭🇰 YouTube简迷离|江港BGP_79
-      - 🇭🇰 YouTube简迷离|江港BGP_80
-      - 🇭🇰 YouTube简迷离|江港BGP_81
-      - 🇭🇰 YouTube简迷离|江港BGP_82
-      - 🇭🇰 YouTube简迷离|江港BGP_83
-      - 🇭🇰 YouTube简迷离|江港BGP_84
-      - 🇭🇰 YouTube简迷离|江港BGP_85
-      - 🇭🇰 YouTube简迷离|江港BGP_86
-      - 🇭🇰 YouTube简迷离|江港BGP_87
-      - 🇭🇰 YouTube简迷离|江港BGP_88
-      - 🇭🇰 YouTube简迷离|江港BGP_90
-      - 🇭🇰 YouTube简迷离|江港BGP_91
-      - 🇭🇰 YouTube简迷离|江港BGP_92
-      - 🇭🇰 YouTube简迷离|江港BGP_93
-      - 🇭🇰 YouTube简迷离|江港BGP_94
-      - 🇭🇰 YouTube简迷离|江港BGP_95
-      - 🇭🇰 YouTube简迷离|江港BGP_96
-      - 🇭🇰 YouTube简迷离|江港BGP_97
-      - 🇭🇰 YouTube简迷离|江港BGP_98
-      - 🇭🇰 YouTube简迷离|江港BGP_99
-      - 🇭🇰 YouTube简迷离|江港BGP_100
-      - 🇭🇰 YouTube简迷离|江港BGP_101
+      - IPLC专线｜冀台 [2.0][原生][Disney+]
+      - IPLC专线｜冀新 [2.0][UDP]
+      - IPLC专线｜冀日 [2.0][原生]
+      - IPLC专线｜冀港 [2.0][原生][Disney+]
+      - IPLC专线｜冀美 [2.0][NF][原生]
+      - IPLC专线｜台湾Netflix专线-1 [2.0][NF][Disney+]
+      - IPLC专线｜新加坡Netflix专线-1 [2.0][NF]
+      - IPLC专线｜日本Netflix专线-1 [2.0][NF]
+      - IPLC专线｜沪台 [2.0]
+      - IPLC专线｜沪新 [2.0][UDP]
+      - IPLC专线｜沪日 [2.0]
+      - IPLC专线｜沪港 [2.0]
+      - IPLC专线｜沪美 [2.0][NF]
+      - IPLC专线｜浙台 [2.0]
+      - IPLC专线｜浙新 [2.0][UDP]
+      - IPLC专线｜浙日 [2.0]
+      - IPLC专线｜浙港 [2.0]
+      - IPLC专线｜浙美 [2.0][NF]
+      - IPLC专线｜深台 [2.0]
+      - IPLC专线｜深新 [2.0][UDP]
+      - IPLC专线｜深日 [2.0][原生]
+      - IPLC专线｜深港 [2.0][原生][Disney+]
+      - IPLC专线｜深美 [2.0][NF]
+      - IPLC专线｜湘台 [2.0]
+      - IPLC专线｜湘新 [2.0][UDP]
+      - IPLC专线｜湘日 [2.0]
+      - IPLC专线｜湘港 [2.0][原生][Disney+]
+      - IPLC专线｜湘美 [2.0][NF]
+      - IPLC专线｜珠台 [2.0]
+      - IPLC专线｜珠新 [2.0][UDP]
+      - IPLC专线｜珠日 [2.0][原生]
+      - IPLC专线｜珠港 [2.0][原生][Disney+]
+      - IPLC专线｜珠美 [2.0][原生][NF]
+      - IPLC专线｜苏台 [2.0][原生][Disney+]
+      - IPLC专线｜苏新 [2.0][UDP]
+      - IPLC专线｜苏日 [2.0][原生]
+      - IPLC专线｜苏港 [2.0][原生][Disney+]
+      - IPLC专线｜苏美 [2.0][NF][原生]
+      - IPLC专线｜闽台 [2.0]
+      - IPLC专线｜闽新 [2.0][UDP]
+      - IPLC专线｜闽日 [2.0]
+      - IPLC专线｜闽港 [2.0]
+      - IPLC专线｜闽美 [2.0]
+      - IPLC专线｜香港Netflix专线-1 [2.0][NF]
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 YouTube简迷离|江港BGP_1
-      - 🇭🇰 YouTube简迷离|江港BGP_3
-      - 🇭🇰 YouTube简迷离|江港BGP_5
-      - 🇭🇰 YouTube简迷离|江港BGP_6
-      - 🇭🇰 YouTube简迷离|江港BGP_9
-      - 🇭🇰 YouTube简迷离|江港BGP_10
-      - 🇭🇰 YouTube简迷离|江港BGP_11
-      - 🇭🇰 YouTube简迷离|江港BGP_13
-      - 🇭🇰 YouTube简迷离|江港BGP_14
-      - 🇭🇰 YouTube简迷离|江港BGP_15
-      - 🇭🇰 YouTube简迷离|江港BGP_17
-      - 🇭🇰 YouTube简迷离|江港BGP_18
-      - 🇭🇰 YouTube简迷离|江港BGP_19
-      - 🇭🇰 YouTube简迷离|江港BGP_20
-      - 🇭🇰 YouTube简迷离|江港BGP_21
-      - 🇭🇰 YouTube简迷离|江港BGP_22
-      - 🇭🇰 YouTube简迷离|江港BGP_23
-      - 🇭🇰 YouTube简迷离|江港BGP_24
-      - 🇭🇰 YouTube简迷离|江港BGP_25
-      - 🇭🇰 YouTube简迷离|江港BGP_26
-      - 🇭🇰 YouTube简迷离|江港BGP_27
-      - 🇭🇰 YouTube简迷离|江港BGP_28
-      - 🇭🇰 YouTube简迷离|江港BGP_29
-      - 🇭🇰 YouTube简迷离|江港BGP_30
-      - 🇭🇰 YouTube简迷离|江港BGP_31
-      - 🇭🇰 YouTube简迷离|江港BGP_32
-      - 🇭🇰 YouTube简迷离|江港BGP_33
-      - 🇭🇰 YouTube简迷离|江港BGP_34
-      - 🇭🇰 YouTube简迷离|江港BGP_35
-      - 🇭🇰 YouTube简迷离|江港BGP_36
-      - 🇭🇰 YouTube简迷离|江港BGP_37
-      - 🇭🇰 YouTube简迷离|江港BGP_38
-      - 🇭🇰 YouTube简迷离|江港BGP_39
-      - 🇭🇰 YouTube简迷离|江港BGP_40
-      - 🇭🇰 YouTube简迷离|江港BGP_41
-      - 🇭🇰 YouTube简迷离|江港BGP_42
-      - 🇭🇰 YouTube简迷离|江港BGP_43
-      - 🇭🇰 YouTube简迷离|江港BGP_44
-      - 🇭🇰 YouTube简迷离|江港BGP_45
-      - 🇭🇰 YouTube简迷离|江港BGP_46
-      - 🇭🇰 YouTube简迷离|江港BGP_47
-      - 🇭🇰 YouTube简迷离|江港BGP_48
-      - 🇭🇰 YouTube简迷离|江港BGP_49
-      - 🇭🇰 YouTube简迷离|江港BGP_50
-      - 🇭🇰 YouTube简迷离|江港BGP_51
-      - 🇭🇰 YouTube简迷离|江港BGP_52
-      - 🇭🇰 YouTube简迷离|江港BGP_54
-      - 🇭🇰 YouTube简迷离|江港BGP_55
-      - 🇭🇰 YouTube简迷离|江港BGP_56
-      - 🇭🇰 YouTube简迷离|江港BGP_57
-      - 🇭🇰 YouTube简迷离|江港BGP_58
-      - 🇭🇰 YouTube简迷离|江港BGP_59
-      - 🇭🇰 YouTube简迷离|江港BGP_60
-      - 🇭🇰 YouTube简迷离|江港BGP_61
-      - 🇭🇰 YouTube简迷离|江港BGP_62
-      - 🇭🇰 YouTube简迷离|江港BGP_63
-      - 🇭🇰 YouTube简迷离|江港BGP_64
-      - 🇭🇰 YouTube简迷离|江港BGP_65
-      - 🇭🇰 YouTube简迷离|江港BGP_66
-      - 🇭🇰 YouTube简迷离|江港BGP_67
-      - 🇭🇰 YouTube简迷离|江港BGP_68
-      - 🇭🇰 YouTube简迷离|江港BGP_69
-      - 🇭🇰 YouTube简迷离|江港BGP_70
-      - 🇭🇰 YouTube简迷离|江港BGP_71
-      - 🇭🇰 YouTube简迷离|江港BGP_73
-      - 🇭🇰 YouTube简迷离|江港BGP_74
-      - 🇭🇰 YouTube简迷离|江港BGP_75
-      - 🇭🇰 YouTube简迷离|江港BGP_76
-      - 🇭🇰 YouTube简迷离|江港BGP_77
-      - 🇭🇰 YouTube简迷离|江港BGP_78
-      - 🇭🇰 YouTube简迷离|江港BGP_79
-      - 🇭🇰 YouTube简迷离|江港BGP_80
-      - 🇭🇰 YouTube简迷离|江港BGP_81
-      - 🇭🇰 YouTube简迷离|江港BGP_82
-      - 🇭🇰 YouTube简迷离|江港BGP_83
-      - 🇭🇰 YouTube简迷离|江港BGP_84
-      - 🇭🇰 YouTube简迷离|江港BGP_85
-      - 🇭🇰 YouTube简迷离|江港BGP_86
-      - 🇭🇰 YouTube简迷离|江港BGP_87
-      - 🇭🇰 YouTube简迷离|江港BGP_88
-      - 🇭🇰 YouTube简迷离|江港BGP_90
-      - 🇭🇰 YouTube简迷离|江港BGP_91
-      - 🇭🇰 YouTube简迷离|江港BGP_92
-      - 🇭🇰 YouTube简迷离|江港BGP_93
-      - 🇭🇰 YouTube简迷离|江港BGP_94
-      - 🇭🇰 YouTube简迷离|江港BGP_95
-      - 🇭🇰 YouTube简迷离|江港BGP_96
-      - 🇭🇰 YouTube简迷离|江港BGP_97
-      - 🇭🇰 YouTube简迷离|江港BGP_98
-      - 🇭🇰 YouTube简迷离|江港BGP_99
-      - 🇭🇰 YouTube简迷离|江港BGP_100
-      - 🇭🇰 YouTube简迷离|江港BGP_101
+      - IPLC专线｜冀台 [2.0][原生][Disney+]
+      - IPLC专线｜冀港 [2.0][原生][Disney+]
+      - IPLC专线｜台湾Netflix专线-1 [2.0][NF][Disney+]
+      - IPLC专线｜沪台 [2.0]
+      - IPLC专线｜沪港 [2.0]
+      - IPLC专线｜浙台 [2.0]
+      - IPLC专线｜浙港 [2.0]
+      - IPLC专线｜深台 [2.0]
+      - IPLC专线｜深港 [2.0][原生][Disney+]
+      - IPLC专线｜湘台 [2.0]
+      - IPLC专线｜湘港 [2.0][原生][Disney+]
+      - IPLC专线｜珠台 [2.0]
+      - IPLC专线｜珠港 [2.0][原生][Disney+]
+      - IPLC专线｜苏台 [2.0][原生][Disney+]
+      - IPLC专线｜苏港 [2.0][原生][Disney+]
+      - IPLC专线｜闽台 [2.0]
+      - IPLC专线｜闽港 [2.0]
+      - IPLC专线｜香港Netflix专线-1 [2.0][NF]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 YouTube简迷离|江港BGP_1
-      - 🇭🇰 YouTube简迷离|江港BGP_3
-      - 🇭🇰 YouTube简迷离|江港BGP_5
-      - 🇭🇰 YouTube简迷离|江港BGP_6
-      - 🇭🇰 YouTube简迷离|江港BGP_9
-      - 🇭🇰 YouTube简迷离|江港BGP_10
-      - 🇭🇰 YouTube简迷离|江港BGP_11
-      - 🇭🇰 YouTube简迷离|江港BGP_13
-      - 🇭🇰 YouTube简迷离|江港BGP_14
-      - 🇭🇰 YouTube简迷离|江港BGP_15
-      - 🇭🇰 YouTube简迷离|江港BGP_17
-      - 🇭🇰 YouTube简迷离|江港BGP_18
-      - 🇭🇰 YouTube简迷离|江港BGP_19
-      - 🇭🇰 YouTube简迷离|江港BGP_20
-      - 🇭🇰 YouTube简迷离|江港BGP_21
-      - 🇭🇰 YouTube简迷离|江港BGP_22
-      - 🇭🇰 YouTube简迷离|江港BGP_23
-      - 🇭🇰 YouTube简迷离|江港BGP_24
-      - 🇭🇰 YouTube简迷离|江港BGP_25
-      - 🇭🇰 YouTube简迷离|江港BGP_26
-      - 🇭🇰 YouTube简迷离|江港BGP_27
-      - 🇭🇰 YouTube简迷离|江港BGP_28
-      - 🇭🇰 YouTube简迷离|江港BGP_29
-      - 🇭🇰 YouTube简迷离|江港BGP_30
-      - 🇭🇰 YouTube简迷离|江港BGP_31
-      - 🇭🇰 YouTube简迷离|江港BGP_32
-      - 🇭🇰 YouTube简迷离|江港BGP_33
-      - 🇭🇰 YouTube简迷离|江港BGP_34
-      - 🇭🇰 YouTube简迷离|江港BGP_35
-      - 🇭🇰 YouTube简迷离|江港BGP_36
-      - 🇭🇰 YouTube简迷离|江港BGP_37
-      - 🇭🇰 YouTube简迷离|江港BGP_38
-      - 🇭🇰 YouTube简迷离|江港BGP_39
-      - 🇭🇰 YouTube简迷离|江港BGP_40
-      - 🇭🇰 YouTube简迷离|江港BGP_41
-      - 🇭🇰 YouTube简迷离|江港BGP_42
-      - 🇭🇰 YouTube简迷离|江港BGP_43
-      - 🇭🇰 YouTube简迷离|江港BGP_44
-      - 🇭🇰 YouTube简迷离|江港BGP_45
-      - 🇭🇰 YouTube简迷离|江港BGP_46
-      - 🇭🇰 YouTube简迷离|江港BGP_47
-      - 🇭🇰 YouTube简迷离|江港BGP_48
-      - 🇭🇰 YouTube简迷离|江港BGP_49
-      - 🇭🇰 YouTube简迷离|江港BGP_50
-      - 🇭🇰 YouTube简迷离|江港BGP_51
-      - 🇭🇰 YouTube简迷离|江港BGP_52
-      - 🇭🇰 YouTube简迷离|江港BGP_54
-      - 🇭🇰 YouTube简迷离|江港BGP_55
-      - 🇭🇰 YouTube简迷离|江港BGP_56
-      - 🇭🇰 YouTube简迷离|江港BGP_57
-      - 🇭🇰 YouTube简迷离|江港BGP_58
-      - 🇭🇰 YouTube简迷离|江港BGP_59
-      - 🇭🇰 YouTube简迷离|江港BGP_60
-      - 🇭🇰 YouTube简迷离|江港BGP_61
-      - 🇭🇰 YouTube简迷离|江港BGP_62
-      - 🇭🇰 YouTube简迷离|江港BGP_63
-      - 🇭🇰 YouTube简迷离|江港BGP_64
-      - 🇭🇰 YouTube简迷离|江港BGP_65
-      - 🇭🇰 YouTube简迷离|江港BGP_66
-      - 🇭🇰 YouTube简迷离|江港BGP_67
-      - 🇭🇰 YouTube简迷离|江港BGP_68
-      - 🇭🇰 YouTube简迷离|江港BGP_69
-      - 🇭🇰 YouTube简迷离|江港BGP_70
-      - 🇭🇰 YouTube简迷离|江港BGP_71
-      - 🇭🇰 YouTube简迷离|江港BGP_73
-      - 🇭🇰 YouTube简迷离|江港BGP_74
-      - 🇭🇰 YouTube简迷离|江港BGP_75
-      - 🇭🇰 YouTube简迷离|江港BGP_76
-      - 🇭🇰 YouTube简迷离|江港BGP_77
-      - 🇭🇰 YouTube简迷离|江港BGP_78
-      - 🇭🇰 YouTube简迷离|江港BGP_79
-      - 🇭🇰 YouTube简迷离|江港BGP_80
-      - 🇭🇰 YouTube简迷离|江港BGP_81
-      - 🇭🇰 YouTube简迷离|江港BGP_82
-      - 🇭🇰 YouTube简迷离|江港BGP_83
-      - 🇭🇰 YouTube简迷离|江港BGP_84
-      - 🇭🇰 YouTube简迷离|江港BGP_85
-      - 🇭🇰 YouTube简迷离|江港BGP_86
-      - 🇭🇰 YouTube简迷离|江港BGP_87
-      - 🇭🇰 YouTube简迷离|江港BGP_88
-      - 🇭🇰 YouTube简迷离|江港BGP_90
-      - 🇭🇰 YouTube简迷离|江港BGP_91
-      - 🇭🇰 YouTube简迷离|江港BGP_92
-      - 🇭🇰 YouTube简迷离|江港BGP_93
-      - 🇭🇰 YouTube简迷离|江港BGP_94
-      - 🇭🇰 YouTube简迷离|江港BGP_95
-      - 🇭🇰 YouTube简迷离|江港BGP_96
-      - 🇭🇰 YouTube简迷离|江港BGP_97
-      - 🇭🇰 YouTube简迷离|江港BGP_98
-      - 🇭🇰 YouTube简迷离|江港BGP_99
-      - 🇭🇰 YouTube简迷离|江港BGP_100
-      - 🇭🇰 YouTube简迷离|江港BGP_101
+      - IPLC专线｜冀台 [2.0][原生][Disney+]
+      - IPLC专线｜冀新 [2.0][UDP]
+      - IPLC专线｜冀日 [2.0][原生]
+      - IPLC专线｜冀港 [2.0][原生][Disney+]
+      - IPLC专线｜冀美 [2.0][NF][原生]
+      - IPLC专线｜台湾Netflix专线-1 [2.0][NF][Disney+]
+      - IPLC专线｜新加坡Netflix专线-1 [2.0][NF]
+      - IPLC专线｜日本Netflix专线-1 [2.0][NF]
+      - IPLC专线｜沪台 [2.0]
+      - IPLC专线｜沪新 [2.0][UDP]
+      - IPLC专线｜沪日 [2.0]
+      - IPLC专线｜沪港 [2.0]
+      - IPLC专线｜沪美 [2.0][NF]
+      - IPLC专线｜浙台 [2.0]
+      - IPLC专线｜浙新 [2.0][UDP]
+      - IPLC专线｜浙日 [2.0]
+      - IPLC专线｜浙港 [2.0]
+      - IPLC专线｜浙美 [2.0][NF]
+      - IPLC专线｜深台 [2.0]
+      - IPLC专线｜深新 [2.0][UDP]
+      - IPLC专线｜深日 [2.0][原生]
+      - IPLC专线｜深港 [2.0][原生][Disney+]
+      - IPLC专线｜深美 [2.0][NF]
+      - IPLC专线｜湘台 [2.0]
+      - IPLC专线｜湘新 [2.0][UDP]
+      - IPLC专线｜湘日 [2.0]
+      - IPLC专线｜湘港 [2.0][原生][Disney+]
+      - IPLC专线｜湘美 [2.0][NF]
+      - IPLC专线｜珠台 [2.0]
+      - IPLC专线｜珠新 [2.0][UDP]
+      - IPLC专线｜珠日 [2.0][原生]
+      - IPLC专线｜珠港 [2.0][原生][Disney+]
+      - IPLC专线｜珠美 [2.0][原生][NF]
+      - IPLC专线｜苏台 [2.0][原生][Disney+]
+      - IPLC专线｜苏新 [2.0][UDP]
+      - IPLC专线｜苏日 [2.0][原生]
+      - IPLC专线｜苏港 [2.0][原生][Disney+]
+      - IPLC专线｜苏美 [2.0][NF][原生]
+      - IPLC专线｜闽台 [2.0]
+      - IPLC专线｜闽新 [2.0][UDP]
+      - IPLC专线｜闽日 [2.0]
+      - IPLC专线｜闽港 [2.0]
+      - IPLC专线｜闽美 [2.0]
+      - IPLC专线｜香港Netflix专线-1 [2.0][NF]
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 YouTube简迷离|江港BGP_1
-      - 🇭🇰 YouTube简迷离|江港BGP_3
-      - 🇭🇰 YouTube简迷离|江港BGP_5
-      - 🇭🇰 YouTube简迷离|江港BGP_6
-      - 🇭🇰 YouTube简迷离|江港BGP_9
-      - 🇭🇰 YouTube简迷离|江港BGP_10
-      - 🇭🇰 YouTube简迷离|江港BGP_11
-      - 🇭🇰 YouTube简迷离|江港BGP_13
-      - 🇭🇰 YouTube简迷离|江港BGP_14
-      - 🇭🇰 YouTube简迷离|江港BGP_15
-      - 🇭🇰 YouTube简迷离|江港BGP_17
-      - 🇭🇰 YouTube简迷离|江港BGP_18
-      - 🇭🇰 YouTube简迷离|江港BGP_19
-      - 🇭🇰 YouTube简迷离|江港BGP_20
-      - 🇭🇰 YouTube简迷离|江港BGP_21
-      - 🇭🇰 YouTube简迷离|江港BGP_22
-      - 🇭🇰 YouTube简迷离|江港BGP_23
-      - 🇭🇰 YouTube简迷离|江港BGP_24
-      - 🇭🇰 YouTube简迷离|江港BGP_25
-      - 🇭🇰 YouTube简迷离|江港BGP_26
-      - 🇭🇰 YouTube简迷离|江港BGP_27
-      - 🇭🇰 YouTube简迷离|江港BGP_28
-      - 🇭🇰 YouTube简迷离|江港BGP_29
-      - 🇭🇰 YouTube简迷离|江港BGP_30
-      - 🇭🇰 YouTube简迷离|江港BGP_31
-      - 🇭🇰 YouTube简迷离|江港BGP_32
-      - 🇭🇰 YouTube简迷离|江港BGP_33
-      - 🇭🇰 YouTube简迷离|江港BGP_34
-      - 🇭🇰 YouTube简迷离|江港BGP_35
-      - 🇭🇰 YouTube简迷离|江港BGP_36
-      - 🇭🇰 YouTube简迷离|江港BGP_37
-      - 🇭🇰 YouTube简迷离|江港BGP_38
-      - 🇭🇰 YouTube简迷离|江港BGP_39
-      - 🇭🇰 YouTube简迷离|江港BGP_40
-      - 🇭🇰 YouTube简迷离|江港BGP_41
-      - 🇭🇰 YouTube简迷离|江港BGP_42
-      - 🇭🇰 YouTube简迷离|江港BGP_43
-      - 🇭🇰 YouTube简迷离|江港BGP_44
-      - 🇭🇰 YouTube简迷离|江港BGP_45
-      - 🇭🇰 YouTube简迷离|江港BGP_46
-      - 🇭🇰 YouTube简迷离|江港BGP_47
-      - 🇭🇰 YouTube简迷离|江港BGP_48
-      - 🇭🇰 YouTube简迷离|江港BGP_49
-      - 🇭🇰 YouTube简迷离|江港BGP_50
-      - 🇭🇰 YouTube简迷离|江港BGP_51
-      - 🇭🇰 YouTube简迷离|江港BGP_52
-      - 🇭🇰 YouTube简迷离|江港BGP_54
-      - 🇭🇰 YouTube简迷离|江港BGP_55
-      - 🇭🇰 YouTube简迷离|江港BGP_56
-      - 🇭🇰 YouTube简迷离|江港BGP_57
-      - 🇭🇰 YouTube简迷离|江港BGP_58
-      - 🇭🇰 YouTube简迷离|江港BGP_59
-      - 🇭🇰 YouTube简迷离|江港BGP_60
-      - 🇭🇰 YouTube简迷离|江港BGP_61
-      - 🇭🇰 YouTube简迷离|江港BGP_62
-      - 🇭🇰 YouTube简迷离|江港BGP_63
-      - 🇭🇰 YouTube简迷离|江港BGP_64
-      - 🇭🇰 YouTube简迷离|江港BGP_65
-      - 🇭🇰 YouTube简迷离|江港BGP_66
-      - 🇭🇰 YouTube简迷离|江港BGP_67
-      - 🇭🇰 YouTube简迷离|江港BGP_68
-      - 🇭🇰 YouTube简迷离|江港BGP_69
-      - 🇭🇰 YouTube简迷离|江港BGP_70
-      - 🇭🇰 YouTube简迷离|江港BGP_71
-      - 🇭🇰 YouTube简迷离|江港BGP_73
-      - 🇭🇰 YouTube简迷离|江港BGP_74
-      - 🇭🇰 YouTube简迷离|江港BGP_75
-      - 🇭🇰 YouTube简迷离|江港BGP_76
-      - 🇭🇰 YouTube简迷离|江港BGP_77
-      - 🇭🇰 YouTube简迷离|江港BGP_78
-      - 🇭🇰 YouTube简迷离|江港BGP_79
-      - 🇭🇰 YouTube简迷离|江港BGP_80
-      - 🇭🇰 YouTube简迷离|江港BGP_81
-      - 🇭🇰 YouTube简迷离|江港BGP_82
-      - 🇭🇰 YouTube简迷离|江港BGP_83
-      - 🇭🇰 YouTube简迷离|江港BGP_84
-      - 🇭🇰 YouTube简迷离|江港BGP_85
-      - 🇭🇰 YouTube简迷离|江港BGP_86
-      - 🇭🇰 YouTube简迷离|江港BGP_87
-      - 🇭🇰 YouTube简迷离|江港BGP_88
-      - 🇭🇰 YouTube简迷离|江港BGP_90
-      - 🇭🇰 YouTube简迷离|江港BGP_91
-      - 🇭🇰 YouTube简迷离|江港BGP_92
-      - 🇭🇰 YouTube简迷离|江港BGP_93
-      - 🇭🇰 YouTube简迷离|江港BGP_94
-      - 🇭🇰 YouTube简迷离|江港BGP_95
-      - 🇭🇰 YouTube简迷离|江港BGP_96
-      - 🇭🇰 YouTube简迷离|江港BGP_97
-      - 🇭🇰 YouTube简迷离|江港BGP_98
-      - 🇭🇰 YouTube简迷离|江港BGP_99
-      - 🇭🇰 YouTube简迷离|江港BGP_100
-      - 🇭🇰 YouTube简迷离|江港BGP_101
+      - IPLC专线｜冀台 [2.0][原生][Disney+]
+      - IPLC专线｜冀新 [2.0][UDP]
+      - IPLC专线｜冀日 [2.0][原生]
+      - IPLC专线｜冀港 [2.0][原生][Disney+]
+      - IPLC专线｜冀美 [2.0][NF][原生]
+      - IPLC专线｜台湾Netflix专线-1 [2.0][NF][Disney+]
+      - IPLC专线｜新加坡Netflix专线-1 [2.0][NF]
+      - IPLC专线｜日本Netflix专线-1 [2.0][NF]
+      - IPLC专线｜沪台 [2.0]
+      - IPLC专线｜沪新 [2.0][UDP]
+      - IPLC专线｜沪日 [2.0]
+      - IPLC专线｜沪港 [2.0]
+      - IPLC专线｜沪美 [2.0][NF]
+      - IPLC专线｜浙台 [2.0]
+      - IPLC专线｜浙新 [2.0][UDP]
+      - IPLC专线｜浙日 [2.0]
+      - IPLC专线｜浙港 [2.0]
+      - IPLC专线｜浙美 [2.0][NF]
+      - IPLC专线｜深台 [2.0]
+      - IPLC专线｜深新 [2.0][UDP]
+      - IPLC专线｜深日 [2.0][原生]
+      - IPLC专线｜深港 [2.0][原生][Disney+]
+      - IPLC专线｜深美 [2.0][NF]
+      - IPLC专线｜湘台 [2.0]
+      - IPLC专线｜湘新 [2.0][UDP]
+      - IPLC专线｜湘日 [2.0]
+      - IPLC专线｜湘港 [2.0][原生][Disney+]
+      - IPLC专线｜湘美 [2.0][NF]
+      - IPLC专线｜珠台 [2.0]
+      - IPLC专线｜珠新 [2.0][UDP]
+      - IPLC专线｜珠日 [2.0][原生]
+      - IPLC专线｜珠港 [2.0][原生][Disney+]
+      - IPLC专线｜珠美 [2.0][原生][NF]
+      - IPLC专线｜苏台 [2.0][原生][Disney+]
+      - IPLC专线｜苏新 [2.0][UDP]
+      - IPLC专线｜苏日 [2.0][原生]
+      - IPLC专线｜苏港 [2.0][原生][Disney+]
+      - IPLC专线｜苏美 [2.0][NF][原生]
+      - IPLC专线｜闽台 [2.0]
+      - IPLC专线｜闽新 [2.0][UDP]
+      - IPLC专线｜闽日 [2.0]
+      - IPLC专线｜闽港 [2.0]
+      - IPLC专线｜闽美 [2.0]
+      - IPLC专线｜香港Netflix专线-1 [2.0][NF]
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 YouTube简迷离|江港BGP_1
-      - 🇭🇰 YouTube简迷离|江港BGP_3
-      - 🇭🇰 YouTube简迷离|江港BGP_5
-      - 🇭🇰 YouTube简迷离|江港BGP_6
-      - 🇭🇰 YouTube简迷离|江港BGP_9
-      - 🇭🇰 YouTube简迷离|江港BGP_10
-      - 🇭🇰 YouTube简迷离|江港BGP_11
-      - 🇭🇰 YouTube简迷离|江港BGP_13
-      - 🇭🇰 YouTube简迷离|江港BGP_14
-      - 🇭🇰 YouTube简迷离|江港BGP_15
-      - 🇭🇰 YouTube简迷离|江港BGP_17
-      - 🇭🇰 YouTube简迷离|江港BGP_18
-      - 🇭🇰 YouTube简迷离|江港BGP_19
-      - 🇭🇰 YouTube简迷离|江港BGP_20
-      - 🇭🇰 YouTube简迷离|江港BGP_21
-      - 🇭🇰 YouTube简迷离|江港BGP_22
-      - 🇭🇰 YouTube简迷离|江港BGP_23
-      - 🇭🇰 YouTube简迷离|江港BGP_24
-      - 🇭🇰 YouTube简迷离|江港BGP_25
-      - 🇭🇰 YouTube简迷离|江港BGP_26
-      - 🇭🇰 YouTube简迷离|江港BGP_27
-      - 🇭🇰 YouTube简迷离|江港BGP_28
-      - 🇭🇰 YouTube简迷离|江港BGP_29
-      - 🇭🇰 YouTube简迷离|江港BGP_30
-      - 🇭🇰 YouTube简迷离|江港BGP_31
-      - 🇭🇰 YouTube简迷离|江港BGP_32
-      - 🇭🇰 YouTube简迷离|江港BGP_33
-      - 🇭🇰 YouTube简迷离|江港BGP_34
-      - 🇭🇰 YouTube简迷离|江港BGP_35
-      - 🇭🇰 YouTube简迷离|江港BGP_36
-      - 🇭🇰 YouTube简迷离|江港BGP_37
-      - 🇭🇰 YouTube简迷离|江港BGP_38
-      - 🇭🇰 YouTube简迷离|江港BGP_39
-      - 🇭🇰 YouTube简迷离|江港BGP_40
-      - 🇭🇰 YouTube简迷离|江港BGP_41
-      - 🇭🇰 YouTube简迷离|江港BGP_42
-      - 🇭🇰 YouTube简迷离|江港BGP_43
-      - 🇭🇰 YouTube简迷离|江港BGP_44
-      - 🇭🇰 YouTube简迷离|江港BGP_45
-      - 🇭🇰 YouTube简迷离|江港BGP_46
-      - 🇭🇰 YouTube简迷离|江港BGP_47
-      - 🇭🇰 YouTube简迷离|江港BGP_48
-      - 🇭🇰 YouTube简迷离|江港BGP_49
-      - 🇭🇰 YouTube简迷离|江港BGP_50
-      - 🇭🇰 YouTube简迷离|江港BGP_51
-      - 🇭🇰 YouTube简迷离|江港BGP_52
-      - 🇭🇰 YouTube简迷离|江港BGP_54
-      - 🇭🇰 YouTube简迷离|江港BGP_55
-      - 🇭🇰 YouTube简迷离|江港BGP_56
-      - 🇭🇰 YouTube简迷离|江港BGP_57
-      - 🇭🇰 YouTube简迷离|江港BGP_58
-      - 🇭🇰 YouTube简迷离|江港BGP_59
-      - 🇭🇰 YouTube简迷离|江港BGP_60
-      - 🇭🇰 YouTube简迷离|江港BGP_61
-      - 🇭🇰 YouTube简迷离|江港BGP_62
-      - 🇭🇰 YouTube简迷离|江港BGP_63
-      - 🇭🇰 YouTube简迷离|江港BGP_64
-      - 🇭🇰 YouTube简迷离|江港BGP_65
-      - 🇭🇰 YouTube简迷离|江港BGP_66
-      - 🇭🇰 YouTube简迷离|江港BGP_67
-      - 🇭🇰 YouTube简迷离|江港BGP_68
-      - 🇭🇰 YouTube简迷离|江港BGP_69
-      - 🇭🇰 YouTube简迷离|江港BGP_70
-      - 🇭🇰 YouTube简迷离|江港BGP_71
-      - 🇭🇰 YouTube简迷离|江港BGP_73
-      - 🇭🇰 YouTube简迷离|江港BGP_74
-      - 🇭🇰 YouTube简迷离|江港BGP_75
-      - 🇭🇰 YouTube简迷离|江港BGP_76
-      - 🇭🇰 YouTube简迷离|江港BGP_77
-      - 🇭🇰 YouTube简迷离|江港BGP_78
-      - 🇭🇰 YouTube简迷离|江港BGP_79
-      - 🇭🇰 YouTube简迷离|江港BGP_80
-      - 🇭🇰 YouTube简迷离|江港BGP_81
-      - 🇭🇰 YouTube简迷离|江港BGP_82
-      - 🇭🇰 YouTube简迷离|江港BGP_83
-      - 🇭🇰 YouTube简迷离|江港BGP_84
-      - 🇭🇰 YouTube简迷离|江港BGP_85
-      - 🇭🇰 YouTube简迷离|江港BGP_86
-      - 🇭🇰 YouTube简迷离|江港BGP_87
-      - 🇭🇰 YouTube简迷离|江港BGP_88
-      - 🇭🇰 YouTube简迷离|江港BGP_90
-      - 🇭🇰 YouTube简迷离|江港BGP_91
-      - 🇭🇰 YouTube简迷离|江港BGP_92
-      - 🇭🇰 YouTube简迷离|江港BGP_93
-      - 🇭🇰 YouTube简迷离|江港BGP_94
-      - 🇭🇰 YouTube简迷离|江港BGP_95
-      - 🇭🇰 YouTube简迷离|江港BGP_96
-      - 🇭🇰 YouTube简迷离|江港BGP_97
-      - 🇭🇰 YouTube简迷离|江港BGP_98
-      - 🇭🇰 YouTube简迷离|江港BGP_99
-      - 🇭🇰 YouTube简迷离|江港BGP_100
-      - 🇭🇰 YouTube简迷离|江港BGP_101
+      - IPLC专线｜冀台 [2.0][原生][Disney+]
+      - IPLC专线｜冀新 [2.0][UDP]
+      - IPLC专线｜冀日 [2.0][原生]
+      - IPLC专线｜冀港 [2.0][原生][Disney+]
+      - IPLC专线｜冀美 [2.0][NF][原生]
+      - IPLC专线｜台湾Netflix专线-1 [2.0][NF][Disney+]
+      - IPLC专线｜新加坡Netflix专线-1 [2.0][NF]
+      - IPLC专线｜日本Netflix专线-1 [2.0][NF]
+      - IPLC专线｜沪台 [2.0]
+      - IPLC专线｜沪新 [2.0][UDP]
+      - IPLC专线｜沪日 [2.0]
+      - IPLC专线｜沪港 [2.0]
+      - IPLC专线｜沪美 [2.0][NF]
+      - IPLC专线｜浙台 [2.0]
+      - IPLC专线｜浙新 [2.0][UDP]
+      - IPLC专线｜浙日 [2.0]
+      - IPLC专线｜浙港 [2.0]
+      - IPLC专线｜浙美 [2.0][NF]
+      - IPLC专线｜深台 [2.0]
+      - IPLC专线｜深新 [2.0][UDP]
+      - IPLC专线｜深日 [2.0][原生]
+      - IPLC专线｜深港 [2.0][原生][Disney+]
+      - IPLC专线｜深美 [2.0][NF]
+      - IPLC专线｜湘台 [2.0]
+      - IPLC专线｜湘新 [2.0][UDP]
+      - IPLC专线｜湘日 [2.0]
+      - IPLC专线｜湘港 [2.0][原生][Disney+]
+      - IPLC专线｜湘美 [2.0][NF]
+      - IPLC专线｜珠台 [2.0]
+      - IPLC专线｜珠新 [2.0][UDP]
+      - IPLC专线｜珠日 [2.0][原生]
+      - IPLC专线｜珠港 [2.0][原生][Disney+]
+      - IPLC专线｜珠美 [2.0][原生][NF]
+      - IPLC专线｜苏台 [2.0][原生][Disney+]
+      - IPLC专线｜苏新 [2.0][UDP]
+      - IPLC专线｜苏日 [2.0][原生]
+      - IPLC专线｜苏港 [2.0][原生][Disney+]
+      - IPLC专线｜苏美 [2.0][NF][原生]
+      - IPLC专线｜闽台 [2.0]
+      - IPLC专线｜闽新 [2.0][UDP]
+      - IPLC专线｜闽日 [2.0]
+      - IPLC专线｜闽港 [2.0]
+      - IPLC专线｜闽美 [2.0]
+      - IPLC专线｜香港Netflix专线-1 [2.0][NF]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -904,98 +446,50 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 YouTube简迷离|江港BGP_1
-      - 🇭🇰 YouTube简迷离|江港BGP_3
-      - 🇭🇰 YouTube简迷离|江港BGP_5
-      - 🇭🇰 YouTube简迷离|江港BGP_6
-      - 🇭🇰 YouTube简迷离|江港BGP_9
-      - 🇭🇰 YouTube简迷离|江港BGP_10
-      - 🇭🇰 YouTube简迷离|江港BGP_11
-      - 🇭🇰 YouTube简迷离|江港BGP_13
-      - 🇭🇰 YouTube简迷离|江港BGP_14
-      - 🇭🇰 YouTube简迷离|江港BGP_15
-      - 🇭🇰 YouTube简迷离|江港BGP_17
-      - 🇭🇰 YouTube简迷离|江港BGP_18
-      - 🇭🇰 YouTube简迷离|江港BGP_19
-      - 🇭🇰 YouTube简迷离|江港BGP_20
-      - 🇭🇰 YouTube简迷离|江港BGP_21
-      - 🇭🇰 YouTube简迷离|江港BGP_22
-      - 🇭🇰 YouTube简迷离|江港BGP_23
-      - 🇭🇰 YouTube简迷离|江港BGP_24
-      - 🇭🇰 YouTube简迷离|江港BGP_25
-      - 🇭🇰 YouTube简迷离|江港BGP_26
-      - 🇭🇰 YouTube简迷离|江港BGP_27
-      - 🇭🇰 YouTube简迷离|江港BGP_28
-      - 🇭🇰 YouTube简迷离|江港BGP_29
-      - 🇭🇰 YouTube简迷离|江港BGP_30
-      - 🇭🇰 YouTube简迷离|江港BGP_31
-      - 🇭🇰 YouTube简迷离|江港BGP_32
-      - 🇭🇰 YouTube简迷离|江港BGP_33
-      - 🇭🇰 YouTube简迷离|江港BGP_34
-      - 🇭🇰 YouTube简迷离|江港BGP_35
-      - 🇭🇰 YouTube简迷离|江港BGP_36
-      - 🇭🇰 YouTube简迷离|江港BGP_37
-      - 🇭🇰 YouTube简迷离|江港BGP_38
-      - 🇭🇰 YouTube简迷离|江港BGP_39
-      - 🇭🇰 YouTube简迷离|江港BGP_40
-      - 🇭🇰 YouTube简迷离|江港BGP_41
-      - 🇭🇰 YouTube简迷离|江港BGP_42
-      - 🇭🇰 YouTube简迷离|江港BGP_43
-      - 🇭🇰 YouTube简迷离|江港BGP_44
-      - 🇭🇰 YouTube简迷离|江港BGP_45
-      - 🇭🇰 YouTube简迷离|江港BGP_46
-      - 🇭🇰 YouTube简迷离|江港BGP_47
-      - 🇭🇰 YouTube简迷离|江港BGP_48
-      - 🇭🇰 YouTube简迷离|江港BGP_49
-      - 🇭🇰 YouTube简迷离|江港BGP_50
-      - 🇭🇰 YouTube简迷离|江港BGP_51
-      - 🇭🇰 YouTube简迷离|江港BGP_52
-      - 🇭🇰 YouTube简迷离|江港BGP_54
-      - 🇭🇰 YouTube简迷离|江港BGP_55
-      - 🇭🇰 YouTube简迷离|江港BGP_56
-      - 🇭🇰 YouTube简迷离|江港BGP_57
-      - 🇭🇰 YouTube简迷离|江港BGP_58
-      - 🇭🇰 YouTube简迷离|江港BGP_59
-      - 🇭🇰 YouTube简迷离|江港BGP_60
-      - 🇭🇰 YouTube简迷离|江港BGP_61
-      - 🇭🇰 YouTube简迷离|江港BGP_62
-      - 🇭🇰 YouTube简迷离|江港BGP_63
-      - 🇭🇰 YouTube简迷离|江港BGP_64
-      - 🇭🇰 YouTube简迷离|江港BGP_65
-      - 🇭🇰 YouTube简迷离|江港BGP_66
-      - 🇭🇰 YouTube简迷离|江港BGP_67
-      - 🇭🇰 YouTube简迷离|江港BGP_68
-      - 🇭🇰 YouTube简迷离|江港BGP_69
-      - 🇭🇰 YouTube简迷离|江港BGP_70
-      - 🇭🇰 YouTube简迷离|江港BGP_71
-      - 🇭🇰 YouTube简迷离|江港BGP_73
-      - 🇭🇰 YouTube简迷离|江港BGP_74
-      - 🇭🇰 YouTube简迷离|江港BGP_75
-      - 🇭🇰 YouTube简迷离|江港BGP_76
-      - 🇭🇰 YouTube简迷离|江港BGP_77
-      - 🇭🇰 YouTube简迷离|江港BGP_78
-      - 🇭🇰 YouTube简迷离|江港BGP_79
-      - 🇭🇰 YouTube简迷离|江港BGP_80
-      - 🇭🇰 YouTube简迷离|江港BGP_81
-      - 🇭🇰 YouTube简迷离|江港BGP_82
-      - 🇭🇰 YouTube简迷离|江港BGP_83
-      - 🇭🇰 YouTube简迷离|江港BGP_84
-      - 🇭🇰 YouTube简迷离|江港BGP_85
-      - 🇭🇰 YouTube简迷离|江港BGP_86
-      - 🇭🇰 YouTube简迷离|江港BGP_87
-      - 🇭🇰 YouTube简迷离|江港BGP_88
-      - 🇭🇰 YouTube简迷离|江港BGP_90
-      - 🇭🇰 YouTube简迷离|江港BGP_91
-      - 🇭🇰 YouTube简迷离|江港BGP_92
-      - 🇭🇰 YouTube简迷离|江港BGP_93
-      - 🇭🇰 YouTube简迷离|江港BGP_94
-      - 🇭🇰 YouTube简迷离|江港BGP_95
-      - 🇭🇰 YouTube简迷离|江港BGP_96
-      - 🇭🇰 YouTube简迷离|江港BGP_97
-      - 🇭🇰 YouTube简迷离|江港BGP_98
-      - 🇭🇰 YouTube简迷离|江港BGP_99
-      - 🇭🇰 YouTube简迷离|江港BGP_100
-      - 🇭🇰 YouTube简迷离|江港BGP_101
+      - IPLC专线｜冀台 [2.0][原生][Disney+]
+      - IPLC专线｜冀新 [2.0][UDP]
+      - IPLC专线｜冀日 [2.0][原生]
+      - IPLC专线｜冀港 [2.0][原生][Disney+]
+      - IPLC专线｜冀美 [2.0][NF][原生]
+      - IPLC专线｜台湾Netflix专线-1 [2.0][NF][Disney+]
+      - IPLC专线｜新加坡Netflix专线-1 [2.0][NF]
+      - IPLC专线｜日本Netflix专线-1 [2.0][NF]
+      - IPLC专线｜沪台 [2.0]
+      - IPLC专线｜沪新 [2.0][UDP]
+      - IPLC专线｜沪日 [2.0]
+      - IPLC专线｜沪港 [2.0]
+      - IPLC专线｜沪美 [2.0][NF]
+      - IPLC专线｜浙台 [2.0]
+      - IPLC专线｜浙新 [2.0][UDP]
+      - IPLC专线｜浙日 [2.0]
+      - IPLC专线｜浙港 [2.0]
+      - IPLC专线｜浙美 [2.0][NF]
+      - IPLC专线｜深台 [2.0]
+      - IPLC专线｜深新 [2.0][UDP]
+      - IPLC专线｜深日 [2.0][原生]
+      - IPLC专线｜深港 [2.0][原生][Disney+]
+      - IPLC专线｜深美 [2.0][NF]
+      - IPLC专线｜湘台 [2.0]
+      - IPLC专线｜湘新 [2.0][UDP]
+      - IPLC专线｜湘日 [2.0]
+      - IPLC专线｜湘港 [2.0][原生][Disney+]
+      - IPLC专线｜湘美 [2.0][NF]
+      - IPLC专线｜珠台 [2.0]
+      - IPLC专线｜珠新 [2.0][UDP]
+      - IPLC专线｜珠日 [2.0][原生]
+      - IPLC专线｜珠港 [2.0][原生][Disney+]
+      - IPLC专线｜珠美 [2.0][原生][NF]
+      - IPLC专线｜苏台 [2.0][原生][Disney+]
+      - IPLC专线｜苏新 [2.0][UDP]
+      - IPLC专线｜苏日 [2.0][原生]
+      - IPLC专线｜苏港 [2.0][原生][Disney+]
+      - IPLC专线｜苏美 [2.0][NF][原生]
+      - IPLC专线｜闽台 [2.0]
+      - IPLC专线｜闽新 [2.0][UDP]
+      - IPLC专线｜闽日 [2.0]
+      - IPLC专线｜闽港 [2.0]
+      - IPLC专线｜闽美 [2.0]
+      - IPLC专线｜香港Netflix专线-1 [2.0][NF]
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -9952,8 +9446,6 @@ rules:
  - DOMAIN-SUFFIX,hypeapp.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hypersnap.net,🛑 全球拦截
  - DOMAIN-SUFFIX,iconworkshop.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,idmchina.net,🛑 全球拦截
- - DOMAIN-SUFFIX,imazingchina.com,🛑 全球拦截
  - DOMAIN-SUFFIX,imindmap.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,jihehuaban.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,keyshot.cc,🛑 全球拦截
@@ -10023,8 +9515,6 @@ rules:
  - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
- - DOMAIN,radio.itunes.apple.com,🌍 国外媒体
- - DOMAIN,tv.applemusic.com,🌍 国外媒体
  - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
  - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
@@ -10069,7 +9559,6 @@ rules:
  - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
  - DOMAIN,linear.tv.apple.com,🌍 国外媒体
  - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
- - DOMAIN,uts-api.itunes.apple.com,🌍 国外媒体
  - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
  - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
  - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
@@ -10156,7 +9645,6 @@ rules:
  - IP-CIDR,203.74.95.153/32,🌍 国外媒体,no-resolve
  - IP-CIDR,203.211.4.169/32,🌍 国外媒体,no-resolve
  - IP-CIDR,203.211.4.193/32,🌍 国外媒体,no-resolve
- - IP-CIDR,210.71.227.200/32,🌍 国外媒体,no-resolve
  - IP-CIDR,210.71.227.202/32,🌍 国外媒体,no-resolve
  - IP-CIDR,210.201.32.8/32,🌍 国外媒体,no-resolve
  - IP-CIDR,210.201.32.11/32,🌍 国外媒体,no-resolve
@@ -10257,14 +9745,15 @@ rules:
  - DOMAIN-SUFFIX,acg.tv,🌏 国内媒体
  - DOMAIN-SUFFIX,acgvideo.com,🌏 国内媒体
  - DOMAIN-SUFFIX,b23.tv,🌏 国内媒体
- - DOMAIN-SUFFIX,bilibili.com,🌏 国内媒体
- - DOMAIN-SUFFIX,bilibili.tv,🌏 国内媒体
- - DOMAIN-SUFFIX,biliapi.net,🌏 国内媒体
  - DOMAIN-SUFFIX,biliapi.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,biliapi.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,bilibili.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,biligame.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,biligame.net,🌏 国内媒体
  - DOMAIN-SUFFIX,bilivideo.com,🌏 国内媒体
  - DOMAIN-SUFFIX,hdslb.com,🌏 国内媒体
- - DOMAIN,upos-hz-mirrorakam.akamaized.net,🌏 国内媒体
- - DOMAIN,apiintl.biliapi.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,im9.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,smtcdns.net,🌏 国内媒体
  - DOMAIN,intel-cache.m.iqiyi.com,🌏 国内媒体
  - DOMAIN,intel-cache.video.iqiyi.com,🌏 国内媒体
  - DOMAIN,intl-rcd.iqiyi.com,🌏 国内媒体
@@ -10282,7 +9771,6 @@ rules:
  - DOMAIN-SUFFIX,api.mob.app.letv.com,🌏 国内媒体
  - DOMAIN-SUFFIX,v.smtcdns.com,🌏 国内媒体
  - DOMAIN-SUFFIX,vv.video.qq.com,🌏 国内媒体
- - DOMAIN-SUFFIX,youku.com,🌏 国内媒体
  - IP-CIDR,106.11.0.0/16,🌏 国内媒体,no-resolve
  - DOMAIN-SUFFIX,t.me,📲 电报信息
  - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
@@ -10296,14 +9784,11 @@ rules:
  - IP-CIDR,91.108.16.0/22,📲 电报信息,no-resolve
  - IP-CIDR,91.108.20.0/22,📲 电报信息,no-resolve
  - IP-CIDR,91.108.56.0/22,📲 电报信息,no-resolve
- - IP-CIDR,91.105.192.0/23,📲 电报信息,no-resolve
+ - IP-CIDR,95.161.64.0/20,📲 电报信息,no-resolve
  - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
- - IP-CIDR,185.76.151.0/24,📲 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
- - IP-CIDR6,2001:b28:f23c::/48,📲 电报信息,no-resolve
- - IP-CIDR6,2a0a:f280::/32,📲 电报信息,no-resolve
  - DOMAIN-SUFFIX,amazon.co.jp,🔰 节点选择
  - DOMAIN,d3c33hcgiwev3.cloudfront.net,🔰 节点选择
  - DOMAIN,payments-jp.amazon.com,🔰 节点选择
@@ -10312,36 +9797,16 @@ rules:
  - DOMAIN,a248.e.akamai.net,🔰 节点选择
  - DOMAIN,a771.dscq.akamai.net,🔰 节点选择
  - DOMAIN,testflight.apple.com,🔰 节点选择
- - DOMAIN-SUFFIX,clubhouseapi.com,🔰 节点选择
- - DOMAIN-SUFFIX,joinclubhouse.com,🔰 节点选择
- - DOMAIN,clubhouse.pubnubapi.com,🔰 节点选择
  - DOMAIN-SUFFIX,aex.com,🔰 节点选择
  - DOMAIN-SUFFIX,bibox.com,🔰 节点选择
  - DOMAIN-SUFFIX,binance.cc,🔰 节点选择
  - DOMAIN-SUFFIX,binance.com,🔰 节点选择
- - DOMAIN-SUFFIX,binance.us,🔰 节点选择
  - DOMAIN-SUFFIX,bitcointalk.org,🔰 节点选择
  - DOMAIN-SUFFIX,bitfinex.com,🔰 节点选择
- - DOMAIN-SUFFIX,bithumb.com,🔰 节点选择
  - DOMAIN-SUFFIX,bitmex.com,🔰 节点选择
- - DOMAIN-SUFFIX,bitstamp.net,🔰 节点选择
- - DOMAIN-SUFFIX,bittrex.com,🔰 节点选择
- - DOMAIN-SUFFIX,bybit.com,🔰 节点选择
- - DOMAIN-SUFFIX,coinbase.com,🔰 节点选择
- - DOMAIN-SUFFIX,coincheck.com,🔰 节点选择
- - DOMAIN-SUFFIX,coingecko.com,🔰 节点选择
- - DOMAIN-SUFFIX,coinmarketcap.com,🔰 节点选择
- - DOMAIN-SUFFIX,coinone.co.kr,🔰 节点选择
- - DOMAIN-SUFFIX,ftx.com,🔰 节点选择
  - DOMAIN-SUFFIX,gate.io,🔰 节点选择
- - DOMAIN-SUFFIX,gemini.com,🔰 节点选择
  - DOMAIN-SUFFIX,huobi.com,🔰 节点选择
- - DOMAIN-SUFFIX,korbit.co.kr,🔰 节点选择
- - DOMAIN-SUFFIX,kraken.com,🔰 节点选择
- - DOMAIN-SUFFIX,kucoin.com,🔰 节点选择
- - DOMAIN-SUFFIX,liquid.com,🔰 节点选择
  - DOMAIN-SUFFIX,okex.com,🔰 节点选择
- - DOMAIN-SUFFIX,poloniex.com,🔰 节点选择
  - DOMAIN-SUFFIX,uniswap.org,🔰 节点选择
  - DOMAIN-SUFFIX,zb.com,🔰 节点选择
  - DOMAIN-SUFFIX,discord.com,🔰 节点选择
@@ -10374,7 +9839,6 @@ rules:
  - DOMAIN-SUFFIX,blogger.com,🔰 节点选择
  - DOMAIN-SUFFIX,getoutline.org,🔰 节点选择
  - DOMAIN-SUFFIX,gvt0.com,🔰 节点选择
- - DOMAIN-SUFFIX,gvt1.com,🔰 节点选择
  - DOMAIN-SUFFIX,gvt3.com,🔰 节点选择
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
  - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
@@ -10425,14 +9889,11 @@ rules:
  - IP-CIDR,91.108.16.0/22,🔰 节点选择,no-resolve
  - IP-CIDR,91.108.20.0/22,🔰 节点选择,no-resolve
  - IP-CIDR,91.108.56.0/22,🔰 节点选择,no-resolve
- - IP-CIDR,91.105.192.0/23,🔰 节点选择,no-resolve
+ - IP-CIDR,95.161.64.0/20,🔰 节点选择,no-resolve
  - IP-CIDR,149.154.160.0/20,🔰 节点选择,no-resolve
- - IP-CIDR,185.76.151.0/24,🔰 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,🔰 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,🔰 节点选择,no-resolve
  - IP-CIDR6,2001:67c:4e8::/48,🔰 节点选择,no-resolve
- - IP-CIDR6,2001:b28:f23c::/48,🔰 节点选择,no-resolve
- - IP-CIDR6,2a0a:f280::/32,🔰 节点选择,no-resolve
  - DOMAIN-SUFFIX,pscp.tv,🔰 节点选择
  - DOMAIN-SUFFIX,periscope.tv,🔰 节点选择
  - DOMAIN-SUFFIX,t.co,🔰 节点选择
@@ -10501,6 +9962,7 @@ rules:
  - DOMAIN-SUFFIX,ck101.com,🔰 节点选择
  - DOMAIN-SUFFIX,clarionproject.org,🔰 节点选择
  - DOMAIN-SUFFIX,cloudcone.com,🔰 节点选择
+ - DOMAIN-SUFFIX,clubhouseapi.com,🔰 节点选择
  - DOMAIN-SUFFIX,clyp.it,🔰 节点选择
  - DOMAIN-SUFFIX,cna.com.tw,🔰 节点选择
  - DOMAIN-SUFFIX,comparitech.com,🔰 节点选择
@@ -10594,6 +10056,7 @@ rules:
  - DOMAIN-SUFFIX,jiji.com,🔰 节点选择
  - DOMAIN-SUFFIX,jinx.com,🔰 节点选择
  - DOMAIN-SUFFIX,jkforum.net,🔰 节点选择
+ - DOMAIN-SUFFIX,joinclubhouse.com,🔰 节点选择
  - DOMAIN-SUFFIX,joinmastodon.org,🔰 节点选择
  - DOMAIN-SUFFIX,justmysocks.net,🔰 节点选择
  - DOMAIN-SUFFIX,justpaste.it,🔰 节点选择
@@ -10619,7 +10082,6 @@ rules:
  - DOMAIN-SUFFIX,marc.info,🔰 节点选择
  - DOMAIN-SUFFIX,matters.news,🔰 节点选择
  - DOMAIN-SUFFIX,maying.co,🔰 节点选择
- - DOMAIN-SUFFIX,medibang.com,🔰 节点选择
  - DOMAIN-SUFFIX,medium.com,🔰 节点选择
  - DOMAIN-SUFFIX,mega.nz,🔰 节点选择
  - DOMAIN-SUFFIX,mergersandinquisitions.com,🔰 节点选择
@@ -10709,7 +10171,6 @@ rules:
  - DOMAIN-SUFFIX,streamable.com,🔰 节点选择
  - DOMAIN-SUFFIX,streema.com,🔰 节点选择
  - DOMAIN-SUFFIX,substack.com,🔰 节点选择
- - DOMAIN-SUFFIX,substack.com,🔰 节点选择
  - DOMAIN-SUFFIX,t66y.com,🔰 节点选择
  - DOMAIN-SUFFIX,tapatalk.com,🔰 节点选择
  - DOMAIN-SUFFIX,teco-hk.org,🔰 节点选择
@@ -10725,7 +10186,6 @@ rules:
  - DOMAIN-SUFFIX,tiny.cc,🔰 节点选择
  - DOMAIN-SUFFIX,tinyurl.com,🔰 节点选择
  - DOMAIN-SUFFIX,torproject.org,🔰 节点选择
- - DOMAIN-SUFFIX,tradingview.com,🔰 节点选择
  - DOMAIN-SUFFIX,tumblr.com,🔰 节点选择
  - DOMAIN-SUFFIX,turbobit.net,🔰 节点选择
  - DOMAIN-SUFFIX,tutanota.com,🔰 节点选择
@@ -10842,33 +10302,20 @@ rules:
  - DOMAIN-SUFFIX,twitter.jp,🔰 节点选择
  - DOMAIN-SUFFIX,appsto.re,🔰 节点选择
  - DOMAIN,books.itunes.apple.com,🔰 节点选择
- - DOMAIN-SUFFIX,smoot.apple.com,🔰 节点选择
+ - DOMAIN,api-glb-sea.smoot.apple.com,🔰 节点选择
  - DOMAIN,beta.music.apple.com,🔰 节点选择
- - DOMAIN,lookup-api.apple.com,🔰 节点选择
- - DOMAIN,apps.apple.com,🔰 节点选择
- - DOMAIN,books.apple.com,🔰 节点选择
- - DOMAIN,itunes.apple.com,🔰 节点选择
  - DOMAIN,tv.apple.com,🔰 节点选择
- - DOMAIN,amp-api.podcasts.apple.com,🔰 节点选择
- - DOMAIN,bookkeeper.itunes.apple.com,🔰 节点选择
- - DOMAIN,gateway.icloud.com,🔰 节点选择
- - DOMAIN-SUFFIX,apple.news,🔰 节点选择
- - DOMAIN,news-assets.apple.com,🔰 节点选择
- - DOMAIN,news-client.apple.com,🔰 节点选择
- - DOMAIN,news-client-search.apple.com,🔰 节点选择
- - DOMAIN,news-edge.apple.com,🔰 节点选择
- - DOMAIN,news-events.apple.com,🔰 节点选择
- - DOMAIN,apple.comscoreresearch.com,🔰 节点选择
+ - DOMAIN,apps.apple.com,🔰 节点选择
+ - DOMAIN,itunes.apple.com,🔰 节点选择
+ - DOMAIN-SUFFIX,smoot.apple.com,🔰 节点选择
+ - DOMAIN,lookup-api.apple.com,🔰 节点选择
  - DOMAIN-SUFFIX,go.dev,🔰 节点选择
  - DOMAIN-SUFFIX,golang.org,🔰 节点选择
- - DOMAIN-SUFFIX,aicoin.com,🔰 节点选择
- - DOMAIN-SUFFIX,aimoon.com,🔰 节点选择
  - DOMAIN-SUFFIX,bing.com,🔰 节点选择
  - DOMAIN-SUFFIX,cccat.io,🔰 节点选择
  - DOMAIN-SUFFIX,dubox.com,🔰 节点选择
  - DOMAIN-SUFFIX,duboxcdn.com,🔰 节点选择
  - DOMAIN-SUFFIX,ifixit.com,🔰 节点选择
- - DOMAIN-SUFFIX,linkedin.com,🔰 节点选择
  - DOMAIN-SUFFIX,mangakakalot.com,🔰 节点选择
  - DOMAIN-SUFFIX,shopeemobile.com,🔰 节点选择
  - DOMAIN-SUFFIX,sushi.com,🔰 节点选择
@@ -10876,10 +10323,12 @@ rules:
  - DOMAIN,developer.apple.com,🔰 节点选择
  - DOMAIN,www.icloud.com,🔰 节点选择
  - DOMAIN,ocsp.apple.com,🔰 节点选择
+ - DOMAIN,xp.apple.com,🔰 节点选择
  - DOMAIN,cacerts.digicert.com,🔰 节点选择
  - DOMAIN,crl3.digicert.com,🔰 节点选择
  - DOMAIN,crl4.digicert.com,🔰 节点选择
  - DOMAIN,ocsp.digicert.com,🔰 节点选择
+ - DOMAIN-SUFFIX,cloudcone.com.cn,🔰 节点选择
  - DOMAIN-SUFFIX,inkbunny.net,🔰 节点选择
  - DOMAIN-SUFFIX,metapix.net,🔰 节点选择
  - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 节点选择
@@ -11035,11 +10484,19 @@ rules:
  - DOMAIN-SUFFIX,qqmail.com,🎯 全球直连
  - DOMAIN-SUFFIX,servicewechat.com,🎯 全球直连
  - DOMAIN-SUFFIX,tencent.com,🎯 全球直连
- - DOMAIN-SUFFIX,tencent-cloud.com,🎯 全球直连
  - DOMAIN-SUFFIX,tencent-cloud.net,🎯 全球直连
  - DOMAIN-SUFFIX,tenpay.com,🎯 全球直连
  - DOMAIN-SUFFIX,wechat.com,🎯 全球直连
  - DOMAIN,file-igamecj.akamaized.net,🎯 全球直连
+ - IP-CIDR,101.32.104.4/32,🎯 全球直连,no-resolve
+ - IP-CIDR,101.32.104.41/32,🎯 全球直连,no-resolve
+ - IP-CIDR,101.32.104.56/32,🎯 全球直连,no-resolve
+ - IP-CIDR,101.32.118.25/32,🎯 全球直连,no-resolve
+ - IP-CIDR,101.32.133.16/32,🎯 全球直连,no-resolve
+ - IP-CIDR,101.32.133.53/32,🎯 全球直连,no-resolve
+ - IP-CIDR,101.32.133.209/32,🎯 全球直连,no-resolve
+ - IP-CIDR,129.226.3.47/32,🎯 全球直连,no-resolve
+ - IP-CIDR,129.226.107.244/32,🎯 全球直连,no-resolve
  - IP-CIDR,182.254.116.0/24,🎯 全球直连,no-resolve
  - IP-CIDR,203.205.254.0/23,🎯 全球直连,no-resolve
  - DOMAIN-SUFFIX,ccgslb.com,🎯 全球直连
@@ -11119,7 +10576,6 @@ rules:
  - DOMAIN-SUFFIX,chinaso.com,🎯 全球直连
  - DOMAIN-SUFFIX,chuimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,chunyu.mobi,🎯 全球直连
- - DOMAIN-SUFFIX,cibntv.net,🎯 全球直连
  - DOMAIN-SUFFIX,cmbchina.com,🎯 全球直连
  - DOMAIN-SUFFIX,cmbimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,coolapk.com,🎯 全球直连
@@ -11164,6 +10620,8 @@ rules:
  - DOMAIN-SUFFIX,keepcdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,kkmh.com,🎯 全球直连
  - DOMAIN-SUFFIX,lanzous.com,🎯 全球直连
+ - DOMAIN-SUFFIX,licdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
  - DOMAIN-SUFFIX,luojilab.com,🎯 全球直连
  - DOMAIN-SUFFIX,maoyan.com,🎯 全球直连
  - DOMAIN-SUFFIX,maoyun.tv,🎯 全球直连
@@ -11186,7 +10644,6 @@ rules:
  - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
  - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
  - DOMAIN-SUFFIX,scomper.me,🎯 全球直连
- - DOMAIN-SUFFIX,shouqianba.com,🎯 全球直连
  - DOMAIN-SUFFIX,sm.ms,🎯 全球直连
  - DOMAIN-SUFFIX,smzdm.com,🎯 全球直连
  - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
