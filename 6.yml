@@ -5,391 +5,375 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 俄罗斯+Edge, server: 94.242.58.55, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: 加拿大+Edge, server: 46.3.80.226, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: 印度+Edge, server: 216.185.57.229, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "台湾+CHT+[01]", server: cht1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "台湾+CHT+[02]", server: cht2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "台湾+CHT+[03]", server: cht3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: 台湾+Edge, server: 103.156.184.21, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "台湾+HINET+[01]", server: hinet1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "台湾+HINET+[02]", server: hinet2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "台湾+HINET+[03]", server: hinet3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "台湾+HINET+[04]", server: hinet4.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "台湾+HINET+[05]", server: hinet5.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "台湾+IEPL+[01]+[Lite]", server: 120.233.29.201, port: 252, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "台湾+IEPL+[02]+[Lite]", server: 120.233.29.202, port: 252, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: 台湾+Seed, server: seed1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: 土耳其+Edge, server: 194.87.188.86, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: 德国+Edge, server: de1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "德国+IEPL+[01]+[Lite]", server: 120.233.29.201, port: 752, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "德国+IEPL+[02]+[Lite]", server: 120.233.29.202, port: 752, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "新加坡+Aliyun+[01]", server: ali_sg1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "新加坡+Aliyun+[02]", server: ali_sg2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "新加坡+Aliyun+[03]", server: ali_sg3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "新加坡+Aliyun+[04]", server: ali_sg4.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "新加坡+Edge+[01]", server: sg1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "新加坡+Edge+[02]", server: sg2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "新加坡+IEPL+[01]+[Lite]", server: 120.233.29.201, port: 352, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "新加坡+IEPL+[02]+[Lite]", server: 120.233.29.202, port: 352, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "新加坡+IEPL+[03]", server: 120.233.29.203, port: 25382, type: ss, cipher: aes-128-ctr, password: yk82CL, udp: true}
-  - {name: 日本+5G, server: 52.69.156.240, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "日本+DMIT+[01]", server: dmit_jp1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "日本+DMIT+[02]", server: dmit_jp2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "日本+DMIT+[03]", server: dmit_jp3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "日本+DMIT+[04]", server: dmit_jp4.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "日本+DMIT+[05]+->+印度+Edge", server: dmit_jp5.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "日本+Edge+[01]", server: jp1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "日本+Edge+[02]", server: jp2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "日本+Edge+[03]", server: 157.254.193.76, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "日本+IEPL+[01]+[Lite]", server: 120.233.29.201, port: 452, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "日本+IEPL+[02]+[Lite]", server: 120.233.29.202, port: 452, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: 日本+NTT, server: 160.248.188.119, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: 澳大利亚+Edge, server: au1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: 美国+5G, server: 15.254.2.249, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "美国+DMIT+[01]", server: dmit_us1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "美国+DMIT+[02]", server: dmit_us2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "美国+DMIT+[03]", server: dmit_us3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "美国+DMIT+[04]", server: dmit_us4.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "美国+Edge+[01]", server: 170.178.181.50, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "美国+Edge+[02]", server: 165.3.122.236, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "美国+GIA+[01]", server: gia_us1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "美国+GIA+[02]", server: gia_us2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "美国+GIA+[03]", server: gia_us3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "美国+GIA+[04]", server: gia_us4.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "美国+IEPL+[01]+[Lite]", server: 120.233.29.201, port: 652, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "美国+IEPL+[02]+[Lite]", server: 120.233.29.202, port: 652, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: 英国+5G, server: 13.40.36.244, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: 英国+Edge, server: 185.237.99.105, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "英国+IEPL+[01]+[Lite]", server: 120.233.29.201, port: 852, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "英国+IEPL+[02]+[Lite]", server: 120.233.29.202, port: 852, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: 菲律宾+Edge, server: ph1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: 阿根廷+Edge, server: 190.103.176.51, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: 韩国+5G, server: 3.35.78.82, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "韩国+Edge+[01]", server: kr1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "韩国+Edge+[02]", server: kr2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "韩国+IEPL+[01]+[Lite]", server: 120.233.29.201, port: 552, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "韩国+IEPL+[02]+[Lite]", server: 120.233.29.202, port: 552, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+Aliyun+[01]", server: ali_hk1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+Aliyun+[02]", server: ali_hk2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+Aliyun+[03]", server: ali_hk3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+Aliyun+[04]", server: ali_hk4.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+DMIT+[01]", server: dmit_hk1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+DMIT+[02]", server: dmit_hk2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+DMIT+[03]", server: dmit_hk3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+DMIT+[04]", server: dmit_hk4.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+DMIT+[05]", server: dmit_hk5.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+Edge+[01]", server: 103.167.135.57, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+Edge+[02]", server: 103.167.135.58, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+Edge+[03]", server: 103.167.135.59, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+HKT+[01]", server: hkt1.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+HKT+[02]", server: hkt2.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+HKT+[03]", server: hkt3.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+HKT+[04]", server: hkt4.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+HKT+[05]", server: hkt5.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+HKT+[06]", server: hkt6.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+HKT+[07]", server: hkt7.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+HKT+[08]", server: hkt8.qiangdong.xyz, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+IEPL+[01]+[Lite]", server: 120.233.29.201, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+IEPL+[02]+[Lite]", server: 120.233.29.202, port: 152, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: tls, host: 66d4414595.wns.windows.com}, udp: true}
-  - {name: "香港+IEPL+[03]", server: 120.233.29.196, port: 25382, type: ss, cipher: aes-128-ctr, password: yk82CL, udp: true}
-  - {name: "香港+IEPL+[04]", server: 120.233.29.197, port: 25382, type: ss, cipher: aes-128-ctr, password: yk82CL, udp: true}
-  - {name: "香港+IEPL+[05]", server: 120.233.29.198, port: 25382, type: ss, cipher: aes-128-ctr, password: yk82CL, udp: true}
-  - {name: "香港+IEPL+[06]", server: 120.233.29.199, port: 25382, type: ss, cipher: aes-128-ctr, password: yk82CL, udp: true}
-  - {name: "香港+IEPL+[07]+->+土耳其+Edge", server: 120.233.29.200, port: 25382, type: ss, cipher: aes-128-ctr, password: yk82CL, udp: true}
+  - {name: "[v1] 台湾・01", server: yd-05.paofunlink.com, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 台湾・02", server: yd-05.paofunlink.com, port: 1071, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 台湾・03", server: yd-05.paofunlink.com, port: 1072, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 台湾・04", server: yd-02.paofunlink.com, port: 1073, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 台湾・05", server: yd-02.paofunlink.com, port: 1071, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 台湾・06", server: yd-02.paofunlink.com, port: 1072, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 新加坡・01", server: yd-05.paofunlink.com, port: 1090, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 新加坡・02", server: yd-05.paofunlink.com, port: 1091, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 新加坡・03", server: yd-02.paofunlink.com, port: 1092, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 新加坡・04", server: yd-02.paofunlink.com, port: 1093, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 新加坡・05", server: yd-02.paofunlink.com, port: 1094, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 日本・01", server: yd-05.paofunlink.com, port: 1050, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 日本・02", server: yd-05.paofunlink.com, port: 1051, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 日本・03", server: yd-02.paofunlink.com, port: 1052, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 日本・04", server: yd-02.paofunlink.com, port: 1053, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 日本・05", server: yd-02.paofunlink.com, port: 1054, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 美国・01", server: yd-05.paofunlink.com, port: 1080, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 美国・02", server: yd-05.paofunlink.com, port: 1081, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 美国・03", server: yd-02.paofunlink.com, port: 1082, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 美国・04", server: yd-02.paofunlink.com, port: 1083, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 美国・05", server: yd-02.paofunlink.com, port: 1084, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 香港・01", server: yd-01.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 香港・02", server: yd-01.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 香港・03", server: yd-01.paofunlink.com, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 香港・04", server: yd-06.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 香港・05", server: yd-06.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 香港・06", server: yd-06.paofunlink.com, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 香港・07", server: yd-07.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 香港・08", server: yd-07.paofunlink.com, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 香港・09", server: yd-07.paofunlink.com, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1] 香港・10", server: yd-07.paofunlink.com, port: 5959, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 台湾・01", server: yd-03.paofunlink.com, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 台湾・02", server: yd-03.paofunlink.com, port: 1071, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 台湾・03", server: yd-03.paofunlink.com, port: 1072, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 台湾・04", server: yd-03.paofunlink.com, port: 1073, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 新加坡・01", server: yd-03.paofunlink.com, port: 1095, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 新加坡・02", server: yd-03.paofunlink.com, port: 1096, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 新加坡・03", server: yd-03.paofunlink.com, port: 1097, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 新加坡・04", server: yd-03.paofunlink.com, port: 1098, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 日本・01", server: yd-03.paofunlink.com, port: 1055, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 日本・02", server: yd-03.paofunlink.com, port: 1056, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 日本・03", server: yd-03.paofunlink.com, port: 1057, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 日本・04", server: yd-03.paofunlink.com, port: 1058, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 美国・01", server: yd-03.paofunlink.com, port: 1085, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 美国・02", server: yd-03.paofunlink.com, port: 1086, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 美国・03", server: yd-03.paofunlink.com, port: 1087, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 美国・04", server: yd-03.paofunlink.com, port: 1088, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 香港・01", server: yd-04.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 香港・02", server: yd-04.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 香港・03", server: yd-04.paofunlink.com, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 香港・04", server: yd-04.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 香港・05", server: yd-04.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 香港・06", server: yd-04.paofunlink.com, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 香港・07", server: yd-04.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 香港・08", server: yd-04.paofunlink.com, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 香港・09", server: yd-04.paofunlink.com, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v3] 香港・10", server: yd-04.paofunlink.com, port: 5959, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 102863:QDotmA, obfs-param: 0d5b0102863.microsoft.com, udp: true}
+  - {name: "[v1]+台湾・01", server: yd-05.paofunlink.com, port: 1170, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+台湾・02", server: yd-05.paofunlink.com, port: 1171, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+台湾・03", server: yd-05.paofunlink.com, port: 1172, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+台湾・04", server: yd-02.paofunlink.com, port: 1173, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+台湾・05", server: yd-02.paofunlink.com, port: 1171, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+台湾・06", server: yd-02.paofunlink.com, port: 1172, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+新加坡・01", server: yd-05.paofunlink.com, port: 1190, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+新加坡・02", server: yd-05.paofunlink.com, port: 1191, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+新加坡・03", server: yd-02.paofunlink.com, port: 1192, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+新加坡・04", server: yd-02.paofunlink.com, port: 1193, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+新加坡・05", server: yd-02.paofunlink.com, port: 1194, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+日本・01", server: yd-05.paofunlink.com, port: 1150, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+日本・02", server: yd-05.paofunlink.com, port: 1151, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+日本・03", server: yd-02.paofunlink.com, port: 1152, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+日本・04", server: yd-02.paofunlink.com, port: 1153, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+日本・05", server: yd-02.paofunlink.com, port: 1154, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+美国・01", server: yd-05.paofunlink.com, port: 1180, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+美国・02", server: yd-05.paofunlink.com, port: 1181, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+美国・03", server: yd-02.paofunlink.com, port: 1182, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+美国・04", server: yd-02.paofunlink.com, port: 1183, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+美国・05", server: yd-02.paofunlink.com, port: 1184, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+香港・01", server: yd-01.paofunlink.com, port: 5980, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+香港・02", server: yd-01.paofunlink.com, port: 5981, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+香港・03", server: yd-01.paofunlink.com, port: 5982, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+香港・04", server: yd-06.paofunlink.com, port: 5983, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+香港・05", server: yd-06.paofunlink.com, port: 5984, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+香港・06", server: yd-06.paofunlink.com, port: 5985, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+香港・07", server: yd-07.paofunlink.com, port: 5986, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+香港・08", server: yd-07.paofunlink.com, port: 5987, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+香港・09", server: yd-07.paofunlink.com, port: 5988, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
+  - {name: "[v1]+香港・10", server: yd-07.paofunlink.com, port: 5989, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: e176c80046.microsoft.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 俄罗斯+Edge
-      - 加拿大+Edge
-      - 印度+Edge
-      - 台湾+CHT+[01]
-      - 台湾+CHT+[02]
-      - 台湾+CHT+[03]
-      - 台湾+Edge
-      - 台湾+HINET+[01]
-      - 台湾+HINET+[02]
-      - 台湾+HINET+[03]
-      - 台湾+HINET+[04]
-      - 台湾+HINET+[05]
-      - 台湾+IEPL+[01]+[Lite]
-      - 台湾+IEPL+[02]+[Lite]
-      - 台湾+Seed
-      - 土耳其+Edge
-      - 德国+Edge
-      - 德国+IEPL+[01]+[Lite]
-      - 德国+IEPL+[02]+[Lite]
-      - 新加坡+Aliyun+[01]
-      - 新加坡+Aliyun+[02]
-      - 新加坡+Aliyun+[03]
-      - 新加坡+Aliyun+[04]
-      - 新加坡+Edge+[01]
-      - 新加坡+Edge+[02]
-      - 新加坡+IEPL+[01]+[Lite]
-      - 新加坡+IEPL+[02]+[Lite]
-      - 新加坡+IEPL+[03]
-      - 日本+5G
-      - 日本+DMIT+[01]
-      - 日本+DMIT+[02]
-      - 日本+DMIT+[03]
-      - 日本+DMIT+[04]
-      - 日本+DMIT+[05]+->+印度+Edge
-      - 日本+Edge+[01]
-      - 日本+Edge+[02]
-      - 日本+Edge+[03]
-      - 日本+IEPL+[01]+[Lite]
-      - 日本+IEPL+[02]+[Lite]
-      - 日本+NTT
-      - 澳大利亚+Edge
-      - 美国+5G
-      - 美国+DMIT+[01]
-      - 美国+DMIT+[02]
-      - 美国+DMIT+[03]
-      - 美国+DMIT+[04]
-      - 美国+Edge+[01]
-      - 美国+Edge+[02]
-      - 美国+GIA+[01]
-      - 美国+GIA+[02]
-      - 美国+GIA+[03]
-      - 美国+GIA+[04]
-      - 美国+IEPL+[01]+[Lite]
-      - 美国+IEPL+[02]+[Lite]
-      - 英国+5G
-      - 英国+Edge
-      - 英国+IEPL+[01]+[Lite]
-      - 英国+IEPL+[02]+[Lite]
-      - 菲律宾+Edge
-      - 阿根廷+Edge
-      - 韩国+5G
-      - 韩国+Edge+[01]
-      - 韩国+Edge+[02]
-      - 韩国+IEPL+[01]+[Lite]
-      - 韩国+IEPL+[02]+[Lite]
-      - 香港+Aliyun+[01]
-      - 香港+Aliyun+[02]
-      - 香港+Aliyun+[03]
-      - 香港+Aliyun+[04]
-      - 香港+DMIT+[01]
-      - 香港+DMIT+[02]
-      - 香港+DMIT+[03]
-      - 香港+DMIT+[04]
-      - 香港+DMIT+[05]
-      - 香港+Edge+[01]
-      - 香港+Edge+[02]
-      - 香港+Edge+[03]
-      - 香港+HKT+[01]
-      - 香港+HKT+[02]
-      - 香港+HKT+[03]
-      - 香港+HKT+[04]
-      - 香港+HKT+[05]
-      - 香港+HKT+[06]
-      - 香港+HKT+[07]
-      - 香港+HKT+[08]
-      - 香港+IEPL+[01]+[Lite]
-      - 香港+IEPL+[02]+[Lite]
-      - 香港+IEPL+[03]
-      - 香港+IEPL+[04]
-      - 香港+IEPL+[05]
-      - 香港+IEPL+[06]
-      - 香港+IEPL+[07]+->+土耳其+Edge
+      - "[v1] 台湾・01"
+      - "[v1] 台湾・02"
+      - "[v1] 台湾・03"
+      - "[v1] 台湾・04"
+      - "[v1] 台湾・05"
+      - "[v1] 台湾・06"
+      - "[v1] 新加坡・01"
+      - "[v1] 新加坡・02"
+      - "[v1] 新加坡・03"
+      - "[v1] 新加坡・04"
+      - "[v1] 新加坡・05"
+      - "[v1] 日本・01"
+      - "[v1] 日本・02"
+      - "[v1] 日本・03"
+      - "[v1] 日本・04"
+      - "[v1] 日本・05"
+      - "[v1] 美国・01"
+      - "[v1] 美国・02"
+      - "[v1] 美国・03"
+      - "[v1] 美国・04"
+      - "[v1] 美国・05"
+      - "[v1] 香港・01"
+      - "[v1] 香港・02"
+      - "[v1] 香港・03"
+      - "[v1] 香港・04"
+      - "[v1] 香港・05"
+      - "[v1] 香港・06"
+      - "[v1] 香港・07"
+      - "[v1] 香港・08"
+      - "[v1] 香港・09"
+      - "[v1] 香港・10"
+      - "[v3] 台湾・01"
+      - "[v3] 台湾・02"
+      - "[v3] 台湾・03"
+      - "[v3] 台湾・04"
+      - "[v3] 新加坡・01"
+      - "[v3] 新加坡・02"
+      - "[v3] 新加坡・03"
+      - "[v3] 新加坡・04"
+      - "[v3] 日本・01"
+      - "[v3] 日本・02"
+      - "[v3] 日本・03"
+      - "[v3] 日本・04"
+      - "[v3] 美国・01"
+      - "[v3] 美国・02"
+      - "[v3] 美国・03"
+      - "[v3] 美国・04"
+      - "[v3] 香港・01"
+      - "[v3] 香港・02"
+      - "[v3] 香港・03"
+      - "[v3] 香港・04"
+      - "[v3] 香港・05"
+      - "[v3] 香港・06"
+      - "[v3] 香港・07"
+      - "[v3] 香港・08"
+      - "[v3] 香港・09"
+      - "[v3] 香港・10"
+      - "[v1]+台湾・01"
+      - "[v1]+台湾・02"
+      - "[v1]+台湾・03"
+      - "[v1]+台湾・04"
+      - "[v1]+台湾・05"
+      - "[v1]+台湾・06"
+      - "[v1]+新加坡・01"
+      - "[v1]+新加坡・02"
+      - "[v1]+新加坡・03"
+      - "[v1]+新加坡・04"
+      - "[v1]+新加坡・05"
+      - "[v1]+日本・01"
+      - "[v1]+日本・02"
+      - "[v1]+日本・03"
+      - "[v1]+日本・04"
+      - "[v1]+日本・05"
+      - "[v1]+美国・01"
+      - "[v1]+美国・02"
+      - "[v1]+美国・03"
+      - "[v1]+美国・04"
+      - "[v1]+美国・05"
+      - "[v1]+香港・01"
+      - "[v1]+香港・02"
+      - "[v1]+香港・03"
+      - "[v1]+香港・04"
+      - "[v1]+香港・05"
+      - "[v1]+香港・06"
+      - "[v1]+香港・07"
+      - "[v1]+香港・08"
+      - "[v1]+香港・09"
+      - "[v1]+香港・10"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 俄罗斯+Edge
-      - 加拿大+Edge
-      - 印度+Edge
-      - 台湾+CHT+[01]
-      - 台湾+CHT+[02]
-      - 台湾+CHT+[03]
-      - 台湾+Edge
-      - 台湾+HINET+[01]
-      - 台湾+HINET+[02]
-      - 台湾+HINET+[03]
-      - 台湾+HINET+[04]
-      - 台湾+HINET+[05]
-      - 台湾+IEPL+[01]+[Lite]
-      - 台湾+IEPL+[02]+[Lite]
-      - 台湾+Seed
-      - 土耳其+Edge
-      - 德国+Edge
-      - 德国+IEPL+[01]+[Lite]
-      - 德国+IEPL+[02]+[Lite]
-      - 新加坡+Aliyun+[01]
-      - 新加坡+Aliyun+[02]
-      - 新加坡+Aliyun+[03]
-      - 新加坡+Aliyun+[04]
-      - 新加坡+Edge+[01]
-      - 新加坡+Edge+[02]
-      - 新加坡+IEPL+[01]+[Lite]
-      - 新加坡+IEPL+[02]+[Lite]
-      - 新加坡+IEPL+[03]
-      - 日本+5G
-      - 日本+DMIT+[01]
-      - 日本+DMIT+[02]
-      - 日本+DMIT+[03]
-      - 日本+DMIT+[04]
-      - 日本+DMIT+[05]+->+印度+Edge
-      - 日本+Edge+[01]
-      - 日本+Edge+[02]
-      - 日本+Edge+[03]
-      - 日本+IEPL+[01]+[Lite]
-      - 日本+IEPL+[02]+[Lite]
-      - 日本+NTT
-      - 澳大利亚+Edge
-      - 美国+5G
-      - 美国+DMIT+[01]
-      - 美国+DMIT+[02]
-      - 美国+DMIT+[03]
-      - 美国+DMIT+[04]
-      - 美国+Edge+[01]
-      - 美国+Edge+[02]
-      - 美国+GIA+[01]
-      - 美国+GIA+[02]
-      - 美国+GIA+[03]
-      - 美国+GIA+[04]
-      - 美国+IEPL+[01]+[Lite]
-      - 美国+IEPL+[02]+[Lite]
-      - 英国+5G
-      - 英国+Edge
-      - 英国+IEPL+[01]+[Lite]
-      - 英国+IEPL+[02]+[Lite]
-      - 菲律宾+Edge
-      - 阿根廷+Edge
-      - 韩国+5G
-      - 韩国+Edge+[01]
-      - 韩国+Edge+[02]
-      - 韩国+IEPL+[01]+[Lite]
-      - 韩国+IEPL+[02]+[Lite]
-      - 香港+Aliyun+[01]
-      - 香港+Aliyun+[02]
-      - 香港+Aliyun+[03]
-      - 香港+Aliyun+[04]
-      - 香港+DMIT+[01]
-      - 香港+DMIT+[02]
-      - 香港+DMIT+[03]
-      - 香港+DMIT+[04]
-      - 香港+DMIT+[05]
-      - 香港+Edge+[01]
-      - 香港+Edge+[02]
-      - 香港+Edge+[03]
-      - 香港+HKT+[01]
-      - 香港+HKT+[02]
-      - 香港+HKT+[03]
-      - 香港+HKT+[04]
-      - 香港+HKT+[05]
-      - 香港+HKT+[06]
-      - 香港+HKT+[07]
-      - 香港+HKT+[08]
-      - 香港+IEPL+[01]+[Lite]
-      - 香港+IEPL+[02]+[Lite]
-      - 香港+IEPL+[03]
-      - 香港+IEPL+[04]
-      - 香港+IEPL+[05]
-      - 香港+IEPL+[06]
-      - 香港+IEPL+[07]+->+土耳其+Edge
+      - "[v1] 台湾・01"
+      - "[v1] 台湾・02"
+      - "[v1] 台湾・03"
+      - "[v1] 台湾・04"
+      - "[v1] 台湾・05"
+      - "[v1] 台湾・06"
+      - "[v1] 新加坡・01"
+      - "[v1] 新加坡・02"
+      - "[v1] 新加坡・03"
+      - "[v1] 新加坡・04"
+      - "[v1] 新加坡・05"
+      - "[v1] 日本・01"
+      - "[v1] 日本・02"
+      - "[v1] 日本・03"
+      - "[v1] 日本・04"
+      - "[v1] 日本・05"
+      - "[v1] 美国・01"
+      - "[v1] 美国・02"
+      - "[v1] 美国・03"
+      - "[v1] 美国・04"
+      - "[v1] 美国・05"
+      - "[v1] 香港・01"
+      - "[v1] 香港・02"
+      - "[v1] 香港・03"
+      - "[v1] 香港・04"
+      - "[v1] 香港・05"
+      - "[v1] 香港・06"
+      - "[v1] 香港・07"
+      - "[v1] 香港・08"
+      - "[v1] 香港・09"
+      - "[v1] 香港・10"
+      - "[v3] 台湾・01"
+      - "[v3] 台湾・02"
+      - "[v3] 台湾・03"
+      - "[v3] 台湾・04"
+      - "[v3] 新加坡・01"
+      - "[v3] 新加坡・02"
+      - "[v3] 新加坡・03"
+      - "[v3] 新加坡・04"
+      - "[v3] 日本・01"
+      - "[v3] 日本・02"
+      - "[v3] 日本・03"
+      - "[v3] 日本・04"
+      - "[v3] 美国・01"
+      - "[v3] 美国・02"
+      - "[v3] 美国・03"
+      - "[v3] 美国・04"
+      - "[v3] 香港・01"
+      - "[v3] 香港・02"
+      - "[v3] 香港・03"
+      - "[v3] 香港・04"
+      - "[v3] 香港・05"
+      - "[v3] 香港・06"
+      - "[v3] 香港・07"
+      - "[v3] 香港・08"
+      - "[v3] 香港・09"
+      - "[v3] 香港・10"
+      - "[v1]+台湾・01"
+      - "[v1]+台湾・02"
+      - "[v1]+台湾・03"
+      - "[v1]+台湾・04"
+      - "[v1]+台湾・05"
+      - "[v1]+台湾・06"
+      - "[v1]+新加坡・01"
+      - "[v1]+新加坡・02"
+      - "[v1]+新加坡・03"
+      - "[v1]+新加坡・04"
+      - "[v1]+新加坡・05"
+      - "[v1]+日本・01"
+      - "[v1]+日本・02"
+      - "[v1]+日本・03"
+      - "[v1]+日本・04"
+      - "[v1]+日本・05"
+      - "[v1]+美国・01"
+      - "[v1]+美国・02"
+      - "[v1]+美国・03"
+      - "[v1]+美国・04"
+      - "[v1]+美国・05"
+      - "[v1]+香港・01"
+      - "[v1]+香港・02"
+      - "[v1]+香港・03"
+      - "[v1]+香港・04"
+      - "[v1]+香港・05"
+      - "[v1]+香港・06"
+      - "[v1]+香港・07"
+      - "[v1]+香港・08"
+      - "[v1]+香港・09"
+      - "[v1]+香港・10"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 俄罗斯+Edge
-      - 加拿大+Edge
-      - 印度+Edge
-      - 台湾+CHT+[01]
-      - 台湾+CHT+[02]
-      - 台湾+CHT+[03]
-      - 台湾+Edge
-      - 台湾+HINET+[01]
-      - 台湾+HINET+[02]
-      - 台湾+HINET+[03]
-      - 台湾+HINET+[04]
-      - 台湾+HINET+[05]
-      - 台湾+IEPL+[01]+[Lite]
-      - 台湾+IEPL+[02]+[Lite]
-      - 台湾+Seed
-      - 土耳其+Edge
-      - 德国+Edge
-      - 德国+IEPL+[01]+[Lite]
-      - 德国+IEPL+[02]+[Lite]
-      - 新加坡+Aliyun+[01]
-      - 新加坡+Aliyun+[02]
-      - 新加坡+Aliyun+[03]
-      - 新加坡+Aliyun+[04]
-      - 新加坡+Edge+[01]
-      - 新加坡+Edge+[02]
-      - 新加坡+IEPL+[01]+[Lite]
-      - 新加坡+IEPL+[02]+[Lite]
-      - 新加坡+IEPL+[03]
-      - 日本+5G
-      - 日本+DMIT+[01]
-      - 日本+DMIT+[02]
-      - 日本+DMIT+[03]
-      - 日本+DMIT+[04]
-      - 日本+DMIT+[05]+->+印度+Edge
-      - 日本+Edge+[01]
-      - 日本+Edge+[02]
-      - 日本+Edge+[03]
-      - 日本+IEPL+[01]+[Lite]
-      - 日本+IEPL+[02]+[Lite]
-      - 日本+NTT
-      - 澳大利亚+Edge
-      - 美国+5G
-      - 美国+DMIT+[01]
-      - 美国+DMIT+[02]
-      - 美国+DMIT+[03]
-      - 美国+DMIT+[04]
-      - 美国+Edge+[01]
-      - 美国+Edge+[02]
-      - 美国+GIA+[01]
-      - 美国+GIA+[02]
-      - 美国+GIA+[03]
-      - 美国+GIA+[04]
-      - 美国+IEPL+[01]+[Lite]
-      - 美国+IEPL+[02]+[Lite]
-      - 英国+5G
-      - 英国+Edge
-      - 英国+IEPL+[01]+[Lite]
-      - 英国+IEPL+[02]+[Lite]
-      - 菲律宾+Edge
-      - 阿根廷+Edge
-      - 韩国+5G
-      - 韩国+Edge+[01]
-      - 韩国+Edge+[02]
-      - 韩国+IEPL+[01]+[Lite]
-      - 韩国+IEPL+[02]+[Lite]
-      - 香港+Aliyun+[01]
-      - 香港+Aliyun+[02]
-      - 香港+Aliyun+[03]
-      - 香港+Aliyun+[04]
-      - 香港+DMIT+[01]
-      - 香港+DMIT+[02]
-      - 香港+DMIT+[03]
-      - 香港+DMIT+[04]
-      - 香港+DMIT+[05]
-      - 香港+Edge+[01]
-      - 香港+Edge+[02]
-      - 香港+Edge+[03]
-      - 香港+HKT+[01]
-      - 香港+HKT+[02]
-      - 香港+HKT+[03]
-      - 香港+HKT+[04]
-      - 香港+HKT+[05]
-      - 香港+HKT+[06]
-      - 香港+HKT+[07]
-      - 香港+HKT+[08]
-      - 香港+IEPL+[01]+[Lite]
-      - 香港+IEPL+[02]+[Lite]
-      - 香港+IEPL+[03]
-      - 香港+IEPL+[04]
-      - 香港+IEPL+[05]
-      - 香港+IEPL+[06]
-      - 香港+IEPL+[07]+->+土耳其+Edge
+      - "[v1] 台湾・01"
+      - "[v1] 台湾・02"
+      - "[v1] 台湾・03"
+      - "[v1] 台湾・04"
+      - "[v1] 台湾・05"
+      - "[v1] 台湾・06"
+      - "[v1] 新加坡・01"
+      - "[v1] 新加坡・02"
+      - "[v1] 新加坡・03"
+      - "[v1] 新加坡・04"
+      - "[v1] 新加坡・05"
+      - "[v1] 日本・01"
+      - "[v1] 日本・02"
+      - "[v1] 日本・03"
+      - "[v1] 日本・04"
+      - "[v1] 日本・05"
+      - "[v1] 美国・01"
+      - "[v1] 美国・02"
+      - "[v1] 美国・03"
+      - "[v1] 美国・04"
+      - "[v1] 美国・05"
+      - "[v1] 香港・01"
+      - "[v1] 香港・02"
+      - "[v1] 香港・03"
+      - "[v1] 香港・04"
+      - "[v1] 香港・05"
+      - "[v1] 香港・06"
+      - "[v1] 香港・07"
+      - "[v1] 香港・08"
+      - "[v1] 香港・09"
+      - "[v1] 香港・10"
+      - "[v3] 台湾・01"
+      - "[v3] 台湾・02"
+      - "[v3] 台湾・03"
+      - "[v3] 台湾・04"
+      - "[v3] 新加坡・01"
+      - "[v3] 新加坡・02"
+      - "[v3] 新加坡・03"
+      - "[v3] 新加坡・04"
+      - "[v3] 日本・01"
+      - "[v3] 日本・02"
+      - "[v3] 日本・03"
+      - "[v3] 日本・04"
+      - "[v3] 美国・01"
+      - "[v3] 美国・02"
+      - "[v3] 美国・03"
+      - "[v3] 美国・04"
+      - "[v3] 香港・01"
+      - "[v3] 香港・02"
+      - "[v3] 香港・03"
+      - "[v3] 香港・04"
+      - "[v3] 香港・05"
+      - "[v3] 香港・06"
+      - "[v3] 香港・07"
+      - "[v3] 香港・08"
+      - "[v3] 香港・09"
+      - "[v3] 香港・10"
+      - "[v1]+台湾・01"
+      - "[v1]+台湾・02"
+      - "[v1]+台湾・03"
+      - "[v1]+台湾・04"
+      - "[v1]+台湾・05"
+      - "[v1]+台湾・06"
+      - "[v1]+新加坡・01"
+      - "[v1]+新加坡・02"
+      - "[v1]+新加坡・03"
+      - "[v1]+新加坡・04"
+      - "[v1]+新加坡・05"
+      - "[v1]+日本・01"
+      - "[v1]+日本・02"
+      - "[v1]+日本・03"
+      - "[v1]+日本・04"
+      - "[v1]+日本・05"
+      - "[v1]+美国・01"
+      - "[v1]+美国・02"
+      - "[v1]+美国・03"
+      - "[v1]+美国・04"
+      - "[v1]+美国・05"
+      - "[v1]+香港・01"
+      - "[v1]+香港・02"
+      - "[v1]+香港・03"
+      - "[v1]+香港・04"
+      - "[v1]+香港・05"
+      - "[v1]+香港・06"
+      - "[v1]+香港・07"
+      - "[v1]+香港・08"
+      - "[v1]+香港・09"
+      - "[v1]+香港・10"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -408,434 +392,425 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 俄罗斯+Edge
-      - 加拿大+Edge
-      - 印度+Edge
-      - 台湾+CHT+[01]
-      - 台湾+CHT+[02]
-      - 台湾+CHT+[03]
-      - 台湾+Edge
-      - 台湾+HINET+[01]
-      - 台湾+HINET+[02]
-      - 台湾+HINET+[03]
-      - 台湾+HINET+[04]
-      - 台湾+HINET+[05]
-      - 台湾+IEPL+[01]+[Lite]
-      - 台湾+IEPL+[02]+[Lite]
-      - 台湾+Seed
-      - 土耳其+Edge
-      - 德国+Edge
-      - 德国+IEPL+[01]+[Lite]
-      - 德国+IEPL+[02]+[Lite]
-      - 新加坡+Aliyun+[01]
-      - 新加坡+Aliyun+[02]
-      - 新加坡+Aliyun+[03]
-      - 新加坡+Aliyun+[04]
-      - 新加坡+Edge+[01]
-      - 新加坡+Edge+[02]
-      - 新加坡+IEPL+[01]+[Lite]
-      - 新加坡+IEPL+[02]+[Lite]
-      - 新加坡+IEPL+[03]
-      - 日本+5G
-      - 日本+DMIT+[01]
-      - 日本+DMIT+[02]
-      - 日本+DMIT+[03]
-      - 日本+DMIT+[04]
-      - 日本+DMIT+[05]+->+印度+Edge
-      - 日本+Edge+[01]
-      - 日本+Edge+[02]
-      - 日本+Edge+[03]
-      - 日本+IEPL+[01]+[Lite]
-      - 日本+IEPL+[02]+[Lite]
-      - 日本+NTT
-      - 澳大利亚+Edge
-      - 美国+5G
-      - 美国+DMIT+[01]
-      - 美国+DMIT+[02]
-      - 美国+DMIT+[03]
-      - 美国+DMIT+[04]
-      - 美国+Edge+[01]
-      - 美国+Edge+[02]
-      - 美国+GIA+[01]
-      - 美国+GIA+[02]
-      - 美国+GIA+[03]
-      - 美国+GIA+[04]
-      - 美国+IEPL+[01]+[Lite]
-      - 美国+IEPL+[02]+[Lite]
-      - 英国+5G
-      - 英国+Edge
-      - 英国+IEPL+[01]+[Lite]
-      - 英国+IEPL+[02]+[Lite]
-      - 菲律宾+Edge
-      - 阿根廷+Edge
-      - 韩国+5G
-      - 韩国+Edge+[01]
-      - 韩国+Edge+[02]
-      - 韩国+IEPL+[01]+[Lite]
-      - 韩国+IEPL+[02]+[Lite]
-      - 香港+Aliyun+[01]
-      - 香港+Aliyun+[02]
-      - 香港+Aliyun+[03]
-      - 香港+Aliyun+[04]
-      - 香港+DMIT+[01]
-      - 香港+DMIT+[02]
-      - 香港+DMIT+[03]
-      - 香港+DMIT+[04]
-      - 香港+DMIT+[05]
-      - 香港+Edge+[01]
-      - 香港+Edge+[02]
-      - 香港+Edge+[03]
-      - 香港+HKT+[01]
-      - 香港+HKT+[02]
-      - 香港+HKT+[03]
-      - 香港+HKT+[04]
-      - 香港+HKT+[05]
-      - 香港+HKT+[06]
-      - 香港+HKT+[07]
-      - 香港+HKT+[08]
-      - 香港+IEPL+[01]+[Lite]
-      - 香港+IEPL+[02]+[Lite]
-      - 香港+IEPL+[03]
-      - 香港+IEPL+[04]
-      - 香港+IEPL+[05]
-      - 香港+IEPL+[06]
-      - 香港+IEPL+[07]+->+土耳其+Edge
+      - "[v1] 台湾・01"
+      - "[v1] 台湾・02"
+      - "[v1] 台湾・03"
+      - "[v1] 台湾・04"
+      - "[v1] 台湾・05"
+      - "[v1] 台湾・06"
+      - "[v1] 新加坡・01"
+      - "[v1] 新加坡・02"
+      - "[v1] 新加坡・03"
+      - "[v1] 新加坡・04"
+      - "[v1] 新加坡・05"
+      - "[v1] 日本・01"
+      - "[v1] 日本・02"
+      - "[v1] 日本・03"
+      - "[v1] 日本・04"
+      - "[v1] 日本・05"
+      - "[v1] 美国・01"
+      - "[v1] 美国・02"
+      - "[v1] 美国・03"
+      - "[v1] 美国・04"
+      - "[v1] 美国・05"
+      - "[v1] 香港・01"
+      - "[v1] 香港・02"
+      - "[v1] 香港・03"
+      - "[v1] 香港・04"
+      - "[v1] 香港・05"
+      - "[v1] 香港・06"
+      - "[v1] 香港・07"
+      - "[v1] 香港・08"
+      - "[v1] 香港・09"
+      - "[v1] 香港・10"
+      - "[v3] 台湾・01"
+      - "[v3] 台湾・02"
+      - "[v3] 台湾・03"
+      - "[v3] 台湾・04"
+      - "[v3] 新加坡・01"
+      - "[v3] 新加坡・02"
+      - "[v3] 新加坡・03"
+      - "[v3] 新加坡・04"
+      - "[v3] 日本・01"
+      - "[v3] 日本・02"
+      - "[v3] 日本・03"
+      - "[v3] 日本・04"
+      - "[v3] 美国・01"
+      - "[v3] 美国・02"
+      - "[v3] 美国・03"
+      - "[v3] 美国・04"
+      - "[v3] 香港・01"
+      - "[v3] 香港・02"
+      - "[v3] 香港・03"
+      - "[v3] 香港・04"
+      - "[v3] 香港・05"
+      - "[v3] 香港・06"
+      - "[v3] 香港・07"
+      - "[v3] 香港・08"
+      - "[v3] 香港・09"
+      - "[v3] 香港・10"
+      - "[v1]+台湾・01"
+      - "[v1]+台湾・02"
+      - "[v1]+台湾・03"
+      - "[v1]+台湾・04"
+      - "[v1]+台湾・05"
+      - "[v1]+台湾・06"
+      - "[v1]+新加坡・01"
+      - "[v1]+新加坡・02"
+      - "[v1]+新加坡・03"
+      - "[v1]+新加坡・04"
+      - "[v1]+新加坡・05"
+      - "[v1]+日本・01"
+      - "[v1]+日本・02"
+      - "[v1]+日本・03"
+      - "[v1]+日本・04"
+      - "[v1]+日本・05"
+      - "[v1]+美国・01"
+      - "[v1]+美国・02"
+      - "[v1]+美国・03"
+      - "[v1]+美国・04"
+      - "[v1]+美国・05"
+      - "[v1]+香港・01"
+      - "[v1]+香港・02"
+      - "[v1]+香港・03"
+      - "[v1]+香港・04"
+      - "[v1]+香港・05"
+      - "[v1]+香港・06"
+      - "[v1]+香港・07"
+      - "[v1]+香港・08"
+      - "[v1]+香港・09"
+      - "[v1]+香港・10"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾+CHT+[01]
-      - 台湾+CHT+[02]
-      - 台湾+CHT+[03]
-      - 台湾+Edge
-      - 台湾+HINET+[01]
-      - 台湾+HINET+[02]
-      - 台湾+HINET+[03]
-      - 台湾+HINET+[04]
-      - 台湾+HINET+[05]
-      - 台湾+IEPL+[01]+[Lite]
-      - 台湾+IEPL+[02]+[Lite]
-      - 台湾+Seed
-      - 香港+Aliyun+[01]
-      - 香港+Aliyun+[02]
-      - 香港+Aliyun+[03]
-      - 香港+Aliyun+[04]
-      - 香港+DMIT+[01]
-      - 香港+DMIT+[02]
-      - 香港+DMIT+[03]
-      - 香港+DMIT+[04]
-      - 香港+DMIT+[05]
-      - 香港+Edge+[01]
-      - 香港+Edge+[02]
-      - 香港+Edge+[03]
-      - 香港+HKT+[01]
-      - 香港+HKT+[02]
-      - 香港+HKT+[03]
-      - 香港+HKT+[04]
-      - 香港+HKT+[05]
-      - 香港+HKT+[06]
-      - 香港+HKT+[07]
-      - 香港+HKT+[08]
-      - 香港+IEPL+[01]+[Lite]
-      - 香港+IEPL+[02]+[Lite]
-      - 香港+IEPL+[03]
-      - 香港+IEPL+[04]
-      - 香港+IEPL+[05]
-      - 香港+IEPL+[06]
-      - 香港+IEPL+[07]+->+土耳其+Edge
+      - "[v1] 台湾・01"
+      - "[v1] 台湾・02"
+      - "[v1] 台湾・03"
+      - "[v1] 台湾・04"
+      - "[v1] 台湾・05"
+      - "[v1] 台湾・06"
+      - "[v1] 香港・01"
+      - "[v1] 香港・02"
+      - "[v1] 香港・03"
+      - "[v1] 香港・04"
+      - "[v1] 香港・05"
+      - "[v1] 香港・06"
+      - "[v1] 香港・07"
+      - "[v1] 香港・08"
+      - "[v1] 香港・09"
+      - "[v1] 香港・10"
+      - "[v3] 台湾・01"
+      - "[v3] 台湾・02"
+      - "[v3] 台湾・03"
+      - "[v3] 台湾・04"
+      - "[v3] 香港・01"
+      - "[v3] 香港・02"
+      - "[v3] 香港・03"
+      - "[v3] 香港・04"
+      - "[v3] 香港・05"
+      - "[v3] 香港・06"
+      - "[v3] 香港・07"
+      - "[v3] 香港・08"
+      - "[v3] 香港・09"
+      - "[v3] 香港・10"
+      - "[v1]+台湾・01"
+      - "[v1]+台湾・02"
+      - "[v1]+台湾・03"
+      - "[v1]+台湾・04"
+      - "[v1]+台湾・05"
+      - "[v1]+台湾・06"
+      - "[v1]+香港・01"
+      - "[v1]+香港・02"
+      - "[v1]+香港・03"
+      - "[v1]+香港・04"
+      - "[v1]+香港・05"
+      - "[v1]+香港・06"
+      - "[v1]+香港・07"
+      - "[v1]+香港・08"
+      - "[v1]+香港・09"
+      - "[v1]+香港・10"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 俄罗斯+Edge
-      - 加拿大+Edge
-      - 印度+Edge
-      - 台湾+CHT+[01]
-      - 台湾+CHT+[02]
-      - 台湾+CHT+[03]
-      - 台湾+Edge
-      - 台湾+HINET+[01]
-      - 台湾+HINET+[02]
-      - 台湾+HINET+[03]
-      - 台湾+HINET+[04]
-      - 台湾+HINET+[05]
-      - 台湾+IEPL+[01]+[Lite]
-      - 台湾+IEPL+[02]+[Lite]
-      - 台湾+Seed
-      - 土耳其+Edge
-      - 德国+Edge
-      - 德国+IEPL+[01]+[Lite]
-      - 德国+IEPL+[02]+[Lite]
-      - 新加坡+Aliyun+[01]
-      - 新加坡+Aliyun+[02]
-      - 新加坡+Aliyun+[03]
-      - 新加坡+Aliyun+[04]
-      - 新加坡+Edge+[01]
-      - 新加坡+Edge+[02]
-      - 新加坡+IEPL+[01]+[Lite]
-      - 新加坡+IEPL+[02]+[Lite]
-      - 新加坡+IEPL+[03]
-      - 日本+5G
-      - 日本+DMIT+[01]
-      - 日本+DMIT+[02]
-      - 日本+DMIT+[03]
-      - 日本+DMIT+[04]
-      - 日本+DMIT+[05]+->+印度+Edge
-      - 日本+Edge+[01]
-      - 日本+Edge+[02]
-      - 日本+Edge+[03]
-      - 日本+IEPL+[01]+[Lite]
-      - 日本+IEPL+[02]+[Lite]
-      - 日本+NTT
-      - 澳大利亚+Edge
-      - 美国+5G
-      - 美国+DMIT+[01]
-      - 美国+DMIT+[02]
-      - 美国+DMIT+[03]
-      - 美国+DMIT+[04]
-      - 美国+Edge+[01]
-      - 美国+Edge+[02]
-      - 美国+GIA+[01]
-      - 美国+GIA+[02]
-      - 美国+GIA+[03]
-      - 美国+GIA+[04]
-      - 美国+IEPL+[01]+[Lite]
-      - 美国+IEPL+[02]+[Lite]
-      - 英国+5G
-      - 英国+Edge
-      - 英国+IEPL+[01]+[Lite]
-      - 英国+IEPL+[02]+[Lite]
-      - 菲律宾+Edge
-      - 阿根廷+Edge
-      - 韩国+5G
-      - 韩国+Edge+[01]
-      - 韩国+Edge+[02]
-      - 韩国+IEPL+[01]+[Lite]
-      - 韩国+IEPL+[02]+[Lite]
-      - 香港+Aliyun+[01]
-      - 香港+Aliyun+[02]
-      - 香港+Aliyun+[03]
-      - 香港+Aliyun+[04]
-      - 香港+DMIT+[01]
-      - 香港+DMIT+[02]
-      - 香港+DMIT+[03]
-      - 香港+DMIT+[04]
-      - 香港+DMIT+[05]
-      - 香港+Edge+[01]
-      - 香港+Edge+[02]
-      - 香港+Edge+[03]
-      - 香港+HKT+[01]
-      - 香港+HKT+[02]
-      - 香港+HKT+[03]
-      - 香港+HKT+[04]
-      - 香港+HKT+[05]
-      - 香港+HKT+[06]
-      - 香港+HKT+[07]
-      - 香港+HKT+[08]
-      - 香港+IEPL+[01]+[Lite]
-      - 香港+IEPL+[02]+[Lite]
-      - 香港+IEPL+[03]
-      - 香港+IEPL+[04]
-      - 香港+IEPL+[05]
-      - 香港+IEPL+[06]
-      - 香港+IEPL+[07]+->+土耳其+Edge
+      - "[v1] 台湾・01"
+      - "[v1] 台湾・02"
+      - "[v1] 台湾・03"
+      - "[v1] 台湾・04"
+      - "[v1] 台湾・05"
+      - "[v1] 台湾・06"
+      - "[v1] 新加坡・01"
+      - "[v1] 新加坡・02"
+      - "[v1] 新加坡・03"
+      - "[v1] 新加坡・04"
+      - "[v1] 新加坡・05"
+      - "[v1] 日本・01"
+      - "[v1] 日本・02"
+      - "[v1] 日本・03"
+      - "[v1] 日本・04"
+      - "[v1] 日本・05"
+      - "[v1] 美国・01"
+      - "[v1] 美国・02"
+      - "[v1] 美国・03"
+      - "[v1] 美国・04"
+      - "[v1] 美国・05"
+      - "[v1] 香港・01"
+      - "[v1] 香港・02"
+      - "[v1] 香港・03"
+      - "[v1] 香港・04"
+      - "[v1] 香港・05"
+      - "[v1] 香港・06"
+      - "[v1] 香港・07"
+      - "[v1] 香港・08"
+      - "[v1] 香港・09"
+      - "[v1] 香港・10"
+      - "[v3] 台湾・01"
+      - "[v3] 台湾・02"
+      - "[v3] 台湾・03"
+      - "[v3] 台湾・04"
+      - "[v3] 新加坡・01"
+      - "[v3] 新加坡・02"
+      - "[v3] 新加坡・03"
+      - "[v3] 新加坡・04"
+      - "[v3] 日本・01"
+      - "[v3] 日本・02"
+      - "[v3] 日本・03"
+      - "[v3] 日本・04"
+      - "[v3] 美国・01"
+      - "[v3] 美国・02"
+      - "[v3] 美国・03"
+      - "[v3] 美国・04"
+      - "[v3] 香港・01"
+      - "[v3] 香港・02"
+      - "[v3] 香港・03"
+      - "[v3] 香港・04"
+      - "[v3] 香港・05"
+      - "[v3] 香港・06"
+      - "[v3] 香港・07"
+      - "[v3] 香港・08"
+      - "[v3] 香港・09"
+      - "[v3] 香港・10"
+      - "[v1]+台湾・01"
+      - "[v1]+台湾・02"
+      - "[v1]+台湾・03"
+      - "[v1]+台湾・04"
+      - "[v1]+台湾・05"
+      - "[v1]+台湾・06"
+      - "[v1]+新加坡・01"
+      - "[v1]+新加坡・02"
+      - "[v1]+新加坡・03"
+      - "[v1]+新加坡・04"
+      - "[v1]+新加坡・05"
+      - "[v1]+日本・01"
+      - "[v1]+日本・02"
+      - "[v1]+日本・03"
+      - "[v1]+日本・04"
+      - "[v1]+日本・05"
+      - "[v1]+美国・01"
+      - "[v1]+美国・02"
+      - "[v1]+美国・03"
+      - "[v1]+美国・04"
+      - "[v1]+美国・05"
+      - "[v1]+香港・01"
+      - "[v1]+香港・02"
+      - "[v1]+香港・03"
+      - "[v1]+香港・04"
+      - "[v1]+香港・05"
+      - "[v1]+香港・06"
+      - "[v1]+香港・07"
+      - "[v1]+香港・08"
+      - "[v1]+香港・09"
+      - "[v1]+香港・10"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 俄罗斯+Edge
-      - 加拿大+Edge
-      - 印度+Edge
-      - 台湾+CHT+[01]
-      - 台湾+CHT+[02]
-      - 台湾+CHT+[03]
-      - 台湾+Edge
-      - 台湾+HINET+[01]
-      - 台湾+HINET+[02]
-      - 台湾+HINET+[03]
-      - 台湾+HINET+[04]
-      - 台湾+HINET+[05]
-      - 台湾+IEPL+[01]+[Lite]
-      - 台湾+IEPL+[02]+[Lite]
-      - 台湾+Seed
-      - 土耳其+Edge
-      - 德国+Edge
-      - 德国+IEPL+[01]+[Lite]
-      - 德国+IEPL+[02]+[Lite]
-      - 新加坡+Aliyun+[01]
-      - 新加坡+Aliyun+[02]
-      - 新加坡+Aliyun+[03]
-      - 新加坡+Aliyun+[04]
-      - 新加坡+Edge+[01]
-      - 新加坡+Edge+[02]
-      - 新加坡+IEPL+[01]+[Lite]
-      - 新加坡+IEPL+[02]+[Lite]
-      - 新加坡+IEPL+[03]
-      - 日本+5G
-      - 日本+DMIT+[01]
-      - 日本+DMIT+[02]
-      - 日本+DMIT+[03]
-      - 日本+DMIT+[04]
-      - 日本+DMIT+[05]+->+印度+Edge
-      - 日本+Edge+[01]
-      - 日本+Edge+[02]
-      - 日本+Edge+[03]
-      - 日本+IEPL+[01]+[Lite]
-      - 日本+IEPL+[02]+[Lite]
-      - 日本+NTT
-      - 澳大利亚+Edge
-      - 美国+5G
-      - 美国+DMIT+[01]
-      - 美国+DMIT+[02]
-      - 美国+DMIT+[03]
-      - 美国+DMIT+[04]
-      - 美国+Edge+[01]
-      - 美国+Edge+[02]
-      - 美国+GIA+[01]
-      - 美国+GIA+[02]
-      - 美国+GIA+[03]
-      - 美国+GIA+[04]
-      - 美国+IEPL+[01]+[Lite]
-      - 美国+IEPL+[02]+[Lite]
-      - 英国+5G
-      - 英国+Edge
-      - 英国+IEPL+[01]+[Lite]
-      - 英国+IEPL+[02]+[Lite]
-      - 菲律宾+Edge
-      - 阿根廷+Edge
-      - 韩国+5G
-      - 韩国+Edge+[01]
-      - 韩国+Edge+[02]
-      - 韩国+IEPL+[01]+[Lite]
-      - 韩国+IEPL+[02]+[Lite]
-      - 香港+Aliyun+[01]
-      - 香港+Aliyun+[02]
-      - 香港+Aliyun+[03]
-      - 香港+Aliyun+[04]
-      - 香港+DMIT+[01]
-      - 香港+DMIT+[02]
-      - 香港+DMIT+[03]
-      - 香港+DMIT+[04]
-      - 香港+DMIT+[05]
-      - 香港+Edge+[01]
-      - 香港+Edge+[02]
-      - 香港+Edge+[03]
-      - 香港+HKT+[01]
-      - 香港+HKT+[02]
-      - 香港+HKT+[03]
-      - 香港+HKT+[04]
-      - 香港+HKT+[05]
-      - 香港+HKT+[06]
-      - 香港+HKT+[07]
-      - 香港+HKT+[08]
-      - 香港+IEPL+[01]+[Lite]
-      - 香港+IEPL+[02]+[Lite]
-      - 香港+IEPL+[03]
-      - 香港+IEPL+[04]
-      - 香港+IEPL+[05]
-      - 香港+IEPL+[06]
-      - 香港+IEPL+[07]+->+土耳其+Edge
+      - "[v1] 台湾・01"
+      - "[v1] 台湾・02"
+      - "[v1] 台湾・03"
+      - "[v1] 台湾・04"
+      - "[v1] 台湾・05"
+      - "[v1] 台湾・06"
+      - "[v1] 新加坡・01"
+      - "[v1] 新加坡・02"
+      - "[v1] 新加坡・03"
+      - "[v1] 新加坡・04"
+      - "[v1] 新加坡・05"
+      - "[v1] 日本・01"
+      - "[v1] 日本・02"
+      - "[v1] 日本・03"
+      - "[v1] 日本・04"
+      - "[v1] 日本・05"
+      - "[v1] 美国・01"
+      - "[v1] 美国・02"
+      - "[v1] 美国・03"
+      - "[v1] 美国・04"
+      - "[v1] 美国・05"
+      - "[v1] 香港・01"
+      - "[v1] 香港・02"
+      - "[v1] 香港・03"
+      - "[v1] 香港・04"
+      - "[v1] 香港・05"
+      - "[v1] 香港・06"
+      - "[v1] 香港・07"
+      - "[v1] 香港・08"
+      - "[v1] 香港・09"
+      - "[v1] 香港・10"
+      - "[v3] 台湾・01"
+      - "[v3] 台湾・02"
+      - "[v3] 台湾・03"
+      - "[v3] 台湾・04"
+      - "[v3] 新加坡・01"
+      - "[v3] 新加坡・02"
+      - "[v3] 新加坡・03"
+      - "[v3] 新加坡・04"
+      - "[v3] 日本・01"
+      - "[v3] 日本・02"
+      - "[v3] 日本・03"
+      - "[v3] 日本・04"
+      - "[v3] 美国・01"
+      - "[v3] 美国・02"
+      - "[v3] 美国・03"
+      - "[v3] 美国・04"
+      - "[v3] 香港・01"
+      - "[v3] 香港・02"
+      - "[v3] 香港・03"
+      - "[v3] 香港・04"
+      - "[v3] 香港・05"
+      - "[v3] 香港・06"
+      - "[v3] 香港・07"
+      - "[v3] 香港・08"
+      - "[v3] 香港・09"
+      - "[v3] 香港・10"
+      - "[v1]+台湾・01"
+      - "[v1]+台湾・02"
+      - "[v1]+台湾・03"
+      - "[v1]+台湾・04"
+      - "[v1]+台湾・05"
+      - "[v1]+台湾・06"
+      - "[v1]+新加坡・01"
+      - "[v1]+新加坡・02"
+      - "[v1]+新加坡・03"
+      - "[v1]+新加坡・04"
+      - "[v1]+新加坡・05"
+      - "[v1]+日本・01"
+      - "[v1]+日本・02"
+      - "[v1]+日本・03"
+      - "[v1]+日本・04"
+      - "[v1]+日本・05"
+      - "[v1]+美国・01"
+      - "[v1]+美国・02"
+      - "[v1]+美国・03"
+      - "[v1]+美国・04"
+      - "[v1]+美国・05"
+      - "[v1]+香港・01"
+      - "[v1]+香港・02"
+      - "[v1]+香港・03"
+      - "[v1]+香港・04"
+      - "[v1]+香港・05"
+      - "[v1]+香港・06"
+      - "[v1]+香港・07"
+      - "[v1]+香港・08"
+      - "[v1]+香港・09"
+      - "[v1]+香港・10"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 俄罗斯+Edge
-      - 加拿大+Edge
-      - 印度+Edge
-      - 台湾+CHT+[01]
-      - 台湾+CHT+[02]
-      - 台湾+CHT+[03]
-      - 台湾+Edge
-      - 台湾+HINET+[01]
-      - 台湾+HINET+[02]
-      - 台湾+HINET+[03]
-      - 台湾+HINET+[04]
-      - 台湾+HINET+[05]
-      - 台湾+IEPL+[01]+[Lite]
-      - 台湾+IEPL+[02]+[Lite]
-      - 台湾+Seed
-      - 土耳其+Edge
-      - 德国+Edge
-      - 德国+IEPL+[01]+[Lite]
-      - 德国+IEPL+[02]+[Lite]
-      - 新加坡+Aliyun+[01]
-      - 新加坡+Aliyun+[02]
-      - 新加坡+Aliyun+[03]
-      - 新加坡+Aliyun+[04]
-      - 新加坡+Edge+[01]
-      - 新加坡+Edge+[02]
-      - 新加坡+IEPL+[01]+[Lite]
-      - 新加坡+IEPL+[02]+[Lite]
-      - 新加坡+IEPL+[03]
-      - 日本+5G
-      - 日本+DMIT+[01]
-      - 日本+DMIT+[02]
-      - 日本+DMIT+[03]
-      - 日本+DMIT+[04]
-      - 日本+DMIT+[05]+->+印度+Edge
-      - 日本+Edge+[01]
-      - 日本+Edge+[02]
-      - 日本+Edge+[03]
-      - 日本+IEPL+[01]+[Lite]
-      - 日本+IEPL+[02]+[Lite]
-      - 日本+NTT
-      - 澳大利亚+Edge
-      - 美国+5G
-      - 美国+DMIT+[01]
-      - 美国+DMIT+[02]
-      - 美国+DMIT+[03]
-      - 美国+DMIT+[04]
-      - 美国+Edge+[01]
-      - 美国+Edge+[02]
-      - 美国+GIA+[01]
-      - 美国+GIA+[02]
-      - 美国+GIA+[03]
-      - 美国+GIA+[04]
-      - 美国+IEPL+[01]+[Lite]
-      - 美国+IEPL+[02]+[Lite]
-      - 英国+5G
-      - 英国+Edge
-      - 英国+IEPL+[01]+[Lite]
-      - 英国+IEPL+[02]+[Lite]
-      - 菲律宾+Edge
-      - 阿根廷+Edge
-      - 韩国+5G
-      - 韩国+Edge+[01]
-      - 韩国+Edge+[02]
-      - 韩国+IEPL+[01]+[Lite]
-      - 韩国+IEPL+[02]+[Lite]
-      - 香港+Aliyun+[01]
-      - 香港+Aliyun+[02]
-      - 香港+Aliyun+[03]
-      - 香港+Aliyun+[04]
-      - 香港+DMIT+[01]
-      - 香港+DMIT+[02]
-      - 香港+DMIT+[03]
-      - 香港+DMIT+[04]
-      - 香港+DMIT+[05]
-      - 香港+Edge+[01]
-      - 香港+Edge+[02]
-      - 香港+Edge+[03]
-      - 香港+HKT+[01]
-      - 香港+HKT+[02]
-      - 香港+HKT+[03]
-      - 香港+HKT+[04]
-      - 香港+HKT+[05]
-      - 香港+HKT+[06]
-      - 香港+HKT+[07]
-      - 香港+HKT+[08]
-      - 香港+IEPL+[01]+[Lite]
-      - 香港+IEPL+[02]+[Lite]
-      - 香港+IEPL+[03]
-      - 香港+IEPL+[04]
-      - 香港+IEPL+[05]
-      - 香港+IEPL+[06]
-      - 香港+IEPL+[07]+->+土耳其+Edge
+      - "[v1] 台湾・01"
+      - "[v1] 台湾・02"
+      - "[v1] 台湾・03"
+      - "[v1] 台湾・04"
+      - "[v1] 台湾・05"
+      - "[v1] 台湾・06"
+      - "[v1] 新加坡・01"
+      - "[v1] 新加坡・02"
+      - "[v1] 新加坡・03"
+      - "[v1] 新加坡・04"
+      - "[v1] 新加坡・05"
+      - "[v1] 日本・01"
+      - "[v1] 日本・02"
+      - "[v1] 日本・03"
+      - "[v1] 日本・04"
+      - "[v1] 日本・05"
+      - "[v1] 美国・01"
+      - "[v1] 美国・02"
+      - "[v1] 美国・03"
+      - "[v1] 美国・04"
+      - "[v1] 美国・05"
+      - "[v1] 香港・01"
+      - "[v1] 香港・02"
+      - "[v1] 香港・03"
+      - "[v1] 香港・04"
+      - "[v1] 香港・05"
+      - "[v1] 香港・06"
+      - "[v1] 香港・07"
+      - "[v1] 香港・08"
+      - "[v1] 香港・09"
+      - "[v1] 香港・10"
+      - "[v3] 台湾・01"
+      - "[v3] 台湾・02"
+      - "[v3] 台湾・03"
+      - "[v3] 台湾・04"
+      - "[v3] 新加坡・01"
+      - "[v3] 新加坡・02"
+      - "[v3] 新加坡・03"
+      - "[v3] 新加坡・04"
+      - "[v3] 日本・01"
+      - "[v3] 日本・02"
+      - "[v3] 日本・03"
+      - "[v3] 日本・04"
+      - "[v3] 美国・01"
+      - "[v3] 美国・02"
+      - "[v3] 美国・03"
+      - "[v3] 美国・04"
+      - "[v3] 香港・01"
+      - "[v3] 香港・02"
+      - "[v3] 香港・03"
+      - "[v3] 香港・04"
+      - "[v3] 香港・05"
+      - "[v3] 香港・06"
+      - "[v3] 香港・07"
+      - "[v3] 香港・08"
+      - "[v3] 香港・09"
+      - "[v3] 香港・10"
+      - "[v1]+台湾・01"
+      - "[v1]+台湾・02"
+      - "[v1]+台湾・03"
+      - "[v1]+台湾・04"
+      - "[v1]+台湾・05"
+      - "[v1]+台湾・06"
+      - "[v1]+新加坡・01"
+      - "[v1]+新加坡・02"
+      - "[v1]+新加坡・03"
+      - "[v1]+新加坡・04"
+      - "[v1]+新加坡・05"
+      - "[v1]+日本・01"
+      - "[v1]+日本・02"
+      - "[v1]+日本・03"
+      - "[v1]+日本・04"
+      - "[v1]+日本・05"
+      - "[v1]+美国・01"
+      - "[v1]+美国・02"
+      - "[v1]+美国・03"
+      - "[v1]+美国・04"
+      - "[v1]+美国・05"
+      - "[v1]+香港・01"
+      - "[v1]+香港・02"
+      - "[v1]+香港・03"
+      - "[v1]+香港・04"
+      - "[v1]+香港・05"
+      - "[v1]+香港・06"
+      - "[v1]+香港・07"
+      - "[v1]+香港・08"
+      - "[v1]+香港・09"
+      - "[v1]+香港・10"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -851,98 +826,94 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 俄罗斯+Edge
-      - 加拿大+Edge
-      - 印度+Edge
-      - 台湾+CHT+[01]
-      - 台湾+CHT+[02]
-      - 台湾+CHT+[03]
-      - 台湾+Edge
-      - 台湾+HINET+[01]
-      - 台湾+HINET+[02]
-      - 台湾+HINET+[03]
-      - 台湾+HINET+[04]
-      - 台湾+HINET+[05]
-      - 台湾+IEPL+[01]+[Lite]
-      - 台湾+IEPL+[02]+[Lite]
-      - 台湾+Seed
-      - 土耳其+Edge
-      - 德国+Edge
-      - 德国+IEPL+[01]+[Lite]
-      - 德国+IEPL+[02]+[Lite]
-      - 新加坡+Aliyun+[01]
-      - 新加坡+Aliyun+[02]
-      - 新加坡+Aliyun+[03]
-      - 新加坡+Aliyun+[04]
-      - 新加坡+Edge+[01]
-      - 新加坡+Edge+[02]
-      - 新加坡+IEPL+[01]+[Lite]
-      - 新加坡+IEPL+[02]+[Lite]
-      - 新加坡+IEPL+[03]
-      - 日本+5G
-      - 日本+DMIT+[01]
-      - 日本+DMIT+[02]
-      - 日本+DMIT+[03]
-      - 日本+DMIT+[04]
-      - 日本+DMIT+[05]+->+印度+Edge
-      - 日本+Edge+[01]
-      - 日本+Edge+[02]
-      - 日本+Edge+[03]
-      - 日本+IEPL+[01]+[Lite]
-      - 日本+IEPL+[02]+[Lite]
-      - 日本+NTT
-      - 澳大利亚+Edge
-      - 美国+5G
-      - 美国+DMIT+[01]
-      - 美国+DMIT+[02]
-      - 美国+DMIT+[03]
-      - 美国+DMIT+[04]
-      - 美国+Edge+[01]
-      - 美国+Edge+[02]
-      - 美国+GIA+[01]
-      - 美国+GIA+[02]
-      - 美国+GIA+[03]
-      - 美国+GIA+[04]
-      - 美国+IEPL+[01]+[Lite]
-      - 美国+IEPL+[02]+[Lite]
-      - 英国+5G
-      - 英国+Edge
-      - 英国+IEPL+[01]+[Lite]
-      - 英国+IEPL+[02]+[Lite]
-      - 菲律宾+Edge
-      - 阿根廷+Edge
-      - 韩国+5G
-      - 韩国+Edge+[01]
-      - 韩国+Edge+[02]
-      - 韩国+IEPL+[01]+[Lite]
-      - 韩国+IEPL+[02]+[Lite]
-      - 香港+Aliyun+[01]
-      - 香港+Aliyun+[02]
-      - 香港+Aliyun+[03]
-      - 香港+Aliyun+[04]
-      - 香港+DMIT+[01]
-      - 香港+DMIT+[02]
-      - 香港+DMIT+[03]
-      - 香港+DMIT+[04]
-      - 香港+DMIT+[05]
-      - 香港+Edge+[01]
-      - 香港+Edge+[02]
-      - 香港+Edge+[03]
-      - 香港+HKT+[01]
-      - 香港+HKT+[02]
-      - 香港+HKT+[03]
-      - 香港+HKT+[04]
-      - 香港+HKT+[05]
-      - 香港+HKT+[06]
-      - 香港+HKT+[07]
-      - 香港+HKT+[08]
-      - 香港+IEPL+[01]+[Lite]
-      - 香港+IEPL+[02]+[Lite]
-      - 香港+IEPL+[03]
-      - 香港+IEPL+[04]
-      - 香港+IEPL+[05]
-      - 香港+IEPL+[06]
-      - 香港+IEPL+[07]+->+土耳其+Edge
+      - "[v1] 台湾・01"
+      - "[v1] 台湾・02"
+      - "[v1] 台湾・03"
+      - "[v1] 台湾・04"
+      - "[v1] 台湾・05"
+      - "[v1] 台湾・06"
+      - "[v1] 新加坡・01"
+      - "[v1] 新加坡・02"
+      - "[v1] 新加坡・03"
+      - "[v1] 新加坡・04"
+      - "[v1] 新加坡・05"
+      - "[v1] 日本・01"
+      - "[v1] 日本・02"
+      - "[v1] 日本・03"
+      - "[v1] 日本・04"
+      - "[v1] 日本・05"
+      - "[v1] 美国・01"
+      - "[v1] 美国・02"
+      - "[v1] 美国・03"
+      - "[v1] 美国・04"
+      - "[v1] 美国・05"
+      - "[v1] 香港・01"
+      - "[v1] 香港・02"
+      - "[v1] 香港・03"
+      - "[v1] 香港・04"
+      - "[v1] 香港・05"
+      - "[v1] 香港・06"
+      - "[v1] 香港・07"
+      - "[v1] 香港・08"
+      - "[v1] 香港・09"
+      - "[v1] 香港・10"
+      - "[v3] 台湾・01"
+      - "[v3] 台湾・02"
+      - "[v3] 台湾・03"
+      - "[v3] 台湾・04"
+      - "[v3] 新加坡・01"
+      - "[v3] 新加坡・02"
+      - "[v3] 新加坡・03"
+      - "[v3] 新加坡・04"
+      - "[v3] 日本・01"
+      - "[v3] 日本・02"
+      - "[v3] 日本・03"
+      - "[v3] 日本・04"
+      - "[v3] 美国・01"
+      - "[v3] 美国・02"
+      - "[v3] 美国・03"
+      - "[v3] 美国・04"
+      - "[v3] 香港・01"
+      - "[v3] 香港・02"
+      - "[v3] 香港・03"
+      - "[v3] 香港・04"
+      - "[v3] 香港・05"
+      - "[v3] 香港・06"
+      - "[v3] 香港・07"
+      - "[v3] 香港・08"
+      - "[v3] 香港・09"
+      - "[v3] 香港・10"
+      - "[v1]+台湾・01"
+      - "[v1]+台湾・02"
+      - "[v1]+台湾・03"
+      - "[v1]+台湾・04"
+      - "[v1]+台湾・05"
+      - "[v1]+台湾・06"
+      - "[v1]+新加坡・01"
+      - "[v1]+新加坡・02"
+      - "[v1]+新加坡・03"
+      - "[v1]+新加坡・04"
+      - "[v1]+新加坡・05"
+      - "[v1]+日本・01"
+      - "[v1]+日本・02"
+      - "[v1]+日本・03"
+      - "[v1]+日本・04"
+      - "[v1]+日本・05"
+      - "[v1]+美国・01"
+      - "[v1]+美国・02"
+      - "[v1]+美国・03"
+      - "[v1]+美国・04"
+      - "[v1]+美国・05"
+      - "[v1]+香港・01"
+      - "[v1]+香港・02"
+      - "[v1]+香港・03"
+      - "[v1]+香港・04"
+      - "[v1]+香港・05"
+      - "[v1]+香港・06"
+      - "[v1]+香港・07"
+      - "[v1]+香港・08"
+      - "[v1]+香港・09"
+      - "[v1]+香港・10"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
